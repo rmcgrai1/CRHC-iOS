@@ -28,8 +28,6 @@ struct VuforiaManager_t189047469;
 
 // System.Void AppRunner::.ctor()
 extern "C"  void AppRunner__ctor_m981531836 (AppRunner_t3717517731 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean AppRunner::get_doUseLocalCache()
-extern "C"  bool AppRunner_get_doUseLocalCache_m2219848970 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator AppRunner::Start()
 extern "C"  Il2CppObject * AppRunner_Start_m1692031392 (AppRunner_t3717517731 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AppRunner::OnGUI()

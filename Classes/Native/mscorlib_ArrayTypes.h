@@ -217,12 +217,12 @@ struct Assembly_t4268412390;
 struct _Assembly_t2937922309;
 // System.Reflection.CustomAttributeData
 struct CustomAttributeData_t3093286891;
-// System.Byte[]
-struct ByteU5BU5D_t3397334013;
 // System.Security.Cryptography.X509Certificates.X509Certificate
 struct X509Certificate_t283079845;
 // System.Runtime.Serialization.IDeserializationCallback
 struct IDeserializationCallback_t327125377;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_t2058570427;
 // System.Collections.Generic.List`1<Vuforia.VuMarkAbstractBehaviour>
@@ -330,11 +330,11 @@ struct List_1_t573379950;
 #include "mscorlib_System_Security_Policy_StrongName2988747270.h"
 #include "mscorlib_System_Reflection_Assembly4268412390.h"
 #include "mscorlib_System_Reflection_CustomAttributeData3093286891.h"
-#include "mscorlib_System_Security_Cryptography_X509Certifica283079845.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_22438035723.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23261256129.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_21174980068.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23497699202.h"
+#include "mscorlib_System_Security_Cryptography_X509Certifica283079845.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen2058570427.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23702943073.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_21701344717.h"
@@ -5583,117 +5583,6 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
-// System.Byte[][]
-struct ByteU5BU5DU5BU5D_t717853552  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) ByteU5BU5D_t3397334013* m_Items[1];
-
-public:
-	inline ByteU5BU5D_t3397334013* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline ByteU5BU5D_t3397334013** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, ByteU5BU5D_t3397334013* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline ByteU5BU5D_t3397334013* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline ByteU5BU5D_t3397334013** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, ByteU5BU5D_t3397334013* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// System.Security.Cryptography.X509Certificates.X509Certificate[]
-struct X509CertificateU5BU5D_t3424334632  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) X509Certificate_t283079845 * m_Items[1];
-
-public:
-	inline X509Certificate_t283079845 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline X509Certificate_t283079845 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, X509Certificate_t283079845 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline X509Certificate_t283079845 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline X509Certificate_t283079845 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, X509Certificate_t283079845 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// System.Runtime.Serialization.IDeserializationCallback[]
-struct IDeserializationCallbackU5BU5D_t3340256092  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
-
-public:
-	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>>[]
 struct KeyValuePair_2U5BU5D_t1208582762  : public Il2CppArray
 {
@@ -5832,6 +5721,117 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, KeyValuePair_2_t3497699202  value)
 	{
 		m_Items[index] = value;
+	}
+};
+// System.Security.Cryptography.X509Certificates.X509Certificate[]
+struct X509CertificateU5BU5D_t3424334632  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) X509Certificate_t283079845 * m_Items[1];
+
+public:
+	inline X509Certificate_t283079845 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline X509Certificate_t283079845 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, X509Certificate_t283079845 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline X509Certificate_t283079845 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline X509Certificate_t283079845 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, X509Certificate_t283079845 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Runtime.Serialization.IDeserializationCallback[]
+struct IDeserializationCallbackU5BU5D_t3340256092  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Byte[][]
+struct ByteU5BU5DU5BU5D_t717853552  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) ByteU5BU5D_t3397334013* m_Items[1];
+
+public:
+	inline ByteU5BU5D_t3397334013* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ByteU5BU5D_t3397334013** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ByteU5BU5D_t3397334013* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline ByteU5BU5D_t3397334013* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ByteU5BU5D_t3397334013** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ByteU5BU5D_t3397334013* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
 // System.Collections.Generic.List`1<System.Object>[]

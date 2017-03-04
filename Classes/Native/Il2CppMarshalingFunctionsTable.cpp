@@ -149,9 +149,6 @@ extern "C" void HostData_t3480691970_marshal_pinvoke_cleanup ();
 extern "C" void HumanBone_t1529896151_marshal_pinvoke ();
 extern "C" void HumanBone_t1529896151_marshal_pinvoke_back ();
 extern "C" void HumanBone_t1529896151_marshal_pinvoke_cleanup ();
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke ();
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke_back ();
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke_cleanup ();
 extern "C" void Object_t1021602117_marshal_pinvoke ();
 extern "C" void Object_t1021602117_marshal_pinvoke_back ();
 extern "C" void Object_t1021602117_marshal_pinvoke_cleanup ();
@@ -266,7 +263,7 @@ extern "C" void SpriteState_t1353336012_marshal_pinvoke_cleanup ();
 extern "C" void Pair_t1298024913_marshal_pinvoke ();
 extern "C" void Pair_t1298024913_marshal_pinvoke_back ();
 extern "C" void Pair_t1298024913_marshal_pinvoke_cleanup ();
-extern const Il2CppMarshalingFunctions g_MarshalingFunctions[86] = 
+extern const Il2CppMarshalingFunctions g_MarshalingFunctions[85] = 
 {
 	{ Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup },
 	{ Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup },
@@ -314,7 +311,6 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[86] =
 	{ GUIStyleState_t3801000545_marshal_pinvoke, GUIStyleState_t3801000545_marshal_pinvoke_back, GUIStyleState_t3801000545_marshal_pinvoke_cleanup },
 	{ HostData_t3480691970_marshal_pinvoke, HostData_t3480691970_marshal_pinvoke_back, HostData_t3480691970_marshal_pinvoke_cleanup },
 	{ HumanBone_t1529896151_marshal_pinvoke, HumanBone_t1529896151_marshal_pinvoke_back, HumanBone_t1529896151_marshal_pinvoke_cleanup },
-	{ InternalDrawTextureArguments_t1708329234_marshal_pinvoke, InternalDrawTextureArguments_t1708329234_marshal_pinvoke_back, InternalDrawTextureArguments_t1708329234_marshal_pinvoke_cleanup },
 	{ Object_t1021602117_marshal_pinvoke, Object_t1021602117_marshal_pinvoke_back, Object_t1021602117_marshal_pinvoke_cleanup },
 	{ RaycastHit_t87180320_marshal_pinvoke, RaycastHit_t87180320_marshal_pinvoke_back, RaycastHit_t87180320_marshal_pinvoke_cleanup },
 	{ RaycastHit2D_t4063908774_marshal_pinvoke, RaycastHit2D_t4063908774_marshal_pinvoke_back, RaycastHit2D_t4063908774_marshal_pinvoke_cleanup },

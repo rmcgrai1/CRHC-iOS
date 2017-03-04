@@ -32,5 +32,9 @@ extern "C"  bool AndroidFileManager_createDirectory_m4189112108 (AndroidFileMana
 extern "C"  bool AndroidFileManager_deleteDirectory_m1733244807 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean AndroidFileManager::writeToFile(System.String,System.Byte[])
 extern "C"  bool AndroidFileManager_writeToFile_m885794752 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, ByteU5BU5D_t3397334013* ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean AndroidFileManager::directoryExists(System.String)
+extern "C"  bool AndroidFileManager_directoryExists_m503453800 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean AndroidFileManager::fileExists(System.String)
+extern "C"  bool AndroidFileManager_fileExists_m3849502309 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AndroidFileManager::createNonexistingFolders(System.String)
 extern "C"  void AndroidFileManager_createNonexistingFolders_m2537294614 (AndroidFileManager_t4153984296 * __this, String_t* ___relativePath0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

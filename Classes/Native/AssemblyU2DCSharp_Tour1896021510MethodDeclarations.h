@@ -16,8 +16,8 @@
 struct Tour_t1896021510;
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // System.String
 struct String_t;
 // IMenu
@@ -25,10 +25,10 @@ struct IMenu_t2695572612;
 
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
 
-// System.Void Tour::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void Tour__ctor_m3809732329 (Tour_t1896021510 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Tour::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void Tour__ctor_m258939518 (Tour_t1896021510 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Tour::getName()
 extern "C"  String_t* Tour_getName_m277270743 (Tour_t1896021510 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Tour::getDescription()

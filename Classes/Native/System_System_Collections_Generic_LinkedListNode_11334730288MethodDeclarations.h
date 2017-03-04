@@ -28,3 +28,5 @@
 #define LinkedListNode_1_get_Next_m4106891733(__this, method) ((  LinkedListNode_1_t1334730288 * (*) (LinkedListNode_1_t1334730288 *, const MethodInfo*))LinkedListNode_1_get_Next_m1067948741_gshared)(__this, method)
 // T System.Collections.Generic.LinkedListNode`1<System.ComponentModel.TypeDescriptionProvider>::get_Value()
 #define LinkedListNode_1_get_Value_m1718957970(__this, method) ((  TypeDescriptionProvider_t2438624375 * (*) (LinkedListNode_1_t1334730288 *, const MethodInfo*))LinkedListNode_1_get_Value_m201900116_gshared)(__this, method)
+// System.Void System.Collections.Generic.LinkedListNode`1<System.ComponentModel.TypeDescriptionProvider>::set_Value(T)
+#define LinkedListNode_1_set_Value_m436934377(__this, ___value0, method) ((  void (*) (LinkedListNode_1_t1334730288 *, TypeDescriptionProvider_t2438624375 *, const MethodInfo*))LinkedListNode_1_set_Value_m2125545625_gshared)(__this, ___value0, method)

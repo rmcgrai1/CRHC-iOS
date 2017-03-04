@@ -13,10 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-// Vuforia.IUnityPlayer
-struct IUnityPlayer_t2720985375;
-// Vuforia.VuMarkBehaviour
-struct VuMarkBehaviour_t2060629989;
 // Vuforia.WireframeBehaviour
 struct WireframeBehaviour_t2494532455;
 // UnityEngine.Camera[]
@@ -65,43 +61,20 @@ struct ObjectTracker_t1568044035;
 struct DefaultTrackableEventThing_t2843580010;
 // VuforiaManager/TurnOffThing
 struct TurnOffThing_t1619842242;
+// VuforiaManager/<unloadDatasetCoroutine>c__Iterator1
+struct U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981;
 // WWWLoader
 struct WWWLoader_t2069512648;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "AssemblyU2DCSharp_Vuforia_VuforiaRuntimeInitializa1850075444.h"
-#include "AssemblyU2DCSharp_Vuforia_VuforiaRuntimeInitializa1850075444MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity657456673MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntime2075282796MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntime2075282796.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon1891710424MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon3866211740MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon1891710424.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon3866211740.h"
-#include "mscorlib_System_Boolean3825574718.h"
-#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Application354826772MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Vuforia_AndroidUnityPlayer852788525MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Vuforia_IOSUnityPlayer3656371703MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntimeUtil3083157244MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093.h"
-#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
-#include "AssemblyU2DCSharp_Vuforia_AndroidUnityPlayer852788525.h"
-#include "AssemblyU2DCSharp_Vuforia_IOSUnityPlayer3656371703.h"
-#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325.h"
-#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959.h"
-#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989.h"
-#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_VuMarkAbstractBeha1830666997MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Vuforia_WireframeBehaviour2494532455.h"
 #include "AssemblyU2DCSharp_Vuforia_WireframeBehaviour2494532455MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
 #include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_MonoBehaviour1158329972MethodDeclarations.h"
+#include "mscorlib_System_Boolean3825574718.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
@@ -148,10 +121,13 @@ struct WWWLoader_t2069512648;
 #include "AssemblyU2DCSharp_Vuforia_WordBehaviour3366478421.h"
 #include "AssemblyU2DCSharp_Vuforia_WordBehaviour3366478421MethodDeclarations.h"
 #include "Vuforia_UnityExtensions_Vuforia_WordAbstractBehavi2878458725MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959MethodDeclarations.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
 #include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitE2149396216.h"
 #include "Vuforia_UnityExtensions_Vuforia_SurfaceUtilities4096327849MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity657456673MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Screen786852042MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_DeviceOrientation895964084.h"
@@ -170,6 +146,8 @@ struct WWWLoader_t2069512648;
 #include "AssemblyU2DCSharp_CoroutineManager3765941247MethodDeclarations.h"
 #include "AssemblyU2DCSharp_VuforiaManager_U3CloadDatasetCor2660709191MethodDeclarations.h"
 #include "AssemblyU2DCSharp_VuforiaManager_U3CloadDatasetCor2660709191.h"
+#include "AssemblyU2DCSharp_VuforiaManager_U3CunloadDatasetC3200245981MethodDeclarations.h"
+#include "AssemblyU2DCSharp_VuforiaManager_U3CunloadDatasetC3200245981.h"
 #include "AssemblyU2DCSharp_Experience1974411760.h"
 #include "AssemblyU2DCSharp_ServiceLocator953918367MethodDeclarations.h"
 #include "AssemblyU2DCSharp_ILoader1641484032MethodDeclarations.h"
@@ -234,6 +212,7 @@ struct WWWLoader_t2069512648;
 #include "AssemblyU2DCSharp_VuforiaManager_DefaultTrackableE2843580010MethodDeclarations.h"
 #include "AssemblyU2DCSharp_VuforiaManager_TurnOffThing1619842242MethodDeclarations.h"
 #include "Vuforia_UnityExtensions_Vuforia_TurnOffAbstractBeh4084926705MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaRuntimeUtil3083157244MethodDeclarations.h"
 #include "AssemblyU2DCSharp_WWWLoader2069512648.h"
 #include "AssemblyU2DCSharp_WWWLoader2069512648MethodDeclarations.h"
 
@@ -287,167 +266,6 @@ extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m2231772097_g
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void Vuforia.VuforiaRuntimeInitialization::InitPlatform()
-extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
-extern Il2CppClass* VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var;
-extern const uint32_t VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId;
-extern "C"  void VuforiaRuntimeInitialization_InitPlatform_m3197388960 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
-		VuforiaUnity_SetStandardInitializationParameters_m3220511984(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
-		VuforiaRuntime_t2075282796 * L_0 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Il2CppObject * L_1 = VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		VuforiaRuntime_InitPlatform_m3306160978(L_0, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void Vuforia.VuforiaRuntimeInitialization::InitVuforia()
-extern Il2CppClass* VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var;
-extern Il2CppClass* VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var;
-extern const uint32_t VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId;
-extern "C"  void VuforiaRuntimeInitialization_InitVuforia_m2546903059 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var);
-		VuforiaAbstractConfiguration_t1891710424 * L_0 = VuforiaAbstractConfiguration_get_Instance_m3543652287(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		GenericVuforiaConfiguration_t3866211740 * L_1 = VuforiaAbstractConfiguration_get_Vuforia_m3334047132(L_0, /*hidden argument*/NULL);
-		NullCheck(L_1);
-		bool L_2 = GenericVuforiaConfiguration_get_DelayedInitialization_m282560601(L_1, /*hidden argument*/NULL);
-		if (L_2)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
-		VuforiaRuntime_t2075282796 * L_3 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_3);
-		VuforiaRuntime_InitVuforia_m2353933398(L_3, /*hidden argument*/NULL);
-	}
-
-IL_0021:
-	{
-		return;
-	}
-}
-// Vuforia.IUnityPlayer Vuforia.VuforiaRuntimeInitialization::CreateUnityPlayer()
-extern Il2CppClass* NullUnityPlayer_t754446093_il2cpp_TypeInfo_var;
-extern Il2CppClass* AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var;
-extern Il2CppClass* IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var;
-extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
-extern Il2CppClass* PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var;
-extern Il2CppClass* WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var;
-extern const uint32_t VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId;
-extern "C"  Il2CppObject * VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Il2CppObject * V_0 = NULL;
-	Il2CppObject * V_1 = NULL;
-	{
-		NullUnityPlayer_t754446093 * L_0 = (NullUnityPlayer_t754446093 *)il2cpp_codegen_object_new(NullUnityPlayer_t754446093_il2cpp_TypeInfo_var);
-		NullUnityPlayer__ctor_m483624113(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		int32_t L_1 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)11)))))
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		AndroidUnityPlayer_t852788525 * L_2 = (AndroidUnityPlayer_t852788525 *)il2cpp_codegen_object_new(AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var);
-		AndroidUnityPlayer__ctor_m2233000524(L_2, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_005b;
-	}
-
-IL_001e:
-	{
-		int32_t L_3 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
-		{
-			goto IL_0034;
-		}
-	}
-	{
-		IOSUnityPlayer_t3656371703 * L_4 = (IOSUnityPlayer_t3656371703 *)il2cpp_codegen_object_new(IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var);
-		IOSUnityPlayer__ctor_m676692974(L_4, /*hidden argument*/NULL);
-		V_0 = L_4;
-		goto IL_005b;
-	}
-
-IL_0034:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
-		bool L_5 = VuforiaRuntimeUtilities_IsPlayMode_m2939358997(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_5)
-		{
-			goto IL_0049;
-		}
-	}
-	{
-		PlayModeUnityPlayer_t918240325 * L_6 = (PlayModeUnityPlayer_t918240325 *)il2cpp_codegen_object_new(PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var);
-		PlayModeUnityPlayer__ctor_m2126346857(L_6, /*hidden argument*/NULL);
-		V_0 = L_6;
-		goto IL_005b;
-	}
-
-IL_0049:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
-		bool L_7 = VuforiaRuntimeUtilities_IsWSARuntime_m3848252715(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_005b;
-		}
-	}
-	{
-		WSAUnityPlayer_t425981959 * L_8 = (WSAUnityPlayer_t425981959 *)il2cpp_codegen_object_new(WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var);
-		WSAUnityPlayer__ctor_m1279021334(L_8, /*hidden argument*/NULL);
-		V_0 = L_8;
-	}
-
-IL_005b:
-	{
-		Il2CppObject * L_9 = V_0;
-		V_1 = L_9;
-		goto IL_0062;
-	}
-
-IL_0062:
-	{
-		Il2CppObject * L_10 = V_1;
-		return L_10;
-	}
-}
-// System.Void Vuforia.VuMarkBehaviour::.ctor()
-extern "C"  void VuMarkBehaviour__ctor_m1415860126 (VuMarkBehaviour_t2060629989 * __this, const MethodInfo* method)
-{
-	{
-		VuMarkAbstractBehaviour__ctor_m326197713(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void Vuforia.WireframeBehaviour::.ctor()
 extern "C"  void WireframeBehaviour__ctor_m420914080 (WireframeBehaviour_t2494532455 * __this, const MethodInfo* method)
 {
@@ -1700,6 +1518,8 @@ extern "C"  void VuforiaManager__ctor_m78160482 (VuforiaManager_t189047469 * __t
 extern "C"  void VuforiaManager_Vb_OnDisableEvent_m1684864536 (VuforiaManager_t189047469 * __this, const MethodInfo* method)
 {
 	{
+		Il2CppObject * L_0 = VuforiaManager_unloadDatasetCoroutine_m2098451595(__this, /*hidden argument*/NULL);
+		CoroutineManager_startCoroutine_m513441685(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1707,6 +1527,8 @@ extern "C"  void VuforiaManager_Vb_OnDisableEvent_m1684864536 (VuforiaManager_t1
 extern "C"  void VuforiaManager_Vb_OnEnableEvent_m1951822103 (VuforiaManager_t189047469 * __this, const MethodInfo* method)
 {
 	{
+		Il2CppObject * L_0 = VuforiaManager_loadDatasetCoroutine_m3644714604(__this, /*hidden argument*/NULL);
+		CoroutineManager_startCoroutine_m513441685(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -1714,8 +1536,7 @@ extern "C"  void VuforiaManager_Vb_OnEnableEvent_m1951822103 (VuforiaManager_t18
 extern "C"  void VuforiaManager_Vb_StartEvent_m3025010487 (VuforiaManager_t189047469 * __this, const MethodInfo* method)
 {
 	{
-		Il2CppObject * L_0 = VuforiaManager_loadDatasetCoroutine_m3644714604(__this, /*hidden argument*/NULL);
-		CoroutineManager_startCoroutine_m513441685(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		__this->set_isSetup_8((bool)1);
 		return;
 	}
 }
@@ -1748,6 +1569,34 @@ IL_0014:
 	{
 		Il2CppObject * L_3 = V_1;
 		return L_3;
+	}
+}
+// System.Collections.IEnumerator VuforiaManager::unloadDatasetCoroutine()
+extern Il2CppClass* U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaManager_unloadDatasetCoroutine_m2098451595_MetadataUsageId;
+extern "C"  Il2CppObject * VuforiaManager_unloadDatasetCoroutine_m2098451595 (VuforiaManager_t189047469 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaManager_unloadDatasetCoroutine_m2098451595_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * L_0 = (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 *)il2cpp_codegen_object_new(U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981_il2cpp_TypeInfo_var);
+		U3CunloadDatasetCoroutineU3Ec__Iterator1__ctor_m2182250202(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * L_1 = V_0;
+		V_1 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Il2CppObject * L_2 = V_1;
+		return L_2;
 	}
 }
 // System.Void VuforiaManager::activate(Experience)
@@ -2325,7 +2174,7 @@ extern "C"  bool U3CloadDatasetCoroutineU3Ec__Iterator0_MoveNext_m1575046844 (U3
 		}
 	}
 	{
-		goto IL_02f4;
+		goto IL_0304;
 	}
 
 IL_0021:
@@ -2348,7 +2197,7 @@ IL_0027:
 
 IL_003e:
 	{
-		goto IL_02f6;
+		goto IL_0306;
 	}
 
 IL_0043:
@@ -2359,333 +2208,342 @@ IL_0044:
 	{
 		VuforiaManager_t189047469 * L_3 = __this->get_U24this_0();
 		NullCheck(L_3);
-		Experience_t1974411760 * L_4 = L_3->get_exp_13();
-		NullCheck(L_4);
-		Landmark_t1862459476 * L_5 = Experience_getLandmark_m3503718010(L_4, /*hidden argument*/NULL);
+		bool L_4 = L_3->get_isSetup_8();
+		if (!L_4)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		VuforiaManager_t189047469 * L_5 = __this->get_U24this_0();
 		NullCheck(L_5);
-		Reference_1_t2889861700 * L_6 = Landmark_getDat_m484094598(L_5, /*hidden argument*/NULL);
+		Experience_t1974411760 * L_6 = L_5->get_exp_13();
 		NullCheck(L_6);
-		bool L_7 = Reference_1_isLoaded_m1377755017(L_6, /*hidden argument*/Reference_1_isLoaded_m1377755017_MethodInfo_var);
-		if (!L_7)
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		VuforiaManager_t189047469 * L_8 = __this->get_U24this_0();
+		Landmark_t1862459476 * L_7 = Experience_getLandmark_m3503718010(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Reference_1_t2889861700 * L_8 = Landmark_getDat_m484094598(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		Experience_t1974411760 * L_9 = L_8->get_exp_13();
-		NullCheck(L_9);
-		Landmark_t1862459476 * L_10 = Experience_getLandmark_m3503718010(L_9, /*hidden argument*/NULL);
-		NullCheck(L_10);
-		Reference_1_t1521747920 * L_11 = Landmark_getXML_m2638557631(L_10, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		bool L_12 = Reference_1_isLoaded_m475936832(L_11, /*hidden argument*/Reference_1_isLoaded_m475936832_MethodInfo_var);
-		if (!L_12)
+		bool L_9 = Reference_1_isLoaded_m1377755017(L_8, /*hidden argument*/Reference_1_isLoaded_m1377755017_MethodInfo_var);
+		if (!L_9)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		VuforiaManager_t189047469 * L_13 = __this->get_U24this_0();
-		IL2CPP_RUNTIME_CLASS_INIT(TrackerManager_t308318605_il2cpp_TypeInfo_var);
-		TrackerManager_t308318605 * L_14 = TrackerManager_get_Instance_m2067083115(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		ObjectTracker_t1568044035 * L_15 = GenericVirtFuncInvoker0< ObjectTracker_t1568044035 * >::Invoke(TrackerManager_GetTracker_TisObjectTracker_t1568044035_m2837640701_MethodInfo_var, L_14);
+		VuforiaManager_t189047469 * L_10 = __this->get_U24this_0();
+		NullCheck(L_10);
+		Experience_t1974411760 * L_11 = L_10->get_exp_13();
+		NullCheck(L_11);
+		Landmark_t1862459476 * L_12 = Experience_getLandmark_m3503718010(L_11, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Reference_1_t1521747920 * L_13 = Landmark_getXML_m2638557631(L_12, /*hidden argument*/NULL);
 		NullCheck(L_13);
-		L_13->set_t_15(L_15);
-		VuforiaManager_t189047469 * L_16 = __this->get_U24this_0();
+		bool L_14 = Reference_1_isLoaded_m475936832(L_13, /*hidden argument*/Reference_1_isLoaded_m475936832_MethodInfo_var);
+		if (!L_14)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		VuforiaManager_t189047469 * L_15 = __this->get_U24this_0();
+		IL2CPP_RUNTIME_CLASS_INIT(TrackerManager_t308318605_il2cpp_TypeInfo_var);
+		TrackerManager_t308318605 * L_16 = TrackerManager_get_Instance_m2067083115(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		Il2CppObject* L_17 = L_16->get_dataSets_17();
+		ObjectTracker_t1568044035 * L_17 = GenericVirtFuncInvoker0< ObjectTracker_t1568044035 * >::Invoke(TrackerManager_GetTracker_TisObjectTracker_t1568044035_m2837640701_MethodInfo_var, L_16);
+		NullCheck(L_15);
+		L_15->set_t_15(L_17);
 		VuforiaManager_t189047469 * L_18 = __this->get_U24this_0();
 		NullCheck(L_18);
-		Experience_t1974411760 * L_19 = L_18->get_exp_13();
-		NullCheck(L_17);
-		bool L_20 = InterfaceFuncInvoker1< bool, Experience_t1974411760 * >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<Experience,Vuforia.DataSet>::ContainsKey(!0) */, IDictionary_2_t2734459638_il2cpp_TypeInfo_var, L_17, L_19);
-		if (!L_20)
+		Il2CppObject* L_19 = L_18->get_dataSets_17();
+		VuforiaManager_t189047469 * L_20 = __this->get_U24this_0();
+		NullCheck(L_20);
+		Experience_t1974411760 * L_21 = L_20->get_exp_13();
+		NullCheck(L_19);
+		bool L_22 = InterfaceFuncInvoker1< bool, Experience_t1974411760 * >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<Experience,Vuforia.DataSet>::ContainsKey(!0) */, IDictionary_2_t2734459638_il2cpp_TypeInfo_var, L_19, L_21);
+		if (!L_22)
 		{
-			goto IL_00f4;
+			goto IL_0104;
 		}
 	}
 	{
-		VuforiaManager_t189047469 * L_21 = __this->get_U24this_0();
-		VuforiaManager_t189047469 * L_22 = __this->get_U24this_0();
-		NullCheck(L_22);
-		Il2CppObject* L_23 = L_22->get_dataSets_17();
+		VuforiaManager_t189047469 * L_23 = __this->get_U24this_0();
 		VuforiaManager_t189047469 * L_24 = __this->get_U24this_0();
 		NullCheck(L_24);
-		Experience_t1974411760 * L_25 = L_24->get_exp_13();
+		Il2CppObject* L_25 = L_24->get_dataSets_17();
+		VuforiaManager_t189047469 * L_26 = __this->get_U24this_0();
+		NullCheck(L_26);
+		Experience_t1974411760 * L_27 = L_26->get_exp_13();
+		NullCheck(L_25);
+		DataSet_t626511550 * L_28 = InterfaceFuncInvoker1< DataSet_t626511550 *, Experience_t1974411760 * >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<Experience,Vuforia.DataSet>::get_Item(!0) */, IDictionary_2_t2734459638_il2cpp_TypeInfo_var, L_25, L_27);
 		NullCheck(L_23);
-		DataSet_t626511550 * L_26 = InterfaceFuncInvoker1< DataSet_t626511550 *, Experience_t1974411760 * >::Invoke(4 /* !1 System.Collections.Generic.IDictionary`2<Experience,Vuforia.DataSet>::get_Item(!0) */, IDictionary_2_t2734459638_il2cpp_TypeInfo_var, L_23, L_25);
-		NullCheck(L_21);
-		L_21->set_ds_16(L_26);
-		VuforiaManager_t189047469 * L_27 = __this->get_U24this_0();
-		NullCheck(L_27);
-		L_27->set_debugMessage_14(_stringLiteral347499615);
-		goto IL_02ed;
-	}
-
-IL_00f4:
-	{
-		VuforiaManager_t189047469 * L_28 = __this->get_U24this_0();
+		L_23->set_ds_16(L_28);
 		VuforiaManager_t189047469 * L_29 = __this->get_U24this_0();
 		NullCheck(L_29);
-		ObjectTracker_t1568044035 * L_30 = L_29->get_t_15();
+		L_29->set_debugMessage_14(_stringLiteral347499615);
+		goto IL_02fd;
+	}
+
+IL_0104:
+	{
+		VuforiaManager_t189047469 * L_30 = __this->get_U24this_0();
+		VuforiaManager_t189047469 * L_31 = __this->get_U24this_0();
+		NullCheck(L_31);
+		ObjectTracker_t1568044035 * L_32 = L_31->get_t_15();
+		NullCheck(L_32);
+		DataSet_t626511550 * L_33 = VirtFuncInvoker0< DataSet_t626511550 * >::Invoke(10 /* Vuforia.DataSet Vuforia.ObjectTracker::CreateDataSet() */, L_32);
 		NullCheck(L_30);
-		DataSet_t626511550 * L_31 = VirtFuncInvoker0< DataSet_t626511550 * >::Invoke(10 /* Vuforia.DataSet Vuforia.ObjectTracker::CreateDataSet() */, L_30);
-		NullCheck(L_28);
-		L_28->set_ds_16(L_31);
+		L_30->set_ds_16(L_33);
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
-		IFileManager_t1674670828 * L_32 = ServiceLocator_getIFileManager_m2859409919(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_1 = L_32;
-		IFileManager_t1674670828 * L_33 = V_1;
-		IFileManager_t1674670828 * L_34 = V_1;
-		NullCheck(L_34);
-		String_t* L_35 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, L_34);
-		NullCheck(L_33);
-		IFileManager_pushDirectory_m1131276950(L_33, L_35, /*hidden argument*/NULL);
-		VuforiaManager_t189047469 * L_36 = __this->get_U24this_0();
+		IFileManager_t1674670828 * L_34 = ServiceLocator_getIFileManager_m2859409919(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_34;
+		IFileManager_t1674670828 * L_35 = V_1;
+		IFileManager_t1674670828 * L_36 = V_1;
 		NullCheck(L_36);
-		DataSet_t626511550 * L_37 = L_36->get_ds_16();
+		String_t* L_37 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, L_36);
+		NullCheck(L_35);
+		IFileManager_pushDirectory_m1131276950(L_35, L_37, /*hidden argument*/NULL);
 		VuforiaManager_t189047469 * L_38 = __this->get_U24this_0();
 		NullCheck(L_38);
-		Experience_t1974411760 * L_39 = L_38->get_exp_13();
-		NullCheck(L_39);
-		Landmark_t1862459476 * L_40 = Experience_getLandmark_m3503718010(L_39, /*hidden argument*/NULL);
+		DataSet_t626511550 * L_39 = L_38->get_ds_16();
+		VuforiaManager_t189047469 * L_40 = __this->get_U24this_0();
 		NullCheck(L_40);
-		Reference_1_t1521747920 * L_41 = Landmark_getXML_m2638557631(L_40, /*hidden argument*/NULL);
+		Experience_t1974411760 * L_41 = L_40->get_exp_13();
 		NullCheck(L_41);
-		String_t* L_42 = Reference_1_getPath_m2232678923(L_41, /*hidden argument*/Reference_1_getPath_m2232678923_MethodInfo_var);
+		Landmark_t1862459476 * L_42 = Experience_getLandmark_m3503718010(L_41, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		Reference_1_t1521747920 * L_43 = Landmark_getXML_m2638557631(L_42, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		String_t* L_44 = Reference_1_getPath_m2232678923(L_43, /*hidden argument*/Reference_1_getPath_m2232678923_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(CachedLoader_t1584985543_il2cpp_TypeInfo_var);
-		String_t* L_43 = CachedLoader_convertWebToLocalPath_m2289004208(NULL /*static, unused*/, L_42, 1, /*hidden argument*/NULL);
-		NullCheck(L_37);
-		bool L_44 = VirtFuncInvoker2< bool, String_t*, int32_t >::Invoke(7 /* System.Boolean Vuforia.DataSet::Load(System.String,Vuforia.VuforiaUnity/StorageType) */, L_37, L_43, 2);
-		if (!L_44)
+		String_t* L_45 = CachedLoader_convertWebToLocalPath_m2289004208(NULL /*static, unused*/, L_44, 1, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		bool L_46 = VirtFuncInvoker2< bool, String_t*, int32_t >::Invoke(7 /* System.Boolean Vuforia.DataSet::Load(System.String,Vuforia.VuforiaUnity/StorageType) */, L_39, L_45, 2);
+		if (!L_46)
 		{
-			goto IL_02d4;
+			goto IL_02e4;
 		}
 	}
 	{
-		VuforiaManager_t189047469 * L_45 = __this->get_U24this_0();
-		NullCheck(L_45);
-		ObjectTracker_t1568044035 * L_46 = L_45->get_t_15();
-		NullCheck(L_46);
-		VirtActionInvoker0::Invoke(5 /* System.Void Vuforia.Tracker::Stop() */, L_46);
 		VuforiaManager_t189047469 * L_47 = __this->get_U24this_0();
 		NullCheck(L_47);
 		ObjectTracker_t1568044035 * L_48 = L_47->get_t_15();
+		NullCheck(L_48);
+		VirtActionInvoker0::Invoke(5 /* System.Void Vuforia.Tracker::Stop() */, L_48);
 		VuforiaManager_t189047469 * L_49 = __this->get_U24this_0();
 		NullCheck(L_49);
-		DataSet_t626511550 * L_50 = L_49->get_ds_16();
-		NullCheck(L_48);
-		VirtFuncInvoker1< bool, DataSet_t626511550 * >::Invoke(12 /* System.Boolean Vuforia.ObjectTracker::ActivateDataSet(Vuforia.DataSet) */, L_48, L_50);
+		ObjectTracker_t1568044035 * L_50 = L_49->get_t_15();
 		VuforiaManager_t189047469 * L_51 = __this->get_U24this_0();
 		NullCheck(L_51);
-		ObjectTracker_t1568044035 * L_52 = L_51->get_t_15();
-		NullCheck(L_52);
-		VirtFuncInvoker0< bool >::Invoke(4 /* System.Boolean Vuforia.Tracker::Start() */, L_52);
-		IL2CPP_RUNTIME_CLASS_INIT(TrackerManager_t308318605_il2cpp_TypeInfo_var);
-		TrackerManager_t308318605 * L_53 = TrackerManager_get_Instance_m2067083115(NULL /*static, unused*/, /*hidden argument*/NULL);
+		DataSet_t626511550 * L_52 = L_51->get_ds_16();
+		NullCheck(L_50);
+		VirtFuncInvoker1< bool, DataSet_t626511550 * >::Invoke(12 /* System.Boolean Vuforia.ObjectTracker::ActivateDataSet(Vuforia.DataSet) */, L_50, L_52);
+		VuforiaManager_t189047469 * L_53 = __this->get_U24this_0();
 		NullCheck(L_53);
-		StateManager_t3369465942 * L_54 = VirtFuncInvoker0< StateManager_t3369465942 * >::Invoke(7 /* Vuforia.StateManager Vuforia.TrackerManager::GetStateManager() */, L_53);
+		ObjectTracker_t1568044035 * L_54 = L_53->get_t_15();
 		NullCheck(L_54);
-		Il2CppObject* L_55 = VirtFuncInvoker0< Il2CppObject* >::Invoke(5 /* System.Collections.Generic.IEnumerable`1<Vuforia.TrackableBehaviour> Vuforia.StateManager::GetTrackableBehaviours() */, L_54);
-		V_2 = L_55;
-		Il2CppObject* L_56 = V_2;
+		VirtFuncInvoker0< bool >::Invoke(4 /* System.Boolean Vuforia.Tracker::Start() */, L_54);
+		IL2CPP_RUNTIME_CLASS_INIT(TrackerManager_t308318605_il2cpp_TypeInfo_var);
+		TrackerManager_t308318605 * L_55 = TrackerManager_get_Instance_m2067083115(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_55);
+		StateManager_t3369465942 * L_56 = VirtFuncInvoker0< StateManager_t3369465942 * >::Invoke(7 /* Vuforia.StateManager Vuforia.TrackerManager::GetStateManager() */, L_55);
 		NullCheck(L_56);
-		Il2CppObject* L_57 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Vuforia.TrackableBehaviour>::GetEnumerator() */, IEnumerable_1_t2072015617_il2cpp_TypeInfo_var, L_56);
-		V_4 = L_57;
+		Il2CppObject* L_57 = VirtFuncInvoker0< Il2CppObject* >::Invoke(5 /* System.Collections.Generic.IEnumerable`1<Vuforia.TrackableBehaviour> Vuforia.StateManager::GetTrackableBehaviours() */, L_56);
+		V_2 = L_57;
+		Il2CppObject* L_58 = V_2;
+		NullCheck(L_58);
+		Il2CppObject* L_59 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Vuforia.TrackableBehaviour>::GetEnumerator() */, IEnumerable_1_t2072015617_il2cpp_TypeInfo_var, L_58);
+		V_4 = L_59;
 	}
 
-IL_01af:
+IL_01bf:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_029e;
+			goto IL_02ae;
 		}
 
-IL_01b4:
+IL_01c4:
 		{
-			Il2CppObject* L_58 = V_4;
-			NullCheck(L_58);
-			TrackableBehaviour_t1779888572 * L_59 = InterfaceFuncInvoker0< TrackableBehaviour_t1779888572 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Vuforia.TrackableBehaviour>::get_Current() */, IEnumerator_1_t3550379695_il2cpp_TypeInfo_var, L_58);
-			V_3 = L_59;
-			TrackableBehaviour_t1779888572 * L_60 = V_3;
+			Il2CppObject* L_60 = V_4;
 			NullCheck(L_60);
-			String_t* L_61 = TrackableBehaviour_get_TrackableName_m3173853042(L_60, /*hidden argument*/NULL);
-			VuforiaManager_t189047469 * L_62 = __this->get_U24this_0();
+			TrackableBehaviour_t1779888572 * L_61 = InterfaceFuncInvoker0< TrackableBehaviour_t1779888572 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Vuforia.TrackableBehaviour>::get_Current() */, IEnumerator_1_t3550379695_il2cpp_TypeInfo_var, L_60);
+			V_3 = L_61;
+			TrackableBehaviour_t1779888572 * L_62 = V_3;
 			NullCheck(L_62);
-			Experience_t1974411760 * L_63 = L_62->get_exp_13();
-			NullCheck(L_63);
-			String_t* L_64 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String CrhcItem::getId() */, L_63);
+			String_t* L_63 = TrackableBehaviour_get_TrackableName_m3173853042(L_62, /*hidden argument*/NULL);
+			VuforiaManager_t189047469 * L_64 = __this->get_U24this_0();
+			NullCheck(L_64);
+			Experience_t1974411760 * L_65 = L_64->get_exp_13();
+			NullCheck(L_65);
+			String_t* L_66 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String CrhcItem::getId() */, L_65);
 			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			bool L_65 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_61, L_64, /*hidden argument*/NULL);
-			if (!L_65)
+			bool L_67 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_63, L_66, /*hidden argument*/NULL);
+			if (!L_67)
 			{
-				goto IL_029b;
+				goto IL_02ab;
 			}
 		}
 
-IL_01dd:
+IL_01ed:
 		{
-			TrackableBehaviour_t1779888572 * L_66 = V_3;
-			NullCheck(L_66);
-			GameObject_t1756533147 * L_67 = Component_get_gameObject_m3105766835(L_66, /*hidden argument*/NULL);
-			NullCheck(L_67);
-			GameObject_AddComponent_TisDefaultTrackableEventThing_t2843580010_m3715824830(L_67, /*hidden argument*/GameObject_AddComponent_TisDefaultTrackableEventThing_t2843580010_m3715824830_MethodInfo_var);
 			TrackableBehaviour_t1779888572 * L_68 = V_3;
 			NullCheck(L_68);
 			GameObject_t1756533147 * L_69 = Component_get_gameObject_m3105766835(L_68, /*hidden argument*/NULL);
 			NullCheck(L_69);
-			GameObject_AddComponent_TisTurnOffThing_t1619842242_m2326499582(L_69, /*hidden argument*/GameObject_AddComponent_TisTurnOffThing_t1619842242_m2326499582_MethodInfo_var);
-			GameObject_t1756533147 * L_70 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
-			GameObject__ctor_m962601984(L_70, _stringLiteral2542885169, /*hidden argument*/NULL);
-			V_5 = L_70;
-			GameObject_t1756533147 * L_71 = V_5;
+			GameObject_AddComponent_TisDefaultTrackableEventThing_t2843580010_m3715824830(L_69, /*hidden argument*/GameObject_AddComponent_TisDefaultTrackableEventThing_t2843580010_m3715824830_MethodInfo_var);
+			TrackableBehaviour_t1779888572 * L_70 = V_3;
+			NullCheck(L_70);
+			GameObject_t1756533147 * L_71 = Component_get_gameObject_m3105766835(L_70, /*hidden argument*/NULL);
 			NullCheck(L_71);
-			Transform_t3275118058 * L_72 = GameObject_get_transform_m909382139(L_71, /*hidden argument*/NULL);
-			TrackableBehaviour_t1779888572 * L_73 = V_3;
+			GameObject_AddComponent_TisTurnOffThing_t1619842242_m2326499582(L_71, /*hidden argument*/GameObject_AddComponent_TisTurnOffThing_t1619842242_m2326499582_MethodInfo_var);
+			GameObject_t1756533147 * L_72 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+			GameObject__ctor_m962601984(L_72, _stringLiteral2542885169, /*hidden argument*/NULL);
+			V_5 = L_72;
+			GameObject_t1756533147 * L_73 = V_5;
 			NullCheck(L_73);
-			GameObject_t1756533147 * L_74 = Component_get_gameObject_m3105766835(L_73, /*hidden argument*/NULL);
-			NullCheck(L_74);
-			Transform_t3275118058 * L_75 = GameObject_get_transform_m909382139(L_74, /*hidden argument*/NULL);
-			NullCheck(L_72);
-			Transform_set_parent_m3281327839(L_72, L_75, /*hidden argument*/NULL);
-			GameObject_t1756533147 * L_76 = V_5;
+			Transform_t3275118058 * L_74 = GameObject_get_transform_m909382139(L_73, /*hidden argument*/NULL);
+			TrackableBehaviour_t1779888572 * L_75 = V_3;
+			NullCheck(L_75);
+			GameObject_t1756533147 * L_76 = Component_get_gameObject_m3105766835(L_75, /*hidden argument*/NULL);
 			NullCheck(L_76);
 			Transform_t3275118058 * L_77 = GameObject_get_transform_m909382139(L_76, /*hidden argument*/NULL);
-			Vector3_t2243707580  L_78;
-			memset(&L_78, 0, sizeof(L_78));
-			Vector3__ctor_m2638739322(&L_78, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-			NullCheck(L_77);
-			Transform_set_localPosition_m1026930133(L_77, L_78, /*hidden argument*/NULL);
-			GameObject_t1756533147 * L_79 = V_5;
+			NullCheck(L_74);
+			Transform_set_parent_m3281327839(L_74, L_77, /*hidden argument*/NULL);
+			GameObject_t1756533147 * L_78 = V_5;
+			NullCheck(L_78);
+			Transform_t3275118058 * L_79 = GameObject_get_transform_m909382139(L_78, /*hidden argument*/NULL);
+			Vector3_t2243707580  L_80;
+			memset(&L_80, 0, sizeof(L_80));
+			Vector3__ctor_m2638739322(&L_80, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 			NullCheck(L_79);
-			Transform_t3275118058 * L_80 = GameObject_get_transform_m909382139(L_79, /*hidden argument*/NULL);
-			Quaternion_t4030073918  L_81 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
-			NullCheck(L_80);
-			Transform_set_localRotation_m2055111962(L_80, L_81, /*hidden argument*/NULL);
-			GameObject_t1756533147 * L_82 = V_5;
+			Transform_set_localPosition_m1026930133(L_79, L_80, /*hidden argument*/NULL);
+			GameObject_t1756533147 * L_81 = V_5;
+			NullCheck(L_81);
+			Transform_t3275118058 * L_82 = GameObject_get_transform_m909382139(L_81, /*hidden argument*/NULL);
+			Quaternion_t4030073918  L_83 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
 			NullCheck(L_82);
-			GameObject_t1756533147 * L_83 = GameObject_get_gameObject_m3662236595(L_82, /*hidden argument*/NULL);
-			NullCheck(L_83);
-			GameObject_SetActive_m2887581199(L_83, (bool)1, /*hidden argument*/NULL);
-			VuforiaManager_t189047469 * L_84 = __this->get_U24this_0();
-			GameObject_t1756533147 * L_85 = GameObject_CreatePrimitive_m973880764(NULL /*static, unused*/, 4, /*hidden argument*/NULL);
+			Transform_set_localRotation_m2055111962(L_82, L_83, /*hidden argument*/NULL);
+			GameObject_t1756533147 * L_84 = V_5;
 			NullCheck(L_84);
-			L_84->set_overlayPlane_7(L_85);
+			GameObject_t1756533147 * L_85 = GameObject_get_gameObject_m3662236595(L_84, /*hidden argument*/NULL);
+			NullCheck(L_85);
+			GameObject_SetActive_m2887581199(L_85, (bool)1, /*hidden argument*/NULL);
 			VuforiaManager_t189047469 * L_86 = __this->get_U24this_0();
+			GameObject_t1756533147 * L_87 = GameObject_CreatePrimitive_m973880764(NULL /*static, unused*/, 4, /*hidden argument*/NULL);
 			NullCheck(L_86);
-			GameObject_t1756533147 * L_87 = L_86->get_overlayPlane_7();
-			NullCheck(L_87);
-			Transform_t3275118058 * L_88 = GameObject_get_transform_m909382139(L_87, /*hidden argument*/NULL);
-			GameObject_t1756533147 * L_89 = V_5;
-			NullCheck(L_89);
-			GameObject_t1756533147 * L_90 = GameObject_get_gameObject_m3662236595(L_89, /*hidden argument*/NULL);
-			NullCheck(L_90);
-			Transform_t3275118058 * L_91 = GameObject_get_transform_m909382139(L_90, /*hidden argument*/NULL);
+			L_86->set_overlayPlane_7(L_87);
+			VuforiaManager_t189047469 * L_88 = __this->get_U24this_0();
 			NullCheck(L_88);
-			Transform_set_parent_m3281327839(L_88, L_91, /*hidden argument*/NULL);
-			TrackableBehaviour_t1779888572 * L_92 = V_3;
-			TrackableBehaviour_t1779888572 * L_93 = V_3;
-			NullCheck(L_93);
-			String_t* L_94 = TrackableBehaviour_get_TrackableName_m3173853042(L_93, /*hidden argument*/NULL);
+			GameObject_t1756533147 * L_89 = L_88->get_overlayPlane_7();
+			NullCheck(L_89);
+			Transform_t3275118058 * L_90 = GameObject_get_transform_m909382139(L_89, /*hidden argument*/NULL);
+			GameObject_t1756533147 * L_91 = V_5;
+			NullCheck(L_91);
+			GameObject_t1756533147 * L_92 = GameObject_get_gameObject_m3662236595(L_91, /*hidden argument*/NULL);
 			NullCheck(L_92);
-			Object_set_name_m4157836998(L_92, L_94, /*hidden argument*/NULL);
-			goto IL_029d;
-		}
-
-IL_029b:
-		{
-		}
-
-IL_029d:
-		{
-		}
-
-IL_029e:
-		{
-			Il2CppObject* L_95 = V_4;
+			Transform_t3275118058 * L_93 = GameObject_get_transform_m909382139(L_92, /*hidden argument*/NULL);
+			NullCheck(L_90);
+			Transform_set_parent_m3281327839(L_90, L_93, /*hidden argument*/NULL);
+			TrackableBehaviour_t1779888572 * L_94 = V_3;
+			TrackableBehaviour_t1779888572 * L_95 = V_3;
 			NullCheck(L_95);
-			bool L_96 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_95);
-			if (L_96)
+			String_t* L_96 = TrackableBehaviour_get_TrackableName_m3173853042(L_95, /*hidden argument*/NULL);
+			NullCheck(L_94);
+			Object_set_name_m4157836998(L_94, L_96, /*hidden argument*/NULL);
+			goto IL_02ad;
+		}
+
+IL_02ab:
+		{
+		}
+
+IL_02ad:
+		{
+		}
+
+IL_02ae:
+		{
+			Il2CppObject* L_97 = V_4;
+			NullCheck(L_97);
+			bool L_98 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_97);
+			if (L_98)
 			{
-				goto IL_01b4;
+				goto IL_01c4;
 			}
 		}
 
-IL_02aa:
+IL_02ba:
 		{
-			IL2CPP_LEAVE(0x2BE, FINALLY_02af);
+			IL2CPP_LEAVE(0x2CE, FINALLY_02bf);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_02af;
+		goto FINALLY_02bf;
 	}
 
-FINALLY_02af:
+FINALLY_02bf:
 	{ // begin finally (depth: 1)
 		{
-			Il2CppObject* L_97 = V_4;
-			if (!L_97)
+			Il2CppObject* L_99 = V_4;
+			if (!L_99)
 			{
-				goto IL_02bd;
+				goto IL_02cd;
 			}
 		}
 
-IL_02b6:
+IL_02c6:
 		{
-			Il2CppObject* L_98 = V_4;
-			NullCheck(L_98);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_98);
+			Il2CppObject* L_100 = V_4;
+			NullCheck(L_100);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_100);
 		}
 
-IL_02bd:
+IL_02cd:
 		{
-			IL2CPP_END_FINALLY(687)
+			IL2CPP_END_FINALLY(703)
 		}
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(687)
+	IL2CPP_CLEANUP(703)
 	{
-		IL2CPP_JUMP_TBL(0x2BE, IL_02be)
+		IL2CPP_JUMP_TBL(0x2CE, IL_02ce)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_02be:
+IL_02ce:
 	{
-		VuforiaManager_t189047469 * L_99 = __this->get_U24this_0();
-		NullCheck(L_99);
-		L_99->set_debugMessage_14(_stringLiteral347499615);
-		goto IL_02e6;
-	}
-
-IL_02d4:
-	{
-		VuforiaManager_t189047469 * L_100 = __this->get_U24this_0();
-		NullCheck(L_100);
-		L_100->set_debugMessage_14(_stringLiteral401833199);
-	}
-
-IL_02e6:
-	{
-		IFileManager_t1674670828 * L_101 = V_1;
+		VuforiaManager_t189047469 * L_101 = __this->get_U24this_0();
 		NullCheck(L_101);
-		IFileManager_popDirectory_m1702089241(L_101, /*hidden argument*/NULL);
+		L_101->set_debugMessage_14(_stringLiteral347499615);
+		goto IL_02f6;
 	}
 
-IL_02ed:
+IL_02e4:
+	{
+		VuforiaManager_t189047469 * L_102 = __this->get_U24this_0();
+		NullCheck(L_102);
+		L_102->set_debugMessage_14(_stringLiteral401833199);
+	}
+
+IL_02f6:
+	{
+		IFileManager_t1674670828 * L_103 = V_1;
+		NullCheck(L_103);
+		IFileManager_popDirectory_m1702089241(L_103, /*hidden argument*/NULL);
+	}
+
+IL_02fd:
 	{
 		__this->set_U24PC_3((-1));
 	}
 
-IL_02f4:
+IL_0304:
 	{
 		return (bool)0;
 	}
 
-IL_02f6:
+IL_0306:
 	{
 		return (bool)1;
 	}
@@ -2740,6 +2598,127 @@ extern "C"  void U3CloadDatasetCoroutineU3Ec__Iterator0_Reset_m2210386087 (U3Clo
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_method (U3CloadDatasetCoroutineU3Ec__Iterator0_Reset_m2210386087_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::.ctor()
+extern "C"  void U3CunloadDatasetCoroutineU3Ec__Iterator1__ctor_m2182250202 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::MoveNext()
+extern "C"  bool U3CunloadDatasetCoroutineU3Ec__Iterator1_MoveNext_m2186434470 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->get_U24PC_2();
+		V_0 = L_0;
+		__this->set_U24PC_2((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		goto IL_0044;
+	}
+
+IL_0021:
+	{
+		__this->set_U24current_0(NULL);
+		bool L_2 = __this->get_U24disposing_1();
+		if (L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		__this->set_U24PC_2(1);
+	}
+
+IL_0038:
+	{
+		goto IL_0046;
+	}
+
+IL_003d:
+	{
+		__this->set_U24PC_2((-1));
+	}
+
+IL_0044:
+	{
+		return (bool)0;
+	}
+
+IL_0046:
+	{
+		return (bool)1;
+	}
+}
+// System.Object VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CunloadDatasetCoroutineU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m84443224 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_0();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CunloadDatasetCoroutineU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1618026928 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_0();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::Dispose()
+extern "C"  void U3CunloadDatasetCoroutineU3Ec__Iterator1_Dispose_m4030916631 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_1((bool)1);
+		__this->set_U24PC_2((-1));
+		return;
+	}
+}
+// System.Void VuforiaManager/<unloadDatasetCoroutine>c__Iterator1::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CunloadDatasetCoroutineU3Ec__Iterator1_Reset_m472176069_MetadataUsageId;
+extern "C"  void U3CunloadDatasetCoroutineU3Ec__Iterator1_Reset_m472176069 (U3CunloadDatasetCoroutineU3Ec__Iterator1_t3200245981 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CunloadDatasetCoroutineU3Ec__Iterator1_Reset_m472176069_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{

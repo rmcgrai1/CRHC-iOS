@@ -44,6 +44,8 @@ extern "C"  void JContainer__ctor_m2925506182 (JContainer_t3538280255 * __this, 
 extern "C"  void JContainer_CheckReentrancy_m667029493 (JContainer_t3538280255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JContainer::get_HasValues()
 extern "C"  bool JContainer_get_HasValues_m1627437467 (JContainer_t3538280255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JContainer::ContentsEqual(Newtonsoft.Json.Linq.JContainer)
+extern "C"  bool JContainer_ContentsEqual_m533651756 (JContainer_t3538280255 * __this, JContainer_t3538280255 * ___container0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JContainer::get_First()
 extern "C"  JToken_t2552644013 * JContainer_get_First_m2015929986 (JContainer_t3538280255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JContainer::get_Last()
@@ -90,6 +92,8 @@ extern "C"  void JContainer_RemoveAll_m2739764935 (JContainer_t3538280255 * __th
 extern "C"  void JContainer_ReadTokenFrom_m1369942253 (JContainer_t3538280255 * __this, JsonReader_t3154730733 * ___reader0, JsonLoadSettings_t947661933 * ___options1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JContainer::ReadContentFrom(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Linq.JsonLoadSettings)
 extern "C"  void JContainer_ReadContentFrom_m2852547815 (JContainer_t3538280255 * __this, JsonReader_t3154730733 * ___r0, JsonLoadSettings_t947661933 * ___settings1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Newtonsoft.Json.Linq.JContainer::ContentsHashCode()
+extern "C"  int32_t JContainer_ContentsHashCode_m2141853007 (JContainer_t3538280255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Newtonsoft.Json.Linq.JContainer::System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf(Newtonsoft.Json.Linq.JToken)
 extern "C"  int32_t JContainer_System_Collections_Generic_IListU3CNewtonsoft_Json_Linq_JTokenU3E_IndexOf_m3231782309 (JContainer_t3538280255 * __this, JToken_t2552644013 * ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JContainer::System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert(System.Int32,Newtonsoft.Json.Linq.JToken)

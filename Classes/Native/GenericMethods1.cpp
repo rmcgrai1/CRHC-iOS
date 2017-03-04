@@ -441,6 +441,8 @@ struct Action_1_t904151438;
 struct Action_1_t1951195598;
 // System.String
 struct String_t;
+// CrhcItem
+struct CrhcItem_t1379468653;
 // Newtonsoft.Json.JsonSerializerSettings
 struct JsonSerializerSettings_t842388167;
 // Newtonsoft.Json.JsonReader
@@ -488,15 +490,12 @@ struct EventFunction_1_t1186599945;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "mscorlib_System_Resources_ResourceReader_ResourceI3933049236.h"
+#include "System_System_Security_Cryptography_X509Certificat4278378721.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
 #include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_NotSupportedException1793819818.h"
-#include "mscorlib_System_Runtime_Serialization_Formatters_Bi141209596.h"
-#include "mscorlib_System_SByte454417549.h"
-#include "System_System_Security_Cryptography_X509Certificat4278378721.h"
 #include "mscorlib_System_Single2076509932.h"
 #include "System_System_Text_RegularExpressions_Mark2724874473.h"
 #include "mscorlib_System_TimeSpan3430258949.h"
@@ -602,6 +601,9 @@ struct EventFunction_1_t1186599945;
 #include "mscorlib_System_Reflection_Emit_ILTokenInfo149559338.h"
 #include "mscorlib_System_Reflection_ParameterModifier1820634920.h"
 #include "mscorlib_System_Resources_ResourceReader_ResourceCa333236149.h"
+#include "mscorlib_System_Resources_ResourceReader_ResourceI3933049236.h"
+#include "mscorlib_System_Runtime_Serialization_Formatters_Bi141209596.h"
+#include "mscorlib_System_SByte454417549.h"
 #include "Newtonsoft.Json_ArrayTypes.h"
 #include "mscorlib_System_Comparison_1_gen1949077100.h"
 #include "mscorlib_System_Comparison_1_gen1949077100MethodDeclarations.h"
@@ -891,6 +893,10 @@ struct EventFunction_1_t1186599945;
 #include "mscorlib_System_Action_1_gen904151438.h"
 #include "Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitE2149396216.h"
 #include "mscorlib_System_Action_1_gen1951195598.h"
+#include "AssemblyU2DCSharp_CrhcItem1379468653.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013MethodDeclarations.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonConvert3949895659.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonConvert3949895659MethodDeclarations.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonSerializerSetti842388167.h"
@@ -898,8 +904,6 @@ struct EventFunction_1_t1186599945;
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonReader3154730733.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonSerializer1719617802MethodDeclarations.h"
 #include "System_System_Text_RegularExpressions_RegexOptions2418259727.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013MethodDeclarations.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_Extensions784000136MethodDeclarations.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_Extensions784000136.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Serialization_Json3196859494.h"
@@ -986,15 +990,6 @@ struct EventFunction_1_t1186599945;
 #include "mscorlib_System_Collections_Generic_List_1_gen2644239190.h"
 #include "UnityEngine_UnityEngine_Transform3275118058MethodDeclarations.h"
 
-// System.Void System.Array::InternalArray__Insert<System.Resources.ResourceReader/ResourceInfo>(System.Int32,T)
-extern "C"  void Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared (Il2CppArray * __this, int32_t ___index0, ResourceInfo_t3933049236  ___item1, const MethodInfo* method);
-#define Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, ResourceInfo_t3933049236 , const MethodInfo*))Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared)(__this, ___index0, ___item1, method)
-// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern "C"  void Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared (Il2CppArray * __this, int32_t ___index0, uint8_t ___item1, const MethodInfo* method);
-#define Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, uint8_t, const MethodInfo*))Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared)(__this, ___index0, ___item1, method)
-// System.Void System.Array::InternalArray__Insert<System.SByte>(System.Int32,T)
-extern "C"  void Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared (Il2CppArray * __this, int32_t ___index0, int8_t ___item1, const MethodInfo* method);
-#define Array_InternalArray__Insert_TisSByte_t454417549_m2203436188(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, int8_t, const MethodInfo*))Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared)(__this, ___index0, ___item1, method)
 // System.Void System.Array::InternalArray__Insert<System.Security.Cryptography.X509Certificates.X509ChainStatus>(System.Int32,T)
 extern "C"  void Array_InternalArray__Insert_TisX509ChainStatus_t4278378721_m777129612_gshared (Il2CppArray * __this, int32_t ___index0, X509ChainStatus_t4278378721  ___item1, const MethodInfo* method);
 #define Array_InternalArray__Insert_TisX509ChainStatus_t4278378721_m777129612(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, X509ChainStatus_t4278378721 , const MethodInfo*))Array_InternalArray__Insert_TisX509ChainStatus_t4278378721_m777129612_gshared)(__this, ___index0, ___item1, method)
@@ -3208,6 +3203,30 @@ extern "C"  void DelegateHelper_InvokeWithExceptionHandling_TisSmartTerrainIniti
 // System.Void Vuforia.DelegateHelper::InvokeWithExceptionHandling<Vuforia.VuforiaUnity/InitError>(System.Action`1<T>,T)
 extern "C"  void DelegateHelper_InvokeWithExceptionHandling_TisInitError_t2149396216_m3948382805_gshared (Il2CppObject * __this /* static, unused */, Action_1_t1951195598 * ___action0, int32_t ___arg1, const MethodInfo* method);
 #define DelegateHelper_InvokeWithExceptionHandling_TisInitError_t2149396216_m3948382805(__this /* static, unused */, ___action0, ___arg1, method) ((  void (*) (Il2CppObject * /* static, unused */, Action_1_t1951195598 *, int32_t, const MethodInfo*))DelegateHelper_InvokeWithExceptionHandling_TisInitError_t2149396216_m3948382805_gshared)(__this /* static, unused */, ___action0, ___arg1, method)
+// T CrhcItem::getData<System.Boolean>(System.String)
+extern "C"  bool CrhcItem_getData_TisBoolean_t3825574718_m135963688_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisBoolean_t3825574718_m135963688(__this, ___key0, method) ((  bool (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisBoolean_t3825574718_m135963688_gshared)(__this, ___key0, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.Boolean>(System.Object)
+extern "C"  bool JToken_Value_TisBoolean_t3825574718_m1798181803_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
+#define JToken_Value_TisBoolean_t3825574718_m1798181803(__this, p0, method) ((  bool (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisBoolean_t3825574718_m1798181803_gshared)(__this, p0, method)
+// T CrhcItem::getData<System.Double>(System.String)
+extern "C"  double CrhcItem_getData_TisDouble_t4078015681_m164198751_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisDouble_t4078015681_m164198751(__this, ___key0, method) ((  double (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisDouble_t4078015681_m164198751_gshared)(__this, ___key0, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.Double>(System.Object)
+extern "C"  double JToken_Value_TisDouble_t4078015681_m519895384_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
+#define JToken_Value_TisDouble_t4078015681_m519895384(__this, p0, method) ((  double (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisDouble_t4078015681_m519895384_gshared)(__this, p0, method)
+// T CrhcItem::getData<System.Int32>(System.String)
+extern "C"  int32_t CrhcItem_getData_TisInt32_t2071877448_m1994794720_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisInt32_t2071877448_m1994794720(__this, ___key0, method) ((  int32_t (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisInt32_t2071877448_m1994794720_gshared)(__this, ___key0, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.Int32>(System.Object)
+extern "C"  int32_t JToken_Value_TisInt32_t2071877448_m151151973_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
+#define JToken_Value_TisInt32_t2071877448_m151151973(__this, p0, method) ((  int32_t (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisInt32_t2071877448_m151151973_gshared)(__this, p0, method)
+// T CrhcItem::getData<System.Object>(System.String)
+extern "C"  Il2CppObject * CrhcItem_getData_TisIl2CppObject_m369553171_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisIl2CppObject_m369553171(__this, ___key0, method) ((  Il2CppObject * (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisIl2CppObject_m369553171_gshared)(__this, ___key0, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.Object>(System.Object)
+extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m4173191423_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
+#define JToken_Value_TisIl2CppObject_m4173191423(__this, p0, method) ((  Il2CppObject * (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisIl2CppObject_m4173191423_gshared)(__this, p0, method)
 // T Newtonsoft.Json.JsonConvert::DeserializeObject<System.Object>(System.String)
 extern "C"  Il2CppObject * JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared (Il2CppObject * __this /* static, unused */, String_t* ___value0, const MethodInfo* method);
 #define JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222(__this /* static, unused */, ___value0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, ___value0, method)
@@ -3223,9 +3242,21 @@ extern "C"  int32_t JsonSerializer_Deserialize_TisRegexOptions_t2418259727_m1128
 // T Newtonsoft.Json.Linq.JToken::Annotation<System.Object>()
 extern "C"  Il2CppObject * JToken_Annotation_TisIl2CppObject_m1378989318_gshared (JToken_t2552644013 * __this, const MethodInfo* method);
 #define JToken_Annotation_TisIl2CppObject_m1378989318(__this, method) ((  Il2CppObject * (*) (JToken_t2552644013 *, const MethodInfo*))JToken_Annotation_TisIl2CppObject_m1378989318_gshared)(__this, method)
-// T Newtonsoft.Json.Linq.JToken::Value<System.Object>(System.Object)
-extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m2044246170_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method);
-#define JToken_Value_TisIl2CppObject_m2044246170(__this, ___key0, method) ((  Il2CppObject * (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisIl2CppObject_m2044246170_gshared)(__this, ___key0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Boolean>(T)
+extern "C"  bool Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method);
+#define Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037(__this /* static, unused */, ___token0, method) ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_gshared)(__this /* static, unused */, ___token0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<Newtonsoft.Json.Linq.JToken,System.Boolean>(T)
+#define Extensions_Convert_TisJToken_t2552644013_TisBoolean_t3825574718_m4026737613(__this /* static, unused */, ___token0, method) ((  bool (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_gshared)(__this /* static, unused */, ___token0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Double>(T)
+extern "C"  double Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method);
+#define Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648(__this /* static, unused */, ___token0, method) ((  double (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_gshared)(__this /* static, unused */, ___token0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<Newtonsoft.Json.Linq.JToken,System.Double>(T)
+#define Extensions_Convert_TisJToken_t2552644013_TisDouble_t4078015681_m2204324866(__this /* static, unused */, ___token0, method) ((  double (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_gshared)(__this /* static, unused */, ___token0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Int32>(T)
+extern "C"  int32_t Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method);
+#define Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891(__this /* static, unused */, ___token0, method) ((  int32_t (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_gshared)(__this /* static, unused */, ___token0, method)
+// U Newtonsoft.Json.Linq.Extensions::Convert<Newtonsoft.Json.Linq.JToken,System.Int32>(T)
+#define Extensions_Convert_TisJToken_t2552644013_TisInt32_t2071877448_m3818509891(__this /* static, unused */, ___token0, method) ((  int32_t (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_gshared)(__this /* static, unused */, ___token0, method)
 // U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Object>(T)
 extern "C"  Il2CppObject * Extensions_Convert_TisIl2CppObject_TisIl2CppObject_m3857843074_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method);
 #define Extensions_Convert_TisIl2CppObject_TisIl2CppObject_m3857843074(__this /* static, unused */, ___token0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Extensions_Convert_TisIl2CppObject_TisIl2CppObject_m3857843074_gshared)(__this /* static, unused */, ___token0, method)
@@ -4142,60 +4173,6 @@ extern "C"  GameObject_t1756533147 * ExecuteEvents_GetEventHandler_TisIl2CppObje
 // System.Boolean UnityEngine.EventSystems.ExecuteEvents::CanHandleEvent<System.Object>(UnityEngine.GameObject)
 extern "C"  bool ExecuteEvents_CanHandleEvent_TisIl2CppObject_m1201779629_gshared (Il2CppObject * __this /* static, unused */, GameObject_t1756533147 * ___go0, const MethodInfo* method);
 #define ExecuteEvents_CanHandleEvent_TisIl2CppObject_m1201779629(__this /* static, unused */, ___go0, method) ((  bool (*) (Il2CppObject * /* static, unused */, GameObject_t1756533147 *, const MethodInfo*))ExecuteEvents_CanHandleEvent_TisIl2CppObject_m1201779629_gshared)(__this /* static, unused */, ___go0, method)
-// System.Void System.Array::InternalArray__Insert<System.Resources.ResourceReader/ResourceInfo>(System.Int32,T)
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1461460571;
-extern const uint32_t Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_MetadataUsageId;
-extern "C"  void Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared (Il2CppArray * __this, int32_t ___index0, ResourceInfo_t3933049236  ___item1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1461460571;
-extern const uint32_t Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_MetadataUsageId;
-extern "C"  void Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared (Il2CppArray * __this, int32_t ___index0, uint8_t ___item1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void System.Array::InternalArray__Insert<System.SByte>(System.Int32,T)
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1461460571;
-extern const uint32_t Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_MetadataUsageId;
-extern "C"  void Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared (Il2CppArray * __this, int32_t ___index0, int8_t ___item1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
 // System.Void System.Array::InternalArray__Insert<System.Security.Cryptography.X509Certificates.X509ChainStatus>(System.Int32,T)
 extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1461460571;
@@ -48486,6 +48463,82 @@ extern "C"  void DelegateHelper_InvokeWithExceptionHandling_TisInitError_t214939
 		return;
 	}
 }
+// T CrhcItem::getData<System.Boolean>(System.String)
+extern "C"  bool CrhcItem_getData_TisBoolean_t3825574718_m135963688_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		JObject_t278519297 * L_0 = (JObject_t278519297 *)__this->get_data_3();
+		String_t* L_1 = ___key0;
+		NullCheck((JToken_t2552644013 *)L_0);
+		bool L_2 = GenericVirtFuncInvoker1< bool, Il2CppObject * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0), (JToken_t2552644013 *)L_0, (Il2CppObject *)L_1);
+		V_0 = (bool)L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+// T CrhcItem::getData<System.Double>(System.String)
+extern "C"  double CrhcItem_getData_TisDouble_t4078015681_m164198751_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	double V_0 = 0.0;
+	{
+		JObject_t278519297 * L_0 = (JObject_t278519297 *)__this->get_data_3();
+		String_t* L_1 = ___key0;
+		NullCheck((JToken_t2552644013 *)L_0);
+		double L_2 = GenericVirtFuncInvoker1< double, Il2CppObject * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0), (JToken_t2552644013 *)L_0, (Il2CppObject *)L_1);
+		V_0 = (double)L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		double L_3 = V_0;
+		return L_3;
+	}
+}
+// T CrhcItem::getData<System.Int32>(System.String)
+extern "C"  int32_t CrhcItem_getData_TisInt32_t2071877448_m1994794720_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		JObject_t278519297 * L_0 = (JObject_t278519297 *)__this->get_data_3();
+		String_t* L_1 = ___key0;
+		NullCheck((JToken_t2552644013 *)L_0);
+		int32_t L_2 = GenericVirtFuncInvoker1< int32_t, Il2CppObject * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0), (JToken_t2552644013 *)L_0, (Il2CppObject *)L_1);
+		V_0 = (int32_t)L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		int32_t L_3 = V_0;
+		return L_3;
+	}
+}
+// T CrhcItem::getData<System.Object>(System.String)
+extern "C"  Il2CppObject * CrhcItem_getData_TisIl2CppObject_m369553171_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		JObject_t278519297 * L_0 = (JObject_t278519297 *)__this->get_data_3();
+		String_t* L_1 = ___key0;
+		NullCheck((JToken_t2552644013 *)L_0);
+		Il2CppObject * L_2 = GenericVirtFuncInvoker1< Il2CppObject *, Il2CppObject * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0), (JToken_t2552644013 *)L_0, (Il2CppObject *)L_1);
+		V_0 = (Il2CppObject *)L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		Il2CppObject * L_3 = V_0;
+		return L_3;
+	}
+}
 // T Newtonsoft.Json.JsonConvert::DeserializeObject<System.Object>(System.String)
 extern Il2CppClass* JsonConvert_t3949895659_il2cpp_TypeInfo_var;
 extern const uint32_t JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_MetadataUsageId;
@@ -48584,14 +48637,14 @@ extern "C"  Il2CppObject * JToken_Annotation_TisIl2CppObject_m1378989318_gshared
 	Il2CppObject * V_3 = NULL;
 	Il2CppObject * V_4 = NULL;
 	{
-		Il2CppObject * L_0 = (Il2CppObject *)__this->get__annotations_3();
+		Il2CppObject * L_0 = (Il2CppObject *)__this->get__annotations_4();
 		if (!L_0)
 		{
 			goto IL_0053;
 		}
 	}
 	{
-		Il2CppObject * L_1 = (Il2CppObject *)__this->get__annotations_3();
+		Il2CppObject * L_1 = (Il2CppObject *)__this->get__annotations_4();
 		V_0 = (ObjectU5BU5D_t3614634134*)((ObjectU5BU5D_t3614634134*)IsInst(L_1, ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var));
 		ObjectU5BU5D_t3614634134* L_2 = V_0;
 		if (L_2)
@@ -48600,7 +48653,7 @@ extern "C"  Il2CppObject * JToken_Annotation_TisIl2CppObject_m1378989318_gshared
 		}
 	}
 	{
-		Il2CppObject * L_3 = (Il2CppObject *)__this->get__annotations_3();
+		Il2CppObject * L_3 = (Il2CppObject *)__this->get__annotations_4();
 		return ((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_3, IL2CPP_RGCTX_DATA(method->rgctx_data, 0))), IL2CPP_RGCTX_DATA(method->rgctx_data, 0)));
 	}
 
@@ -48662,15 +48715,126 @@ IL_0053:
 		return L_15;
 	}
 }
-// T Newtonsoft.Json.Linq.JToken::Value<System.Object>(System.Object)
-extern Il2CppClass* Il2CppObject_il2cpp_TypeInfo_var;
-extern const uint32_t JToken_Value_TisIl2CppObject_m2044246170_MetadataUsageId;
-extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m2044246170_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method)
+// T Newtonsoft.Json.Linq.JToken::Value<System.Boolean>(System.Object)
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const uint32_t JToken_Value_TisBoolean_t3825574718_m1798181803_MetadataUsageId;
+extern "C"  bool JToken_Value_TisBoolean_t3825574718_m1798181803_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (JToken_Value_TisIl2CppObject_m2044246170_MetadataUsageId);
+		il2cpp_codegen_initialize_method (JToken_Value_TisBoolean_t3825574718_m1798181803_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JToken_t2552644013 * V_0 = NULL;
+	bool V_1 = false;
+	{
+		Il2CppObject * L_0 = ___key0;
+		NullCheck((JToken_t2552644013 *)__this);
+		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(14 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
+		V_0 = (JToken_t2552644013 *)L_1;
+		JToken_t2552644013 * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		JToken_t2552644013 * L_3 = V_0;
+		bool L_4 = ((  bool (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (JToken_t2552644013 *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return L_4;
+	}
+
+IL_0012:
+	{
+		Initobj (Boolean_t3825574718_il2cpp_TypeInfo_var, (&V_1));
+		bool L_5 = V_1;
+		return L_5;
+	}
+}
+// T Newtonsoft.Json.Linq.JToken::Value<System.Double>(System.Object)
+extern Il2CppClass* Double_t4078015681_il2cpp_TypeInfo_var;
+extern const uint32_t JToken_Value_TisDouble_t4078015681_m519895384_MetadataUsageId;
+extern "C"  double JToken_Value_TisDouble_t4078015681_m519895384_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JToken_Value_TisDouble_t4078015681_m519895384_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JToken_t2552644013 * V_0 = NULL;
+	double V_1 = 0.0;
+	{
+		Il2CppObject * L_0 = ___key0;
+		NullCheck((JToken_t2552644013 *)__this);
+		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(14 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
+		V_0 = (JToken_t2552644013 *)L_1;
+		JToken_t2552644013 * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		JToken_t2552644013 * L_3 = V_0;
+		double L_4 = ((  double (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (JToken_t2552644013 *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return L_4;
+	}
+
+IL_0012:
+	{
+		Initobj (Double_t4078015681_il2cpp_TypeInfo_var, (&V_1));
+		double L_5 = V_1;
+		return L_5;
+	}
+}
+// T Newtonsoft.Json.Linq.JToken::Value<System.Int32>(System.Object)
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const uint32_t JToken_Value_TisInt32_t2071877448_m151151973_MetadataUsageId;
+extern "C"  int32_t JToken_Value_TisInt32_t2071877448_m151151973_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JToken_Value_TisInt32_t2071877448_m151151973_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JToken_t2552644013 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		Il2CppObject * L_0 = ___key0;
+		NullCheck((JToken_t2552644013 *)__this);
+		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(14 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
+		V_0 = (JToken_t2552644013 *)L_1;
+		JToken_t2552644013 * L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		JToken_t2552644013 * L_3 = V_0;
+		int32_t L_4 = ((  int32_t (*) (Il2CppObject * /* static, unused */, JToken_t2552644013 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (JToken_t2552644013 *)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return L_4;
+	}
+
+IL_0012:
+	{
+		Initobj (Int32_t2071877448_il2cpp_TypeInfo_var, (&V_1));
+		int32_t L_5 = V_1;
+		return L_5;
+	}
+}
+// T Newtonsoft.Json.Linq.JToken::Value<System.Object>(System.Object)
+extern Il2CppClass* Il2CppObject_il2cpp_TypeInfo_var;
+extern const uint32_t JToken_Value_TisIl2CppObject_m4173191423_MetadataUsageId;
+extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m4173191423_gshared (JToken_t2552644013 * __this, Il2CppObject * ___key0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (JToken_Value_TisIl2CppObject_m4173191423_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	JToken_t2552644013 * V_0 = NULL;
@@ -48678,7 +48842,7 @@ extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m2044246170_gshared (JTo
 	{
 		Il2CppObject * L_0 = ___key0;
 		NullCheck((JToken_t2552644013 *)__this);
-		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(13 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
+		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(14 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
 		V_0 = (JToken_t2552644013 *)L_1;
 		JToken_t2552644013 * L_2 = V_0;
 		if (!L_2)
@@ -48715,7 +48879,7 @@ extern "C"  float JToken_Value_TisSingle_t2076509932_m2370215520_gshared (JToken
 	{
 		Il2CppObject * L_0 = ___key0;
 		NullCheck((JToken_t2552644013 *)__this);
-		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(13 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
+		JToken_t2552644013 * L_1 = VirtFuncInvoker1< JToken_t2552644013 *, Il2CppObject * >::Invoke(14 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Item(System.Object) */, (JToken_t2552644013 *)__this, (Il2CppObject *)L_0);
 		V_0 = (JToken_t2552644013 *)L_1;
 		JToken_t2552644013 * L_2 = V_0;
 		if (!L_2)
@@ -56729,6 +56893,474 @@ IL_0029:
 		NullCheck((List_1_t698476408 *)L_9);
 		TrackableIdPairU5BU5D_t961847365* L_10 = ((  TrackableIdPairU5BU5D_t961847365* (*) (List_1_t698476408 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 4)->methodPointer)((List_1_t698476408 *)L_9, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 4));
 		return L_10;
+	}
+}
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Boolean>(T)
+extern const Il2CppType* IComparable_t1857082765_0_0_0_var;
+extern const Il2CppType* IFormattable_t1523031934_0_0_0_var;
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* JValue_t300956845_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidCastException_t3625212209_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionUtils_t3884221258_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2142556018;
+extern const uint32_t Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_MetadataUsageId;
+extern "C"  bool Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Extensions_Convert_TisIl2CppObject_TisBoolean_t3825574718_m4159995037_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	JValue_t300956845 * V_1 = NULL;
+	Type_t * V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___token0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Initobj (Boolean_t3825574718_il2cpp_TypeInfo_var, (&V_0));
+		bool L_1 = V_0;
+		return L_1;
+	}
+
+IL_0012:
+	{
+		Il2CppObject * L_2 = ___token0;
+		if (!((Il2CppObject *)IsInst(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IComparable_t1857082765_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_3) == ((Il2CppObject*)(Type_t *)L_4)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IFormattable_t1523031934_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_5) == ((Il2CppObject*)(Type_t *)L_6)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Il2CppObject * L_7 = ___token0;
+		return ((*(bool*)((bool*)UnBox (L_7, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_0057:
+	{
+		Il2CppObject * L_8 = ___token0;
+		V_1 = (JValue_t300956845 *)((JValue_t300956845 *)IsInst(L_8, JValue_t300956845_il2cpp_TypeInfo_var));
+		JValue_t300956845 * L_9 = V_1;
+		if (L_9)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_10 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_11 = ___token0;
+		NullCheck((Il2CppObject *)L_11);
+		Type_t * L_12 = Object_GetType_m191970594((Il2CppObject *)L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 3)), /*hidden argument*/NULL);
+		String_t* L_14 = StringUtils_FormatWith_m3608957081(NULL /*static, unused*/, (String_t*)_stringLiteral2142556018, (Il2CppObject *)L_10, (Il2CppObject *)L_12, (Il2CppObject *)L_13, /*hidden argument*/NULL);
+		InvalidCastException_t3625212209 * L_15 = (InvalidCastException_t3625212209 *)il2cpp_codegen_object_new(InvalidCastException_t3625212209_il2cpp_TypeInfo_var);
+		InvalidCastException__ctor_m2960334316(L_15, (String_t*)L_14, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
+	}
+
+IL_0090:
+	{
+		JValue_t300956845 * L_16 = V_1;
+		NullCheck((JValue_t300956845 *)L_16);
+		Il2CppObject * L_17 = JValue_get_Value_m615315111((JValue_t300956845 *)L_16, /*hidden argument*/NULL);
+		if (!((Il2CppObject *)IsInst(L_17, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		JValue_t300956845 * L_18 = V_1;
+		NullCheck((JValue_t300956845 *)L_18);
+		Il2CppObject * L_19 = JValue_get_Value_m615315111((JValue_t300956845 *)L_18, /*hidden argument*/NULL);
+		return ((*(bool*)((bool*)UnBox (L_19, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_00a9:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_20;
+		Type_t * L_21 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionUtils_t3884221258_il2cpp_TypeInfo_var);
+		bool L_22 = ReflectionUtils_IsNullableType_m1952073521(NULL /*static, unused*/, (Type_t *)L_21, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		JValue_t300956845 * L_23 = V_1;
+		NullCheck((JValue_t300956845 *)L_23);
+		Il2CppObject * L_24 = JValue_get_Value_m615315111((JValue_t300956845 *)L_23, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		Initobj (Boolean_t3825574718_il2cpp_TypeInfo_var, (&V_0));
+		bool L_25 = V_0;
+		return L_25;
+	}
+
+IL_00ce:
+	{
+		Type_t * L_26 = V_2;
+		Type_t * L_27 = Nullable_GetUnderlyingType_m4057508352(NULL /*static, unused*/, (Type_t *)L_26, /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_27;
+	}
+
+IL_00d5:
+	{
+		JValue_t300956845 * L_28 = V_1;
+		NullCheck((JValue_t300956845 *)L_28);
+		Il2CppObject * L_29 = JValue_get_Value_m615315111((JValue_t300956845 *)L_28, /*hidden argument*/NULL);
+		Type_t * L_30 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_31 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		Il2CppObject * L_32 = Convert_ChangeType_m485889120(NULL /*static, unused*/, (Il2CppObject *)L_29, (Type_t *)L_30, (Il2CppObject *)L_31, /*hidden argument*/NULL);
+		return ((*(bool*)((bool*)UnBox (L_32, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+}
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Double>(T)
+extern const Il2CppType* IComparable_t1857082765_0_0_0_var;
+extern const Il2CppType* IFormattable_t1523031934_0_0_0_var;
+extern Il2CppClass* Double_t4078015681_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* JValue_t300956845_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidCastException_t3625212209_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionUtils_t3884221258_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2142556018;
+extern const uint32_t Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_MetadataUsageId;
+extern "C"  double Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Extensions_Convert_TisIl2CppObject_TisDouble_t4078015681_m3108480648_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	double V_0 = 0.0;
+	JValue_t300956845 * V_1 = NULL;
+	Type_t * V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___token0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Initobj (Double_t4078015681_il2cpp_TypeInfo_var, (&V_0));
+		double L_1 = V_0;
+		return L_1;
+	}
+
+IL_0012:
+	{
+		Il2CppObject * L_2 = ___token0;
+		if (!((Il2CppObject *)IsInst(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IComparable_t1857082765_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_3) == ((Il2CppObject*)(Type_t *)L_4)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IFormattable_t1523031934_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_5) == ((Il2CppObject*)(Type_t *)L_6)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Il2CppObject * L_7 = ___token0;
+		return ((*(double*)((double*)UnBox (L_7, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_0057:
+	{
+		Il2CppObject * L_8 = ___token0;
+		V_1 = (JValue_t300956845 *)((JValue_t300956845 *)IsInst(L_8, JValue_t300956845_il2cpp_TypeInfo_var));
+		JValue_t300956845 * L_9 = V_1;
+		if (L_9)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_10 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_11 = ___token0;
+		NullCheck((Il2CppObject *)L_11);
+		Type_t * L_12 = Object_GetType_m191970594((Il2CppObject *)L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 3)), /*hidden argument*/NULL);
+		String_t* L_14 = StringUtils_FormatWith_m3608957081(NULL /*static, unused*/, (String_t*)_stringLiteral2142556018, (Il2CppObject *)L_10, (Il2CppObject *)L_12, (Il2CppObject *)L_13, /*hidden argument*/NULL);
+		InvalidCastException_t3625212209 * L_15 = (InvalidCastException_t3625212209 *)il2cpp_codegen_object_new(InvalidCastException_t3625212209_il2cpp_TypeInfo_var);
+		InvalidCastException__ctor_m2960334316(L_15, (String_t*)L_14, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
+	}
+
+IL_0090:
+	{
+		JValue_t300956845 * L_16 = V_1;
+		NullCheck((JValue_t300956845 *)L_16);
+		Il2CppObject * L_17 = JValue_get_Value_m615315111((JValue_t300956845 *)L_16, /*hidden argument*/NULL);
+		if (!((Il2CppObject *)IsInst(L_17, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		JValue_t300956845 * L_18 = V_1;
+		NullCheck((JValue_t300956845 *)L_18);
+		Il2CppObject * L_19 = JValue_get_Value_m615315111((JValue_t300956845 *)L_18, /*hidden argument*/NULL);
+		return ((*(double*)((double*)UnBox (L_19, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_00a9:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_20;
+		Type_t * L_21 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionUtils_t3884221258_il2cpp_TypeInfo_var);
+		bool L_22 = ReflectionUtils_IsNullableType_m1952073521(NULL /*static, unused*/, (Type_t *)L_21, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		JValue_t300956845 * L_23 = V_1;
+		NullCheck((JValue_t300956845 *)L_23);
+		Il2CppObject * L_24 = JValue_get_Value_m615315111((JValue_t300956845 *)L_23, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		Initobj (Double_t4078015681_il2cpp_TypeInfo_var, (&V_0));
+		double L_25 = V_0;
+		return L_25;
+	}
+
+IL_00ce:
+	{
+		Type_t * L_26 = V_2;
+		Type_t * L_27 = Nullable_GetUnderlyingType_m4057508352(NULL /*static, unused*/, (Type_t *)L_26, /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_27;
+	}
+
+IL_00d5:
+	{
+		JValue_t300956845 * L_28 = V_1;
+		NullCheck((JValue_t300956845 *)L_28);
+		Il2CppObject * L_29 = JValue_get_Value_m615315111((JValue_t300956845 *)L_28, /*hidden argument*/NULL);
+		Type_t * L_30 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_31 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		Il2CppObject * L_32 = Convert_ChangeType_m485889120(NULL /*static, unused*/, (Il2CppObject *)L_29, (Type_t *)L_30, (Il2CppObject *)L_31, /*hidden argument*/NULL);
+		return ((*(double*)((double*)UnBox (L_32, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+}
+// U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Int32>(T)
+extern const Il2CppType* IComparable_t1857082765_0_0_0_var;
+extern const Il2CppType* IFormattable_t1523031934_0_0_0_var;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* JValue_t300956845_il2cpp_TypeInfo_var;
+extern Il2CppClass* CultureInfo_t3500843524_il2cpp_TypeInfo_var;
+extern Il2CppClass* InvalidCastException_t3625212209_il2cpp_TypeInfo_var;
+extern Il2CppClass* ReflectionUtils_t3884221258_il2cpp_TypeInfo_var;
+extern Il2CppClass* Convert_t2607082565_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2142556018;
+extern const uint32_t Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_MetadataUsageId;
+extern "C"  int32_t Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___token0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Extensions_Convert_TisIl2CppObject_TisInt32_t2071877448_m1975119891_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	JValue_t300956845 * V_1 = NULL;
+	Type_t * V_2 = NULL;
+	{
+		Il2CppObject * L_0 = ___token0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Initobj (Int32_t2071877448_il2cpp_TypeInfo_var, (&V_0));
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+
+IL_0012:
+	{
+		Il2CppObject * L_2 = ___token0;
+		if (!((Il2CppObject *)IsInst(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IComparable_t1857082765_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_3) == ((Il2CppObject*)(Type_t *)L_4)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		Type_t * L_6 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IFormattable_t1523031934_0_0_0_var), /*hidden argument*/NULL);
+		if ((((Il2CppObject*)(Type_t *)L_5) == ((Il2CppObject*)(Type_t *)L_6)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Il2CppObject * L_7 = ___token0;
+		return ((*(int32_t*)((int32_t*)UnBox (L_7, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_0057:
+	{
+		Il2CppObject * L_8 = ___token0;
+		V_1 = (JValue_t300956845 *)((JValue_t300956845 *)IsInst(L_8, JValue_t300956845_il2cpp_TypeInfo_var));
+		JValue_t300956845 * L_9 = V_1;
+		if (L_9)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_10 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_11 = ___token0;
+		NullCheck((Il2CppObject *)L_11);
+		Type_t * L_12 = Object_GetType_m191970594((Il2CppObject *)L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_13 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 3)), /*hidden argument*/NULL);
+		String_t* L_14 = StringUtils_FormatWith_m3608957081(NULL /*static, unused*/, (String_t*)_stringLiteral2142556018, (Il2CppObject *)L_10, (Il2CppObject *)L_12, (Il2CppObject *)L_13, /*hidden argument*/NULL);
+		InvalidCastException_t3625212209 * L_15 = (InvalidCastException_t3625212209 *)il2cpp_codegen_object_new(InvalidCastException_t3625212209_il2cpp_TypeInfo_var);
+		InvalidCastException__ctor_m2960334316(L_15, (String_t*)L_14, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_15);
+	}
+
+IL_0090:
+	{
+		JValue_t300956845 * L_16 = V_1;
+		NullCheck((JValue_t300956845 *)L_16);
+		Il2CppObject * L_17 = JValue_get_Value_m615315111((JValue_t300956845 *)L_16, /*hidden argument*/NULL);
+		if (!((Il2CppObject *)IsInst(L_17, IL2CPP_RGCTX_DATA(method->rgctx_data, 1))))
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		JValue_t300956845 * L_18 = V_1;
+		NullCheck((JValue_t300956845 *)L_18);
+		Il2CppObject * L_19 = JValue_get_Value_m615315111((JValue_t300956845 *)L_18, /*hidden argument*/NULL);
+		return ((*(int32_t*)((int32_t*)UnBox (L_19, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
+	}
+
+IL_00a9:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_20 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 2)), /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_20;
+		Type_t * L_21 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(ReflectionUtils_t3884221258_il2cpp_TypeInfo_var);
+		bool L_22 = ReflectionUtils_IsNullableType_m1952073521(NULL /*static, unused*/, (Type_t *)L_21, /*hidden argument*/NULL);
+		if (!L_22)
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		JValue_t300956845 * L_23 = V_1;
+		NullCheck((JValue_t300956845 *)L_23);
+		Il2CppObject * L_24 = JValue_get_Value_m615315111((JValue_t300956845 *)L_23, /*hidden argument*/NULL);
+		if (L_24)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		Initobj (Int32_t2071877448_il2cpp_TypeInfo_var, (&V_0));
+		int32_t L_25 = V_0;
+		return L_25;
+	}
+
+IL_00ce:
+	{
+		Type_t * L_26 = V_2;
+		Type_t * L_27 = Nullable_GetUnderlyingType_m4057508352(NULL /*static, unused*/, (Type_t *)L_26, /*hidden argument*/NULL);
+		V_2 = (Type_t *)L_27;
+	}
+
+IL_00d5:
+	{
+		JValue_t300956845 * L_28 = V_1;
+		NullCheck((JValue_t300956845 *)L_28);
+		Il2CppObject * L_29 = JValue_get_Value_m615315111((JValue_t300956845 *)L_28, /*hidden argument*/NULL);
+		Type_t * L_30 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3500843524_il2cpp_TypeInfo_var);
+		CultureInfo_t3500843524 * L_31 = CultureInfo_get_InvariantCulture_m398972276(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t2607082565_il2cpp_TypeInfo_var);
+		Il2CppObject * L_32 = Convert_ChangeType_m485889120(NULL /*static, unused*/, (Il2CppObject *)L_29, (Type_t *)L_30, (Il2CppObject *)L_31, /*hidden argument*/NULL);
+		return ((*(int32_t*)((int32_t*)UnBox (L_32, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)))));
 	}
 }
 // U Newtonsoft.Json.Linq.Extensions::Convert<System.Object,System.Object>(T)

@@ -43,14 +43,18 @@ struct Reference_1_t2181976982;
 struct AudioPlayerRow_t2396008217;
 // Reference`1<UnityEngine.AudioClip>
 struct Reference_1_t1425086317;
+// AudioPlayerRow/<createTextureCoroutine>c__Iterator0
+struct U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778;
+// UnityEngine.AudioSource
+struct AudioSource_t1135106623;
 // CachedLoader
 struct CachedLoader_t1584985543;
 // UnityEngine.Font
 struct Font_t4239498691;
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // Experience
 struct Experience_t1974411760;
 // Landmark
@@ -59,8 +63,6 @@ struct Landmark_t1862459476;
 struct U3CtryLoadU3Ec__Iterator0_t3570335469;
 // Experience/<tryUnload>c__Iterator1
 struct U3CtryUnloadU3Ec__Iterator1_t500348351;
-// Experience/BackButton
-struct BackButton_t1088046658;
 // FadeInMenu
 struct FadeInMenu_t1652954898;
 // IRow
@@ -91,10 +93,6 @@ struct IItem_t1694139212;
 struct ILoader_t1641484032;
 // ImageItem
 struct ImageItem_t1947162666;
-// JsonChildList
-struct JsonChildList_t125035948;
-// JsonChildList/<GetEnumerator>c__Iterator0
-struct U3CGetEnumeratorU3Ec__Iterator0_t2366112656;
 // JsonNetSample
 struct JsonNetSample_t2758271331;
 // JsonNetSample/CharacterListItem
@@ -109,6 +107,8 @@ struct Product_t2714520675;
 struct Reference_1_t2889861700;
 // Tour
 struct Tour_t1896021510;
+// Newtonsoft.Json.Linq.JArray
+struct JArray_t1483708661;
 // Landmark/<loadCoroutine>c__Iterator0
 struct U3CloadCoroutineU3Ec__Iterator0_t3587155196;
 // Landmark/ARButton
@@ -151,8 +151,6 @@ struct TextItem_t1720843696;
 struct ARButton_t3211784512;
 // Tour/AudioButton
 struct AudioButton_t1190087241;
-// UnityEngine.AudioSource
-struct AudioSource_t1135106623;
 // Tour/ButtonRow
 struct ButtonRow_t173084553;
 // Tour/ClearCacheRow
@@ -283,6 +281,8 @@ struct VuMarkBehaviour_t2060629989;
 struct VuforiaAbstractConfiguration_t1891710424;
 // Vuforia.VuforiaConfiguration
 struct VuforiaConfiguration_t3823746026;
+// Vuforia.IUnityPlayer
+struct IUnityPlayer_t2720985375;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -336,7 +336,6 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_Reference_1_gen1521747920MethodDeclarations.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297MethodDeclarations.h"
 #include "AssemblyU2DCSharp_generic_number_Number1709165791MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Reference3342691873MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Server2724320767MethodDeclarations.h"
 #include "AssemblyU2DCSharp_CrhcFolder_1_gen3531444394MethodDeclarations.h"
@@ -363,26 +362,46 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_AudioPlayerRow2396008217.h"
 #include "AssemblyU2DCSharp_AudioPlayerRow2396008217MethodDeclarations.h"
 #include "AssemblyU2DCSharp_IRow3247553901MethodDeclarations.h"
+#include "AssemblyU2DCSharp_AudioPlayerRow_PlayState1440229357.h"
 #include "AssemblyU2DCSharp_Reference_1_gen1425086317.h"
+#include "AssemblyU2DCSharp_CoroutineManager3765941247MethodDeclarations.h"
+#include "AssemblyU2DCSharp_IRow3247553901.h"
+#include "AssemblyU2DCSharp_AudioPlayerRow_U3CcreateTextureCo194479778MethodDeclarations.h"
+#include "AssemblyU2DCSharp_AudioPlayerRow_U3CcreateTextureCo194479778.h"
+#include "AssemblyU2DCSharp_GUIX1405793021MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Reference_1_gen1425086317MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioClip1932558630MethodDeclarations.h"
+#include "mscorlib_System_Math2022911894MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "UnityEngine_UnityEngine_AudioClip1932558630.h"
+#include "UnityEngine_UnityEngine_AudioSource1135106623.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Mathf2336485820MethodDeclarations.h"
+#include "AssemblyU2DCSharp_AudioPlayerRow_PlayState1440229357MethodDeclarations.h"
 #include "AssemblyU2DCSharp_WWWLoader2069512648MethodDeclarations.h"
 #include "AssemblyU2DCSharp_WWWLoader2069512648.h"
 #include "AssemblyU2DCSharp_PathType2607611679.h"
-#include "AssemblyU2DCSharp_CoroutineManager3765941247MethodDeclarations.h"
 #include "mscorlib_System_Threading_Thread241561612MethodDeclarations.h"
 #include "mscorlib_System_Threading_Thread241561612.h"
 #include "UnityEngine_UnityEngine_Coroutine2299508840.h"
 #include "UnityEngine_UnityEngine_Color32874517518MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Resources339470017MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Color32874517518.h"
-#include "UnityEngine_UnityEngine_Color2020392075.h"
 #include "UnityEngine_UnityEngine_Font4239498691.h"
 #include "UnityEngine_UnityEngine_Resources339470017.h"
 #include "AssemblyU2DCSharp_SortOrder4083238036.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653MethodDeclarations.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
 #include "AssemblyU2DCSharp_Loadable2385882172MethodDeclarations.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483MethodDeclarations.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JContainer3538280255MethodDeclarations.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JContainer3538280255.h"
 #include "AssemblyU2DCSharp_Epoch416756991.h"
 #include "AssemblyU2DCSharp_Epoch416756991MethodDeclarations.h"
 #include "mscorlib_System_Double4078015681.h"
@@ -391,7 +410,6 @@ struct VuforiaConfiguration_t3823746026;
 #include "mscorlib_System_TimeSpan3430258949.h"
 #include "mscorlib_System_DateTimeKind2186819611.h"
 #include "mscorlib_System_TimeSpan3430258949MethodDeclarations.h"
-#include "mscorlib_System_Math2022911894MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Experience1974411760.h"
 #include "AssemblyU2DCSharp_Experience1974411760MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Landmark1862459476.h"
@@ -401,24 +419,16 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_Experience_U3CtryUnloadU3Ec__Iter500348351.h"
 #include "AssemblyU2DCSharp_Menu4261767481MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Row774521500MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Experience_BackButton1088046658MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Landmark_BackButton2597280886MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Menu4261767481.h"
 #include "AssemblyU2DCSharp_Row774521500.h"
-#include "AssemblyU2DCSharp_Experience_BackButton1088046658.h"
+#include "AssemblyU2DCSharp_Landmark_BackButton2597280886.h"
 #include "AssemblyU2DCSharp_IItem1694139212.h"
-#include "AssemblyU2DCSharp_IRow3247553901.h"
-#include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
-#include "AssemblyU2DCSharp_RectItem1720926083MethodDeclarations.h"
 #include "AssemblyU2DCSharp_FadeInMenu1652954898.h"
 #include "AssemblyU2DCSharp_FadeInMenu1652954898MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GUIX1405793021MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Rect3681755626.h"
-#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
 #include "AssemblyU2DCSharp_generic_debug_UnityLog1899126921.h"
 #include "AssemblyU2DCSharp_generic_debug_UnityLog1899126921MethodDeclarations.h"
 #include "mscorlib_System_Exception1927440687MethodDeclarations.h"
-#include "mscorlib_System_NotImplementedException2785117854MethodDeclarations.h"
-#include "mscorlib_System_NotImplementedException2785117854.h"
 #include "AssemblyU2DCSharp_generic_mobile_MouseTouch4180881574.h"
 #include "AssemblyU2DCSharp_generic_mobile_MouseTouch4180881574MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Input1785128008MethodDeclarations.h"
@@ -426,16 +436,13 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_generic_number_NumberType1764165487MethodDeclarations.h"
 #include "AssemblyU2DCSharp_generic_rendering_TextureUtility3551719991.h"
 #include "AssemblyU2DCSharp_generic_rendering_TextureUtility3551719991MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
-#include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Object1021602117.h"
 #include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Texture2243626319.h"
 #include "AssemblyU2DCSharp_Reference_1_gen3035523416.h"
 #include "AssemblyU2DCSharp_Reference_1_gen3035523416MethodDeclarations.h"
 #include "AssemblyU2DCSharp_GUIX1405793021.h"
 #include "System_System_Collections_Generic_Stack_1_gen474516484MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Texture2D3542995729MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color2020392075MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIStyle1799908754MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIStyleState3801000545MethodDeclarations.h"
 #include "System_System_Collections_Generic_Stack_1_gen3108120229MethodDeclarations.h"
@@ -454,23 +461,6 @@ struct VuforiaConfiguration_t3823746026;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_23014816357.h"
 #include "AssemblyU2DCSharp_ImageItem1947162666.h"
 #include "AssemblyU2DCSharp_ImageItem1947162666MethodDeclarations.h"
-#include "AssemblyU2DCSharp_JsonChildList125035948.h"
-#include "AssemblyU2DCSharp_JsonChildList125035948MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1846030615MethodDeclarations.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JArray1483708661MethodDeclarations.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JProperty2956441399MethodDeclarations.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JArray1483708661.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_11546812757.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JProperty2956441399.h"
-#include "mscorlib_System_Collections_Generic_List_1_gen1846030615.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_13957742755.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_11546812757MethodDeclarations.h"
-#include "AssemblyU2DCSharp_JsonChildList_U3CGetEnumeratorU32366112656MethodDeclarations.h"
-#include "AssemblyU2DCSharp_JsonChildList_U3CGetEnumeratorU32366112656.h"
-#include "mscorlib_System_Collections_Generic_List_1_Enumera1380760289.h"
-#include "mscorlib_System_Collections_Generic_List_1_Enumera1380760289MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495.h"
 #include "AssemblyU2DCSharp_JsonNetSample2758271331.h"
 #include "AssemblyU2DCSharp_JsonNetSample2758271331MethodDeclarations.h"
 #include "UnityEngine_UI_UnityEngine_UI_Text356221433.h"
@@ -483,6 +473,8 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_JsonNetSample_Product2714520675.h"
 #include "AssemblyU2DCSharp_JsonNetSample_Movie2835007224MethodDeclarations.h"
 #include "AssemblyU2DCSharp_JsonNetSample_Movie2835007224.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JArray1483708661MethodDeclarations.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JArray1483708661.h"
 #include "mscorlib_System_Nullable_1_gen3251239280.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1398341365.h"
 #include "mscorlib_System_Decimal724701077MethodDeclarations.h"
@@ -495,20 +487,18 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_Reference_1_gen2889861700.h"
 #include "AssemblyU2DCSharp_MapServer4172556483MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Tour1896021510.h"
-#include "mscorlib_System_Int322071877448MethodDeclarations.h"
-#include "mscorlib_System_Double4078015681MethodDeclarations.h"
-#include "mscorlib_System_Boolean3825574718MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SpaceItem2052916439MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Landmark_BackButton2597280886MethodDeclarations.h"
 #include "AssemblyU2DCSharp_TextItem1720843696MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Landmark_ARButton1476977038MethodDeclarations.h"
 #include "AssemblyU2DCSharp_ScrollMenu1922223870MethodDeclarations.h"
 #include "AssemblyU2DCSharp_SpaceItem2052916439.h"
 #include "AssemblyU2DCSharp_TextItem1720843696.h"
-#include "AssemblyU2DCSharp_Landmark_BackButton2597280886.h"
 #include "AssemblyU2DCSharp_Landmark_ARButton1476977038.h"
 #include "UnityEngine_UnityEngine_TextAnchor112990806.h"
 #include "AssemblyU2DCSharp_ScrollMenu1922223870.h"
+#include "mscorlib_System_Int322071877448MethodDeclarations.h"
+#include "AssemblyU2DCSharp_RectItem1720926083MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUIUtility3275770671MethodDeclarations.h"
 #include "AssemblyU2DCSharp_RectItem1720926083.h"
 #include "AssemblyU2DCSharp_Loadable2385882172.h"
 #include "System_System_Collections_Generic_LinkedList_1_gen230350255MethodDeclarations.h"
@@ -523,6 +513,7 @@ struct VuforiaConfiguration_t3823746026;
 #include "mscorlib_System_Collections_Generic_List_1_gen2616675033.h"
 #include "System_System_Collections_Generic_LinkedList_1_gen2333928462MethodDeclarations.h"
 #include "System_System_Collections_Generic_LinkedList_1_gen2333928462.h"
+#include "System_System_Collections_Generic_LinkedListNode_1_925326146MethodDeclarations.h"
 #include "System_System_Collections_Generic_LinkedListNode_1_925326146.h"
 #include "System_System_Collections_Generic_LinkedList_1_Enu1156834484.h"
 #include "UnityEngine_UnityEngine_TextClipping2573530411.h"
@@ -535,6 +526,9 @@ struct VuforiaConfiguration_t3823746026;
 #include "mscorlib_System_Collections_Generic_List_1_gen667146045.h"
 #include "AssemblyU2DCSharp_Row_Pair1298024913.h"
 #include "AssemblyU2DCSharp_Row_Pair1298024913MethodDeclarations.h"
+#include "mscorlib_System_Single2076509932MethodDeclarations.h"
+#include "mscorlib_System_NotImplementedException2785117854MethodDeclarations.h"
+#include "mscorlib_System_NotImplementedException2785117854.h"
 #include "AssemblyU2DCSharp_ServiceLocator953918367.h"
 #include "AssemblyU2DCSharp_SortOrder4083238036MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Tour1896021510MethodDeclarations.h"
@@ -553,10 +547,6 @@ struct VuforiaConfiguration_t3823746026;
 #include "AssemblyU2DCSharp_Tour_AudioButton1190087241.h"
 #include "AssemblyU2DCSharp_Tour_AudioButton1190087241MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Tour_AudioButton_AudioState1529271175.h"
-#include "UnityEngine_UnityEngine_AudioSource1135106623.h"
-#include "UnityEngine_UnityEngine_AudioSource1135106623MethodDeclarations.h"
-#include "AssemblyU2DCSharp_Reference_1_gen1425086317MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_AudioClip1932558630.h"
 #include "AssemblyU2DCSharp_Tour_AudioButton_AudioState1529271175MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Tour_ButtonRow173084553.h"
 #include "AssemblyU2DCSharp_Tour_ButtonRow173084553MethodDeclarations.h"
@@ -730,6 +720,19 @@ struct VuforiaConfiguration_t3823746026;
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470.h"
 #include "AssemblyU2DCSharp_Vuforia_VuforiaConfiguration3823746026MethodDeclarations.h"
 #include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon1891710424MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaRuntimeInitializa1850075444.h"
+#include "AssemblyU2DCSharp_Vuforia_VuforiaRuntimeInitializa1850075444MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon3866211740MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuforiaAbstractCon3866211740.h"
+#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_NullUnityPlayer754446093.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
+#include "Vuforia_UnityExtensions_Vuforia_PlayModeUnityPlayer918240325.h"
+#include "AssemblyU2DCSharp_Vuforia_WSAUnityPlayer425981959.h"
+#include "AssemblyU2DCSharp_Vuforia_VuMarkBehaviour2060629989MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_VuMarkAbstractBeha1830666997MethodDeclarations.h"
 
 // !!0 UnityEngine.GameObject::AddComponent<System.Object>()
 extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
@@ -749,23 +752,30 @@ extern "C"  Il2CppObject * ILoader_loadCoroutine_TisIl2CppObject_m217680433_gsha
 // !!0 Newtonsoft.Json.Linq.JToken::Value<System.Single>(System.Object)
 extern "C"  float JToken_Value_TisSingle_t2076509932_m2370215520_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
 #define JToken_Value_TisSingle_t2076509932_m2370215520(__this, p0, method) ((  float (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisSingle_t2076509932_m2370215520_gshared)(__this, p0, method)
-// Reference`1<T> ILoader::load<System.Object>(System.String)
-extern "C"  Reference_1_t2181976982 * ILoader_load_TisIl2CppObject_m2752975758_gshared (ILoader_t1641484032 * __this, String_t* ___path0, const MethodInfo* method);
-#define ILoader_load_TisIl2CppObject_m2752975758(__this, ___path0, method) ((  Reference_1_t2181976982 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_load_TisIl2CppObject_m2752975758_gshared)(__this, ___path0, method)
-// Reference`1<T> ILoader::load<UnityEngine.AudioClip>(System.String)
-#define ILoader_load_TisAudioClip_t1932558630_m3225085417(__this, ___path0, method) ((  Reference_1_t1425086317 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_load_TisIl2CppObject_m2752975758_gshared)(__this, ___path0, method)
+// Reference`1<T> ILoader::getReference<UnityEngine.AudioClip>(System.String)
+#define ILoader_getReference_TisAudioClip_t1932558630_m156785100(__this, ___path0, method) ((  Reference_1_t1425086317 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_getReference_TisIl2CppObject_m2756727415_gshared)(__this, ___path0, method)
+// System.Void ILoader::load<System.Object>(Reference`1<T>)
+extern "C"  void ILoader_load_TisIl2CppObject_m461175025_gshared (ILoader_t1641484032 * __this, Reference_1_t2181976982 * ___reference0, const MethodInfo* method);
+#define ILoader_load_TisIl2CppObject_m461175025(__this, ___reference0, method) ((  void (*) (ILoader_t1641484032 *, Reference_1_t2181976982 *, const MethodInfo*))ILoader_load_TisIl2CppObject_m461175025_gshared)(__this, ___reference0, method)
+// System.Void ILoader::load<UnityEngine.AudioClip>(Reference`1<T>)
+#define ILoader_load_TisAudioClip_t1932558630_m1472241010(__this, ___reference0, method) ((  void (*) (ILoader_t1641484032 *, Reference_1_t1425086317 *, const MethodInfo*))ILoader_load_TisIl2CppObject_m461175025_gshared)(__this, ___reference0, method)
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
+#define GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(__this, method) ((  AudioSource_t1135106623 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
 // !!0 UnityEngine.Resources::Load<System.Object>(System.String)
 extern "C"  Il2CppObject * Resources_Load_TisIl2CppObject_m2539673265_gshared (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method);
 #define Resources_Load_TisIl2CppObject_m2539673265(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))Resources_Load_TisIl2CppObject_m2539673265_gshared)(__this /* static, unused */, p0, method)
 // !!0 UnityEngine.Resources::Load<UnityEngine.Font>(System.String)
 #define Resources_Load_TisFont_t4239498691_m2108823384(__this /* static, unused */, p0, method) ((  Font_t4239498691 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))Resources_Load_TisIl2CppObject_m2539673265_gshared)(__this /* static, unused */, p0, method)
+// T CrhcItem::getData<System.Object>(System.String)
+extern "C"  Il2CppObject * CrhcItem_getData_TisIl2CppObject_m369553171_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisIl2CppObject_m369553171(__this, ___key0, method) ((  Il2CppObject * (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisIl2CppObject_m369553171_gshared)(__this, ___key0, method)
+// T CrhcItem::getData<System.String>(System.String)
+#define CrhcItem_getData_TisString_t_m3241148103(__this, ___key0, method) ((  String_t* (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisIl2CppObject_m369553171_gshared)(__this, ___key0, method)
+// Reference`1<T> ILoader::load<System.Object>(System.String)
+extern "C"  Reference_1_t2181976982 * ILoader_load_TisIl2CppObject_m2752975758_gshared (ILoader_t1641484032 * __this, String_t* ___path0, const MethodInfo* method);
+#define ILoader_load_TisIl2CppObject_m2752975758(__this, ___path0, method) ((  Reference_1_t2181976982 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_load_TisIl2CppObject_m2752975758_gshared)(__this, ___path0, method)
 // Reference`1<T> ILoader::load<UnityEngine.Texture2D>(System.String)
 #define ILoader_load_TisTexture2D_t3542995729_m2269949556(__this, ___path0, method) ((  Reference_1_t3035523416 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_load_TisIl2CppObject_m2752975758_gshared)(__this, ___path0, method)
-// Newtonsoft.Json.Linq.JEnumerable`1<!!0> Newtonsoft.Json.Linq.JToken::Children<System.Object>()
-extern "C"  JEnumerable_1_t3957742755  JToken_Children_TisIl2CppObject_m2453408485_gshared (JToken_t2552644013 * __this, const MethodInfo* method);
-#define JToken_Children_TisIl2CppObject_m2453408485(__this, method) ((  JEnumerable_1_t3957742755  (*) (JToken_t2552644013 *, const MethodInfo*))JToken_Children_TisIl2CppObject_m2453408485_gshared)(__this, method)
-// Newtonsoft.Json.Linq.JEnumerable`1<!!0> Newtonsoft.Json.Linq.JToken::Children<Newtonsoft.Json.Linq.JObject>()
-#define JToken_Children_TisJObject_t278519297_m730951803(__this, method) ((  JEnumerable_1_t1546812757  (*) (JToken_t2552644013 *, const MethodInfo*))JToken_Children_TisIl2CppObject_m2453408485_gshared)(__this, method)
 // !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<System.Object>(System.String)
 extern "C"  Il2CppObject * JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method);
 #define JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222(__this /* static, unused */, p0, method) ((  Il2CppObject * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
@@ -773,12 +783,28 @@ extern "C"  Il2CppObject * JsonConvert_DeserializeObject_TisIl2CppObject_m315927
 #define JsonConvert_DeserializeObject_TisCharacterListItem_t1706204900_m2203471208(__this /* static, unused */, p0, method) ((  CharacterListItem_t1706204900 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
 // !!0 Newtonsoft.Json.JsonConvert::DeserializeObject<JsonNetSample/Movie>(System.String)
 #define JsonConvert_DeserializeObject_TisMovie_t2835007224_m1825847136(__this /* static, unused */, p0, method) ((  Movie_t2835007224 * (*) (Il2CppObject * /* static, unused */, String_t*, const MethodInfo*))JsonConvert_DeserializeObject_TisIl2CppObject_m3159274222_gshared)(__this /* static, unused */, p0, method)
+// T CrhcItem::getData<System.Int32>(System.String)
+extern "C"  int32_t CrhcItem_getData_TisInt32_t2071877448_m1994794720_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisInt32_t2071877448_m1994794720(__this, ___key0, method) ((  int32_t (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisInt32_t2071877448_m1994794720_gshared)(__this, ___key0, method)
+// T CrhcItem::getData<System.Double>(System.String)
+extern "C"  double CrhcItem_getData_TisDouble_t4078015681_m164198751_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisDouble_t4078015681_m164198751(__this, ___key0, method) ((  double (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisDouble_t4078015681_m164198751_gshared)(__this, ___key0, method)
+// T CrhcItem::getData<System.Boolean>(System.String)
+extern "C"  bool CrhcItem_getData_TisBoolean_t3825574718_m135963688_gshared (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method);
+#define CrhcItem_getData_TisBoolean_t3825574718_m135963688(__this, ___key0, method) ((  bool (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisBoolean_t3825574718_m135963688_gshared)(__this, ___key0, method)
+// T CrhcItem::getData<Newtonsoft.Json.Linq.JArray>(System.String)
+#define CrhcItem_getData_TisJArray_t1483708661_m4239980737(__this, ___key0, method) ((  JArray_t1483708661 * (*) (CrhcItem_t1379468653 *, String_t*, const MethodInfo*))CrhcItem_getData_TisIl2CppObject_m369553171_gshared)(__this, ___key0, method)
 // Reference`1<T> ILoader::getReference<System.Byte[]>(System.String)
 #define ILoader_getReference_TisByteU5BU5D_t3397334013_m208448038(__this, ___path0, method) ((  Reference_1_t2889861700 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_getReference_TisIl2CppObject_m2756727415_gshared)(__this, ___path0, method)
 // System.Collections.IEnumerator ILoader::loadCoroutine<System.Byte[]>(Reference`1<T>)
 #define ILoader_loadCoroutine_TisByteU5BU5D_t3397334013_m3522714834(__this, ___reference0, method) ((  Il2CppObject * (*) (ILoader_t1641484032 *, Reference_1_t2889861700 *, const MethodInfo*))ILoader_loadCoroutine_TisIl2CppObject_m217680433_gshared)(__this, ___reference0, method)
-// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
-#define GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(__this, method) ((  AudioSource_t1135106623 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m2231772097_gshared)(__this, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.Object>(System.Object)
+extern "C"  Il2CppObject * JToken_Value_TisIl2CppObject_m4173191423_gshared (JToken_t2552644013 * __this, Il2CppObject * p0, const MethodInfo* method);
+#define JToken_Value_TisIl2CppObject_m4173191423(__this, p0, method) ((  Il2CppObject * (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisIl2CppObject_m4173191423_gshared)(__this, p0, method)
+// !!0 Newtonsoft.Json.Linq.JToken::Value<System.String>(System.Object)
+#define JToken_Value_TisString_t_m2172593859(__this, p0, method) ((  String_t* (*) (JToken_t2552644013 *, Il2CppObject *, const MethodInfo*))JToken_Value_TisIl2CppObject_m4173191423_gshared)(__this, p0, method)
+// Reference`1<T> ILoader::load<UnityEngine.AudioClip>(System.String)
+#define ILoader_load_TisAudioClip_t1932558630_m3225085417(__this, ___path0, method) ((  Reference_1_t1425086317 * (*) (ILoader_t1641484032 *, String_t*, const MethodInfo*))ILoader_load_TisIl2CppObject_m2752975758_gshared)(__this, ___path0, method)
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
 #define Component_GetComponent_TisIl2CppObject_m4109961936(__this, method) ((  Il2CppObject * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
@@ -913,16 +939,28 @@ extern "C"  bool AndroidFileManager_deleteDirectory_m1733244807 (AndroidFileMana
 		String_t* L_0 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, __this);
 		IFileManager_pushDirectory_m1131276950(__this, L_0, /*hidden argument*/NULL);
 		String_t* L_1 = ___path0;
-		Directory_Delete_m1706845570(NULL /*static, unused*/, L_1, (bool)1, /*hidden argument*/NULL);
-		IFileManager_popDirectory_m1702089241(__this, /*hidden argument*/NULL);
-		V_0 = (bool)1;
-		goto IL_0021;
+		bool L_2 = VirtFuncInvoker1< bool, String_t* >::Invoke(8 /* System.Boolean IFileManager::directoryExists(System.String) */, __this, L_1);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		String_t* L_3 = ___path0;
+		Directory_Delete_m1706845570(NULL /*static, unused*/, L_3, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_0021:
+IL_0022:
 	{
-		bool L_2 = V_0;
-		return L_2;
+		IFileManager_popDirectory_m1702089241(__this, /*hidden argument*/NULL);
+		V_0 = (bool)1;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		bool L_4 = V_0;
+		return L_4;
 	}
 }
 // System.Boolean AndroidFileManager::writeToFile(System.String,System.Byte[])
@@ -996,6 +1034,52 @@ IL_0049:
 		return L_7;
 	}
 }
+// System.Boolean AndroidFileManager::directoryExists(System.String)
+extern "C"  bool AndroidFileManager_directoryExists_m503453800 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		String_t* L_0 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, __this);
+		IFileManager_pushDirectory_m1131276950(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___path0;
+		bool L_2 = Directory_Exists_m2663601042(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IFileManager_popDirectory_m1702089241(__this, /*hidden argument*/NULL);
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		bool L_4 = V_1;
+		return L_4;
+	}
+}
+// System.Boolean AndroidFileManager::fileExists(System.String)
+extern "C"  bool AndroidFileManager_fileExists_m3849502309 (AndroidFileManager_t4153984296 * __this, String_t* ___path0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		String_t* L_0 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, __this);
+		IFileManager_pushDirectory_m1131276950(__this, L_0, /*hidden argument*/NULL);
+		String_t* L_1 = ___path0;
+		bool L_2 = File_Exists_m1685968367(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IFileManager_popDirectory_m1702089241(__this, /*hidden argument*/NULL);
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		bool L_4 = V_1;
+		return L_4;
+	}
+}
 // System.Void AndroidFileManager::createNonexistingFolders(System.String)
 extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
 extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
@@ -1006,8 +1090,9 @@ extern Il2CppCodeGenString* _stringLiteral371857150;
 extern Il2CppCodeGenString* _stringLiteral372029315;
 extern Il2CppCodeGenString* _stringLiteral1699857645;
 extern Il2CppCodeGenString* _stringLiteral3024319940;
-extern Il2CppCodeGenString* _stringLiteral819969521;
+extern Il2CppCodeGenString* _stringLiteral3683335528;
 extern Il2CppCodeGenString* _stringLiteral1623555996;
+extern Il2CppCodeGenString* _stringLiteral2047046641;
 extern const uint32_t AndroidFileManager_createNonexistingFolders_m2537294614_MetadataUsageId;
 extern "C"  void AndroidFileManager_createNonexistingFolders_m2537294614 (AndroidFileManager_t4153984296 * __this, String_t* ___relativePath0, const MethodInfo* method)
 {
@@ -1047,7 +1132,7 @@ extern "C"  void AndroidFileManager_createNonexistingFolders_m2537294614 (Androi
 		StringU5BU5D_t1642385972* L_4 = V_2;
 		V_4 = L_4;
 		V_5 = 0;
-		goto IL_00c4;
+		goto IL_00e4;
 	}
 
 IL_002b:
@@ -1063,98 +1148,110 @@ IL_002b:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_11 = String_Concat_m612901809(NULL /*static, unused*/, L_9, L_10, _stringLiteral372029315, /*hidden argument*/NULL);
 		V_0 = L_11;
-		Il2CppObject * L_12 = V_1;
-		String_t* L_13 = V_0;
-		String_t* L_14 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1699857645, L_13, _stringLiteral3024319940, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_12, 0, L_14);
 		V_6 = (bool)0;
 	}
 
-IL_0059:
+IL_0042:
 	try
 	{ // begin try (depth: 1)
+		Il2CppObject * L_12 = V_1;
+		String_t* L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral1699857645, L_13, _stringLiteral3024319940, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_12, 0, L_14);
 		String_t* L_15 = V_0;
-		bool L_16 = Directory_Exists_m2663601042(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		bool L_16 = VirtFuncInvoker1< bool, String_t* >::Invoke(8 /* System.Boolean IFileManager::directoryExists(System.String) */, __this, L_15);
 		V_6 = (bool)((((int32_t)L_16) == ((int32_t)0))? 1 : 0);
-		goto IL_007d;
+		goto IL_007e;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__exception_local = (Exception_t1927440687 *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->object.klass))
-			goto CATCH_006b;
+			goto CATCH_006c;
 		throw e;
 	}
 
-CATCH_006b:
+CATCH_006c:
 	{ // begin catch(System.Exception)
 		V_7 = ((Exception_t1927440687 *)__exception_local);
 		Il2CppObject * L_17 = V_1;
 		Exception_t1927440687 * L_18 = V_7;
 		NullCheck(L_17);
 		InterfaceActionInvoker2< int32_t, Exception_t1927440687 * >::Invoke(3 /* System.Void ILog::println(LogType,System.Exception) */, ILog_t767237811_il2cpp_TypeInfo_var, L_17, 0, L_18);
-		goto IL_007d;
+		goto IL_007e;
 	} // end catch (depth: 1)
 
-IL_007d:
+IL_007e:
 	{
 		bool L_19 = V_6;
 		if (!L_19)
 		{
-			goto IL_00bd;
+			goto IL_00cf;
 		}
 	}
 	{
 		Il2CppObject * L_20 = V_1;
 		String_t* L_21 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral819969521, L_21, _stringLiteral1623555996, /*hidden argument*/NULL);
+		String_t* L_22 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral3683335528, L_21, _stringLiteral1623555996, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_20, 0, L_22);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_20, 0, L_22);
 	}
 
-IL_009c:
+IL_009d:
 	try
 	{ // begin try (depth: 1)
 		String_t* L_23 = V_0;
 		Directory_CreateDirectory_m3561886598(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
-		goto IL_00bc;
+		Il2CppObject * L_24 = V_1;
+		NullCheck(L_24);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_24, 0, _stringLiteral2047046641);
+		goto IL_00c9;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__exception_local = (Exception_t1927440687 *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->object.klass))
-			goto CATCH_00aa;
+			goto CATCH_00b7;
 		throw e;
 	}
 
-CATCH_00aa:
+CATCH_00b7:
 	{ // begin catch(System.Exception)
 		V_8 = ((Exception_t1927440687 *)__exception_local);
-		Il2CppObject * L_24 = V_1;
-		Exception_t1927440687 * L_25 = V_8;
-		NullCheck(L_24);
-		InterfaceActionInvoker2< int32_t, Exception_t1927440687 * >::Invoke(3 /* System.Void ILog::println(LogType,System.Exception) */, ILog_t767237811_il2cpp_TypeInfo_var, L_24, 0, L_25);
-		goto IL_00bc;
+		Il2CppObject * L_25 = V_1;
+		Exception_t1927440687 * L_26 = V_8;
+		NullCheck(L_25);
+		InterfaceActionInvoker2< int32_t, Exception_t1927440687 * >::Invoke(3 /* System.Void ILog::println(LogType,System.Exception) */, ILog_t767237811_il2cpp_TypeInfo_var, L_25, 0, L_26);
+		goto IL_00c9;
 	} // end catch (depth: 1)
 
-IL_00bc:
+IL_00c9:
 	{
+		goto IL_00dd;
 	}
 
-IL_00bd:
+IL_00cf:
 	{
-		int32_t L_26 = V_5;
-		V_5 = ((int32_t)((int32_t)L_26+(int32_t)1));
+		Il2CppObject * L_27 = V_1;
+		NullCheck(L_27);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_27, 0, _stringLiteral2047046641);
 	}
 
-IL_00c4:
+IL_00dd:
 	{
-		int32_t L_27 = V_5;
-		StringU5BU5D_t1642385972* L_28 = V_4;
-		NullCheck(L_28);
-		if ((((int32_t)L_27) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_28)->max_length)))))))
+		int32_t L_28 = V_5;
+		V_5 = ((int32_t)((int32_t)L_28+(int32_t)1));
+	}
+
+IL_00e4:
+	{
+		int32_t L_29 = V_5;
+		StringU5BU5D_t1642385972* L_30 = V_4;
+		NullCheck(L_30);
+		if ((((int32_t)L_29) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_30)->max_length)))))))
 		{
 			goto IL_002b;
 		}
@@ -1178,36 +1275,10 @@ extern "C"  void AppRunner__ctor_m981531836 (AppRunner_t3717517731 * __this, con
 	{
 		Stack_1_t3783300766 * L_0 = (Stack_1_t3783300766 *)il2cpp_codegen_object_new(Stack_1_t3783300766_il2cpp_TypeInfo_var);
 		Stack_1__ctor_m1454403243(L_0, /*hidden argument*/Stack_1__ctor_m1454403243_MethodInfo_var);
-		__this->set_menuStack_9(L_0);
-		__this->set__exitMenu_11((bool)0);
+		__this->set_menuStack_8(L_0);
+		__this->set__exitMenu_10((bool)0);
 		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
 		return;
-	}
-}
-// System.Boolean AppRunner::get_doUseLocalCache()
-extern Il2CppClass* AppRunner_t3717517731_il2cpp_TypeInfo_var;
-extern const uint32_t AppRunner_get_doUseLocalCache_m2219848970_MetadataUsageId;
-extern "C"  bool AppRunner_get_doUseLocalCache_m2219848970 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (AppRunner_get_doUseLocalCache_m2219848970_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
-		NullCheck(L_0);
-		bool L_1 = L_0->get__doUseLocalCache_5();
-		V_0 = L_1;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		bool L_2 = V_0;
-		return L_2;
 	}
 }
 // System.Collections.IEnumerator AppRunner::Start()
@@ -1265,24 +1336,24 @@ extern "C"  void AppRunner_OnGUI_m4289045736 (AppRunner_t3717517731 * __this, co
 		ITouch_t1873081982 * L_0 = ServiceLocator_getITouch_m241082982(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		ITouch_OnGUI_m566861220(L_0, /*hidden argument*/NULL);
-		bool L_1 = __this->get__exitMenu_11();
+		bool L_1 = __this->get__exitMenu_10();
 		if (!L_1)
 		{
 			goto IL_0045;
 		}
 	}
 	{
-		__this->set__exitMenu_11((bool)0);
-		AppRunner_t3717517731 * L_2 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		__this->set__exitMenu_10((bool)0);
+		AppRunner_t3717517731 * L_2 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_2);
-		Stack_1_t3783300766 * L_3 = L_2->get_menuStack_9();
+		Stack_1_t3783300766 * L_3 = L_2->get_menuStack_8();
 		NullCheck(L_3);
 		IMenu_t2695572612 * L_4 = Stack_1_Pop_m1982893218(L_3, /*hidden argument*/Stack_1_Pop_m1982893218_MethodInfo_var);
 		V_0 = L_4;
 		IMenu_t2695572612 * L_5 = V_0;
 		NullCheck(L_5);
 		IMenu_Dispose_m1388676710(L_5, /*hidden argument*/NULL);
-		Stack_1_t3783300766 * L_6 = __this->get_menuStack_9();
+		Stack_1_t3783300766 * L_6 = __this->get_menuStack_8();
 		NullCheck(L_6);
 		IMenu_t2695572612 * L_7 = Stack_1_Peek_m2579822422(L_6, /*hidden argument*/Stack_1_Peek_m2579822422_MethodInfo_var);
 		NullCheck(L_7);
@@ -1291,7 +1362,7 @@ extern "C"  void AppRunner_OnGUI_m4289045736 (AppRunner_t3717517731 * __this, co
 
 IL_0045:
 	{
-		Stack_1_t3783300766 * L_8 = __this->get_menuStack_9();
+		Stack_1_t3783300766 * L_8 = __this->get_menuStack_8();
 		NullCheck(L_8);
 		int32_t L_9 = Stack_1_get_Count_m1458604555(L_8, /*hidden argument*/Stack_1_get_Count_m1458604555_MethodInfo_var);
 		if ((((int32_t)L_9) <= ((int32_t)0)))
@@ -1300,7 +1371,7 @@ IL_0045:
 		}
 	}
 	{
-		Stack_1_t3783300766 * L_10 = __this->get_menuStack_9();
+		Stack_1_t3783300766 * L_10 = __this->get_menuStack_8();
 		NullCheck(L_10);
 		IMenu_t2695572612 * L_11 = Stack_1_Peek_m2579822422(L_10, /*hidden argument*/Stack_1_Peek_m2579822422_MethodInfo_var);
 		V_1 = L_11;
@@ -1320,7 +1391,7 @@ IL_0045:
 
 IL_007d:
 	{
-		VuforiaManager_t189047469 * L_16 = __this->get_manager_7();
+		VuforiaManager_t189047469 * L_16 = __this->get_manager_6();
 		NullCheck(L_16);
 		VuforiaManager_OnGUI_m1759197696(L_16, /*hidden argument*/NULL);
 	}
@@ -1367,9 +1438,9 @@ extern "C"  float AppRunner_getScreenWidth_m1338908128 (Il2CppObject * __this /*
 	}
 	float V_0 = 0.0f;
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
-		Vector2_t2243707579 * L_1 = L_0->get_address_of_resolution_8();
+		Vector2_t2243707579 * L_1 = L_0->get_address_of_resolution_7();
 		float L_2 = L_1->get_x_0();
 		V_0 = L_2;
 		goto IL_0016;
@@ -1394,9 +1465,9 @@ extern "C"  float AppRunner_getScreenHeight_m2240231141 (Il2CppObject * __this /
 	}
 	float V_0 = 0.0f;
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
-		Vector2_t2243707579 * L_1 = L_0->get_address_of_resolution_8();
+		Vector2_t2243707579 * L_1 = L_0->get_address_of_resolution_7();
 		float L_2 = L_1->get_y_1();
 		V_0 = L_2;
 		goto IL_0016;
@@ -1456,15 +1527,15 @@ extern "C"  void AppRunner_enterMenu_m3117137867 (Il2CppObject * __this /* stati
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
-		Stack_1_t3783300766 * L_1 = L_0->get_menuStack_9();
+		Stack_1_t3783300766 * L_1 = L_0->get_menuStack_8();
 		IMenu_t2695572612 * L_2 = ___menu0;
 		NullCheck(L_1);
 		Stack_1_Push_m3372290986(L_1, L_2, /*hidden argument*/Stack_1_Push_m3372290986_MethodInfo_var);
-		AppRunner_t3717517731 * L_3 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_3 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_3);
-		Stack_1_t3783300766 * L_4 = L_3->get_menuStack_9();
+		Stack_1_t3783300766 * L_4 = L_3->get_menuStack_8();
 		NullCheck(L_4);
 		IMenu_t2695572612 * L_5 = Stack_1_Peek_m2579822422(L_4, /*hidden argument*/Stack_1_Peek_m2579822422_MethodInfo_var);
 		NullCheck(L_5);
@@ -1484,9 +1555,9 @@ extern "C"  void AppRunner_exitMenu_m3212693481 (Il2CppObject * __this /* static
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
-		L_0->set__exitMenu_11((bool)1);
+		L_0->set__exitMenu_10((bool)1);
 		return;
 	}
 }
@@ -1503,7 +1574,7 @@ extern "C"  GameObject_t1756533147 * AppRunner_get_m2284256431 (Il2CppObject * _
 	}
 	GameObject_t1756533147 * V_0 = NULL;
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
 		GameObject_t1756533147 * L_1 = Component_get_gameObject_m3105766835(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
@@ -1529,9 +1600,9 @@ extern "C"  VuforiaManager_t189047469 * AppRunner_getVuforiaManager_m2212219675 
 	}
 	VuforiaManager_t189047469 * V_0 = NULL;
 	{
-		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_6();
+		AppRunner_t3717517731 * L_0 = ((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->get_instance_5();
 		NullCheck(L_0);
-		VuforiaManager_t189047469 * L_1 = L_0->get_manager_7();
+		VuforiaManager_t189047469 * L_1 = L_0->get_manager_6();
 		V_0 = L_1;
 		goto IL_0011;
 	}
@@ -1556,9 +1627,8 @@ extern Il2CppClass* VuforiaManager_t189047469_il2cpp_TypeInfo_var;
 extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
 extern Il2CppClass* CachedLoader_t1584985543_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* ILog_t767237811_il2cpp_TypeInfo_var;
 extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
-extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
-extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
 extern Il2CppClass* Server_t2724320767_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisCoroutineManager_t3765941247_m1721778465_MethodInfo_var;
 extern const MethodInfo* ILoader_getReference_TisString_t_m4202008619_MethodInfo_var;
@@ -1567,6 +1637,7 @@ extern const MethodInfo* Reference_1_getResource_m1060588120_MethodInfo_var;
 extern const MethodInfo* JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var;
 extern const MethodInfo* CrhcFolder_1_loadTarget_m640377937_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2311885397;
+extern Il2CppCodeGenString* _stringLiteral3359777182;
 extern Il2CppCodeGenString* _stringLiteral2425908679;
 extern Il2CppCodeGenString* _stringLiteral299050904;
 extern Il2CppCodeGenString* _stringLiteral3992274106;
@@ -1574,6 +1645,7 @@ extern Il2CppCodeGenString* _stringLiteral208893661;
 extern Il2CppCodeGenString* _stringLiteral615419254;
 extern Il2CppCodeGenString* _stringLiteral2160517912;
 extern Il2CppCodeGenString* _stringLiteral1673894246;
+extern Il2CppCodeGenString* _stringLiteral2047046641;
 extern Il2CppCodeGenString* _stringLiteral4188439907;
 extern const uint32_t U3CStartU3Ec__Iterator0_MoveNext_m2963523162_MetadataUsageId;
 extern "C"  bool U3CStartU3Ec__Iterator0_MoveNext_m2963523162 (U3CStartU3Ec__Iterator0_t2502176187 * __this, const MethodInfo* method)
@@ -1604,13 +1676,13 @@ extern "C"  bool U3CStartU3Ec__Iterator0_MoveNext_m2963523162 (U3CStartU3Ec__Ite
 		}
 	}
 	{
-		goto IL_0235;
+		goto IL_0217;
 	}
 
 IL_0025:
 	{
 		AppRunner_t3717517731 * L_2 = __this->get_U24this_3();
-		((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->set_instance_6(L_2);
+		((AppRunner_t3717517731_StaticFields*)AppRunner_t3717517731_il2cpp_TypeInfo_var->static_fields)->set_instance_5(L_2);
 		AppRunner_t3717517731 * L_3 = __this->get_U24this_3();
 		AppRunner_t3717517731 * L_4 = __this->get_U24this_3();
 		NullCheck(L_4);
@@ -1618,7 +1690,7 @@ IL_0025:
 		VuforiaManager_t189047469 * L_6 = (VuforiaManager_t189047469 *)il2cpp_codegen_object_new(VuforiaManager_t189047469_il2cpp_TypeInfo_var);
 		VuforiaManager__ctor_m78160482(L_6, L_5, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		L_3->set_manager_7(L_6);
+		L_3->set_manager_6(L_6);
 		AppRunner_t3717517731 * L_7 = __this->get_U24this_3();
 		int32_t L_8 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
 		int32_t L_9 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
@@ -1626,7 +1698,7 @@ IL_0025:
 		memset(&L_10, 0, sizeof(L_10));
 		Vector2__ctor_m3067419446(&L_10, (((float)((float)L_8))), (((float)((float)L_9))), /*hidden argument*/NULL);
 		NullCheck(L_7);
-		L_7->set_resolution_8(L_10);
+		L_7->set_resolution_7(L_10);
 		AppRunner_t3717517731 * L_11 = __this->get_U24this_3();
 		NullCheck(L_11);
 		GameObject_t1756533147 * L_12 = Component_get_gameObject_m3105766835(L_11, /*hidden argument*/NULL);
@@ -1645,7 +1717,7 @@ IL_0025:
 
 IL_008d:
 	{
-		goto IL_0237;
+		goto IL_0219;
 	}
 
 IL_0092:
@@ -1678,7 +1750,7 @@ IL_0092:
 
 IL_00e3:
 	{
-		goto IL_0237;
+		goto IL_0219;
 	}
 
 IL_00e8:
@@ -1688,92 +1760,80 @@ IL_00e8:
 		String_t* L_25 = Reference_1_getResource_m1060588120(L_24, /*hidden argument*/Reference_1_getResource_m1060588120_MethodInfo_var);
 		JObject_t278519297 * L_26 = JObject_Parse_m4259391636(NULL /*static, unused*/, L_25, /*hidden argument*/NULL);
 		__this->set_U3CjsonU3E__2_2(L_26);
-		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
-		Number_t1709165791 * L_27 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_NORMAL_13();
-		JObject_t278519297 * L_28 = __this->get_U3CjsonU3E__2_2();
-		NullCheck(L_28);
-		float L_29 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_28, _stringLiteral2425908679);
+		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
+		Il2CppObject * L_27 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_27);
-		Number_set_m2762987286(L_27, L_29, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_30 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_TITLE_11();
-		JObject_t278519297 * L_31 = __this->get_U3CjsonU3E__2_2();
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_27, 0, _stringLiteral3359777182);
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_28 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_NORMAL_13();
+		JObject_t278519297 * L_29 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_29);
+		float L_30 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_29, _stringLiteral2425908679);
+		NullCheck(L_28);
+		Number_set_m2762987286(L_28, L_30, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_31 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_TITLE_11();
+		JObject_t278519297 * L_32 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_32);
+		float L_33 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_32, _stringLiteral299050904);
 		NullCheck(L_31);
-		float L_32 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_31, _stringLiteral299050904);
-		NullCheck(L_30);
-		Number_set_m2762987286(L_30, L_32, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_33 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_SUBTITLE_12();
-		JObject_t278519297 * L_34 = __this->get_U3CjsonU3E__2_2();
+		Number_set_m2762987286(L_31, L_33, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_34 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_SUBTITLE_12();
+		JObject_t278519297 * L_35 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_35);
+		float L_36 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_35, _stringLiteral3992274106);
 		NullCheck(L_34);
-		float L_35 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_34, _stringLiteral3992274106);
-		NullCheck(L_33);
-		Number_set_m2762987286(L_33, L_35, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_36 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_SOURCE_14();
-		JObject_t278519297 * L_37 = __this->get_U3CjsonU3E__2_2();
+		Number_set_m2762987286(L_34, L_36, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_37 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_HEIGHT_SOURCE_14();
+		JObject_t278519297 * L_38 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_38);
+		float L_39 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_38, _stringLiteral208893661);
 		NullCheck(L_37);
-		float L_38 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_37, _stringLiteral208893661);
-		NullCheck(L_36);
-		Number_set_m2762987286(L_36, L_38, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_39 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_BACK_BUTTON_15();
-		JObject_t278519297 * L_40 = __this->get_U3CjsonU3E__2_2();
+		Number_set_m2762987286(L_37, L_39, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_40 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_BACK_BUTTON_15();
+		JObject_t278519297 * L_41 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_41);
+		float L_42 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_41, _stringLiteral615419254);
 		NullCheck(L_40);
-		float L_41 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_40, _stringLiteral615419254);
-		NullCheck(L_39);
-		Number_set_m2762987286(L_39, L_41, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_42 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_HOME_BUTTON_16();
-		JObject_t278519297 * L_43 = __this->get_U3CjsonU3E__2_2();
+		Number_set_m2762987286(L_40, L_42, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_43 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_HOME_BUTTON_16();
+		JObject_t278519297 * L_44 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_44);
+		float L_45 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_44, _stringLiteral2160517912);
 		NullCheck(L_43);
-		float L_44 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_43, _stringLiteral2160517912);
-		NullCheck(L_42);
-		Number_set_m2762987286(L_42, L_44, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_45 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_VUFORIA_FRAME_17();
-		JObject_t278519297 * L_46 = __this->get_U3CjsonU3E__2_2();
+		Number_set_m2762987286(L_43, L_45, 1, /*hidden argument*/NULL);
+		Number_t1709165791 * L_46 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_VUFORIA_FRAME_17();
+		JObject_t278519297 * L_47 = __this->get_U3CjsonU3E__2_2();
+		NullCheck(L_47);
+		float L_48 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_47, _stringLiteral1673894246);
 		NullCheck(L_46);
-		float L_47 = GenericVirtFuncInvoker1< float, Il2CppObject * >::Invoke(JToken_Value_TisSingle_t2076509932_m2370215520_MethodInfo_var, L_46, _stringLiteral1673894246);
-		NullCheck(L_45);
-		Number_set_m2762987286(L_45, L_47, 1, /*hidden argument*/NULL);
-		Number_t1709165791 * L_48 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_VUFORIA_FRAME_17();
-		NullCheck(L_48);
-		float L_49 = Number_getValue_m4143448393(L_48, /*hidden argument*/NULL);
-		float L_50 = L_49;
-		Il2CppObject * L_51 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_50);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m920475918(NULL /*static, unused*/, L_51, /*hidden argument*/NULL);
-		Number_t1709165791 * L_52 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_VUFORIA_FRAME_17();
-		NullCheck(L_52);
-		float L_53 = Number_getAs_m2157461677(L_52, 0, /*hidden argument*/NULL);
-		float L_54 = L_53;
-		Il2CppObject * L_55 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_54);
-		Debug_Log_m920475918(NULL /*static, unused*/, L_55, /*hidden argument*/NULL);
-		Number_t1709165791 * L_56 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_VUFORIA_FRAME_17();
-		NullCheck(L_56);
-		float L_57 = Number_getAs_m2157461677(L_56, 1, /*hidden argument*/NULL);
-		float L_58 = L_57;
-		Il2CppObject * L_59 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_58);
-		Debug_Log_m920475918(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
-		Reference_1_t1521747920 * L_60 = __this->get_U3CstyleTextU3E__1_1();
-		NullCheck(L_60);
-		Reference_removeOwner_m1167692895(L_60, /*hidden argument*/NULL);
-		AppRunner_t3717517731 * L_61 = __this->get_U24this_3();
+		Number_set_m2762987286(L_46, L_48, 1, /*hidden argument*/NULL);
+		Il2CppObject * L_49 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_49);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, L_49, 0, _stringLiteral2047046641);
+		Reference_1_t1521747920 * L_50 = __this->get_U3CstyleTextU3E__1_1();
+		NullCheck(L_50);
+		Reference_removeOwner_m1167692895(L_50, /*hidden argument*/NULL);
+		AppRunner_t3717517731 * L_51 = __this->get_U24this_3();
 		IL2CPP_RUNTIME_CLASS_INIT(CachedLoader_t1584985543_il2cpp_TypeInfo_var);
-		String_t* L_62 = ((CachedLoader_t1584985543_StaticFields*)CachedLoader_t1584985543_il2cpp_TypeInfo_var->static_fields)->get_SERVER_PATH_3();
-		Server_t2724320767 * L_63 = (Server_t2724320767 *)il2cpp_codegen_object_new(Server_t2724320767_il2cpp_TypeInfo_var);
-		Server__ctor_m3460232072(L_63, L_62, /*hidden argument*/NULL);
-		NullCheck(L_61);
-		L_61->set_server_10(L_63);
-		AppRunner_t3717517731 * L_64 = __this->get_U24this_3();
-		NullCheck(L_64);
-		Server_t2724320767 * L_65 = L_64->get_server_10();
-		NullCheck(L_65);
-		CrhcFolder_1_loadTarget_m640377937(L_65, _stringLiteral4188439907, /*hidden argument*/CrhcFolder_1_loadTarget_m640377937_MethodInfo_var);
+		String_t* L_52 = ((CachedLoader_t1584985543_StaticFields*)CachedLoader_t1584985543_il2cpp_TypeInfo_var->static_fields)->get_SERVER_PATH_3();
+		Server_t2724320767 * L_53 = (Server_t2724320767 *)il2cpp_codegen_object_new(Server_t2724320767_il2cpp_TypeInfo_var);
+		Server__ctor_m3460232072(L_53, L_52, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		L_51->set_server_9(L_53);
+		AppRunner_t3717517731 * L_54 = __this->get_U24this_3();
+		NullCheck(L_54);
+		Server_t2724320767 * L_55 = L_54->get_server_9();
+		NullCheck(L_55);
+		CrhcFolder_1_loadTarget_m640377937(L_55, _stringLiteral4188439907, /*hidden argument*/CrhcFolder_1_loadTarget_m640377937_MethodInfo_var);
 		__this->set_U24PC_6((-1));
 	}
 
-IL_0235:
+IL_0217:
 	{
 		return (bool)0;
 	}
 
-IL_0237:
+IL_0219:
 	{
 		return (bool)1;
 	}
@@ -1837,8 +1897,10 @@ extern "C"  void U3CStartU3Ec__Iterator0_Reset_m14216415 (U3CStartU3Ec__Iterator
 	}
 }
 // System.Void AudioPlayerRow::.ctor(System.String)
+extern Il2CppClass* Number_t1709165791_il2cpp_TypeInfo_var;
 extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
-extern const MethodInfo* ILoader_load_TisAudioClip_t1932558630_m3225085417_MethodInfo_var;
+extern const MethodInfo* ILoader_getReference_TisAudioClip_t1932558630_m156785100_MethodInfo_var;
+extern const MethodInfo* ILoader_load_TisAudioClip_t1932558630_m1472241010_MethodInfo_var;
 extern const uint32_t AudioPlayerRow__ctor_m157042350_MetadataUsageId;
 extern "C"  void AudioPlayerRow__ctor_m157042350 (AudioPlayerRow_t2396008217 * __this, String_t* ___audioURL0, const MethodInfo* method)
 {
@@ -1848,31 +1910,422 @@ extern "C"  void AudioPlayerRow__ctor_m157042350 (AudioPlayerRow_t2396008217 * _
 		il2cpp_codegen_initialize_method (AudioPlayerRow__ctor_m157042350_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	ILoader_t1641484032 * V_0 = NULL;
 	{
-		__this->set_AUDIO_PLAYER_HEIGHT_1((45.0f));
+		Number_t1709165791 * L_0 = (Number_t1709165791 *)il2cpp_codegen_object_new(Number_t1709165791_il2cpp_TypeInfo_var);
+		Number__ctor_m1081481258(L_0, (0.5f), 1, /*hidden argument*/NULL);
+		__this->set_AUDIO_PLAYER_HEIGHT_1(L_0);
+		__this->set_hasWaveformTexture_5((bool)0);
+		__this->set_progress_6((0.0f));
+		__this->set_stepsPerFrame_7(((int32_t)20));
+		__this->set_wasHeld_8((bool)0);
+		__this->set_isScrubbing_9((bool)0);
+		__this->set_playState_10(0);
 		IRow__ctor_m2050716916(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
-		ILoader_t1641484032 * L_0 = ServiceLocator_getILoader_m4220107979(NULL /*static, unused*/, /*hidden argument*/NULL);
-		String_t* L_1 = ___audioURL0;
-		NullCheck(L_0);
-		Reference_1_t1425086317 * L_2 = ILoader_load_TisAudioClip_t1932558630_m3225085417(L_0, L_1, /*hidden argument*/ILoader_load_TisAudioClip_t1932558630_m3225085417_MethodInfo_var);
-		__this->set_audioClip_2(L_2);
+		ILoader_t1641484032 * L_1 = ServiceLocator_getILoader_m4220107979(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		ILoader_t1641484032 * L_2 = V_0;
+		String_t* L_3 = ___audioURL0;
+		NullCheck(L_2);
+		Reference_1_t1425086317 * L_4 = ILoader_getReference_TisAudioClip_t1932558630_m156785100(L_2, L_3, /*hidden argument*/ILoader_getReference_TisAudioClip_t1932558630_m156785100_MethodInfo_var);
+		__this->set_audioClip_2(L_4);
+		ILoader_t1641484032 * L_5 = V_0;
+		Reference_1_t1425086317 * L_6 = __this->get_audioClip_2();
+		NullCheck(L_5);
+		ILoader_load_TisAudioClip_t1932558630_m1472241010(L_5, L_6, /*hidden argument*/ILoader_load_TisAudioClip_t1932558630_m1472241010_MethodInfo_var);
 		return;
 	}
 }
-// System.Boolean AudioPlayerRow::draw(System.Single)
-extern "C"  bool AudioPlayerRow_draw_m1324370189 (AudioPlayerRow_t2396008217 * __this, float ___w0, const MethodInfo* method)
+// System.Void AudioPlayerRow::AudioClip_onLoad()
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern const uint32_t AudioPlayerRow_AudioClip_onLoad_m3784991962_MetadataUsageId;
+extern "C"  void AudioPlayerRow_AudioClip_onLoad_m3784991962 (AudioPlayerRow_t2396008217 * __this, const MethodInfo* method)
 {
-	bool V_0 = false;
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		V_0 = (bool)0;
-		goto IL_0008;
+		il2cpp_codegen_initialize_method (AudioPlayerRow_AudioClip_onLoad_m3784991962_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_1 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_PADDING_H_18();
+		NullCheck(L_1);
+		float L_2 = Number_getAs_m2157461677(L_1, 0, /*hidden argument*/NULL);
+		V_0 = (((int32_t)((int32_t)((float)((float)(((float)((float)L_0)))-(float)((float)((float)(2.0f)*(float)L_2)))))));
+		float L_3 = VirtFuncInvoker1< float, float >::Invoke(6 /* System.Single IRow::getPixelHeight(System.Single) */, __this, (0.0f));
+		V_1 = (((int32_t)((int32_t)L_3)));
+		int32_t L_4 = V_0;
+		int32_t L_5 = V_1;
+		Il2CppObject * L_6 = AudioPlayerRow_createTextureCoroutine_m585483435(__this, ((int32_t)((int32_t)L_4/(int32_t)2)), ((int32_t)((int32_t)L_5/(int32_t)2)), /*hidden argument*/NULL);
+		CoroutineManager_startCoroutine_m513441685(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator AudioPlayerRow::createTextureCoroutine(System.Int32,System.Int32)
+extern Il2CppClass* U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778_il2cpp_TypeInfo_var;
+extern const uint32_t AudioPlayerRow_createTextureCoroutine_m585483435_MetadataUsageId;
+extern "C"  Il2CppObject * AudioPlayerRow_createTextureCoroutine_m585483435 (AudioPlayerRow_t2396008217 * __this, int32_t ___iW0, int32_t ___iH1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AudioPlayerRow_createTextureCoroutine_m585483435_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * L_0 = (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 *)il2cpp_codegen_object_new(U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778_il2cpp_TypeInfo_var);
+		U3CcreateTextureCoroutineU3Ec__Iterator0__ctor_m4170878365(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * L_1 = V_0;
+		int32_t L_2 = ___iW0;
+		NullCheck(L_1);
+		L_1->set_iW_0(L_2);
+		U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * L_3 = V_0;
+		int32_t L_4 = ___iH1;
+		NullCheck(L_3);
+		L_3->set_iH_1(L_4);
+		U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->set_U24this_11(__this);
+		U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0022;
 	}
 
-IL_0008:
+IL_0022:
 	{
-		bool L_0 = V_0;
-		return L_0;
+		Il2CppObject * L_7 = V_1;
+		return L_7;
+	}
+}
+// System.Boolean AudioPlayerRow::draw(System.Single)
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIX_t1405793021_il2cpp_TypeInfo_var;
+extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Reference_1_getResource_m1939025427_MethodInfo_var;
+extern const MethodInfo* Reference_1_isLoaded_m3532628097_MethodInfo_var;
+extern const uint32_t AudioPlayerRow_draw_m1324370189_MetadataUsageId;
+extern "C"  bool AudioPlayerRow_draw_m1324370189 (AudioPlayerRow_t2396008217 * __this, float ___w0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AudioPlayerRow_draw_m1324370189_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Rect_t3681755626  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	ITouch_t1873081982 * V_3 = NULL;
+	float V_4 = 0.0f;
+	Vector2_t2243707579  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Color_t2020392075  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	bool V_10 = false;
+	Color_t2020392075  G_B24_0;
+	memset(&G_B24_0, 0, sizeof(G_B24_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_0 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_PADDING_H_18();
+		NullCheck(L_0);
+		float L_1 = Number_getAs_m2157461677(L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		float L_2 = ___w0;
+		float L_3 = V_0;
+		___w0 = ((float)((float)L_2-(float)((float)((float)(2.0f)*(float)L_3))));
+		float L_4 = ___w0;
+		float L_5 = VirtFuncInvoker1< float, float >::Invoke(6 /* System.Single IRow::getPixelHeight(System.Single) */, __this, L_4);
+		V_1 = L_5;
+		bool L_6 = __this->get_hasWaveformTexture_5();
+		if (!L_6)
+		{
+			goto IL_01d5;
+		}
+	}
+	{
+		float L_7 = V_0;
+		float L_8 = ___w0;
+		float L_9 = V_1;
+		Rect__ctor_m1220545469((&V_2), L_7, (0.0f), L_8, L_9, /*hidden argument*/NULL);
+		Rect_t3681755626  L_10 = V_2;
+		Texture2D_t3542995729 * L_11 = __this->get_waveformTexture_4();
+		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+		GUIX_Texture_m3816154496(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
+		ITouch_t1873081982 * L_12 = ServiceLocator_getITouch_m241082982(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_12;
+		Rect_t3681755626  L_13 = V_2;
+		bool L_14 = GUIX_isTouchInsideRect_m3040823096(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		if (!L_14)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		ITouch_t1873081982 * L_15 = V_3;
+		NullCheck(L_15);
+		bool L_16 = ITouch_checkTap_m703564409(L_15, /*hidden argument*/NULL);
+		if (!L_16)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		AudioPlayerRow_togglePlayPause_m3104929388(__this, /*hidden argument*/NULL);
+		goto IL_00a3;
+	}
+
+IL_0071:
+	{
+		bool L_17 = __this->get_wasHeld_8();
+		if (L_17)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		ITouch_t1873081982 * L_18 = V_3;
+		NullCheck(L_18);
+		bool L_19 = ITouch_isHeld_m2327857625(L_18, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		bool L_20 = __this->get_isScrubbing_9();
+		if (L_20)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		__this->set_isScrubbing_9((bool)1);
+		AudioPlayerRow_pause_m3783548342(__this, /*hidden argument*/NULL);
+	}
+
+IL_00a2:
+	{
+	}
+
+IL_00a3:
+	{
+	}
+
+IL_00a4:
+	{
+		ITouch_t1873081982 * L_21 = V_3;
+		NullCheck(L_21);
+		bool L_22 = ITouch_isHeld_m2327857625(L_21, /*hidden argument*/NULL);
+		__this->set_wasHeld_8(L_22);
+		ITouch_t1873081982 * L_23 = V_3;
+		NullCheck(L_23);
+		bool L_24 = ITouch_isDown_m994474180(L_23, /*hidden argument*/NULL);
+		if (!L_24)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		bool L_25 = __this->get_isScrubbing_9();
+		if (!L_25)
+		{
+			goto IL_0113;
+		}
+	}
+	{
+		Reference_1_t1425086317 * L_26 = __this->get_audioClip_2();
+		NullCheck(L_26);
+		AudioClip_t1932558630 * L_27 = Reference_1_getResource_m1939025427(L_26, /*hidden argument*/Reference_1_getResource_m1939025427_MethodInfo_var);
+		NullCheck(L_27);
+		float L_28 = AudioClip_get_length_m3881628918(L_27, /*hidden argument*/NULL);
+		V_4 = L_28;
+		AudioSource_t1135106623 * L_29 = __this->get_audioSource_3();
+		float L_30 = V_4;
+		ITouch_t1873081982 * L_31 = V_3;
+		NullCheck(L_31);
+		Vector2_t2243707579  L_32 = ITouch_getTouchPosition_m2005551595(L_31, /*hidden argument*/NULL);
+		V_5 = L_32;
+		float L_33 = (&V_5)->get_x_0();
+		float L_34 = V_0;
+		float L_35 = ___w0;
+		float L_36 = V_4;
+		float L_37 = Math_Min_m105057611(NULL /*static, unused*/, ((float)((float)((float)((float)L_30*(float)((float)((float)L_33-(float)L_34))))/(float)L_35)), L_36, /*hidden argument*/NULL);
+		float L_38 = Math_Max_m3360711905(NULL /*static, unused*/, (0.0f), L_37, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		AudioSource_set_time_m2642008583(L_29, L_38, /*hidden argument*/NULL);
+		ITouch_t1873081982 * L_39 = V_3;
+		NullCheck(L_39);
+		ITouch_clearDragVector_m3089249660(L_39, /*hidden argument*/NULL);
+	}
+
+IL_0113:
+	{
+		goto IL_0135;
+	}
+
+IL_0119:
+	{
+		bool L_40 = __this->get_isScrubbing_9();
+		if (!L_40)
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		__this->set_isScrubbing_9((bool)0);
+		AudioPlayerRow_play_m3365033384(__this, /*hidden argument*/NULL);
+	}
+
+IL_0134:
+	{
+	}
+
+IL_0135:
+	{
+		AudioSource_t1135106623 * L_41 = __this->get_audioSource_3();
+		NullCheck(L_41);
+		bool L_42 = AudioSource_get_isPlaying_m3677592677(L_41, /*hidden argument*/NULL);
+		if (L_42)
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		int32_t L_43 = __this->get_playState_10();
+		if ((!(((uint32_t)L_43) == ((uint32_t)1))))
+		{
+			goto IL_0159;
+		}
+	}
+	{
+		AudioPlayerRow_stop_m135207786(__this, /*hidden argument*/NULL);
+	}
+
+IL_0159:
+	{
+		int32_t L_44 = __this->get_playState_10();
+		if (!L_44)
+		{
+			goto IL_01cf;
+		}
+	}
+	{
+		int32_t L_45 = __this->get_playState_10();
+		if ((!(((uint32_t)L_45) == ((uint32_t)1))))
+		{
+			goto IL_017b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_46 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_RED_3();
+		G_B24_0 = L_46;
+		goto IL_0180;
+	}
+
+IL_017b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_47 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_BLUE_DARK_0();
+		G_B24_0 = L_47;
+	}
+
+IL_0180:
+	{
+		V_6 = G_B24_0;
+		AudioSource_t1135106623 * L_48 = __this->get_audioSource_3();
+		NullCheck(L_48);
+		float L_49 = AudioSource_get_time_m1465582328(L_48, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_50 = __this->get_audioSource_3();
+		NullCheck(L_50);
+		AudioClip_t1932558630 * L_51 = AudioSource_get_clip_m2127996365(L_50, /*hidden argument*/NULL);
+		NullCheck(L_51);
+		float L_52 = AudioClip_get_length_m3881628918(L_51, /*hidden argument*/NULL);
+		V_7 = ((float)((float)L_49/(float)L_52));
+		float L_53 = ___w0;
+		float L_54 = V_7;
+		V_8 = ((float)((float)L_53*(float)L_54));
+		V_9 = (5.0f);
+		float L_55 = V_0;
+		float L_56 = V_8;
+		float L_57 = V_9;
+		float L_58 = V_9;
+		float L_59 = V_1;
+		Rect_t3681755626  L_60;
+		memset(&L_60, 0, sizeof(L_60));
+		Rect__ctor_m1220545469(&L_60, ((float)((float)((float)((float)L_55+(float)L_56))-(float)((float)((float)L_57/(float)(2.0f))))), (0.0f), L_58, L_59, /*hidden argument*/NULL);
+		Color_t2020392075  L_61 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+		GUIX_fillRect_m970029164(NULL /*static, unused*/, L_60, L_61, /*hidden argument*/NULL);
+	}
+
+IL_01cf:
+	{
+		goto IL_021e;
+	}
+
+IL_01d5:
+	{
+		Reference_1_t1425086317 * L_62 = __this->get_audioClip_2();
+		NullCheck(L_62);
+		bool L_63 = Reference_1_isLoaded_m3532628097(L_62, /*hidden argument*/Reference_1_isLoaded_m3532628097_MethodInfo_var);
+		if (!L_63)
+		{
+			goto IL_01ff;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_64 = __this->get_waveformTexture_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_65 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_64, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_65)
+		{
+			goto IL_01ff;
+		}
+	}
+	{
+		AudioPlayerRow_AudioClip_onLoad_m3784991962(__this, /*hidden argument*/NULL);
+	}
+
+IL_01ff:
+	{
+		float L_66 = V_0;
+		float L_67 = ___w0;
+		float L_68 = __this->get_progress_6();
+		float L_69 = V_1;
+		Rect_t3681755626  L_70;
+		memset(&L_70, 0, sizeof(L_70));
+		Rect__ctor_m1220545469(&L_70, L_66, (0.0f), ((float)((float)L_67*(float)L_68)), L_69, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_71 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
+		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+		GUIX_fillRect_m970029164(NULL /*static, unused*/, L_70, L_71, /*hidden argument*/NULL);
+	}
+
+IL_021e:
+	{
+		V_10 = (bool)0;
+		goto IL_0226;
+	}
+
+IL_0226:
+	{
+		bool L_72 = V_10;
+		return L_72;
 	}
 }
 // System.Single AudioPlayerRow::getPixelHeight(System.Single)
@@ -1880,15 +2333,17 @@ extern "C"  float AudioPlayerRow_getPixelHeight_m4218719392 (AudioPlayerRow_t239
 {
 	float V_0 = 0.0f;
 	{
-		float L_0 = __this->get_AUDIO_PLAYER_HEIGHT_1();
-		V_0 = L_0;
-		goto IL_000d;
+		Number_t1709165791 * L_0 = __this->get_AUDIO_PLAYER_HEIGHT_1();
+		NullCheck(L_0);
+		float L_1 = Number_getAs_m2157461677(L_0, 0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_0013;
 	}
 
-IL_000d:
+IL_0013:
 	{
-		float L_1 = V_0;
-		return L_1;
+		float L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Void AudioPlayerRow::onDispose()
@@ -1900,6 +2355,529 @@ extern "C"  void AudioPlayerRow_onDispose_m3459122586 (AudioPlayerRow_t239600821
 		Reference_removeOwner_m1167692895(L_0, /*hidden argument*/NULL);
 		__this->set_audioClip_2((Reference_1_t1425086317 *)NULL);
 		return;
+	}
+}
+// System.Void AudioPlayerRow::stop()
+extern "C"  void AudioPlayerRow_stop_m135207786 (AudioPlayerRow_t2396008217 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_playState_10(0);
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_3();
+		NullCheck(L_0);
+		AudioSource_Stop_m3452679614(L_0, /*hidden argument*/NULL);
+		AudioSource_t1135106623 * L_1 = __this->get_audioSource_3();
+		NullCheck(L_1);
+		AudioSource_set_time_m2642008583(L_1, (0.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void AudioPlayerRow::pause()
+extern "C"  void AudioPlayerRow_pause_m3783548342 (AudioPlayerRow_t2396008217 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_playState_10(2);
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_3();
+		NullCheck(L_0);
+		AudioSource_Pause_m71375470(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void AudioPlayerRow::play()
+extern "C"  void AudioPlayerRow_play_m3365033384 (AudioPlayerRow_t2396008217 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_playState_10(1);
+		AudioSource_t1135106623 * L_0 = __this->get_audioSource_3();
+		NullCheck(L_0);
+		AudioSource_Play_m353744792(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void AudioPlayerRow::togglePlayPause()
+extern "C"  void AudioPlayerRow_togglePlayPause_m3104929388 (AudioPlayerRow_t2396008217 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_playState_10();
+		if ((((int32_t)L_0) == ((int32_t)2)))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		int32_t L_1 = __this->get_playState_10();
+		if (L_1)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_0018:
+	{
+		AudioPlayerRow_play_m3365033384(__this, /*hidden argument*/NULL);
+		goto IL_0039;
+	}
+
+IL_0025:
+	{
+		int32_t L_2 = __this->get_playState_10();
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		AudioPlayerRow_pause_m3783548342(__this, /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
+		return;
+	}
+}
+// System.Void AudioPlayerRow/<createTextureCoroutine>c__Iterator0::.ctor()
+extern "C"  void U3CcreateTextureCoroutineU3Ec__Iterator0__ctor_m4170878365 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean AudioPlayerRow/<createTextureCoroutine>c__Iterator0::MoveNext()
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var;
+extern const MethodInfo* Reference_1_getResource_m1939025427_MethodInfo_var;
+extern const uint32_t U3CcreateTextureCoroutineU3Ec__Iterator0_MoveNext_m954588095_MetadataUsageId;
+extern "C"  bool U3CcreateTextureCoroutineU3Ec__Iterator0_MoveNext_m954588095 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CcreateTextureCoroutineU3Ec__Iterator0_MoveNext_m954588095_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	AudioClip_t1932558630 * V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	{
+		int32_t L_0 = __this->get_U24PC_14();
+		V_0 = L_0;
+		__this->set_U24PC_14((-1));
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0025;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_020f;
+		}
+		if (L_1 == 2)
+		{
+			goto IL_0363;
+		}
+	}
+	{
+		goto IL_03a8;
+	}
+
+IL_0025:
+	{
+		AudioPlayerRow_t2396008217 * L_2 = __this->get_U24this_11();
+		NullCheck(L_2);
+		Texture2D_t3542995729 * L_3 = L_2->get_waveformTexture_4();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_03a1;
+		}
+	}
+	{
+		AudioPlayerRow_t2396008217 * L_5 = __this->get_U24this_11();
+		int32_t L_6 = __this->get_iW_0();
+		int32_t L_7 = __this->get_iH_1();
+		Texture2D_t3542995729 * L_8 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m3598323350(L_8, L_6, L_7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->set_waveformTexture_4(L_8);
+		AudioPlayerRow_t2396008217 * L_9 = __this->get_U24this_11();
+		GameObject_t1756533147 * L_10 = AppRunner_get_m2284256431(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		AudioSource_t1135106623 * L_11 = GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270(L_10, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t1135106623_m1060393270_MethodInfo_var);
+		NullCheck(L_9);
+		L_9->set_audioSource_3(L_11);
+		AudioPlayerRow_t2396008217 * L_12 = __this->get_U24this_11();
+		NullCheck(L_12);
+		AudioSource_t1135106623 * L_13 = L_12->get_audioSource_3();
+		AudioPlayerRow_t2396008217 * L_14 = __this->get_U24this_11();
+		NullCheck(L_14);
+		Reference_1_t1425086317 * L_15 = L_14->get_audioClip_2();
+		NullCheck(L_15);
+		AudioClip_t1932558630 * L_16 = Reference_1_getResource_m1939025427(L_15, /*hidden argument*/Reference_1_getResource_m1939025427_MethodInfo_var);
+		AudioClip_t1932558630 * L_17 = L_16;
+		V_1 = L_17;
+		__this->set_U3CclipU3E__0_2(L_17);
+		AudioClip_t1932558630 * L_18 = V_1;
+		NullCheck(L_13);
+		AudioSource_set_clip_m738814682(L_13, L_18, /*hidden argument*/NULL);
+		AudioClip_t1932558630 * L_19 = __this->get_U3CclipU3E__0_2();
+		NullCheck(L_19);
+		int32_t L_20 = AudioClip_get_samples_m3690111759(L_19, /*hidden argument*/NULL);
+		AudioClip_t1932558630 * L_21 = __this->get_U3CclipU3E__0_2();
+		NullCheck(L_21);
+		int32_t L_22 = AudioClip_get_channels_m211770176(L_21, /*hidden argument*/NULL);
+		__this->set_U3CsamplesU3E__1_3(((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)L_20*(int32_t)L_22)))));
+		AudioClip_t1932558630 * L_23 = __this->get_U3CclipU3E__0_2();
+		SingleU5BU5D_t577127397* L_24 = __this->get_U3CsamplesU3E__1_3();
+		NullCheck(L_23);
+		AudioClip_GetData_m1645657273(L_23, L_24, 0, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_25 = __this->get_U3CsamplesU3E__1_3();
+		NullCheck(L_25);
+		int32_t L_26 = __this->get_iW_0();
+		__this->set_U3CresolutionU3E__2_4((((float)((float)((int32_t)((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_25)->max_length))))/(int32_t)L_26))))));
+		int32_t L_27 = __this->get_iW_0();
+		__this->set_U3CwaveFormU3E__3_5(((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)L_27)));
+		__this->set_U3CmaxAmpU3E__4_6((0.0f));
+		__this->set_U3CstepsU3E__5_7(0);
+		__this->set_U3CiU3E__6_8(0);
+		goto IL_021f;
+	}
+
+IL_0111:
+	{
+		SingleU5BU5D_t577127397* L_28 = __this->get_U3CwaveFormU3E__3_5();
+		int32_t L_29 = __this->get_U3CiU3E__6_8();
+		NullCheck(L_28);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(L_29), (float)(0.0f));
+		V_2 = 0;
+		goto IL_0164;
+	}
+
+IL_012b:
+	{
+		SingleU5BU5D_t577127397* L_30 = __this->get_U3CwaveFormU3E__3_5();
+		int32_t L_31 = __this->get_U3CiU3E__6_8();
+		NullCheck(L_30);
+		float* L_32 = ((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)));
+		SingleU5BU5D_t577127397* L_33 = __this->get_U3CsamplesU3E__1_3();
+		int32_t L_34 = __this->get_U3CiU3E__6_8();
+		float L_35 = __this->get_U3CresolutionU3E__2_4();
+		int32_t L_36 = V_2;
+		NullCheck(L_33);
+		int32_t L_37 = (((int32_t)((int32_t)((float)((float)((float)((float)(((float)((float)L_34)))*(float)L_35))+(float)(((float)((float)L_36))))))));
+		float L_38 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_39 = fabsf(L_38);
+		*((float*)(L_32)) = (float)((float)((float)(*((float*)L_32))+(float)L_39));
+		int32_t L_40 = V_2;
+		V_2 = ((int32_t)((int32_t)L_40+(int32_t)1));
+	}
+
+IL_0164:
+	{
+		int32_t L_41 = V_2;
+		float L_42 = __this->get_U3CresolutionU3E__2_4();
+		if ((((float)(((float)((float)L_41)))) < ((float)L_42)))
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		SingleU5BU5D_t577127397* L_43 = __this->get_U3CwaveFormU3E__3_5();
+		int32_t L_44 = __this->get_U3CiU3E__6_8();
+		NullCheck(L_43);
+		float* L_45 = ((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)));
+		float L_46 = __this->get_U3CresolutionU3E__2_4();
+		*((float*)(L_45)) = (float)((float)((float)(*((float*)L_45))/(float)L_46));
+		float L_47 = __this->get_U3CmaxAmpU3E__4_6();
+		SingleU5BU5D_t577127397* L_48 = __this->get_U3CwaveFormU3E__3_5();
+		int32_t L_49 = __this->get_U3CiU3E__6_8();
+		NullCheck(L_48);
+		int32_t L_50 = L_49;
+		float L_51 = (L_48)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		float L_52 = fabsf(L_51);
+		float L_53 = Math_Max_m3360711905(NULL /*static, unused*/, L_47, L_52, /*hidden argument*/NULL);
+		__this->set_U3CmaxAmpU3E__4_6(L_53);
+		int32_t L_54 = __this->get_U3CstepsU3E__5_7();
+		int32_t L_55 = L_54;
+		V_3 = L_55;
+		__this->set_U3CstepsU3E__5_7(((int32_t)((int32_t)L_55+(int32_t)1)));
+		int32_t L_56 = V_3;
+		AudioPlayerRow_t2396008217 * L_57 = __this->get_U24this_11();
+		NullCheck(L_57);
+		int32_t L_58 = L_57->get_stepsPerFrame_7();
+		if (((int32_t)((int32_t)L_56%(int32_t)L_58)))
+		{
+			goto IL_0210;
+		}
+	}
+	{
+		AudioPlayerRow_t2396008217 * L_59 = __this->get_U24this_11();
+		int32_t L_60 = __this->get_U3CiU3E__6_8();
+		SingleU5BU5D_t577127397* L_61 = __this->get_U3CwaveFormU3E__3_5();
+		NullCheck(L_61);
+		NullCheck(L_59);
+		L_59->set_progress_6(((float)((float)((float)((float)(0.5f)*(float)(((float)((float)L_60)))))/(float)(((float)((float)(((int32_t)((int32_t)(((Il2CppArray *)L_61)->max_length))))))))));
+		__this->set_U24current_12(NULL);
+		bool L_62 = __this->get_U24disposing_13();
+		if (L_62)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		__this->set_U24PC_14(1);
+	}
+
+IL_020a:
+	{
+		goto IL_03aa;
+	}
+
+IL_020f:
+	{
+	}
+
+IL_0210:
+	{
+		int32_t L_63 = __this->get_U3CiU3E__6_8();
+		__this->set_U3CiU3E__6_8(((int32_t)((int32_t)L_63+(int32_t)1)));
+	}
+
+IL_021f:
+	{
+		int32_t L_64 = __this->get_U3CiU3E__6_8();
+		SingleU5BU5D_t577127397* L_65 = __this->get_U3CwaveFormU3E__3_5();
+		NullCheck(L_65);
+		if ((((int32_t)L_64) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_65)->max_length)))))))
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		float L_66 = __this->get_U3CmaxAmpU3E__4_6();
+		float L_67 = L_66;
+		Il2CppObject * L_68 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_67);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_68, /*hidden argument*/NULL);
+		__this->set_U3CxU3E__7_9(0);
+		goto IL_0373;
+	}
+
+IL_024e:
+	{
+		SingleU5BU5D_t577127397* L_69 = __this->get_U3CwaveFormU3E__3_5();
+		int32_t L_70 = __this->get_U3CxU3E__7_9();
+		NullCheck(L_69);
+		int32_t L_71 = L_70;
+		float L_72 = (L_69)->GetAt(static_cast<il2cpp_array_size_t>(L_71));
+		float L_73 = __this->get_U3CmaxAmpU3E__4_6();
+		__this->set_U3CampU3E__8_10(((float)((float)L_72/(float)L_73)));
+		V_4 = 0;
+		goto IL_02f2;
+	}
+
+IL_0271:
+	{
+		int32_t L_74 = V_4;
+		int32_t L_75 = __this->get_iH_1();
+		V_5 = ((float)((float)(2.0f)*(float)((float)((float)((float)((float)((float)((float)(1.0f)*(float)(((float)((float)L_74)))))/(float)(((float)((float)L_75)))))-(float)(0.5f)))));
+		float L_76 = V_5;
+		float L_77 = fabsf(L_76);
+		float L_78 = __this->get_U3CampU3E__8_10();
+		float L_79 = fabsf(L_78);
+		if ((!(((float)L_77) <= ((float)L_79))))
+		{
+			goto IL_02cc;
+		}
+	}
+	{
+		AudioPlayerRow_t2396008217 * L_80 = __this->get_U24this_11();
+		NullCheck(L_80);
+		Texture2D_t3542995729 * L_81 = L_80->get_waveformTexture_4();
+		int32_t L_82 = __this->get_U3CxU3E__7_9();
+		int32_t L_83 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_84 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
+		NullCheck(L_81);
+		Texture2D_SetPixel_m609991514(L_81, L_82, L_83, L_84, /*hidden argument*/NULL);
+		goto IL_02eb;
+	}
+
+IL_02cc:
+	{
+		AudioPlayerRow_t2396008217 * L_85 = __this->get_U24this_11();
+		NullCheck(L_85);
+		Texture2D_t3542995729 * L_86 = L_85->get_waveformTexture_4();
+		int32_t L_87 = __this->get_U3CxU3E__7_9();
+		int32_t L_88 = V_4;
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_89 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_TRANSPARENT_4();
+		NullCheck(L_86);
+		Texture2D_SetPixel_m609991514(L_86, L_87, L_88, L_89, /*hidden argument*/NULL);
+	}
+
+IL_02eb:
+	{
+		int32_t L_90 = V_4;
+		V_4 = ((int32_t)((int32_t)L_90+(int32_t)1));
+	}
+
+IL_02f2:
+	{
+		int32_t L_91 = V_4;
+		int32_t L_92 = __this->get_iH_1();
+		if ((((int32_t)L_91) < ((int32_t)L_92)))
+		{
+			goto IL_0271;
+		}
+	}
+	{
+		int32_t L_93 = __this->get_U3CstepsU3E__5_7();
+		int32_t L_94 = L_93;
+		V_3 = L_94;
+		__this->set_U3CstepsU3E__5_7(((int32_t)((int32_t)L_94+(int32_t)1)));
+		int32_t L_95 = V_3;
+		AudioPlayerRow_t2396008217 * L_96 = __this->get_U24this_11();
+		NullCheck(L_96);
+		int32_t L_97 = L_96->get_stepsPerFrame_7();
+		if (((int32_t)((int32_t)L_95%(int32_t)L_97)))
+		{
+			goto IL_0364;
+		}
+	}
+	{
+		AudioPlayerRow_t2396008217 * L_98 = __this->get_U24this_11();
+		int32_t L_99 = __this->get_U3CxU3E__7_9();
+		int32_t L_100 = __this->get_iW_0();
+		NullCheck(L_98);
+		L_98->set_progress_6(((float)((float)(0.5f)+(float)((float)((float)((float)((float)(0.5f)*(float)(((float)((float)L_99)))))/(float)(((float)((float)L_100))))))));
+		__this->set_U24current_12(NULL);
+		bool L_101 = __this->get_U24disposing_13();
+		if (L_101)
+		{
+			goto IL_035e;
+		}
+	}
+	{
+		__this->set_U24PC_14(2);
+	}
+
+IL_035e:
+	{
+		goto IL_03aa;
+	}
+
+IL_0363:
+	{
+	}
+
+IL_0364:
+	{
+		int32_t L_102 = __this->get_U3CxU3E__7_9();
+		__this->set_U3CxU3E__7_9(((int32_t)((int32_t)L_102+(int32_t)1)));
+	}
+
+IL_0373:
+	{
+		int32_t L_103 = __this->get_U3CxU3E__7_9();
+		int32_t L_104 = __this->get_iW_0();
+		if ((((int32_t)L_103) < ((int32_t)L_104)))
+		{
+			goto IL_024e;
+		}
+	}
+	{
+		AudioPlayerRow_t2396008217 * L_105 = __this->get_U24this_11();
+		NullCheck(L_105);
+		Texture2D_t3542995729 * L_106 = L_105->get_waveformTexture_4();
+		NullCheck(L_106);
+		Texture2D_Apply_m3543341930(L_106, /*hidden argument*/NULL);
+		AudioPlayerRow_t2396008217 * L_107 = __this->get_U24this_11();
+		NullCheck(L_107);
+		L_107->set_hasWaveformTexture_5((bool)1);
+	}
+
+IL_03a1:
+	{
+		__this->set_U24PC_14((-1));
+	}
+
+IL_03a8:
+	{
+		return (bool)0;
+	}
+
+IL_03aa:
+	{
+		return (bool)1;
+	}
+}
+// System.Object AudioPlayerRow/<createTextureCoroutine>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Il2CppObject * U3CcreateTextureCoroutineU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m93890579 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_12();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Object AudioPlayerRow/<createTextureCoroutine>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  Il2CppObject * U3CcreateTextureCoroutineU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m276480571 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	Il2CppObject * V_0 = NULL;
+	{
+		Il2CppObject * L_0 = __this->get_U24current_12();
+		V_0 = L_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		Il2CppObject * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void AudioPlayerRow/<createTextureCoroutine>c__Iterator0::Dispose()
+extern "C"  void U3CcreateTextureCoroutineU3Ec__Iterator0_Dispose_m2081427524 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	{
+		__this->set_U24disposing_13((bool)1);
+		__this->set_U24PC_14((-1));
+		return;
+	}
+}
+// System.Void AudioPlayerRow/<createTextureCoroutine>c__Iterator0::Reset()
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern const uint32_t U3CcreateTextureCoroutineU3Ec__Iterator0_Reset_m2127206978_MetadataUsageId;
+extern "C"  void U3CcreateTextureCoroutineU3Ec__Iterator0_Reset_m2127206978 (U3CcreateTextureCoroutineU3Ec__Iterator0_t194479778 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (U3CcreateTextureCoroutineU3Ec__Iterator0_Reset_m2127206978_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
 // System.Void CachedLoader::.ctor()
@@ -2102,7 +3080,7 @@ IL_00df:
 // System.Void CachedLoader::clearCache(System.Boolean)
 extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2562828092;
+extern Il2CppCodeGenString* _stringLiteral1289666447;
 extern const uint32_t CachedLoader_clearCache_m2148203422_MetadataUsageId;
 extern "C"  void CachedLoader_clearCache_m2148203422 (CachedLoader_t1584985543 * __this, bool ___hardClear0, const MethodInfo* method)
 {
@@ -2117,7 +3095,7 @@ extern "C"  void CachedLoader_clearCache_m2148203422 (CachedLoader_t1584985543 *
 		bool L_0 = ___hardClear0;
 		ILoader_clearCache_m3609663021(__this, L_0, /*hidden argument*/NULL);
 		bool L_1 = ___hardClear0;
-		if (L_1)
+		if (!L_1)
 		{
 			goto IL_002d;
 		}
@@ -2131,7 +3109,7 @@ extern "C"  void CachedLoader_clearCache_m2148203422 (CachedLoader_t1584985543 *
 		NullCheck(L_4);
 		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String IFileManager::getBaseDirectory() */, L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_6 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, _stringLiteral2562828092, /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m2596409543(NULL /*static, unused*/, L_5, _stringLiteral1289666447, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		VirtFuncInvoker1< bool, String_t* >::Invoke(6 /* System.Boolean IFileManager::deleteDirectory(System.String) */, L_3, L_6);
 	}
@@ -2340,15 +3318,15 @@ extern "C"  void CRHC__cctor_m1375105870 (Il2CppObject * __this /* static, unuse
 		return;
 	}
 }
-// System.Void CrhcItem::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void CrhcItem__ctor_m801218886 (CrhcItem_t1379468653 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method)
+// System.Void CrhcItem::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void CrhcItem__ctor_m3749307991 (CrhcItem_t1379468653 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method)
 {
 	{
 		__this->set_disposedValue_4((bool)0);
 		Loadable__ctor_m3714187887(__this, /*hidden argument*/NULL);
 		CrhcItem_t1379468653 * L_0 = ___parent0;
 		__this->set_parent_2(L_0);
-		JsonChild_t2476909483 * L_1 = ___data1;
+		JObject_t278519297 * L_1 = ___data1;
 		__this->set_data_3(L_1);
 		return;
 	}
@@ -2369,26 +3347,8 @@ IL_000d:
 		return L_1;
 	}
 }
-// System.String CrhcItem::getData(System.String)
-extern "C"  String_t* CrhcItem_getData_m295722417 (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method)
-{
-	String_t* V_0 = NULL;
-	{
-		JsonChild_t2476909483 * L_0 = __this->get_data_3();
-		String_t* L_1 = ___key0;
-		NullCheck(L_0);
-		String_t* L_2 = JsonChild_get_Item_m3574574957(L_0, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0013;
-	}
-
-IL_0013:
-	{
-		String_t* L_3 = V_0;
-		return L_3;
-	}
-}
 // System.String CrhcItem::getId()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral287061489;
 extern const uint32_t CrhcItem_getId_m4127294060_MetadataUsageId;
 extern "C"  String_t* CrhcItem_getId_m4127294060 (CrhcItem_t1379468653 * __this, const MethodInfo* method)
@@ -2401,17 +3361,15 @@ extern "C"  String_t* CrhcItem_getId_m4127294060 (CrhcItem_t1379468653 * __this,
 	}
 	String_t* V_0 = NULL;
 	{
-		JsonChild_t2476909483 * L_0 = __this->get_data_3();
-		NullCheck(L_0);
-		String_t* L_1 = JsonChild_get_Item_m3574574957(L_0, _stringLiteral287061489, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral287061489, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		String_t* L_2 = V_0;
-		return L_2;
+		String_t* L_1 = V_0;
+		return L_1;
 	}
 }
 // System.String CrhcItem::getUrl()
@@ -2467,11 +3425,11 @@ extern "C"  void CrhcItem_Dispose_m1845590922 (CrhcItem_t1379468653 * __this, bo
 IL_0015:
 	{
 		VirtActionInvoker0::Invoke(9 /* System.Void CrhcItem::onDispose() */, __this);
-		JsonChild_t2476909483 * L_2 = __this->get_data_3();
+		JObject_t278519297 * L_2 = __this->get_data_3();
 		NullCheck(L_2);
-		JsonChild_Dispose_m2348063797(L_2, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(55 /* System.Void Newtonsoft.Json.Linq.JContainer::ClearItems() */, L_2);
 		__this->set_parent_2((CrhcItem_t1379468653 *)NULL);
-		__this->set_data_3((JsonChild_t2476909483 *)NULL);
+		__this->set_data_3((JObject_t278519297 *)NULL);
 		__this->set_disposedValue_4((bool)1);
 	}
 
@@ -2558,13 +3516,13 @@ IL_000f:
 		return L_3;
 	}
 }
-// System.Void Experience::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void Experience__ctor_m3623197971 (Experience_t1974411760 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method)
+// System.Void Experience::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void Experience__ctor_m114286484 (Experience_t1974411760 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method)
 {
 	{
 		CrhcItem_t1379468653 * L_0 = ___parent0;
-		JsonChild_t2476909483 * L_1 = ___data1;
-		CrhcItem__ctor_m801218886(__this, L_0, L_1, /*hidden argument*/NULL);
+		JObject_t278519297 * L_1 = ___data1;
+		CrhcItem__ctor_m3749307991(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -2600,6 +3558,7 @@ IL_0012:
 	}
 }
 // System.String Experience::getTargetId()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral777125038;
 extern const uint32_t Experience_getTargetId_m1716866172_MetadataUsageId;
 extern "C"  String_t* Experience_getTargetId_m1716866172 (Experience_t1974411760 * __this, const MethodInfo* method)
@@ -2612,7 +3571,7 @@ extern "C"  String_t* Experience_getTargetId_m1716866172 (Experience_t1974411760
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral777125038, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral777125038, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -2624,6 +3583,7 @@ IL_0012:
 	}
 }
 // System.String Experience::getSource()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral4211174801;
 extern const uint32_t Experience_getSource_m2850666847_MetadataUsageId;
 extern "C"  String_t* Experience_getSource_m2850666847 (Experience_t1974411760 * __this, const MethodInfo* method)
@@ -2636,7 +3596,7 @@ extern "C"  String_t* Experience_getSource_m2850666847 (Experience_t1974411760 *
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral4211174801, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral4211174801, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -2717,7 +3677,7 @@ extern "C"  void U3CtryLoadU3Ec__Iterator0__ctor_m4268491624 (U3CtryLoadU3Ec__It
 // System.Boolean Experience/<tryLoad>c__Iterator0::MoveNext()
 extern Il2CppClass* Menu_t4261767481_il2cpp_TypeInfo_var;
 extern Il2CppClass* Row_t774521500_il2cpp_TypeInfo_var;
-extern Il2CppClass* BackButton_t1088046658_il2cpp_TypeInfo_var;
+extern Il2CppClass* BackButton_t2597280886_il2cpp_TypeInfo_var;
 extern const uint32_t U3CtryLoadU3Ec__Iterator0_MoveNext_m3931612036_MetadataUsageId;
 extern "C"  bool U3CtryLoadU3Ec__Iterator0_MoveNext_m3931612036 (U3CtryLoadU3Ec__Iterator0_t3570335469 * __this, const MethodInfo* method)
 {
@@ -2760,8 +3720,8 @@ IL_0021:
 		__this->set_U3CbackRowU3E__1_1(L_5);
 		Row_t774521500 * L_6 = __this->get_U3CbackRowU3E__1_1();
 		Experience_t1974411760 * L_7 = __this->get_U24this_2();
-		BackButton_t1088046658 * L_8 = (BackButton_t1088046658 *)il2cpp_codegen_object_new(BackButton_t1088046658_il2cpp_TypeInfo_var);
-		BackButton__ctor_m56407553(L_8, L_7, /*hidden argument*/NULL);
+		BackButton_t2597280886 * L_8 = (BackButton_t2597280886 *)il2cpp_codegen_object_new(BackButton_t2597280886_il2cpp_TypeInfo_var);
+		BackButton__ctor_m39369832(L_8, L_7, /*hidden argument*/NULL);
 		NullCheck(L_6);
 		Row_addItem_m212990216(L_6, L_8, (1.0f), /*hidden argument*/NULL);
 		Menu_t4261767481 * L_9 = __this->get_U3CmenuU3E__0_0();
@@ -2984,27 +3944,6 @@ extern "C"  void U3CtryUnloadU3Ec__Iterator1_Reset_m295141327 (U3CtryUnloadU3Ec_
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void Experience/BackButton::.ctor(Experience)
-extern "C"  void BackButton__ctor_m56407553 (BackButton_t1088046658 * __this, Experience_t1974411760 * ___owner0, const MethodInfo* method)
-{
-	{
-		Color_t2020392075  L_0 = Color_get_red_m2410286591(NULL /*static, unused*/, /*hidden argument*/NULL);
-		RectItem__ctor_m3600433864(__this, L_0, /*hidden argument*/NULL);
-		Experience_t1974411760 * L_1 = ___owner0;
-		__this->set_owner_2(L_1);
-		return;
-	}
-}
-// System.Void Experience/BackButton::onClick()
-extern "C"  void BackButton_onClick_m4279995414 (BackButton_t1088046658 * __this, const MethodInfo* method)
-{
-	{
-		Experience_t1974411760 * L_0 = __this->get_owner_2();
-		NullCheck(L_0);
-		Loadable_unload_m363378824(L_0, /*hidden argument*/NULL);
-		return;
-	}
-}
 // System.Void FadeInMenu::.ctor(IMenu,System.Single)
 extern "C"  void FadeInMenu__ctor_m3239003250 (FadeInMenu_t1652954898 * __this, IMenu_t2695572612 * ___menu0, float ___fadeSpeed1, const MethodInfo* method)
 {
@@ -3205,6 +4144,7 @@ extern "C"  void UnityLog_println_m3629169075 (UnityLog_t1899126921 * __this, in
 extern "C"  void ITouch__ctor_m731462400 (ITouch_t1873081982 * __this, const MethodInfo* method)
 {
 	{
+		__this->set_HOLD_TIME_6((250.0f));
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -3243,25 +4183,25 @@ extern "C"  void ITouch_OnGUI_m566861220 (ITouch_t1873081982 * __this, const Met
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
-		float L_5 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_dragDistance_6();
+		float L_5 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_dragDistance_8();
 		Vector2_t2243707579  L_6 = ITouch_getDragVector_m4261394858(__this, /*hidden argument*/NULL);
 		V_2 = L_6;
 		float L_7 = Vector2_get_magnitude_m33802565((&V_2), /*hidden argument*/NULL);
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_dragDistance_6(((float)((float)L_5+(float)L_7)));
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_dragDistance_8(((float)((float)L_5+(float)L_7)));
 		Vector2_t2243707579  L_8 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_touchPosition_1();
 		Vector2_t2243707579  L_9 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_previousTouchPosition_0();
 		Vector2_t2243707579  L_10 = Vector2_op_Subtraction_m1984215297(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_dragVector_2(L_10);
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_7((1.0f));
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_9((1.0f));
 		goto IL_0090;
 	}
 
 IL_0072:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
-		float L_11 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_7();
-		float L_12 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_7();
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_7(((float)((float)L_11+(float)((float)((float)((float)((float)(0.0f)-(float)L_12))/(float)(30.0f))))));
+		float L_11 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_9();
+		float L_12 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_9();
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_9(((float)((float)L_11+(float)((float)((float)((float)((float)(0.0f)-(float)L_12))/(float)(30.0f))))));
 	}
 
 IL_0090:
@@ -3274,7 +4214,7 @@ IL_0090:
 		}
 	}
 	{
-		goto IL_0138;
+		goto IL_0136;
 	}
 
 IL_009e:
@@ -3299,9 +4239,9 @@ IL_009e:
 		Vector2_t2243707579  L_17 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_touchPosition_1();
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_previousTouchPosition_0(L_17);
 		double L_18 = Epoch_CurrentMillis_m2932609734(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_startTouchTime_5(L_18);
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_dragDistance_6((0.0f));
-		goto IL_0138;
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_startTouchTime_7(L_18);
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_dragDistance_8((0.0f));
+		goto IL_0136;
 	}
 
 IL_00d9:
@@ -3309,7 +4249,7 @@ IL_00d9:
 		bool L_19 = V_0;
 		if (!L_19)
 		{
-			goto IL_0138;
+			goto IL_0136;
 		}
 	}
 	{
@@ -3317,45 +4257,46 @@ IL_00d9:
 		bool L_20 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get__isDown_3();
 		if (!L_20)
 		{
-			goto IL_0138;
+			goto IL_0136;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__isDown_3((bool)0);
-		double L_21 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_startTouchTime_5();
+		double L_21 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_startTouchTime_7();
 		double L_22 = Epoch_MillisElapsed_m507338105(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
-		if ((!(((double)L_22) < ((double)(1000.0)))))
+		float L_23 = __this->get_HOLD_TIME_6();
+		if ((!(((double)L_22) < ((double)(((double)((double)L_23)))))))
 		{
-			goto IL_012f;
+			goto IL_012d;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
-		float L_23 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_dragDistance_6();
-		float L_24 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((!(((double)(((double)((double)((float)((float)L_23/(float)L_24)))))) < ((double)(0.5)))))
+		float L_24 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_dragDistance_8();
+		float L_25 = Screen_get_dpi_m3345126327(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((double)(((double)((double)((float)((float)L_24/(float)L_25)))))) < ((double)(0.5)))))
 		{
-			goto IL_012f;
+			goto IL_012d;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__didTap_4((bool)1);
-		goto IL_0137;
+		goto IL_0135;
 	}
 
-IL_012f:
+IL_012d:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__didTap_4((bool)0);
 	}
 
-IL_0137:
+IL_0135:
 	{
 	}
 
-IL_0138:
+IL_0136:
 	{
 		return;
 	}
@@ -3386,7 +4327,7 @@ IL_000c:
 	}
 }
 // System.Boolean generic.mobile.ITouch::isHeld()
-extern Il2CppClass* NotImplementedException_t2785117854_il2cpp_TypeInfo_var;
+extern Il2CppClass* ITouch_t1873081982_il2cpp_TypeInfo_var;
 extern const uint32_t ITouch_isHeld_m2327857625_MetadataUsageId;
 extern "C"  bool ITouch_isHeld_m2327857625 (ITouch_t1873081982 * __this, const MethodInfo* method)
 {
@@ -3396,10 +4337,40 @@ extern "C"  bool ITouch_isHeld_m2327857625 (ITouch_t1873081982 * __this, const M
 		il2cpp_codegen_initialize_method (ITouch_isHeld_m2327857625_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
 	{
-		NotImplementedException_t2785117854 * L_0 = (NotImplementedException_t2785117854 *)il2cpp_codegen_object_new(NotImplementedException_t2785117854_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m808189835(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
+		bool L_0 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get__isDown_3();
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
+		double L_1 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_startTouchTime_7();
+		double L_2 = Epoch_MillisElapsed_m507338105(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		float L_3 = __this->get_HOLD_TIME_6();
+		G_B3_0 = ((((int32_t)((!(((double)L_2) >= ((double)(((double)((double)L_3))))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0024:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		bool L_4 = V_0;
+		return L_4;
 	}
 }
 // System.Boolean generic.mobile.ITouch::checkTap()
@@ -3443,9 +4414,9 @@ extern "C"  Vector2_t2243707579  ITouch_getDragVector_m4261394858 (ITouch_t18730
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
 		float L_0 = (((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_address_of_dragVector_2())->get_x_0();
-		float L_1 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_7();
+		float L_1 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_9();
 		float L_2 = (((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_address_of_dragVector_2())->get_y_1();
-		float L_3 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_7();
+		float L_3 = ((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->get_coolDownFrac_9();
 		Vector2_t2243707579  L_4;
 		memset(&L_4, 0, sizeof(L_4));
 		Vector2__ctor_m3067419446(&L_4, ((float)((float)L_0*(float)L_1)), ((float)((float)L_2*(float)L_3)), /*hidden argument*/NULL);
@@ -3472,7 +4443,7 @@ extern "C"  void ITouch_clearDragVector_m3089249660 (ITouch_t1873081982 * __this
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ITouch_t1873081982_il2cpp_TypeInfo_var);
-		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_7((0.0f));
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set_coolDownFrac_9((0.0f));
 		return;
 	}
 }
@@ -3516,6 +4487,7 @@ extern "C"  void ITouch__cctor_m955841573 (Il2CppObject * __this /* static, unus
 	{
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__isDown_3((bool)0);
 		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__didTap_4((bool)0);
+		((ITouch_t1873081982_StaticFields*)ITouch_t1873081982_il2cpp_TypeInfo_var->static_fields)->set__isHeld_5((bool)0);
 		return;
 	}
 }
@@ -4261,13 +5233,16 @@ extern "C"  void GUIX__cctor_m3109351959 (Il2CppObject * __this /* static, unuse
 		Texture2D_t3542995729 * L_9 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_whiteTexture_3();
 		NullCheck(L_8);
 		GUIStyleState_set_background_m3931679679(L_8, L_9, /*hidden argument*/NULL);
-		Stack_1_t3108120229 * L_10 = (Stack_1_t3108120229 *)il2cpp_codegen_object_new(Stack_1_t3108120229_il2cpp_TypeInfo_var);
-		Stack_1__ctor_m3740832839(L_10, /*hidden argument*/Stack_1__ctor_m3740832839_MethodInfo_var);
-		((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->set_colorStack_2(L_10);
-		Stack_1_t3108120229 * L_11 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_colorStack_2();
-		Color_t2020392075  L_12 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		Stack_1_Push_m1452953432(L_11, L_12, /*hidden argument*/Stack_1_Push_m1452953432_MethodInfo_var);
+		GUIStyle_t1799908754 * L_10 = (GUIStyle_t1799908754 *)il2cpp_codegen_object_new(GUIStyle_t1799908754_il2cpp_TypeInfo_var);
+		GUIStyle__ctor_m3665892801(L_10, /*hidden argument*/NULL);
+		((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->set_standardTextureStyle_5(L_10);
+		Stack_1_t3108120229 * L_11 = (Stack_1_t3108120229 *)il2cpp_codegen_object_new(Stack_1_t3108120229_il2cpp_TypeInfo_var);
+		Stack_1__ctor_m3740832839(L_11, /*hidden argument*/Stack_1__ctor_m3740832839_MethodInfo_var);
+		((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->set_colorStack_2(L_11);
+		Stack_1_t3108120229 * L_12 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_colorStack_2();
+		Color_t2020392075  L_13 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		Stack_1_Push_m1452953432(L_12, L_13, /*hidden argument*/Stack_1_Push_m1452953432_MethodInfo_var);
 		return;
 	}
 }
@@ -4493,12 +5468,16 @@ extern "C"  void GUIX_beginColor_m681927010 (Il2CppObject * __this /* static, un
 		NullCheck(L_0);
 		Color_t2020392075  L_1 = Stack_1_Peek_m178442956(L_0, /*hidden argument*/Stack_1_Peek_m178442956_MethodInfo_var);
 		V_0 = L_1;
-		Color_t2020392075  L_2 = ___toColor0;
-		GUIX_setColor_m1157698777(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
-		Stack_1_t3108120229 * L_3 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_colorStack_2();
-		Color_t2020392075  L_4 = ___toColor0;
-		NullCheck(L_3);
-		Stack_1_Push_m1452953432(L_3, L_4, /*hidden argument*/Stack_1_Push_m1452953432_MethodInfo_var);
+		Color_t2020392075 * L_2 = (&___toColor0);
+		float L_3 = L_2->get_a_3();
+		float L_4 = (&V_0)->get_a_3();
+		L_2->set_a_3(((float)((float)L_3*(float)L_4)));
+		Color_t2020392075  L_5 = ___toColor0;
+		GUIX_setColor_m1157698777(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Stack_1_t3108120229 * L_6 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_colorStack_2();
+		Color_t2020392075  L_7 = ___toColor0;
+		NullCheck(L_6);
+		Stack_1_Push_m1452953432(L_6, L_7, /*hidden argument*/Stack_1_Push_m1452953432_MethodInfo_var);
 		return;
 	}
 }
@@ -4613,6 +5592,8 @@ extern "C"  void GUIX_Button_m200675144 (Il2CppObject * __this /* static, unused
 	}
 }
 // System.Void GUIX::Texture(UnityEngine.Rect,UnityEngine.Texture2D)
+extern Il2CppClass* GUIX_t1405793021_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIContent_t4210063000_il2cpp_TypeInfo_var;
 extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
 extern const uint32_t GUIX_Texture_m3816154496_MetadataUsageId;
 extern "C"  void GUIX_Texture_m3816154496 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture2D_t3542995729 * ___tex1, const MethodInfo* method)
@@ -4624,10 +5605,19 @@ extern "C"  void GUIX_Texture_m3816154496 (Il2CppObject * __this /* static, unus
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Rect_t3681755626  L_0 = ___position0;
-		Texture2D_t3542995729 * L_1 = ___tex1;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+		GUIStyle_t1799908754 * L_0 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_standardTextureStyle_5();
+		NullCheck(L_0);
+		GUIStyleState_t3801000545 * L_1 = GUIStyle_get_normal_m2789468942(L_0, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_2 = ___tex1;
+		NullCheck(L_1);
+		GUIStyleState_set_background_m3931679679(L_1, L_2, /*hidden argument*/NULL);
+		Rect_t3681755626  L_3 = ___position0;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIContent_t4210063000_il2cpp_TypeInfo_var);
+		GUIContent_t4210063000 * L_4 = ((GUIContent_t4210063000_StaticFields*)GUIContent_t4210063000_il2cpp_TypeInfo_var->static_fields)->get_none_6();
+		GUIStyle_t1799908754 * L_5 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_standardTextureStyle_5();
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		GUI_DrawTexture_m1191587896(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		GUI_Box_m4178954864(NULL /*static, unused*/, L_3, L_4, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -4651,16 +5641,16 @@ extern "C"  void GUIX_Label_m4209557875 (Il2CppObject * __this /* static, unused
 		return;
 	}
 }
-// System.Boolean GUIX::isMouseInsideRect(UnityEngine.Rect)
+// System.Boolean GUIX::isTouchInsideRect(UnityEngine.Rect)
 extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
 extern Il2CppClass* GUIX_t1405793021_il2cpp_TypeInfo_var;
-extern const uint32_t GUIX_isMouseInsideRect_m998598316_MetadataUsageId;
-extern "C"  bool GUIX_isMouseInsideRect_m998598316 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method)
+extern const uint32_t GUIX_isTouchInsideRect_m3040823096_MetadataUsageId;
+extern "C"  bool GUIX_isTouchInsideRect_m3040823096 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (GUIX_isMouseInsideRect_m998598316_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GUIX_isTouchInsideRect_m3040823096_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	ITouch_t1873081982 * V_0 = NULL;
@@ -4671,39 +5661,70 @@ extern "C"  bool GUIX_isMouseInsideRect_m998598316 (Il2CppObject * __this /* sta
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
 		ITouch_t1873081982 * L_0 = ServiceLocator_getITouch_m241082982(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+		Vector2_t2243707579  L_1 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_topLeft_1();
+		Vector2_t2243707579  L_2 = Rect_get_position_m24550734((&___position0), /*hidden argument*/NULL);
+		Vector2_t2243707579  L_3 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_4 = Rect_get_size_m3833121112((&___position0), /*hidden argument*/NULL);
+		Rect__ctor_m2422810045((&V_1), L_3, L_4, /*hidden argument*/NULL);
+		ITouch_t1873081982 * L_5 = V_0;
+		NullCheck(L_5);
+		Vector2_t2243707579  L_6 = ITouch_getTouchPosition_m2005551595(L_5, /*hidden argument*/NULL);
+		bool L_7 = Rect_Contains_m1334685290((&V_1), L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		bool L_8 = V_2;
+		return L_8;
+	}
+}
+// System.Boolean GUIX::didTapInsideRect(UnityEngine.Rect)
+extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIX_t1405793021_il2cpp_TypeInfo_var;
+extern const uint32_t GUIX_didTapInsideRect_m1155779523_MetadataUsageId;
+extern "C"  bool GUIX_didTapInsideRect_m1155779523 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GUIX_didTapInsideRect_m1155779523_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ITouch_t1873081982 * V_0 = NULL;
+	bool V_1 = false;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
+		ITouch_t1873081982 * L_0 = ServiceLocator_getITouch_m241082982(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
 		ITouch_t1873081982 * L_1 = V_0;
 		NullCheck(L_1);
 		bool L_2 = ITouch_checkTap_m703564409(L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
-			goto IL_0045;
+			goto IL_001f;
 		}
 	}
 	{
+		Rect_t3681755626  L_3 = ___position0;
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		Vector2_t2243707579  L_3 = ((GUIX_t1405793021_StaticFields*)GUIX_t1405793021_il2cpp_TypeInfo_var->static_fields)->get_topLeft_1();
-		Vector2_t2243707579  L_4 = Rect_get_position_m24550734((&___position0), /*hidden argument*/NULL);
-		Vector2_t2243707579  L_5 = Vector2_op_Addition_m1389598521(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
-		Vector2_t2243707579  L_6 = Rect_get_size_m3833121112((&___position0), /*hidden argument*/NULL);
-		Rect__ctor_m2422810045((&V_1), L_5, L_6, /*hidden argument*/NULL);
-		ITouch_t1873081982 * L_7 = V_0;
-		NullCheck(L_7);
-		Vector2_t2243707579  L_8 = ITouch_getTouchPosition_m2005551595(L_7, /*hidden argument*/NULL);
-		bool L_9 = Rect_Contains_m1334685290((&V_1), L_8, /*hidden argument*/NULL);
-		V_2 = L_9;
-		goto IL_004d;
+		bool L_4 = GUIX_isTouchInsideRect_m3040823096(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		goto IL_0027;
 	}
 
-IL_0045:
+IL_001f:
 	{
-		V_2 = (bool)0;
-		goto IL_004d;
+		V_1 = (bool)0;
+		goto IL_0027;
 	}
 
-IL_004d:
+IL_0027:
 	{
-		bool L_10 = V_2;
-		return L_10;
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void GUIX::beginClip(UnityEngine.Rect)
@@ -5145,7 +6166,7 @@ extern "C"  bool ImageItem_draw_m1054701777 (ImageItem_t1947162666 * __this, flo
 		V_0 = L_6;
 		Rect_t3681755626  L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		bool L_8 = GUIX_isMouseInsideRect_m998598316(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		bool L_8 = GUIX_didTapInsideRect_m1155779523(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
 		if (!L_8)
 		{
 			goto IL_0043;
@@ -5364,821 +6385,6 @@ extern "C"  void IRow_Dispose_m4210591999 (IRow_t3247553901 * __this, const Meth
 {
 	{
 		VirtActionInvoker1< bool >::Invoke(7 /* System.Void IRow::Dispose(System.Boolean) */, __this, (bool)1);
-		return;
-	}
-}
-// System.Void JsonChildList::.ctor(System.String)
-extern Il2CppClass* List_1_t1846030615_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerator_1_t2049010420_il2cpp_TypeInfo_var;
-extern Il2CppClass* JsonChild_t2476909483_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerable_1_t3248568444_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerator_1_t431965226_il2cpp_TypeInfo_var;
-extern Il2CppClass* IEnumerator_t1466026749_il2cpp_TypeInfo_var;
-extern Il2CppClass* IDisposable_t2427283555_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m1553968800_MethodInfo_var;
-extern const MethodInfo* JToken_Children_TisJObject_t278519297_m730951803_MethodInfo_var;
-extern const MethodInfo* JEnumerable_1_GetEnumerator_m526043764_MethodInfo_var;
-extern const MethodInfo* List_1_Add_m1396649884_MethodInfo_var;
-extern const uint32_t JsonChildList__ctor_m297382381_MetadataUsageId;
-extern "C"  void JsonChildList__ctor_m297382381 (JsonChildList_t125035948 * __this, String_t* ___json0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChildList__ctor_m297382381_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	JArray_t1483708661 * V_0 = NULL;
-	JObject_t278519297 * V_1 = NULL;
-	Il2CppObject* V_2 = NULL;
-	JEnumerable_1_t1546812757  V_3;
-	memset(&V_3, 0, sizeof(V_3));
-	JsonChild_t2476909483 * V_4 = NULL;
-	JProperty_t2956441399 * V_5 = NULL;
-	Il2CppObject* V_6 = NULL;
-	String_t* V_7 = NULL;
-	String_t* V_8 = NULL;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		__this->set_disposedValue_1((bool)0);
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		List_1_t1846030615 * L_0 = (List_1_t1846030615 *)il2cpp_codegen_object_new(List_1_t1846030615_il2cpp_TypeInfo_var);
-		List_1__ctor_m1553968800(L_0, /*hidden argument*/List_1__ctor_m1553968800_MethodInfo_var);
-		__this->set_children_0(L_0);
-		String_t* L_1 = ___json0;
-		JArray_t1483708661 * L_2 = JArray_Parse_m2988669444(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		JArray_t1483708661 * L_3 = V_0;
-		NullCheck(L_3);
-		JEnumerable_1_t1546812757  L_4 = JToken_Children_TisJObject_t278519297_m730951803(L_3, /*hidden argument*/JToken_Children_TisJObject_t278519297_m730951803_MethodInfo_var);
-		V_3 = L_4;
-		Il2CppObject* L_5 = JEnumerable_1_GetEnumerator_m526043764((&V_3), /*hidden argument*/JEnumerable_1_GetEnumerator_m526043764_MethodInfo_var);
-		V_2 = L_5;
-	}
-
-IL_0030:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_00b7;
-		}
-
-IL_0035:
-		{
-			Il2CppObject* L_6 = V_2;
-			NullCheck(L_6);
-			JObject_t278519297 * L_7 = InterfaceFuncInvoker0< JObject_t278519297 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JObject>::get_Current() */, IEnumerator_1_t2049010420_il2cpp_TypeInfo_var, L_6);
-			V_1 = L_7;
-			JsonChild_t2476909483 * L_8 = (JsonChild_t2476909483 *)il2cpp_codegen_object_new(JsonChild_t2476909483_il2cpp_TypeInfo_var);
-			JsonChild__ctor_m3796672298(L_8, /*hidden argument*/NULL);
-			V_4 = L_8;
-			JObject_t278519297 * L_9 = V_1;
-			NullCheck(L_9);
-			Il2CppObject* L_10 = JObject_Properties_m1194829353(L_9, /*hidden argument*/NULL);
-			NullCheck(L_10);
-			Il2CppObject* L_11 = InterfaceFuncInvoker0< Il2CppObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Newtonsoft.Json.Linq.JProperty>::GetEnumerator() */, IEnumerable_1_t3248568444_il2cpp_TypeInfo_var, L_10);
-			V_6 = L_11;
-		}
-
-IL_0052:
-		try
-		{ // begin try (depth: 2)
-			{
-				goto IL_0089;
-			}
-
-IL_0057:
-			{
-				Il2CppObject* L_12 = V_6;
-				NullCheck(L_12);
-				JProperty_t2956441399 * L_13 = InterfaceFuncInvoker0< JProperty_t2956441399 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JProperty>::get_Current() */, IEnumerator_1_t431965226_il2cpp_TypeInfo_var, L_12);
-				V_5 = L_13;
-				JProperty_t2956441399 * L_14 = V_5;
-				NullCheck(L_14);
-				JToken_t2552644013 * L_15 = JProperty_get_Value_m1095428091(L_14, /*hidden argument*/NULL);
-				NullCheck(L_15);
-				String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_15);
-				V_7 = L_16;
-				JProperty_t2956441399 * L_17 = V_5;
-				NullCheck(L_17);
-				String_t* L_18 = JProperty_get_Name_m2701421031(L_17, /*hidden argument*/NULL);
-				NullCheck(L_18);
-				String_t* L_19 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_18);
-				V_8 = L_19;
-				JsonChild_t2476909483 * L_20 = V_4;
-				String_t* L_21 = V_8;
-				String_t* L_22 = V_7;
-				NullCheck(L_20);
-				JsonChild_set_Item_m3327470576(L_20, L_21, L_22, /*hidden argument*/NULL);
-			}
-
-IL_0089:
-			{
-				Il2CppObject* L_23 = V_6;
-				NullCheck(L_23);
-				bool L_24 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_23);
-				if (L_24)
-				{
-					goto IL_0057;
-				}
-			}
-
-IL_0095:
-			{
-				IL2CPP_LEAVE(0xA9, FINALLY_009a);
-			}
-		} // end try (depth: 2)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-			goto FINALLY_009a;
-		}
-
-FINALLY_009a:
-		{ // begin finally (depth: 2)
-			{
-				Il2CppObject* L_25 = V_6;
-				if (!L_25)
-				{
-					goto IL_00a8;
-				}
-			}
-
-IL_00a1:
-			{
-				Il2CppObject* L_26 = V_6;
-				NullCheck(L_26);
-				InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_26);
-			}
-
-IL_00a8:
-			{
-				IL2CPP_END_FINALLY(154)
-			}
-		} // end finally (depth: 2)
-		IL2CPP_CLEANUP(154)
-		{
-			IL2CPP_JUMP_TBL(0xA9, IL_00a9)
-			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-		}
-
-IL_00a9:
-		{
-			List_1_t1846030615 * L_27 = __this->get_children_0();
-			JsonChild_t2476909483 * L_28 = V_4;
-			NullCheck(L_27);
-			List_1_Add_m1396649884(L_27, L_28, /*hidden argument*/List_1_Add_m1396649884_MethodInfo_var);
-		}
-
-IL_00b7:
-		{
-			Il2CppObject* L_29 = V_2;
-			NullCheck(L_29);
-			bool L_30 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_29);
-			if (L_30)
-			{
-				goto IL_0035;
-			}
-		}
-
-IL_00c2:
-		{
-			IL2CPP_LEAVE(0xD4, FINALLY_00c7);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_00c7;
-	}
-
-FINALLY_00c7:
-	{ // begin finally (depth: 1)
-		{
-			Il2CppObject* L_31 = V_2;
-			if (!L_31)
-			{
-				goto IL_00d3;
-			}
-		}
-
-IL_00cd:
-		{
-			Il2CppObject* L_32 = V_2;
-			NullCheck(L_32);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_32);
-		}
-
-IL_00d3:
-		{
-			IL2CPP_END_FINALLY(199)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(199)
-	{
-		IL2CPP_JUMP_TBL(0xD4, IL_00d4)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_00d4:
-	{
-		return;
-	}
-}
-// System.Collections.IEnumerator JsonChildList::GetEnumerator()
-extern Il2CppClass* U3CGetEnumeratorU3Ec__Iterator0_t2366112656_il2cpp_TypeInfo_var;
-extern const uint32_t JsonChildList_GetEnumerator_m810710859_MetadataUsageId;
-extern "C"  Il2CppObject * JsonChildList_GetEnumerator_m810710859 (JsonChildList_t125035948 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChildList_GetEnumerator_m810710859_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * V_0 = NULL;
-	Il2CppObject * V_1 = NULL;
-	{
-		U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * L_0 = (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 *)il2cpp_codegen_object_new(U3CGetEnumeratorU3Ec__Iterator0_t2366112656_il2cpp_TypeInfo_var);
-		U3CGetEnumeratorU3Ec__Iterator0__ctor_m3026281797(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * L_1 = V_0;
-		NullCheck(L_1);
-		L_1->set_U24this_2(__this);
-		U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * L_2 = V_0;
-		V_1 = L_2;
-		goto IL_0014;
-	}
-
-IL_0014:
-	{
-		Il2CppObject * L_3 = V_1;
-		return L_3;
-	}
-}
-// System.Void JsonChildList::Dispose(System.Boolean)
-extern const MethodInfo* List_1_GetEnumerator_m3901824053_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m303992129_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4155603985_MethodInfo_var;
-extern const MethodInfo* Enumerator_Dispose_m299311743_MethodInfo_var;
-extern const MethodInfo* List_1_Clear_m580921705_MethodInfo_var;
-extern const uint32_t JsonChildList_Dispose_m452453491_MetadataUsageId;
-extern "C"  void JsonChildList_Dispose_m452453491 (JsonChildList_t125035948 * __this, bool ___disposing0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChildList_Dispose_m452453491_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	JsonChild_t2476909483 * V_0 = NULL;
-	Enumerator_t1380760289  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		bool L_0 = __this->get_disposedValue_1();
-		if (L_0)
-		{
-			goto IL_0070;
-		}
-	}
-	{
-		bool L_1 = ___disposing0;
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-	}
-
-IL_0015:
-	{
-		List_1_t1846030615 * L_2 = __this->get_children_0();
-		NullCheck(L_2);
-		Enumerator_t1380760289  L_3 = List_1_GetEnumerator_m3901824053(L_2, /*hidden argument*/List_1_GetEnumerator_m3901824053_MethodInfo_var);
-		V_1 = L_3;
-	}
-
-IL_0022:
-	try
-	{ // begin try (depth: 1)
-		{
-			goto IL_0037;
-		}
-
-IL_0027:
-		{
-			JsonChild_t2476909483 * L_4 = Enumerator_get_Current_m303992129((&V_1), /*hidden argument*/Enumerator_get_Current_m303992129_MethodInfo_var);
-			V_0 = L_4;
-			JsonChild_t2476909483 * L_5 = V_0;
-			NullCheck(L_5);
-			JsonChild_Dispose_m2348063797(L_5, /*hidden argument*/NULL);
-		}
-
-IL_0037:
-		{
-			bool L_6 = Enumerator_MoveNext_m4155603985((&V_1), /*hidden argument*/Enumerator_MoveNext_m4155603985_MethodInfo_var);
-			if (L_6)
-			{
-				goto IL_0027;
-			}
-		}
-
-IL_0043:
-		{
-			IL2CPP_LEAVE(0x56, FINALLY_0048);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_0048;
-	}
-
-FINALLY_0048:
-	{ // begin finally (depth: 1)
-		Enumerator_Dispose_m299311743((&V_1), /*hidden argument*/Enumerator_Dispose_m299311743_MethodInfo_var);
-		IL2CPP_END_FINALLY(72)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(72)
-	{
-		IL2CPP_JUMP_TBL(0x56, IL_0056)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_0056:
-	{
-		List_1_t1846030615 * L_7 = __this->get_children_0();
-		NullCheck(L_7);
-		List_1_Clear_m580921705(L_7, /*hidden argument*/List_1_Clear_m580921705_MethodInfo_var);
-		__this->set_children_0((List_1_t1846030615 *)NULL);
-		__this->set_disposedValue_1((bool)1);
-	}
-
-IL_0070:
-	{
-		return;
-	}
-}
-// System.Void JsonChildList::Dispose()
-extern "C"  void JsonChildList_Dispose_m3116529926 (JsonChildList_t125035948 * __this, const MethodInfo* method)
-{
-	{
-		VirtActionInvoker1< bool >::Invoke(5 /* System.Void JsonChildList::Dispose(System.Boolean) */, __this, (bool)1);
-		return;
-	}
-}
-// System.Void JsonChildList/<GetEnumerator>c__Iterator0::.ctor()
-extern "C"  void U3CGetEnumeratorU3Ec__Iterator0__ctor_m3026281797 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Boolean JsonChildList/<GetEnumerator>c__Iterator0::MoveNext()
-extern const MethodInfo* List_1_GetEnumerator_m3901824053_MethodInfo_var;
-extern const MethodInfo* Enumerator_get_Current_m303992129_MethodInfo_var;
-extern const MethodInfo* Enumerator_MoveNext_m4155603985_MethodInfo_var;
-extern const MethodInfo* Enumerator_Dispose_m299311743_MethodInfo_var;
-extern const uint32_t U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m3551562095_MetadataUsageId;
-extern "C"  bool U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m3551562095 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m3551562095_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	bool V_1 = false;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		int32_t L_0 = __this->get_U24PC_5();
-		V_0 = L_0;
-		__this->set_U24PC_5((-1));
-		V_1 = (bool)0;
-		uint32_t L_1 = V_0;
-		if (L_1 == 0)
-		{
-			goto IL_0023;
-		}
-		if (L_1 == 1)
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		goto IL_00b6;
-	}
-
-IL_0023:
-	{
-		JsonChildList_t125035948 * L_2 = __this->get_U24this_2();
-		NullCheck(L_2);
-		List_1_t1846030615 * L_3 = L_2->get_children_0();
-		NullCheck(L_3);
-		Enumerator_t1380760289  L_4 = List_1_GetEnumerator_m3901824053(L_3, /*hidden argument*/List_1_GetEnumerator_m3901824053_MethodInfo_var);
-		__this->set_U24locvar0_0(L_4);
-		V_0 = ((int32_t)-3);
-	}
-
-IL_003e:
-	try
-	{ // begin try (depth: 1)
-		{
-			uint32_t L_5 = V_0;
-			if (((int32_t)((int32_t)L_5-(int32_t)1)) == 0)
-			{
-				goto IL_0083;
-			}
-		}
-
-IL_004a:
-		{
-			goto IL_0084;
-		}
-
-IL_004f:
-		{
-			Enumerator_t1380760289 * L_6 = __this->get_address_of_U24locvar0_0();
-			JsonChild_t2476909483 * L_7 = Enumerator_get_Current_m303992129(L_6, /*hidden argument*/Enumerator_get_Current_m303992129_MethodInfo_var);
-			__this->set_U3CchildU3E__0_1(L_7);
-			JsonChild_t2476909483 * L_8 = __this->get_U3CchildU3E__0_1();
-			__this->set_U24current_3(L_8);
-			bool L_9 = __this->get_U24disposing_4();
-			if (L_9)
-			{
-				goto IL_007c;
-			}
-		}
-
-IL_0075:
-		{
-			__this->set_U24PC_5(1);
-		}
-
-IL_007c:
-		{
-			V_1 = (bool)1;
-			IL2CPP_LEAVE(0xB8, FINALLY_0099);
-		}
-
-IL_0083:
-		{
-		}
-
-IL_0084:
-		{
-			Enumerator_t1380760289 * L_10 = __this->get_address_of_U24locvar0_0();
-			bool L_11 = Enumerator_MoveNext_m4155603985(L_10, /*hidden argument*/Enumerator_MoveNext_m4155603985_MethodInfo_var);
-			if (L_11)
-			{
-				goto IL_004f;
-			}
-		}
-
-IL_0094:
-		{
-			IL2CPP_LEAVE(0xAF, FINALLY_0099);
-		}
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_0099;
-	}
-
-FINALLY_0099:
-	{ // begin finally (depth: 1)
-		{
-			bool L_12 = V_1;
-			if (!L_12)
-			{
-				goto IL_009d;
-			}
-		}
-
-IL_009c:
-		{
-			IL2CPP_END_FINALLY(153)
-		}
-
-IL_009d:
-		{
-			Enumerator_t1380760289 * L_13 = __this->get_address_of_U24locvar0_0();
-			Enumerator_Dispose_m299311743(L_13, /*hidden argument*/Enumerator_Dispose_m299311743_MethodInfo_var);
-			IL2CPP_END_FINALLY(153)
-		}
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(153)
-	{
-		IL2CPP_JUMP_TBL(0xB8, IL_00b8)
-		IL2CPP_JUMP_TBL(0xAF, IL_00af)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_00af:
-	{
-		__this->set_U24PC_5((-1));
-	}
-
-IL_00b6:
-	{
-		return (bool)0;
-	}
-
-IL_00b8:
-	{
-		return (bool)1;
-	}
-}
-// System.Object JsonChildList/<GetEnumerator>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  Il2CppObject * U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4229817195 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	Il2CppObject * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = __this->get_U24current_3();
-		V_0 = L_0;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		Il2CppObject * L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Object JsonChildList/<GetEnumerator>c__Iterator0::System.Collections.IEnumerator.get_Current()
-extern "C"  Il2CppObject * U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2837171091 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	Il2CppObject * V_0 = NULL;
-	{
-		Il2CppObject * L_0 = __this->get_U24current_3();
-		V_0 = L_0;
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
-		Il2CppObject * L_1 = V_0;
-		return L_1;
-	}
-}
-// System.Void JsonChildList/<GetEnumerator>c__Iterator0::Dispose()
-extern const MethodInfo* Enumerator_Dispose_m299311743_MethodInfo_var;
-extern const uint32_t U3CGetEnumeratorU3Ec__Iterator0_Dispose_m3565177450_MetadataUsageId;
-extern "C"  void U3CGetEnumeratorU3Ec__Iterator0_Dispose_m3565177450 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CGetEnumeratorU3Ec__Iterator0_Dispose_m3565177450_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	Exception_t1927440687 * __last_unhandled_exception = 0;
-	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t1927440687 * __exception_local = 0;
-	NO_UNUSED_WARNING (__exception_local);
-	int32_t __leave_target = 0;
-	NO_UNUSED_WARNING (__leave_target);
-	{
-		int32_t L_0 = __this->get_U24PC_5();
-		V_0 = L_0;
-		__this->set_U24disposing_4((bool)1);
-		__this->set_U24PC_5((-1));
-		uint32_t L_1 = V_0;
-		if (L_1 == 0)
-		{
-			goto IL_003f;
-		}
-		if (L_1 == 1)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		goto IL_003f;
-	}
-
-IL_0028:
-	try
-	{ // begin try (depth: 1)
-		IL2CPP_LEAVE(0x3F, FINALLY_002d);
-	} // end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_002d;
-	}
-
-FINALLY_002d:
-	{ // begin finally (depth: 1)
-		Enumerator_t1380760289 * L_2 = __this->get_address_of_U24locvar0_0();
-		Enumerator_Dispose_m299311743(L_2, /*hidden argument*/Enumerator_Dispose_m299311743_MethodInfo_var);
-		IL2CPP_END_FINALLY(45)
-	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(45)
-	{
-		IL2CPP_JUMP_TBL(0x3F, IL_003f)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
-	}
-
-IL_003f:
-	{
-		return;
-	}
-}
-// System.Void JsonChildList/<GetEnumerator>c__Iterator0::Reset()
-extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
-extern const uint32_t U3CGetEnumeratorU3Ec__Iterator0_Reset_m3774390104_MetadataUsageId;
-extern "C"  void U3CGetEnumeratorU3Ec__Iterator0_Reset_m3774390104 (U3CGetEnumeratorU3Ec__Iterator0_t2366112656 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (U3CGetEnumeratorU3Ec__Iterator0_Reset_m3774390104_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m3232764727(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void JsonChildList/JsonChild::.ctor()
-extern Il2CppClass* Dictionary_2_t3943999495_il2cpp_TypeInfo_var;
-extern const MethodInfo* Dictionary_2__ctor_m28427054_MethodInfo_var;
-extern const uint32_t JsonChild__ctor_m3796672298_MetadataUsageId;
-extern "C"  void JsonChild__ctor_m3796672298 (JsonChild_t2476909483 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChild__ctor_m3796672298_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		__this->set_disposedValue_1((bool)0);
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
-		Dictionary_2_t3943999495 * L_0 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m28427054(L_0, /*hidden argument*/Dictionary_2__ctor_m28427054_MethodInfo_var);
-		__this->set_dict_0(L_0);
-		return;
-	}
-}
-// System.Boolean JsonChildList/JsonChild::contains(System.String)
-extern const MethodInfo* Dictionary_2_ContainsKey_m1170681985_MethodInfo_var;
-extern const uint32_t JsonChild_contains_m305098639_MetadataUsageId;
-extern "C"  bool JsonChild_contains_m305098639 (JsonChild_t2476909483 * __this, String_t* ___key0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChild_contains_m305098639_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		Dictionary_2_t3943999495 * L_0 = __this->get_dict_0();
-		String_t* L_1 = ___key0;
-		NullCheck(L_0);
-		bool L_2 = Dictionary_2_ContainsKey_m1170681985(L_0, L_1, /*hidden argument*/Dictionary_2_ContainsKey_m1170681985_MethodInfo_var);
-		V_0 = L_2;
-		goto IL_0013;
-	}
-
-IL_0013:
-	{
-		bool L_3 = V_0;
-		return L_3;
-	}
-}
-// System.String JsonChildList/JsonChild::get_Item(System.String)
-extern const MethodInfo* Dictionary_2_get_Item_m499153720_MethodInfo_var;
-extern const uint32_t JsonChild_get_Item_m3574574957_MetadataUsageId;
-extern "C"  String_t* JsonChild_get_Item_m3574574957 (JsonChild_t2476909483 * __this, String_t* ___key0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChild_get_Item_m3574574957_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	{
-		String_t* L_0 = ___key0;
-		bool L_1 = JsonChild_contains_m305098639(__this, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		Dictionary_2_t3943999495 * L_2 = __this->get_dict_0();
-		String_t* L_3 = ___key0;
-		NullCheck(L_2);
-		String_t* L_4 = Dictionary_2_get_Item_m499153720(L_2, L_3, /*hidden argument*/Dictionary_2_get_Item_m499153720_MethodInfo_var);
-		V_0 = L_4;
-		goto IL_0028;
-	}
-
-IL_0020:
-	{
-		V_0 = (String_t*)NULL;
-		goto IL_0028;
-	}
-
-IL_0028:
-	{
-		String_t* L_5 = V_0;
-		return L_5;
-	}
-}
-// System.Void JsonChildList/JsonChild::set_Item(System.String,System.String)
-extern const MethodInfo* Dictionary_2_set_Item_m4244870320_MethodInfo_var;
-extern const uint32_t JsonChild_set_Item_m3327470576_MetadataUsageId;
-extern "C"  void JsonChild_set_Item_m3327470576 (JsonChild_t2476909483 * __this, String_t* ___key0, String_t* ___value1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChild_set_Item_m3327470576_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Dictionary_2_t3943999495 * L_0 = __this->get_dict_0();
-		String_t* L_1 = ___key0;
-		String_t* L_2 = ___value1;
-		NullCheck(L_0);
-		Dictionary_2_set_Item_m4244870320(L_0, L_1, L_2, /*hidden argument*/Dictionary_2_set_Item_m4244870320_MethodInfo_var);
-		return;
-	}
-}
-// System.Void JsonChildList/JsonChild::Dispose(System.Boolean)
-extern const MethodInfo* Dictionary_2_Clear_m2627516285_MethodInfo_var;
-extern const uint32_t JsonChild_Dispose_m1271982982_MetadataUsageId;
-extern "C"  void JsonChild_Dispose_m1271982982 (JsonChild_t2476909483 * __this, bool ___disposing0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonChild_Dispose_m1271982982_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		bool L_0 = __this->get_disposedValue_1();
-		if (L_0)
-		{
-			goto IL_002f;
-		}
-	}
-	{
-		bool L_1 = ___disposing0;
-		if (!L_1)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-	}
-
-IL_0015:
-	{
-		Dictionary_2_t3943999495 * L_2 = __this->get_dict_0();
-		NullCheck(L_2);
-		Dictionary_2_Clear_m2627516285(L_2, /*hidden argument*/Dictionary_2_Clear_m2627516285_MethodInfo_var);
-		__this->set_dict_0((Dictionary_2_t3943999495 *)NULL);
-		__this->set_disposedValue_1((bool)1);
-	}
-
-IL_002f:
-	{
-		return;
-	}
-}
-// System.Void JsonChildList/JsonChild::Dispose()
-extern "C"  void JsonChild_Dispose_m2348063797 (JsonChild_t2476909483 * __this, const MethodInfo* method)
-{
-	{
-		VirtActionInvoker1< bool >::Invoke(5 /* System.Void JsonChildList/JsonChild::Dispose(System.Boolean) */, __this, (bool)1);
 		return;
 	}
 }
@@ -6972,21 +7178,21 @@ IL_001e:
 		return L_4;
 	}
 }
-// System.Void Landmark::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern const MethodInfo* CrhcFolder_1__ctor_m866102828_MethodInfo_var;
-extern const uint32_t Landmark__ctor_m2133199167_MetadataUsageId;
-extern "C"  void Landmark__ctor_m2133199167 (Landmark_t1862459476 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method)
+// System.Void Landmark::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern const MethodInfo* CrhcFolder_1__ctor_m1714747441_MethodInfo_var;
+extern const uint32_t Landmark__ctor_m531928792_MetadataUsageId;
+extern "C"  void Landmark__ctor_m531928792 (Landmark_t1862459476 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Landmark__ctor_m2133199167_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Landmark__ctor_m531928792_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		CrhcItem_t1379468653 * L_0 = ___parent0;
-		JsonChild_t2476909483 * L_1 = ___data1;
-		CrhcFolder_1__ctor_m866102828(__this, L_0, L_1, /*hidden argument*/CrhcFolder_1__ctor_m866102828_MethodInfo_var);
+		JObject_t278519297 * L_1 = ___data1;
+		CrhcFolder_1__ctor_m1714747441(__this, L_0, L_1, /*hidden argument*/CrhcFolder_1__ctor_m1714747441_MethodInfo_var);
 		return;
 	}
 }
@@ -7121,6 +7327,7 @@ IL_0012:
 	}
 }
 // System.String Landmark::getName()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2328218955;
 extern const uint32_t Landmark_getName_m972640561_MetadataUsageId;
 extern "C"  String_t* Landmark_getName_m972640561 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7133,7 +7340,7 @@ extern "C"  String_t* Landmark_getName_m972640561 (Landmark_t1862459476 * __this
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral2328218955, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral2328218955, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -7145,6 +7352,7 @@ IL_0012:
 	}
 }
 // System.Int32 Landmark::getNumber()
+extern const MethodInfo* CrhcItem_getData_TisInt32_t2071877448_m1994794720_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2148459491;
 extern const uint32_t Landmark_getNumber_m1194720544_MetadataUsageId;
 extern "C"  int32_t Landmark_getNumber_m1194720544 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7157,19 +7365,19 @@ extern "C"  int32_t Landmark_getNumber_m1194720544 (Landmark_t1862459476 * __thi
 	}
 	int32_t V_0 = 0;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral2148459491, /*hidden argument*/NULL);
-		int32_t L_1 = Int32_Parse_m3683414232(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		int32_t L_0 = CrhcItem_getData_TisInt32_t2071877448_m1994794720(__this, _stringLiteral2148459491, /*hidden argument*/CrhcItem_getData_TisInt32_t2071877448_m1994794720_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		int32_t L_2 = V_0;
-		return L_2;
+		int32_t L_1 = V_0;
+		return L_1;
 	}
 }
 // System.String Landmark::getDescription()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3686446540;
 extern const uint32_t Landmark_getDescription_m452449776_MetadataUsageId;
 extern "C"  String_t* Landmark_getDescription_m452449776 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7182,7 +7390,7 @@ extern "C"  String_t* Landmark_getDescription_m452449776 (Landmark_t1862459476 *
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral3686446540, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral3686446540, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -7194,6 +7402,7 @@ IL_0012:
 	}
 }
 // System.String Landmark::getLongDescription()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1588526834;
 extern const uint32_t Landmark_getLongDescription_m731218866_MetadataUsageId;
 extern "C"  String_t* Landmark_getLongDescription_m731218866 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7206,7 +7415,7 @@ extern "C"  String_t* Landmark_getLongDescription_m731218866 (Landmark_t18624594
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral1588526834, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral1588526834, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -7218,6 +7427,7 @@ IL_0012:
 	}
 }
 // System.Double Landmark::getLatitude()
+extern const MethodInfo* CrhcItem_getData_TisDouble_t4078015681_m164198751_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral611447614;
 extern const uint32_t Landmark_getLatitude_m3904175132_MetadataUsageId;
 extern "C"  double Landmark_getLatitude_m3904175132 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7230,19 +7440,19 @@ extern "C"  double Landmark_getLatitude_m3904175132 (Landmark_t1862459476 * __th
 	}
 	double V_0 = 0.0;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral611447614, /*hidden argument*/NULL);
-		double L_1 = Double_Parse_m1560474910(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		double L_0 = CrhcItem_getData_TisDouble_t4078015681_m164198751(__this, _stringLiteral611447614, /*hidden argument*/CrhcItem_getData_TisDouble_t4078015681_m164198751_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		double L_2 = V_0;
-		return L_2;
+		double L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Double Landmark::getLongitude()
+extern const MethodInfo* CrhcItem_getData_TisDouble_t4078015681_m164198751_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral4223448911;
 extern const uint32_t Landmark_getLongitude_m1497358485_MetadataUsageId;
 extern "C"  double Landmark_getLongitude_m1497358485 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7255,20 +7465,19 @@ extern "C"  double Landmark_getLongitude_m1497358485 (Landmark_t1862459476 * __t
 	}
 	double V_0 = 0.0;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral4223448911, /*hidden argument*/NULL);
-		double L_1 = Double_Parse_m1560474910(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		double L_0 = CrhcItem_getData_TisDouble_t4078015681_m164198751(__this, _stringLiteral4223448911, /*hidden argument*/CrhcItem_getData_TisDouble_t4078015681_m164198751_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		double L_2 = V_0;
-		return L_2;
+		double L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Boolean Landmark::hasAR()
-extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const MethodInfo* CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1615098245;
 extern const uint32_t Landmark_hasAR_m3658401734_MetadataUsageId;
 extern "C"  bool Landmark_hasAR_m3658401734 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7281,21 +7490,19 @@ extern "C"  bool Landmark_hasAR_m3658401734 (Landmark_t1862459476 * __this, cons
 	}
 	bool V_0 = false;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral1615098245, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t3825574718_il2cpp_TypeInfo_var);
-		bool L_1 = Boolean_Parse_m3612710908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		bool L_0 = CrhcItem_getData_TisBoolean_t3825574718_m135963688(__this, _stringLiteral1615098245, /*hidden argument*/CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		bool L_2 = V_0;
-		return L_2;
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Boolean Landmark::hasAddress()
-extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const MethodInfo* CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3523377646;
 extern const uint32_t Landmark_hasAddress_m90298749_MetadataUsageId;
 extern "C"  bool Landmark_hasAddress_m90298749 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7308,72 +7515,62 @@ extern "C"  bool Landmark_hasAddress_m90298749 (Landmark_t1862459476 * __this, c
 	}
 	bool V_0 = false;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral3523377646, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t3825574718_il2cpp_TypeInfo_var);
-		bool L_1 = Boolean_Parse_m3612710908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean Landmark::hasAudio()
-extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2631161960;
-extern const uint32_t Landmark_hasAudio_m2461180601_MetadataUsageId;
-extern "C"  bool Landmark_hasAudio_m2461180601 (Landmark_t1862459476 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Landmark_hasAudio_m2461180601_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral2631161960, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t3825574718_il2cpp_TypeInfo_var);
-		bool L_1 = Boolean_Parse_m3612710908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.String Landmark::getAudioSource()
-extern Il2CppCodeGenString* _stringLiteral277171331;
-extern const uint32_t Landmark_getAudioSource_m518654957_MetadataUsageId;
-extern "C"  String_t* Landmark_getAudioSource_m518654957 (Landmark_t1862459476 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Landmark_getAudioSource_m518654957_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral277171331, /*hidden argument*/NULL);
+		bool L_0 = CrhcItem_getData_TisBoolean_t3825574718_m135963688(__this, _stringLiteral3523377646, /*hidden argument*/CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
 
 IL_0012:
 	{
-		String_t* L_1 = V_0;
+		bool L_1 = V_0;
 		return L_1;
 	}
 }
+// Newtonsoft.Json.Linq.JArray Landmark::getAudioClips()
+extern const MethodInfo* CrhcItem_getData_TisJArray_t1483708661_m4239980737_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1716812467;
+extern const uint32_t Landmark_getAudioClips_m1463760283_MetadataUsageId;
+extern "C"  JArray_t1483708661 * Landmark_getAudioClips_m1463760283 (Landmark_t1862459476 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Landmark_getAudioClips_m1463760283_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	JArray_t1483708661 * V_0 = NULL;
+	{
+		JArray_t1483708661 * L_0 = CrhcItem_getData_TisJArray_t1483708661_m4239980737(__this, _stringLiteral1716812467, /*hidden argument*/CrhcItem_getData_TisJArray_t1483708661_m4239980737_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
+	}
+
+IL_0012:
+	{
+		JArray_t1483708661 * L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Boolean Landmark::hasAudio()
+extern "C"  bool Landmark_hasAudio_m2461180601 (Landmark_t1862459476 * __this, const MethodInfo* method)
+{
+	bool V_0 = false;
+	{
+		JArray_t1483708661 * L_0 = Landmark_getAudioClips_m1463760283(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = JContainer_get_Count_m269519266(L_0, /*hidden argument*/NULL);
+		V_0 = (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
 // System.Boolean Landmark::isVisible()
-extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const MethodInfo* CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral391022640;
 extern const uint32_t Landmark_isVisible_m770780581_MetadataUsageId;
 extern "C"  bool Landmark_isVisible_m770780581 (Landmark_t1862459476 * __this, const MethodInfo* method)
@@ -7386,17 +7583,15 @@ extern "C"  bool Landmark_isVisible_m770780581 (Landmark_t1862459476 * __this, c
 	}
 	bool V_0 = false;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral391022640, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t3825574718_il2cpp_TypeInfo_var);
-		bool L_1 = Boolean_Parse_m3612710908(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_0017;
+		bool L_0 = CrhcItem_getData_TisBoolean_t3825574718_m135963688(__this, _stringLiteral391022640, /*hidden argument*/CrhcItem_getData_TisBoolean_t3825574718_m135963688_MethodInfo_var);
+		V_0 = L_0;
+		goto IL_0012;
 	}
 
-IL_0017:
+IL_0012:
 	{
-		bool L_2 = V_0;
-		return L_2;
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // IMenu Landmark::buildMenu()
@@ -7463,7 +7658,7 @@ extern "C"  IMenu_t2695572612 * Landmark_buildMenu_m4167438913 (Landmark_t186245
 		V_2 = L_3;
 		Row_t774521500 * L_4 = V_2;
 		BackButton_t2597280886 * L_5 = (BackButton_t2597280886 *)il2cpp_codegen_object_new(BackButton_t2597280886_il2cpp_TypeInfo_var);
-		BackButton__ctor_m1559194753(L_5, __this, /*hidden argument*/NULL);
+		BackButton__ctor_m39369832(L_5, __this, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		Row_addItem_m212990216(L_4, L_5, (1.0f), /*hidden argument*/NULL);
 		Menu_t4261767481 * L_6 = V_0;
@@ -8119,14 +8314,38 @@ extern "C"  void ARButton_onDispose_m3336808577 (ARButton_t1476977038 * __this, 
 		return;
 	}
 }
-// System.Void Landmark/BackButton::.ctor(Landmark)
-extern "C"  void BackButton__ctor_m1559194753 (BackButton_t2597280886 * __this, Landmark_t1862459476 * ___owner0, const MethodInfo* method)
+// System.Void Landmark/BackButton::.ctor(CrhcItem)
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
+extern Il2CppClass* CachedLoader_t1584985543_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* ILoader_load_TisTexture2D_t3542995729_m2269949556_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2073562182;
+extern const uint32_t BackButton__ctor_m39369832_MetadataUsageId;
+extern "C"  void BackButton__ctor_m39369832 (BackButton_t2597280886 * __this, CrhcItem_t1379468653 * ___owner0, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		Color_t2020392075  L_0 = Color_get_red_m2410286591(NULL /*static, unused*/, /*hidden argument*/NULL);
+		il2cpp_codegen_initialize_method (BackButton__ctor_m39369832_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set_PADDING_4((8.0f));
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Color_t2020392075  L_0 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_TRANSPARENT_4();
 		RectItem__ctor_m3600433864(__this, L_0, /*hidden argument*/NULL);
-		Landmark_t1862459476 * L_1 = ___owner0;
+		CrhcItem_t1379468653 * L_1 = ___owner0;
 		__this->set_owner_2(L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
+		ILoader_t1641484032 * L_2 = ServiceLocator_getILoader_m4220107979(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CachedLoader_t1584985543_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((CachedLoader_t1584985543_StaticFields*)CachedLoader_t1584985543_il2cpp_TypeInfo_var->static_fields)->get_SERVER_PATH_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral2073562182, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Reference_1_t3035523416 * L_5 = ILoader_load_TisTexture2D_t3542995729_m2269949556(L_2, L_4, /*hidden argument*/ILoader_load_TisTexture2D_t3542995729_m2269949556_MethodInfo_var);
+		__this->set_arrowTexture_3(L_5);
 		return;
 	}
 }
@@ -8134,10 +8353,72 @@ extern "C"  void BackButton__ctor_m1559194753 (BackButton_t2597280886 * __this, 
 extern "C"  void BackButton_onClick_m2652314834 (BackButton_t2597280886 * __this, const MethodInfo* method)
 {
 	{
-		Landmark_t1862459476 * L_0 = __this->get_owner_2();
+		CrhcItem_t1379468653 * L_0 = __this->get_owner_2();
 		NullCheck(L_0);
 		Loadable_unload_m363378824(L_0, /*hidden argument*/NULL);
 		return;
+	}
+}
+// System.Boolean Landmark/BackButton::draw(System.Single,System.Single)
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
+extern const uint32_t BackButton_draw_m3375906759_MetadataUsageId;
+extern "C"  bool BackButton_draw_m3375906759 (BackButton_t2597280886 * __this, float ___w0, float ___h1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BackButton_draw_m3375906759_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	Vector2_t2243707579  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	bool V_4 = false;
+	{
+		float L_0 = ___w0;
+		float L_1 = ___h1;
+		bool L_2 = RectItem_draw_m2759781096(__this, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_3 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_BACK_BUTTON_15();
+		NullCheck(L_3);
+		float L_4 = Number_getAs_m2157461677(L_3, 0, /*hidden argument*/NULL);
+		V_1 = L_4;
+		V_2 = (180.0f);
+		float L_5 = __this->get_PADDING_4();
+		float L_6 = V_1;
+		float L_7 = __this->get_PADDING_4();
+		float L_8 = V_1;
+		Vector2__ctor_m3067419446((&V_3), ((float)((float)L_5+(float)((float)((float)L_6/(float)(2.0f))))), ((float)((float)L_7+(float)((float)((float)L_8/(float)(2.0f))))), /*hidden argument*/NULL);
+		float L_9 = V_2;
+		Vector2_t2243707579  L_10 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
+		GUIUtility_RotateAroundPivot_m2075646761(NULL /*static, unused*/, L_9, L_10, /*hidden argument*/NULL);
+		float L_11 = __this->get_PADDING_4();
+		float L_12 = __this->get_PADDING_4();
+		float L_13 = V_1;
+		float L_14 = V_1;
+		Rect_t3681755626  L_15;
+		memset(&L_15, 0, sizeof(L_15));
+		Rect__ctor_m1220545469(&L_15, L_11, L_12, L_13, L_14, /*hidden argument*/NULL);
+		Reference_1_t3035523416 * L_16 = __this->get_arrowTexture_3();
+		Color_t2020392075  L_17 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
+		TextureUtility_drawTexture_m2476468923(NULL /*static, unused*/, L_15, L_16, L_17, 2, /*hidden argument*/NULL);
+		float L_18 = V_2;
+		Vector2_t2243707579  L_19 = V_3;
+		GUIUtility_RotateAroundPivot_m2075646761(NULL /*static, unused*/, ((-L_18)), L_19, /*hidden argument*/NULL);
+		bool L_20 = V_0;
+		V_4 = L_20;
+		goto IL_007b;
+	}
+
+IL_007b:
+	{
+		bool L_21 = V_4;
+		return L_21;
 	}
 }
 // System.Void Landmark/BackButton::onDispose()
@@ -8145,8 +8426,40 @@ extern "C"  void BackButton_onDispose_m1627823401 (BackButton_t2597280886 * __th
 {
 	{
 		RectItem_onDispose_m1521857806(__this, /*hidden argument*/NULL);
-		__this->set_owner_2((Landmark_t1862459476 *)NULL);
+		__this->set_owner_2((CrhcItem_t1379468653 *)NULL);
+		Reference_1_t3035523416 * L_0 = __this->get_arrowTexture_3();
+		NullCheck(L_0);
+		Reference_removeOwner_m1167692895(L_0, /*hidden argument*/NULL);
+		__this->set_arrowTexture_3((Reference_1_t3035523416 *)NULL);
 		return;
+	}
+}
+// System.Single Landmark/BackButton::getHeight(System.Single)
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern const uint32_t BackButton_getHeight_m3239898761_MetadataUsageId;
+extern "C"  float BackButton_getHeight_m3239898761 (BackButton_t2597280886 * __this, float ___w0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BackButton_getHeight_m3239898761_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_0 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SIZE_BACK_BUTTON_15();
+		NullCheck(L_0);
+		float L_1 = Number_getAs_m2157461677(L_0, 0, /*hidden argument*/NULL);
+		float L_2 = __this->get_PADDING_4();
+		V_0 = ((float)((float)L_1+(float)((float)((float)(2.0f)*(float)L_2))));
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		float L_3 = V_0;
+		return L_3;
 	}
 }
 // System.Void Loadable::.ctor()
@@ -9203,7 +9516,7 @@ extern "C"  void MapServer_showRoute_m497256792 (Il2CppObject * __this /* static
 extern Il2CppClass* CachedLoader_t1584985543_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* MapServer_t4172556483_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral696029452;
+extern Il2CppCodeGenString* _stringLiteral2254313455;
 extern const uint32_t MapServer__cctor_m4197902649_MetadataUsageId;
 extern "C"  void MapServer__cctor_m4197902649 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
@@ -9217,7 +9530,7 @@ extern "C"  void MapServer__cctor_m4197902649 (Il2CppObject * __this /* static, 
 		IL2CPP_RUNTIME_CLASS_INIT(CachedLoader_t1584985543_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((CachedLoader_t1584985543_StaticFields*)CachedLoader_t1584985543_il2cpp_TypeInfo_var->static_fields)->get_SERVER_PATH_3();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, L_0, _stringLiteral696029452, /*hidden argument*/NULL);
+		String_t* L_1 = String_Concat_m2596409543(NULL /*static, unused*/, L_0, _stringLiteral2254313455, /*hidden argument*/NULL);
 		((MapServer_t4172556483_StaticFields*)MapServer_t4172556483_il2cpp_TypeInfo_var->static_fields)->set_BASE_URL_0(L_1);
 		return;
 	}
@@ -9604,6 +9917,7 @@ extern "C"  void OnScreenLog__ctor_m658685012 (OnScreenLog_t2236434795 * __this,
 extern "C"  void OnScreenLog_Start_m1846880496 (OnScreenLog_t2236434795 * __this, const MethodInfo* method)
 {
 	{
+		OnScreenLog_clear_m3899087103(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9642,17 +9956,157 @@ IL_000b:
 	}
 }
 // System.Void OnScreenLog::print(LogType,System.Object)
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* LinkedList_1_get_Count_m3755723292_MethodInfo_var;
+extern const MethodInfo* LinkedList_1_AddFirst_m1252812445_MethodInfo_var;
+extern const MethodInfo* LinkedList_1_get_First_m442151038_MethodInfo_var;
+extern const MethodInfo* LinkedListNode_1_get_Value_m3039471100_MethodInfo_var;
+extern const MethodInfo* LinkedListNode_1_set_Value_m529311057_MethodInfo_var;
+extern const MethodInfo* LinkedList_1_RemoveLast_m3124693012_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral371857150;
+extern const uint32_t OnScreenLog_print_m2486189153_MetadataUsageId;
 extern "C"  void OnScreenLog_print_m2486189153 (OnScreenLog_t2236434795 * __this, int32_t ___type0, Il2CppObject * ___o1, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnScreenLog_print_m2486189153_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	int32_t V_1 = 0;
+	String_t* V_2 = NULL;
 	{
 		int32_t L_0 = ___type0;
-		Il2CppObject * L_1 = ___o1;
-		OnScreenLog_println_m91018839(__this, L_0, L_1, /*hidden argument*/NULL);
+		bool L_1 = OnScreenLog_allow_m3006965699(__this, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		Il2CppObject * L_2 = ___o1;
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		CharU5BU5D_t1328083999* L_4 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)10));
+		NullCheck(L_3);
+		StringU5BU5D_t1642385972* L_5 = String_Split_m3326265864(L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		V_1 = 0;
+		goto IL_00d5;
+	}
+
+IL_002c:
+	{
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		String_t* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_2 = L_9;
+		int32_t L_10 = V_1;
+		StringU5BU5D_t1642385972* L_11 = V_0;
+		NullCheck(L_11);
+		if ((!(((uint32_t)((int32_t)((int32_t)L_10+(int32_t)1))) == ((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length))))))))
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		LinkedList_1_t2333928462 * L_12 = __this->get_log_0();
+		NullCheck(L_12);
+		int32_t L_13 = LinkedList_1_get_Count_m3755723292(L_12, /*hidden argument*/LinkedList_1_get_Count_m3755723292_MethodInfo_var);
+		if (L_13)
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		LinkedList_1_t2333928462 * L_14 = __this->get_log_0();
+		NullCheck(L_14);
+		LinkedList_1_AddFirst_m1252812445(L_14, _stringLiteral371857150, /*hidden argument*/LinkedList_1_AddFirst_m1252812445_MethodInfo_var);
+	}
+
+IL_0060:
+	{
+		LinkedList_1_t2333928462 * L_15 = __this->get_log_0();
+		NullCheck(L_15);
+		LinkedListNode_1_t925326146 * L_16 = LinkedList_1_get_First_m442151038(L_15, /*hidden argument*/LinkedList_1_get_First_m442151038_MethodInfo_var);
+		LinkedListNode_1_t925326146 * L_17 = L_16;
+		NullCheck(L_17);
+		String_t* L_18 = LinkedListNode_1_get_Value_m3039471100(L_17, /*hidden argument*/LinkedListNode_1_get_Value_m3039471100_MethodInfo_var);
+		String_t* L_19 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m2596409543(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		LinkedListNode_1_set_Value_m529311057(L_17, L_20, /*hidden argument*/LinkedListNode_1_set_Value_m529311057_MethodInfo_var);
+		goto IL_00d0;
+	}
+
+IL_0082:
+	{
+		LinkedList_1_t2333928462 * L_21 = __this->get_log_0();
+		NullCheck(L_21);
+		LinkedListNode_1_t925326146 * L_22 = LinkedList_1_get_First_m442151038(L_21, /*hidden argument*/LinkedList_1_get_First_m442151038_MethodInfo_var);
+		LinkedListNode_1_t925326146 * L_23 = L_22;
+		NullCheck(L_23);
+		String_t* L_24 = LinkedListNode_1_get_Value_m3039471100(L_23, /*hidden argument*/LinkedListNode_1_get_Value_m3039471100_MethodInfo_var);
+		String_t* L_25 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_26 = String_Concat_m2596409543(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		LinkedListNode_1_set_Value_m529311057(L_23, L_26, /*hidden argument*/LinkedListNode_1_set_Value_m529311057_MethodInfo_var);
+		LinkedList_1_t2333928462 * L_27 = __this->get_log_0();
+		NullCheck(L_27);
+		LinkedList_1_AddFirst_m1252812445(L_27, _stringLiteral371857150, /*hidden argument*/LinkedList_1_AddFirst_m1252812445_MethodInfo_var);
+		LinkedList_1_t2333928462 * L_28 = __this->get_log_0();
+		NullCheck(L_28);
+		int32_t L_29 = LinkedList_1_get_Count_m3755723292(L_28, /*hidden argument*/LinkedList_1_get_Count_m3755723292_MethodInfo_var);
+		if ((((int32_t)L_29) <= ((int32_t)((int32_t)50))))
+		{
+			goto IL_00cf;
+		}
+	}
+	{
+		LinkedList_1_t2333928462 * L_30 = __this->get_log_0();
+		NullCheck(L_30);
+		LinkedList_1_RemoveLast_m3124693012(L_30, /*hidden argument*/LinkedList_1_RemoveLast_m3124693012_MethodInfo_var);
+	}
+
+IL_00cf:
+	{
+	}
+
+IL_00d0:
+	{
+		int32_t L_31 = V_1;
+		V_1 = ((int32_t)((int32_t)L_31+(int32_t)1));
+	}
+
+IL_00d5:
+	{
+		int32_t L_32 = V_1;
+		StringU5BU5D_t1642385972* L_33 = V_0;
+		NullCheck(L_33);
+		if ((((int32_t)L_32) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_33)->max_length)))))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+	}
+
+IL_00df:
+	{
 		return;
 	}
 }
 // System.Void OnScreenLog::println(LogType,System.Object)
-extern const MethodInfo* LinkedList_1_AddFirst_m1252812445_MethodInfo_var;
+extern Il2CppClass* Char_t3454481338_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern const uint32_t OnScreenLog_println_m91018839_MetadataUsageId;
 extern "C"  void OnScreenLog_println_m91018839 (OnScreenLog_t2236434795 * __this, int32_t ___type0, Il2CppObject * ___o1, const MethodInfo* method)
 {
@@ -9664,23 +10118,14 @@ extern "C"  void OnScreenLog_println_m91018839 (OnScreenLog_t2236434795 * __this
 	}
 	{
 		int32_t L_0 = ___type0;
-		bool L_1 = OnScreenLog_allow_m3006965699(__this, L_0, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		LinkedList_1_t2333928462 * L_2 = __this->get_log_0();
-		Il2CppObject * L_3 = ___o1;
-		NullCheck(L_3);
-		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_3);
-		NullCheck(L_2);
-		LinkedList_1_AddFirst_m1252812445(L_2, L_4, /*hidden argument*/LinkedList_1_AddFirst_m1252812445_MethodInfo_var);
-	}
-
-IL_0021:
-	{
+		Il2CppObject * L_1 = ___o1;
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_1);
+		Il2CppChar L_3 = ((Il2CppChar)((int32_t)10));
+		Il2CppObject * L_4 = Box(Char_t3454481338_il2cpp_TypeInfo_var, &L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m56707527(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		OnScreenLog_print_m2486189153(__this, L_0, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9719,13 +10164,14 @@ extern "C"  void OnScreenLog_OnGUI_m4184241632 (OnScreenLog_t2236434795 * __this
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
 	float V_4 = 0.0f;
-	Rect_t3681755626  V_5;
-	memset(&V_5, 0, sizeof(V_5));
+	float V_5 = 0.0f;
 	Rect_t3681755626  V_6;
 	memset(&V_6, 0, sizeof(V_6));
-	String_t* V_7 = NULL;
-	Enumerator_t1156834484  V_8;
-	memset(&V_8, 0, sizeof(V_8));
+	Rect_t3681755626  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	String_t* V_8 = NULL;
+	Enumerator_t1156834484  V_9;
+	memset(&V_9, 0, sizeof(V_9));
 	Exception_t1927440687 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t1927440687 * __exception_local = 0;
@@ -9751,30 +10197,30 @@ extern "C"  void OnScreenLog_OnGUI_m4184241632 (OnScreenLog_t2236434795 * __this
 		V_2 = (0.0f);
 		int32_t L_5 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_3 = (((float)((float)L_5)));
-		V_4 = (20.0f);
-		Rect__ctor_m1220545469((&V_5), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		V_5 = (8.0f);
 		Rect__ctor_m1220545469((&V_6), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		GUIX_beginOpacity_m3540977479(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
+		Rect__ctor_m1220545469((&V_7), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
 		LinkedList_1_t2333928462 * L_6 = __this->get_log_0();
 		NullCheck(L_6);
 		Enumerator_t1156834484  L_7 = LinkedList_1_GetEnumerator_m1879842826(L_6, /*hidden argument*/LinkedList_1_GetEnumerator_m1879842826_MethodInfo_var);
-		V_8 = L_7;
+		V_9 = L_7;
 	}
 
-IL_0088:
+IL_007e:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_00e4;
+			goto IL_00f5;
 		}
 
-IL_008d:
+IL_0083:
 		{
-			String_t* L_8 = Enumerator_get_Current_m1988605167((&V_8), /*hidden argument*/Enumerator_get_Current_m1988605167_MethodInfo_var);
-			V_7 = L_8;
+			String_t* L_8 = Enumerator_get_Current_m1988605167((&V_9), /*hidden argument*/Enumerator_get_Current_m1988605167_MethodInfo_var);
+			V_8 = L_8;
+			IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
+			GUIX_beginOpacity_m3540977479(NULL /*static, unused*/, (0.5f), /*hidden argument*/NULL);
 			GUIContent_t4210063000 * L_9 = V_1;
-			String_t* L_10 = V_7;
+			String_t* L_10 = V_8;
 			NullCheck(L_9);
 			GUIContent_set_text_m1170206441(L_9, L_10, /*hidden argument*/NULL);
 			GUIStyle_t1799908754 * L_11 = V_0;
@@ -9783,68 +10229,83 @@ IL_008d:
 			NullCheck(L_11);
 			float L_14 = GUIStyle_CalcHeight_m1685124037(L_11, L_12, L_13, /*hidden argument*/NULL);
 			V_4 = L_14;
-			float L_15 = V_2;
-			float L_16 = V_3;
-			float L_17 = V_4;
-			Rect_Set_m1972211443((&V_5), (0.0f), L_15, L_16, L_17, /*hidden argument*/NULL);
-			float L_18 = V_2;
-			float L_19 = V_3;
-			float L_20 = V_4;
-			Rect_Set_m1972211443((&V_6), (0.0f), L_18, L_19, L_20, /*hidden argument*/NULL);
-			Rect_t3681755626  L_21 = V_6;
-			Color_t2020392075  L_22 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
-			IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-			GUIX_fillRect_m970029164(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
-			Rect_t3681755626  L_23 = V_5;
-			String_t* L_24 = V_7;
+			float L_15 = V_4;
+			float L_16 = V_5;
+			V_4 = ((float)((float)L_15+(float)L_16));
+			float L_17 = V_2;
+			float L_18 = V_3;
+			float L_19 = V_4;
+			Rect_Set_m1972211443((&V_6), (0.0f), L_17, L_18, L_19, /*hidden argument*/NULL);
+			float L_20 = V_2;
+			float L_21 = V_3;
+			float L_22 = V_4;
+			float L_23 = V_5;
+			Rect_Set_m1972211443((&V_7), (0.0f), L_20, L_21, ((float)((float)L_22-(float)L_23)), /*hidden argument*/NULL);
+			Rect_t3681755626  L_24 = V_7;
+			Color_t2020392075  L_25 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+			GUIX_fillRect_m970029164(NULL /*static, unused*/, L_24, L_25, /*hidden argument*/NULL);
+			Rect_t3681755626  L_26 = V_6;
+			GUIContent_t4210063000 * L_27 = V_1;
 			IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-			GUI_Label_m2412846501(NULL /*static, unused*/, L_23, L_24, /*hidden argument*/NULL);
-			float L_25 = V_2;
-			float L_26 = V_4;
-			V_2 = ((float)((float)L_25+(float)L_26));
+			GUI_Label_m913087380(NULL /*static, unused*/, L_26, L_27, /*hidden argument*/NULL);
+			float L_28 = V_2;
+			float L_29 = V_4;
+			float L_30 = V_5;
+			V_2 = ((float)((float)L_28+(float)((float)((float)L_29-(float)L_30))));
+			GUIX_endOpacity_m3171615772(NULL /*static, unused*/, /*hidden argument*/NULL);
 		}
 
-IL_00e4:
+IL_00f5:
 		{
-			bool L_27 = Enumerator_MoveNext_m2867870611((&V_8), /*hidden argument*/Enumerator_MoveNext_m2867870611_MethodInfo_var);
-			if (L_27)
+			bool L_31 = Enumerator_MoveNext_m2867870611((&V_9), /*hidden argument*/Enumerator_MoveNext_m2867870611_MethodInfo_var);
+			if (L_31)
 			{
-				goto IL_008d;
+				goto IL_0083;
 			}
 		}
 
-IL_00f0:
+IL_0101:
 		{
-			IL2CPP_LEAVE(0x103, FINALLY_00f5);
+			IL2CPP_LEAVE(0x114, FINALLY_0106);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_00f5;
+		goto FINALLY_0106;
 	}
 
-FINALLY_00f5:
+FINALLY_0106:
 	{ // begin finally (depth: 1)
-		Enumerator_Dispose_m622259939((&V_8), /*hidden argument*/Enumerator_Dispose_m622259939_MethodInfo_var);
-		IL2CPP_END_FINALLY(245)
+		Enumerator_Dispose_m622259939((&V_9), /*hidden argument*/Enumerator_Dispose_m622259939_MethodInfo_var);
+		IL2CPP_END_FINALLY(262)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(245)
+	IL2CPP_CLEANUP(262)
 	{
-		IL2CPP_JUMP_TBL(0x103, IL_0103)
+		IL2CPP_JUMP_TBL(0x114, IL_0114)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_0103:
+IL_0114:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		GUIX_endOpacity_m3171615772(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void PaneRow::.ctor(Row,IMenu)
+extern Il2CppClass* ServiceLocator_t953918367_il2cpp_TypeInfo_var;
+extern Il2CppClass* CachedLoader_t1584985543_il2cpp_TypeInfo_var;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* ILoader_load_TisTexture2D_t3542995729_m2269949556_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2073562182;
+extern const uint32_t PaneRow__ctor_m3820109355_MetadataUsageId;
 extern "C"  void PaneRow__ctor_m3820109355 (PaneRow_t998949582 * __this, Row_t774521500 * ___headRow0, IMenu_t2695572612 * ___subMenu1, const MethodInfo* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PaneRow__ctor_m3820109355_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		__this->set_openFrac_3((0.0f));
 		__this->set_toFrac_4((0.0f));
@@ -9853,6 +10314,15 @@ extern "C"  void PaneRow__ctor_m3820109355 (PaneRow_t998949582 * __this, Row_t77
 		__this->set_headRow_1(L_0);
 		IMenu_t2695572612 * L_1 = ___subMenu1;
 		__this->set_subMenu_2(L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
+		ILoader_t1641484032 * L_2 = ServiceLocator_getILoader_m4220107979(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CachedLoader_t1584985543_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((CachedLoader_t1584985543_StaticFields*)CachedLoader_t1584985543_il2cpp_TypeInfo_var->static_fields)->get_SERVER_PATH_3();
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m2596409543(NULL /*static, unused*/, L_3, _stringLiteral2073562182, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Reference_1_t3035523416 * L_5 = ILoader_load_TisTexture2D_t3542995729_m2269949556(L_2, L_4, /*hidden argument*/ILoader_load_TisTexture2D_t3542995729_m2269949556_MethodInfo_var);
+		__this->set_arrowTexture_7(L_5);
 		return;
 	}
 }
@@ -9943,6 +10413,8 @@ IL_00bc:
 	}
 }
 // System.Boolean PaneRow::draw(System.Single)
+extern Il2CppClass* CRHC_t1634415772_il2cpp_TypeInfo_var;
+extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
 extern Il2CppClass* GUIX_t1405793021_il2cpp_TypeInfo_var;
 extern const uint32_t PaneRow_draw_m2258620834_MetadataUsageId;
 extern "C"  bool PaneRow_draw_m2258620834 (PaneRow_t998949582 * __this, float ___w0, const MethodInfo* method)
@@ -9954,7 +10426,16 @@ extern "C"  bool PaneRow_draw_m2258620834 (PaneRow_t998949582 * __this, float __
 		s_Il2CppMethodInitialized = true;
 	}
 	float V_0 = 0.0f;
-	bool V_1 = false;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Rect_t3681755626  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector2_t2243707579  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	bool V_8 = false;
 	{
 		float L_0 = __this->get_openFrac_3();
 		float L_1 = __this->get_toFrac_4();
@@ -9983,37 +10464,87 @@ extern "C"  bool PaneRow_draw_m2258620834 (PaneRow_t998949582 * __this, float __
 
 IL_0069:
 	{
-		IMenu_t2695572612 * L_12 = __this->get_subMenu_2();
+		Row_t774521500 * L_12 = __this->get_headRow_1();
 		float L_13 = ___w0;
 		NullCheck(L_12);
-		float L_14 = VirtFuncInvoker1< float, float >::Invoke(8 /* System.Single IMenu::getHeight(System.Single) */, L_12, L_13);
-		float L_15 = __this->get_openFrac_3();
-		V_0 = ((float)((float)L_14*(float)L_15));
-		Row_t774521500 * L_16 = __this->get_headRow_1();
-		float L_17 = ___w0;
-		NullCheck(L_16);
-		float L_18 = VirtFuncInvoker1< float, float >::Invoke(6 /* System.Single IRow::getPixelHeight(System.Single) */, L_16, L_17);
-		float L_19 = ___w0;
-		float L_20 = V_0;
-		Rect_t3681755626  L_21;
-		memset(&L_21, 0, sizeof(L_21));
-		Rect__ctor_m1220545469(&L_21, (0.0f), L_18, L_19, L_20, /*hidden argument*/NULL);
+		float L_14 = VirtFuncInvoker1< float, float >::Invoke(6 /* System.Single IRow::getPixelHeight(System.Single) */, L_12, L_13);
+		V_0 = L_14;
+		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+		Number_t1709165791 * L_15 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_PADDING_H_18();
+		NullCheck(L_15);
+		float L_16 = Number_getAs_m2157461677(L_15, 0, /*hidden argument*/NULL);
+		V_1 = L_16;
+		V_2 = (0.6f);
+		float L_17 = V_1;
+		float L_18 = V_2;
+		V_3 = ((float)((float)L_17*(float)L_18));
+		float L_19 = V_1;
+		float L_20 = V_2;
+		float L_21 = V_0;
+		float L_22 = V_3;
+		float L_23 = V_3;
+		float L_24 = V_3;
+		Rect__ctor_m1220545469((&V_4), ((float)((float)((float)((float)L_19*(float)((float)((float)(1.0f)-(float)L_20))))/(float)(2.0f))), ((float)((float)((float)((float)L_21/(float)(2.0f)))-(float)((float)((float)L_22/(float)(2.0f))))), L_23, L_24, /*hidden argument*/NULL);
+		float L_25 = Rect_get_x_m1393582490((&V_4), /*hidden argument*/NULL);
+		float L_26 = Rect_get_width_m1138015702((&V_4), /*hidden argument*/NULL);
+		float L_27 = Rect_get_y_m1393582395((&V_4), /*hidden argument*/NULL);
+		float L_28 = Rect_get_height_m3128694305((&V_4), /*hidden argument*/NULL);
+		Vector2__ctor_m3067419446((&V_5), ((float)((float)L_25+(float)((float)((float)L_26/(float)(2.0f))))), ((float)((float)L_27+(float)((float)((float)L_28/(float)(2.0f))))), /*hidden argument*/NULL);
+		float L_29 = __this->get_openFrac_3();
+		V_6 = ((float)((float)(90.0f)*(float)L_29));
+		float L_30 = V_6;
+		Vector2_t2243707579  L_31 = V_5;
+		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
+		GUIUtility_RotateAroundPivot_m2075646761(NULL /*static, unused*/, L_30, L_31, /*hidden argument*/NULL);
+		Rect_t3681755626  L_32 = V_4;
+		Reference_1_t3035523416 * L_33 = __this->get_arrowTexture_7();
+		Color_t2020392075  L_34 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
+		TextureUtility_drawTexture_m2476468923(NULL /*static, unused*/, L_32, L_33, L_34, 2, /*hidden argument*/NULL);
+		float L_35 = V_6;
+		Vector2_t2243707579  L_36 = V_5;
+		GUIUtility_RotateAroundPivot_m2075646761(NULL /*static, unused*/, ((-L_35)), L_36, /*hidden argument*/NULL);
+		IMenu_t2695572612 * L_37 = __this->get_subMenu_2();
+		float L_38 = ___w0;
+		NullCheck(L_37);
+		float L_39 = VirtFuncInvoker1< float, float >::Invoke(8 /* System.Single IMenu::getHeight(System.Single) */, L_37, L_38);
+		float L_40 = __this->get_openFrac_3();
+		V_7 = ((float)((float)L_39*(float)L_40));
+		float L_41 = V_7;
+		if ((!(((double)(((double)((double)L_41)))) > ((double)(0.01)))))
+		{
+			goto IL_0172;
+		}
+	}
+	{
+		Row_t774521500 * L_42 = __this->get_headRow_1();
+		float L_43 = ___w0;
+		NullCheck(L_42);
+		float L_44 = VirtFuncInvoker1< float, float >::Invoke(6 /* System.Single IRow::getPixelHeight(System.Single) */, L_42, L_43);
+		float L_45 = ___w0;
+		float L_46 = V_7;
+		Rect_t3681755626  L_47;
+		memset(&L_47, 0, sizeof(L_47));
+		Rect__ctor_m1220545469(&L_47, (0.0f), L_44, L_45, L_46, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		GUIX_beginClip_m1030490140(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
-		IMenu_t2695572612 * L_22 = __this->get_subMenu_2();
-		float L_23 = ___w0;
-		float L_24 = V_0;
-		NullCheck(L_22);
-		VirtActionInvoker2< float, float >::Invoke(7 /* System.Void IMenu::draw(System.Single,System.Single) */, L_22, L_23, L_24);
+		GUIX_beginClip_m1030490140(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+		IMenu_t2695572612 * L_48 = __this->get_subMenu_2();
+		float L_49 = ___w0;
+		float L_50 = V_7;
+		NullCheck(L_48);
+		VirtActionInvoker2< float, float >::Invoke(7 /* System.Void IMenu::draw(System.Single,System.Single) */, L_48, L_49, L_50);
 		GUIX_endClip_m1084062489(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_1 = (bool)0;
-		goto IL_00b3;
 	}
 
-IL_00b3:
+IL_0172:
 	{
-		bool L_25 = V_1;
-		return L_25;
+		V_8 = (bool)0;
+		goto IL_017a;
+	}
+
+IL_017a:
+	{
+		bool L_51 = V_8;
+		return L_51;
 	}
 }
 // System.Single PaneRow::getPixelHeight(System.Single)
@@ -10075,6 +10606,10 @@ extern "C"  void PaneRow_onDispose_m488601465 (PaneRow_t998949582 * __this, cons
 		NullCheck(L_1);
 		IMenu_Dispose_m1388676710(L_1, /*hidden argument*/NULL);
 		__this->set_subMenu_2((IMenu_t2695572612 *)NULL);
+		Reference_1_t3035523416 * L_2 = __this->get_arrowTexture_7();
+		NullCheck(L_2);
+		Reference_removeOwner_m1167692895(L_2, /*hidden argument*/NULL);
+		__this->set_arrowTexture_7((Reference_1_t3035523416 *)NULL);
 		return;
 	}
 }
@@ -10111,7 +10646,7 @@ extern "C"  bool RectItem_draw_m2759781096 (RectItem_t1720926083 * __this, float
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
 		GUIX_fillRect_m970029164(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		Rect_t3681755626  L_4 = V_0;
-		bool L_5 = GUIX_isMouseInsideRect_m998598316(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_5 = GUIX_didTapInsideRect_m1155779523(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_0039;
@@ -10633,7 +11168,7 @@ IL_0182:
 	{
 		Rect_t3681755626  L_59 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		bool L_60 = GUIX_isMouseInsideRect_m998598316(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
+		bool L_60 = GUIX_didTapInsideRect_m1155779523(NULL /*static, unused*/, L_59, /*hidden argument*/NULL);
 		V_13 = L_60;
 		goto IL_019f;
 	}
@@ -11031,6 +11566,7 @@ extern "C"  void ScrollMenu__ctor_m28531143 (ScrollMenu_t1922223870 * __this, IM
 {
 	{
 		__this->set_scrollFrac_2((0.0f));
+		__this->set_prevHeightDiff_5((std::numeric_limits<float>::infinity()));
 		IMenu__ctor_m987095213(__this, /*hidden argument*/NULL);
 		IMenu_t2695572612 * L_0 = ___menu0;
 		__this->set_menu_1(L_0);
@@ -11085,58 +11621,91 @@ extern "C"  void ScrollMenu_draw_m2963950521 (ScrollMenu_t1922223870 * __this, f
 		Rect_t3681755626  L_8;
 		memset(&L_8, 0, sizeof(L_8));
 		Rect__ctor_m1220545469(&L_8, (0.0f), (0.0f), L_6, L_7, /*hidden argument*/NULL);
-		Color_t2020392075  L_9 = __this->get_color_3();
+		Color_t2020392075  L_9 = __this->get_color_6();
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
 		GUIX_fillRect_m970029164(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
 		float L_10 = V_2;
 		if ((!(((float)L_10) > ((float)(0.0f)))))
 		{
-			goto IL_008e;
+			goto IL_009f;
 		}
 	}
 	{
-		float L_11 = __this->get_scrollFrac_2();
-		ITouch_t1873081982 * L_12 = V_3;
-		NullCheck(L_12);
-		Vector2_t2243707579  L_13 = ITouch_getDragVector_m4261394858(L_12, /*hidden argument*/NULL);
-		V_4 = L_13;
-		float L_14 = (&V_4)->get_y_1();
-		float L_15 = V_2;
-		__this->set_scrollFrac_2(((float)((float)L_11-(float)((float)((float)L_14/(float)L_15)))));
-		float L_16 = __this->get_scrollFrac_2();
-		float L_17 = Math_Min_m105057611(NULL /*static, unused*/, L_16, (1.0f), /*hidden argument*/NULL);
-		float L_18 = Math_Max_m3360711905(NULL /*static, unused*/, (0.0f), L_17, /*hidden argument*/NULL);
-		__this->set_scrollFrac_2(L_18);
-		float L_19 = __this->get_scrollFrac_2();
-		float L_20 = V_2;
-		V_1 = ((float)((float)((-L_19))*(float)L_20));
-		goto IL_0096;
+		float L_11 = __this->get_prevHeightDiff_5();
+		bool L_12 = Single_IsInfinity_m3331110346(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		if (L_12)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		float L_13 = V_2;
+		float L_14 = __this->get_prevHeightDiff_5();
+		if ((((float)L_13) == ((float)L_14)))
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		float L_15 = __this->get_prevScrollY_3();
+		float L_16 = V_2;
+		__this->set_scrollFrac_2(((float)((float)((-L_15))/(float)L_16)));
 	}
 
-IL_008e:
+IL_006e:
+	{
+	}
+
+IL_006f:
+	{
+		float L_17 = __this->get_scrollFrac_2();
+		float L_18 = Math_Min_m105057611(NULL /*static, unused*/, L_17, (1.0f), /*hidden argument*/NULL);
+		float L_19 = Math_Max_m3360711905(NULL /*static, unused*/, (0.0f), L_18, /*hidden argument*/NULL);
+		__this->set_scrollFrac_2(L_19);
+		float L_20 = __this->get_scrollFrac_2();
+		float L_21 = V_2;
+		V_1 = ((float)((float)((-L_20))*(float)L_21));
+		goto IL_00a7;
+	}
+
+IL_009f:
 	{
 		V_1 = (0.0f);
 	}
 
-IL_0096:
+IL_00a7:
 	{
-		float L_21 = V_1;
-		Vector2__ctor_m3067419446((&V_5), (0.0f), L_21, /*hidden argument*/NULL);
-		float L_22 = ___w0;
-		float L_23 = ___h1;
-		Rect_t3681755626  L_24;
-		memset(&L_24, 0, sizeof(L_24));
-		Rect__ctor_m1220545469(&L_24, (0.0f), (0.0f), L_22, L_23, /*hidden argument*/NULL);
-		Vector2_t2243707579  L_25 = V_5;
-		Vector2_t2243707579  L_26 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_22 = V_2;
+		__this->set_prevHeightDiff_5(L_22);
+		float L_23 = V_1;
+		__this->set_prevScrollY_3(L_23);
+		float L_24 = __this->get_scrollFrac_2();
+		__this->set_prevScrollFrac_4(L_24);
+		float L_25 = V_1;
+		Vector2__ctor_m3067419446((&V_4), (0.0f), L_25, /*hidden argument*/NULL);
+		float L_26 = ___w0;
+		float L_27 = ___h1;
+		Rect_t3681755626  L_28;
+		memset(&L_28, 0, sizeof(L_28));
+		Rect__ctor_m1220545469(&L_28, (0.0f), (0.0f), L_26, L_27, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_29 = V_4;
+		Vector2_t2243707579  L_30 = Vector2_get_zero_m3966848876(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GUIX_t1405793021_il2cpp_TypeInfo_var);
-		GUIX_beginClip_m515646045(NULL /*static, unused*/, L_24, L_25, L_26, (bool)0, /*hidden argument*/NULL);
-		IMenu_t2695572612 * L_27 = __this->get_menu_1();
-		float L_28 = ___w0;
-		float L_29 = ___h1;
-		NullCheck(L_27);
-		VirtActionInvoker2< float, float >::Invoke(7 /* System.Void IMenu::draw(System.Single,System.Single) */, L_27, L_28, L_29);
+		GUIX_beginClip_m515646045(NULL /*static, unused*/, L_28, L_29, L_30, (bool)0, /*hidden argument*/NULL);
+		IMenu_t2695572612 * L_31 = __this->get_menu_1();
+		float L_32 = ___w0;
+		float L_33 = ___h1;
+		NullCheck(L_31);
+		VirtActionInvoker2< float, float >::Invoke(7 /* System.Void IMenu::draw(System.Single,System.Single) */, L_31, L_32, L_33);
 		GUIX_endClip_m1084062489(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_34 = __this->get_scrollFrac_2();
+		ITouch_t1873081982 * L_35 = V_3;
+		NullCheck(L_35);
+		Vector2_t2243707579  L_36 = ITouch_getDragVector_m4261394858(L_35, /*hidden argument*/NULL);
+		V_5 = L_36;
+		float L_37 = (&V_5)->get_y_1();
+		float L_38 = V_2;
+		__this->set_scrollFrac_2(((float)((float)L_34-(float)((float)((float)L_37/(float)L_38)))));
 		return;
 	}
 }
@@ -11174,7 +11743,7 @@ extern "C"  void ScrollMenu_setColor_m2858864642 (ScrollMenu_t1922223870 * __thi
 {
 	{
 		Color_t2020392075  L_0 = ___color0;
-		__this->set_color_3(L_0);
+		__this->set_color_6(L_0);
 		return;
 	}
 }
@@ -11190,7 +11759,7 @@ extern "C"  void ScrollMenu_onDispose_m672220551 (ScrollMenu_t1922223870 * __thi
 	}
 }
 // System.Void Server::.ctor(System.String)
-extern const MethodInfo* CrhcFolder_1__ctor_m3598320490_MethodInfo_var;
+extern const MethodInfo* CrhcFolder_1__ctor_m2691673587_MethodInfo_var;
 extern const uint32_t Server__ctor_m3460232072_MetadataUsageId;
 extern "C"  void Server__ctor_m3460232072 (Server_t2724320767 * __this, String_t* ___url0, const MethodInfo* method)
 {
@@ -11201,7 +11770,7 @@ extern "C"  void Server__ctor_m3460232072 (Server_t2724320767 * __this, String_t
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		CrhcFolder_1__ctor_m3598320490(__this, (CrhcItem_t1379468653 *)NULL, (JsonChild_t2476909483 *)NULL, /*hidden argument*/CrhcFolder_1__ctor_m3598320490_MethodInfo_var);
+		CrhcFolder_1__ctor_m2691673587(__this, (CrhcItem_t1379468653 *)NULL, (JObject_t278519297 *)NULL, /*hidden argument*/CrhcFolder_1__ctor_m2691673587_MethodInfo_var);
 		String_t* L_0 = ___url0;
 		__this->set_url_8(L_0);
 		return;
@@ -11670,25 +12239,26 @@ extern "C"  void TextItem_setTextAnchor_m447370774 (TextItem_t1720843696 * __thi
 		return;
 	}
 }
-// System.Void Tour::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern const MethodInfo* CrhcFolder_1__ctor_m3139767248_MethodInfo_var;
-extern const uint32_t Tour__ctor_m3809732329_MetadataUsageId;
-extern "C"  void Tour__ctor_m3809732329 (Tour_t1896021510 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method)
+// System.Void Tour::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern const MethodInfo* CrhcFolder_1__ctor_m4073186093_MethodInfo_var;
+extern const uint32_t Tour__ctor_m258939518_MetadataUsageId;
+extern "C"  void Tour__ctor_m258939518 (Tour_t1896021510 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (Tour__ctor_m3809732329_MetadataUsageId);
+		il2cpp_codegen_initialize_method (Tour__ctor_m258939518_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		CrhcItem_t1379468653 * L_0 = ___parent0;
-		JsonChild_t2476909483 * L_1 = ___data1;
-		CrhcFolder_1__ctor_m3139767248(__this, L_0, L_1, /*hidden argument*/CrhcFolder_1__ctor_m3139767248_MethodInfo_var);
+		JObject_t278519297 * L_1 = ___data1;
+		CrhcFolder_1__ctor_m4073186093(__this, L_0, L_1, /*hidden argument*/CrhcFolder_1__ctor_m4073186093_MethodInfo_var);
 		return;
 	}
 }
 // System.String Tour::getName()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2328218955;
 extern const uint32_t Tour_getName_m277270743_MetadataUsageId;
 extern "C"  String_t* Tour_getName_m277270743 (Tour_t1896021510 * __this, const MethodInfo* method)
@@ -11701,7 +12271,7 @@ extern "C"  String_t* Tour_getName_m277270743 (Tour_t1896021510 * __this, const 
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral2328218955, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral2328218955, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -11713,6 +12283,7 @@ IL_0012:
 	}
 }
 // System.String Tour::getDescription()
+extern const MethodInfo* CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3686446540;
 extern const uint32_t Tour_getDescription_m1042089622_MetadataUsageId;
 extern "C"  String_t* Tour_getDescription_m1042089622 (Tour_t1896021510 * __this, const MethodInfo* method)
@@ -11725,7 +12296,7 @@ extern "C"  String_t* Tour_getDescription_m1042089622 (Tour_t1896021510 * __this
 	}
 	String_t* V_0 = NULL;
 	{
-		String_t* L_0 = CrhcItem_getData_m295722417(__this, _stringLiteral3686446540, /*hidden argument*/NULL);
+		String_t* L_0 = CrhcItem_getData_TisString_t_m3241148103(__this, _stringLiteral3686446540, /*hidden argument*/CrhcItem_getData_TisString_t_m3241148103_MethodInfo_var);
 		V_0 = L_0;
 		goto IL_0012;
 	}
@@ -11747,6 +12318,7 @@ extern Il2CppClass* Landmark_t1862459476_il2cpp_TypeInfo_var;
 extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
 extern Il2CppClass* AudioPlayerRow_t2396008217_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
 extern Il2CppClass* DirectionButton_t1985908104_il2cpp_TypeInfo_var;
 extern Il2CppClass* ARButton_t3211784512_il2cpp_TypeInfo_var;
 extern Il2CppClass* PaneRow_t998949582_il2cpp_TypeInfo_var;
@@ -11758,8 +12330,15 @@ extern Il2CppClass* FadeInMenu_t1652954898_il2cpp_TypeInfo_var;
 extern Il2CppClass* TourMenu_t849766617_il2cpp_TypeInfo_var;
 extern const MethodInfo* CrhcFolder_1_sort_m849358618_MethodInfo_var;
 extern const MethodInfo* CrhcFolder_1_GetEnumerator_m387896238_MethodInfo_var;
+extern const MethodInfo* JToken_Value_TisString_t_m2172593859_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral811305476;
 extern Il2CppCodeGenString* _stringLiteral3795201172;
+extern Il2CppCodeGenString* _stringLiteral1527888204;
+extern Il2CppCodeGenString* _stringLiteral137132194;
+extern Il2CppCodeGenString* _stringLiteral277171331;
+extern Il2CppCodeGenString* _stringLiteral510172400;
+extern Il2CppCodeGenString* _stringLiteral3681554340;
+extern Il2CppCodeGenString* _stringLiteral3836026843;
 extern Il2CppCodeGenString* _stringLiteral4095190430;
 extern const uint32_t Tour_buildMenu_m484568647_MetadataUsageId;
 extern "C"  IMenu_t2695572612 * Tour_buildMenu_m484568647 (Tour_t1896021510 * __this, const MethodInfo* method)
@@ -11786,15 +12365,24 @@ extern "C"  IMenu_t2695572612 * Tour_buildMenu_m484568647 (Tour_t1896021510 * __
 	Menu_t4261767481 * V_13 = NULL;
 	Row_t774521500 * V_14 = NULL;
 	TextItem_t1720843696 * V_15 = NULL;
-	Row_t774521500 * V_16 = NULL;
-	TextItem_t1720843696 * V_17 = NULL;
-	Row_t774521500 * V_18 = NULL;
-	TextItem_t1720843696 * V_19 = NULL;
-	PaneRow_t998949582 * V_20 = NULL;
-	Il2CppObject * V_21 = NULL;
-	IMenu_t2695572612 * V_22 = NULL;
-	IMenu_t2695572612 * V_23 = NULL;
-	IMenu_t2695572612 * V_24 = NULL;
+	JArray_t1483708661 * V_16 = NULL;
+	int32_t V_17 = 0;
+	JToken_t2552644013 * V_18 = NULL;
+	Row_t774521500 * V_19 = NULL;
+	TextItem_t1720843696 * V_20 = NULL;
+	Row_t774521500 * V_21 = NULL;
+	TextItem_t1720843696 * V_22 = NULL;
+	Row_t774521500 * V_23 = NULL;
+	TextItem_t1720843696 * V_24 = NULL;
+	Row_t774521500 * V_25 = NULL;
+	TextItem_t1720843696 * V_26 = NULL;
+	Row_t774521500 * V_27 = NULL;
+	TextItem_t1720843696 * V_28 = NULL;
+	PaneRow_t998949582 * V_29 = NULL;
+	Il2CppObject * V_30 = NULL;
+	IMenu_t2695572612 * V_31 = NULL;
+	IMenu_t2695572612 * V_32 = NULL;
+	IMenu_t2695572612 * V_33 = NULL;
 	Exception_t1927440687 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t1927440687 * __exception_local = 0;
@@ -11875,7 +12463,7 @@ IL_00bc:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_0361;
+			goto IL_04b2;
 		}
 
 IL_00c1:
@@ -11895,7 +12483,7 @@ IL_00c1:
 
 IL_00dc:
 		{
-			goto IL_0361;
+			goto IL_04b2;
 		}
 
 IL_00e2:
@@ -11942,7 +12530,7 @@ IL_0105:
 			Row_t774521500 * L_48 = V_9;
 			TextItem_t1720843696 * L_49 = V_10;
 			NullCheck(L_48);
-			Row_addItem_m212990216(L_48, L_49, (0.05f), /*hidden argument*/NULL);
+			Row_addItem_m212990216(L_48, L_49, (0.1f), /*hidden argument*/NULL);
 			Landmark_t1862459476 * L_50 = V_7;
 			NullCheck(L_50);
 			String_t* L_51 = Landmark_getName_m972640561(L_50, /*hidden argument*/NULL);
@@ -11960,7 +12548,7 @@ IL_0105:
 			Row_t774521500 * L_57 = V_9;
 			TextItem_t1720843696 * L_58 = V_11;
 			NullCheck(L_57);
-			Row_addItem_m212990216(L_57, L_58, (0.5f), /*hidden argument*/NULL);
+			Row_addItem_m212990216(L_57, L_58, (0.4f), /*hidden argument*/NULL);
 			goto IL_01b9;
 		}
 
@@ -12022,261 +12610,412 @@ IL_01b9:
 			bool L_81 = Landmark_hasAudio_m2461180601(L_80, /*hidden argument*/NULL);
 			if (!L_81)
 			{
-				goto IL_026b;
+				goto IL_037c;
 			}
 		}
 
 IL_020e:
 		{
-			Menu_t4261767481 * L_82 = V_13;
-			Landmark_t1862459476 * L_83 = V_7;
-			NullCheck(L_83);
-			String_t* L_84 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String CrhcItem::getUrl() */, L_83);
-			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_85 = String_Concat_m2596409543(NULL /*static, unused*/, L_84, _stringLiteral3795201172, /*hidden argument*/NULL);
-			AudioPlayerRow_t2396008217 * L_86 = (AudioPlayerRow_t2396008217 *)il2cpp_codegen_object_new(AudioPlayerRow_t2396008217_il2cpp_TypeInfo_var);
-			AudioPlayerRow__ctor_m157042350(L_86, L_85, /*hidden argument*/NULL);
+			Landmark_t1862459476 * L_82 = V_7;
 			NullCheck(L_82);
-			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_82, L_86);
-			Row_t774521500 * L_87 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
-			Row__ctor_m3354943469(L_87, /*hidden argument*/NULL);
-			V_16 = L_87;
-			Row_t774521500 * L_88 = V_16;
-			NullCheck(L_88);
-			Row_setPadding_m2096192501(L_88, (bool)1, (bool)0, (bool)0, /*hidden argument*/NULL);
+			JArray_t1483708661 * L_83 = Landmark_getAudioClips_m1463760283(L_82, /*hidden argument*/NULL);
+			V_16 = L_83;
+			V_17 = 0;
+			goto IL_036d;
+		}
+
+IL_0220:
+		{
+			JArray_t1483708661 * L_84 = V_16;
+			int32_t L_85 = V_17;
+			NullCheck(L_84);
+			JToken_t2552644013 * L_86 = VirtFuncInvoker1< JToken_t2552644013 *, int32_t >::Invoke(53 /* Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JContainer::GetItem(System.Int32) */, L_84, L_85);
+			V_18 = L_86;
+			int32_t L_87 = V_17;
+			if (L_87)
+			{
+				goto IL_0257;
+			}
+		}
+
+IL_0233:
+		{
+			Menu_t4261767481 * L_88 = V_13;
 			Landmark_t1862459476 * L_89 = V_7;
 			NullCheck(L_89);
-			String_t* L_90 = Landmark_getAudioSource_m518654957(L_89, /*hidden argument*/NULL);
-			TextItem_t1720843696 * L_91 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
-			TextItem__ctor_m927709313(L_91, L_90, /*hidden argument*/NULL);
-			V_17 = L_91;
-			TextItem_t1720843696 * L_92 = V_17;
-			NullCheck(L_92);
-			TextItem_setTextAnchor_m447370774(L_92, 0, /*hidden argument*/NULL);
-			Row_t774521500 * L_93 = V_16;
-			TextItem_t1720843696 * L_94 = V_17;
-			NullCheck(L_93);
-			Row_addItem_m212990216(L_93, L_94, (1.0f), /*hidden argument*/NULL);
-			Menu_t4261767481 * L_95 = V_13;
-			Row_t774521500 * L_96 = V_16;
+			String_t* L_90 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String CrhcItem::getUrl() */, L_89);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_91 = String_Concat_m2596409543(NULL /*static, unused*/, L_90, _stringLiteral3795201172, /*hidden argument*/NULL);
+			AudioPlayerRow_t2396008217 * L_92 = (AudioPlayerRow_t2396008217 *)il2cpp_codegen_object_new(AudioPlayerRow_t2396008217_il2cpp_TypeInfo_var);
+			AudioPlayerRow__ctor_m157042350(L_92, L_91, /*hidden argument*/NULL);
+			NullCheck(L_88);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_88, L_92);
+			goto IL_0294;
+		}
+
+IL_0257:
+		{
+			Menu_t4261767481 * L_93 = V_13;
+			ObjectU5BU5D_t3614634134* L_94 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)4));
+			Landmark_t1862459476 * L_95 = V_7;
 			NullCheck(L_95);
-			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_95, L_96);
-		}
-
-IL_026b:
-		{
-			Row_t774521500 * L_97 = V_9;
-			SpaceItem_t2052916439 * L_98 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
-			SpaceItem__ctor_m2618345748(L_98, /*hidden argument*/NULL);
+			String_t* L_96 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String CrhcItem::getUrl() */, L_95);
+			NullCheck(L_94);
+			ArrayElementTypeCheck (L_94, L_96);
+			(L_94)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_96);
+			ObjectU5BU5D_t3614634134* L_97 = L_94;
 			NullCheck(L_97);
-			Row_addItem_m212990216(L_97, L_98, (0.025f), /*hidden argument*/NULL);
-			Landmark_t1862459476 * L_99 = V_7;
-			NullCheck(L_99);
-			bool L_100 = Landmark_hasAddress_m90298749(L_99, /*hidden argument*/NULL);
-			if (!L_100)
-			{
-				goto IL_02a2;
-			}
+			ArrayElementTypeCheck (L_97, _stringLiteral1527888204);
+			(L_97)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)_stringLiteral1527888204);
+			ObjectU5BU5D_t3614634134* L_98 = L_97;
+			int32_t L_99 = V_17;
+			int32_t L_100 = L_99;
+			Il2CppObject * L_101 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_100);
+			NullCheck(L_98);
+			ArrayElementTypeCheck (L_98, L_101);
+			(L_98)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_101);
+			ObjectU5BU5D_t3614634134* L_102 = L_98;
+			NullCheck(L_102);
+			ArrayElementTypeCheck (L_102, _stringLiteral137132194);
+			(L_102)->SetAt(static_cast<il2cpp_array_size_t>(3), (Il2CppObject *)_stringLiteral137132194);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_103 = String_Concat_m3881798623(NULL /*static, unused*/, L_102, /*hidden argument*/NULL);
+			AudioPlayerRow_t2396008217 * L_104 = (AudioPlayerRow_t2396008217 *)il2cpp_codegen_object_new(AudioPlayerRow_t2396008217_il2cpp_TypeInfo_var);
+			AudioPlayerRow__ctor_m157042350(L_104, L_103, /*hidden argument*/NULL);
+			NullCheck(L_93);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_93, L_104);
 		}
 
-IL_0288:
+IL_0294:
 		{
-			Row_t774521500 * L_101 = V_9;
-			Landmark_t1862459476 * L_102 = V_7;
-			DirectionButton_t1985908104 * L_103 = (DirectionButton_t1985908104 *)il2cpp_codegen_object_new(DirectionButton_t1985908104_il2cpp_TypeInfo_var);
-			DirectionButton__ctor_m2654496097(L_103, L_102, /*hidden argument*/NULL);
-			NullCheck(L_101);
-			Row_addItem_m212990216(L_101, L_103, (0.1f), /*hidden argument*/NULL);
-			goto IL_02b5;
-		}
-
-IL_02a2:
-		{
-			Row_t774521500 * L_104 = V_9;
-			SpaceItem_t2052916439 * L_105 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
-			SpaceItem__ctor_m2618345748(L_105, /*hidden argument*/NULL);
-			NullCheck(L_104);
-			Row_addItem_m212990216(L_104, L_105, (0.1f), /*hidden argument*/NULL);
-		}
-
-IL_02b5:
-		{
-			Row_t774521500 * L_106 = V_9;
-			SpaceItem_t2052916439 * L_107 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
-			SpaceItem__ctor_m2618345748(L_107, /*hidden argument*/NULL);
+			Row_t774521500 * L_105 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
+			Row__ctor_m3354943469(L_105, /*hidden argument*/NULL);
+			V_19 = L_105;
+			Row_t774521500 * L_106 = V_19;
 			NullCheck(L_106);
-			Row_addItem_m212990216(L_106, L_107, (0.025f), /*hidden argument*/NULL);
-			Landmark_t1862459476 * L_108 = V_7;
-			NullCheck(L_108);
-			bool L_109 = Landmark_hasAR_m3658401734(L_108, /*hidden argument*/NULL);
-			if (!L_109)
+			Row_setPadding_m2096192501(L_106, (bool)1, (bool)0, (bool)0, /*hidden argument*/NULL);
+			JToken_t2552644013 * L_107 = V_18;
+			NullCheck(L_107);
+			String_t* L_108 = GenericVirtFuncInvoker1< String_t*, Il2CppObject * >::Invoke(JToken_Value_TisString_t_m2172593859_MethodInfo_var, L_107, _stringLiteral277171331);
+			TextItem_t1720843696 * L_109 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
+			TextItem__ctor_m927709313(L_109, L_108, /*hidden argument*/NULL);
+			V_20 = L_109;
+			TextItem_t1720843696 * L_110 = V_20;
+			NullCheck(L_110);
+			TextItem_setTextAnchor_m447370774(L_110, 0, /*hidden argument*/NULL);
+			TextItem_t1720843696 * L_111 = V_20;
+			IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+			Font_t4239498691 * L_112 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_SOURCE_10();
+			NullCheck(L_111);
+			TextItem_setFont_m2509242356(L_111, L_112, /*hidden argument*/NULL);
+			Row_t774521500 * L_113 = V_19;
+			TextItem_t1720843696 * L_114 = V_20;
+			NullCheck(L_113);
+			Row_addItem_m212990216(L_113, L_114, (1.0f), /*hidden argument*/NULL);
+			Menu_t4261767481 * L_115 = V_13;
+			Row_t774521500 * L_116 = V_19;
+			NullCheck(L_115);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_115, L_116);
+			Row_t774521500 * L_117 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
+			Row__ctor_m3354943469(L_117, /*hidden argument*/NULL);
+			V_21 = L_117;
+			TextItem_t1720843696 * L_118 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
+			TextItem__ctor_m927709313(L_118, _stringLiteral510172400, /*hidden argument*/NULL);
+			V_22 = L_118;
+			TextItem_t1720843696 * L_119 = V_22;
+			Font_t4239498691 * L_120 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_SUBTITLE_8();
+			NullCheck(L_119);
+			TextItem_setFont_m2509242356(L_119, L_120, /*hidden argument*/NULL);
+			Row_t774521500 * L_121 = V_21;
+			TextItem_t1720843696 * L_122 = V_22;
+			NullCheck(L_121);
+			Row_addItem_m212990216(L_121, L_122, (1.0f), /*hidden argument*/NULL);
+			Row_t774521500 * L_123 = V_21;
+			NullCheck(L_123);
+			Row_setPadding_m2096192501(L_123, (bool)1, (bool)1, (bool)0, /*hidden argument*/NULL);
+			Menu_t4261767481 * L_124 = V_13;
+			Row_t774521500 * L_125 = V_21;
+			NullCheck(L_124);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_124, L_125);
+			Row_t774521500 * L_126 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
+			Row__ctor_m3354943469(L_126, /*hidden argument*/NULL);
+			V_23 = L_126;
+			Row_t774521500 * L_127 = V_23;
+			NullCheck(L_127);
+			Row_setPadding_m2096192501(L_127, (bool)1, (bool)0, (bool)1, /*hidden argument*/NULL);
+			JToken_t2552644013 * L_128 = V_18;
+			NullCheck(L_128);
+			String_t* L_129 = GenericVirtFuncInvoker1< String_t*, Il2CppObject * >::Invoke(JToken_Value_TisString_t_m2172593859_MethodInfo_var, L_128, _stringLiteral3681554340);
+			TextItem_t1720843696 * L_130 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
+			TextItem__ctor_m927709313(L_130, L_129, /*hidden argument*/NULL);
+			V_24 = L_130;
+			TextItem_t1720843696 * L_131 = V_24;
+			NullCheck(L_131);
+			TextItem_setTextAnchor_m447370774(L_131, 0, /*hidden argument*/NULL);
+			Row_t774521500 * L_132 = V_23;
+			TextItem_t1720843696 * L_133 = V_24;
+			NullCheck(L_132);
+			Row_addItem_m212990216(L_132, L_133, (1.0f), /*hidden argument*/NULL);
+			Menu_t4261767481 * L_134 = V_13;
+			Row_t774521500 * L_135 = V_23;
+			NullCheck(L_134);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_134, L_135);
+			int32_t L_136 = V_17;
+			V_17 = ((int32_t)((int32_t)L_136+(int32_t)1));
+		}
+
+IL_036d:
+		{
+			int32_t L_137 = V_17;
+			JArray_t1483708661 * L_138 = V_16;
+			NullCheck(L_138);
+			int32_t L_139 = JContainer_get_Count_m269519266(L_138, /*hidden argument*/NULL);
+			if ((((int32_t)L_137) < ((int32_t)L_139)))
 			{
-				goto IL_02ec;
+				goto IL_0220;
 			}
 		}
 
-IL_02d2:
+IL_037b:
 		{
-			Row_t774521500 * L_110 = V_9;
-			Landmark_t1862459476 * L_111 = V_7;
-			ARButton_t3211784512 * L_112 = (ARButton_t3211784512 *)il2cpp_codegen_object_new(ARButton_t3211784512_il2cpp_TypeInfo_var);
-			ARButton__ctor_m3923204451(L_112, L_111, /*hidden argument*/NULL);
-			NullCheck(L_110);
-			Row_addItem_m212990216(L_110, L_112, (0.1f), /*hidden argument*/NULL);
-			goto IL_0335;
 		}
 
-IL_02ec:
+IL_037c:
 		{
-			Row_t774521500 * L_113 = V_9;
-			SpaceItem_t2052916439 * L_114 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
-			SpaceItem__ctor_m2618345748(L_114, /*hidden argument*/NULL);
-			NullCheck(L_113);
-			Row_addItem_m212990216(L_113, L_114, (0.1f), /*hidden argument*/NULL);
-			Row_t774521500 * L_115 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
-			Row__ctor_m3354943469(L_115, /*hidden argument*/NULL);
-			V_18 = L_115;
-			Landmark_t1862459476 * L_116 = V_7;
-			NullCheck(L_116);
-			String_t* L_117 = Landmark_getLongDescription_m731218866(L_116, /*hidden argument*/NULL);
-			TextItem_t1720843696 * L_118 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
-			TextItem__ctor_m927709313(L_118, L_117, /*hidden argument*/NULL);
-			V_19 = L_118;
-			Row_t774521500 * L_119 = V_18;
-			TextItem_t1720843696 * L_120 = V_19;
-			NullCheck(L_119);
-			Row_addItem_m212990216(L_119, L_120, (1.0f), /*hidden argument*/NULL);
-			Row_t774521500 * L_121 = V_18;
-			NullCheck(L_121);
-			Row_setPadding_m2096192501(L_121, (bool)1, (bool)1, (bool)1, /*hidden argument*/NULL);
-			Menu_t4261767481 * L_122 = V_13;
-			Row_t774521500 * L_123 = V_18;
-			NullCheck(L_122);
-			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_122, L_123);
+			Row_t774521500 * L_140 = V_9;
+			SpaceItem_t2052916439 * L_141 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
+			SpaceItem__ctor_m2618345748(L_141, /*hidden argument*/NULL);
+			NullCheck(L_140);
+			Row_addItem_m212990216(L_140, L_141, (0.025f), /*hidden argument*/NULL);
+			Landmark_t1862459476 * L_142 = V_7;
+			NullCheck(L_142);
+			bool L_143 = Landmark_hasAddress_m90298749(L_142, /*hidden argument*/NULL);
+			if (!L_143)
+			{
+				goto IL_03b3;
+			}
 		}
 
-IL_0335:
+IL_0399:
 		{
-			Row_t774521500 * L_124 = V_9;
-			Menu_t4261767481 * L_125 = V_13;
-			PaneRow_t998949582 * L_126 = (PaneRow_t998949582 *)il2cpp_codegen_object_new(PaneRow_t998949582_il2cpp_TypeInfo_var);
-			PaneRow__ctor_m3820109355(L_126, L_124, L_125, /*hidden argument*/NULL);
-			V_20 = L_126;
-			PaneRow_t998949582 * L_127 = V_20;
+			Row_t774521500 * L_144 = V_9;
+			Landmark_t1862459476 * L_145 = V_7;
+			DirectionButton_t1985908104 * L_146 = (DirectionButton_t1985908104 *)il2cpp_codegen_object_new(DirectionButton_t1985908104_il2cpp_TypeInfo_var);
+			DirectionButton__ctor_m2654496097(L_146, L_145, /*hidden argument*/NULL);
+			NullCheck(L_144);
+			Row_addItem_m212990216(L_144, L_146, (0.1f), /*hidden argument*/NULL);
+			goto IL_03c6;
+		}
+
+IL_03b3:
+		{
+			Row_t774521500 * L_147 = V_9;
+			SpaceItem_t2052916439 * L_148 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
+			SpaceItem__ctor_m2618345748(L_148, /*hidden argument*/NULL);
+			NullCheck(L_147);
+			Row_addItem_m212990216(L_147, L_148, (0.1f), /*hidden argument*/NULL);
+		}
+
+IL_03c6:
+		{
+			Row_t774521500 * L_149 = V_9;
+			SpaceItem_t2052916439 * L_150 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
+			SpaceItem__ctor_m2618345748(L_150, /*hidden argument*/NULL);
+			NullCheck(L_149);
+			Row_addItem_m212990216(L_149, L_150, (0.025f), /*hidden argument*/NULL);
+			Landmark_t1862459476 * L_151 = V_7;
+			NullCheck(L_151);
+			bool L_152 = Landmark_hasAR_m3658401734(L_151, /*hidden argument*/NULL);
+			if (!L_152)
+			{
+				goto IL_03fd;
+			}
+		}
+
+IL_03e3:
+		{
+			Row_t774521500 * L_153 = V_9;
+			Landmark_t1862459476 * L_154 = V_7;
+			ARButton_t3211784512 * L_155 = (ARButton_t3211784512 *)il2cpp_codegen_object_new(ARButton_t3211784512_il2cpp_TypeInfo_var);
+			ARButton__ctor_m3923204451(L_155, L_154, /*hidden argument*/NULL);
+			NullCheck(L_153);
+			Row_addItem_m212990216(L_153, L_155, (0.1f), /*hidden argument*/NULL);
+			goto IL_0486;
+		}
+
+IL_03fd:
+		{
+			Row_t774521500 * L_156 = V_9;
+			SpaceItem_t2052916439 * L_157 = (SpaceItem_t2052916439 *)il2cpp_codegen_object_new(SpaceItem_t2052916439_il2cpp_TypeInfo_var);
+			SpaceItem__ctor_m2618345748(L_157, /*hidden argument*/NULL);
+			NullCheck(L_156);
+			Row_addItem_m212990216(L_156, L_157, (0.1f), /*hidden argument*/NULL);
+			Row_t774521500 * L_158 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
+			Row__ctor_m3354943469(L_158, /*hidden argument*/NULL);
+			V_25 = L_158;
+			TextItem_t1720843696 * L_159 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
+			TextItem__ctor_m927709313(L_159, _stringLiteral3836026843, /*hidden argument*/NULL);
+			V_26 = L_159;
+			TextItem_t1720843696 * L_160 = V_26;
 			IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
-			Color_t2020392075  L_128 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_BLUE_DARK_0();
-			NullCheck(L_127);
-			PaneRow_setClosedColor_m2891185566(L_127, L_128, /*hidden argument*/NULL);
-			PaneRow_t998949582 * L_129 = V_20;
-			Color_t2020392075  L_130 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_RED_3();
-			NullCheck(L_129);
-			PaneRow_setOpenColor_m3864065666(L_129, L_130, /*hidden argument*/NULL);
-			Menu_t4261767481 * L_131 = V_0;
-			PaneRow_t998949582 * L_132 = V_20;
-			NullCheck(L_131);
-			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_131, L_132);
+			Font_t4239498691 * L_161 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_FONT_SUBTITLE_8();
+			NullCheck(L_160);
+			TextItem_setFont_m2509242356(L_160, L_161, /*hidden argument*/NULL);
+			Row_t774521500 * L_162 = V_25;
+			TextItem_t1720843696 * L_163 = V_26;
+			NullCheck(L_162);
+			Row_addItem_m212990216(L_162, L_163, (1.0f), /*hidden argument*/NULL);
+			Row_t774521500 * L_164 = V_25;
+			NullCheck(L_164);
+			Row_setPadding_m2096192501(L_164, (bool)1, (bool)1, (bool)0, /*hidden argument*/NULL);
+			Menu_t4261767481 * L_165 = V_13;
+			Row_t774521500 * L_166 = V_25;
+			NullCheck(L_165);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_165, L_166);
+			Row_t774521500 * L_167 = (Row_t774521500 *)il2cpp_codegen_object_new(Row_t774521500_il2cpp_TypeInfo_var);
+			Row__ctor_m3354943469(L_167, /*hidden argument*/NULL);
+			V_27 = L_167;
+			Landmark_t1862459476 * L_168 = V_7;
+			NullCheck(L_168);
+			String_t* L_169 = Landmark_getLongDescription_m731218866(L_168, /*hidden argument*/NULL);
+			TextItem_t1720843696 * L_170 = (TextItem_t1720843696 *)il2cpp_codegen_object_new(TextItem_t1720843696_il2cpp_TypeInfo_var);
+			TextItem__ctor_m927709313(L_170, L_169, /*hidden argument*/NULL);
+			V_28 = L_170;
+			Row_t774521500 * L_171 = V_27;
+			TextItem_t1720843696 * L_172 = V_28;
+			NullCheck(L_171);
+			Row_addItem_m212990216(L_171, L_172, (1.0f), /*hidden argument*/NULL);
+			Row_t774521500 * L_173 = V_27;
+			NullCheck(L_173);
+			Row_setPadding_m2096192501(L_173, (bool)1, (bool)0, (bool)1, /*hidden argument*/NULL);
+			Menu_t4261767481 * L_174 = V_13;
+			Row_t774521500 * L_175 = V_27;
+			NullCheck(L_174);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_174, L_175);
 		}
 
-IL_0361:
+IL_0486:
 		{
-			Il2CppObject * L_133 = V_8;
-			NullCheck(L_133);
-			bool L_134 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_133);
-			if (L_134)
+			Row_t774521500 * L_176 = V_9;
+			Menu_t4261767481 * L_177 = V_13;
+			PaneRow_t998949582 * L_178 = (PaneRow_t998949582 *)il2cpp_codegen_object_new(PaneRow_t998949582_il2cpp_TypeInfo_var);
+			PaneRow__ctor_m3820109355(L_178, L_176, L_177, /*hidden argument*/NULL);
+			V_29 = L_178;
+			PaneRow_t998949582 * L_179 = V_29;
+			IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
+			Color_t2020392075  L_180 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_BLUE_DARK_0();
+			NullCheck(L_179);
+			PaneRow_setClosedColor_m2891185566(L_179, L_180, /*hidden argument*/NULL);
+			PaneRow_t998949582 * L_181 = V_29;
+			Color_t2020392075  L_182 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_RED_3();
+			NullCheck(L_181);
+			PaneRow_setOpenColor_m3864065666(L_181, L_182, /*hidden argument*/NULL);
+			Menu_t4261767481 * L_183 = V_0;
+			PaneRow_t998949582 * L_184 = V_29;
+			NullCheck(L_183);
+			VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_183, L_184);
+		}
+
+IL_04b2:
+		{
+			Il2CppObject * L_185 = V_8;
+			NullCheck(L_185);
+			bool L_186 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t1466026749_il2cpp_TypeInfo_var, L_185);
+			if (L_186)
 			{
 				goto IL_00c1;
 			}
 		}
 
-IL_036d:
+IL_04be:
 		{
-			IL2CPP_LEAVE(0x389, FINALLY_0372);
+			IL2CPP_LEAVE(0x4DA, FINALLY_04c3);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_0372;
+		goto FINALLY_04c3;
 	}
 
-FINALLY_0372:
+FINALLY_04c3:
 	{ // begin finally (depth: 1)
 		{
-			Il2CppObject * L_135 = V_8;
-			Il2CppObject * L_136 = ((Il2CppObject *)IsInst(L_135, IDisposable_t2427283555_il2cpp_TypeInfo_var));
-			V_21 = L_136;
-			if (!L_136)
+			Il2CppObject * L_187 = V_8;
+			Il2CppObject * L_188 = ((Il2CppObject *)IsInst(L_187, IDisposable_t2427283555_il2cpp_TypeInfo_var));
+			V_30 = L_188;
+			if (!L_188)
 			{
-				goto IL_0388;
+				goto IL_04d9;
 			}
 		}
 
-IL_0381:
+IL_04d2:
 		{
-			Il2CppObject * L_137 = V_21;
-			NullCheck(L_137);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_137);
+			Il2CppObject * L_189 = V_30;
+			NullCheck(L_189);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t2427283555_il2cpp_TypeInfo_var, L_189);
 		}
 
-IL_0388:
+IL_04d9:
 		{
-			IL2CPP_END_FINALLY(882)
+			IL2CPP_END_FINALLY(1219)
 		}
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(882)
+	IL2CPP_CLEANUP(1219)
 	{
-		IL2CPP_JUMP_TBL(0x389, IL_0389)
+		IL2CPP_JUMP_TBL(0x4DA, IL_04da)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_0389:
+IL_04da:
 	{
-		Menu_t4261767481 * L_138 = V_0;
-		Row_t774521500 * L_139 = V_6;
-		NullCheck(L_138);
-		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_138, L_139);
-		Menu_t4261767481 * L_140 = V_0;
-		SurveyRow_t1017487749 * L_141 = (SurveyRow_t1017487749 *)il2cpp_codegen_object_new(SurveyRow_t1017487749_il2cpp_TypeInfo_var);
-		SurveyRow__ctor_m485551430(L_141, /*hidden argument*/NULL);
-		NullCheck(L_140);
-		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_140, L_141);
-		Menu_t4261767481 * L_142 = V_0;
-		Row_t774521500 * L_143 = V_6;
-		NullCheck(L_142);
-		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_142, L_143);
-		Menu_t4261767481 * L_144 = V_0;
-		ClearCacheRow_t2250566326 * L_145 = (ClearCacheRow_t2250566326 *)il2cpp_codegen_object_new(ClearCacheRow_t2250566326_il2cpp_TypeInfo_var);
-		ClearCacheRow__ctor_m1126620171(L_145, /*hidden argument*/NULL);
-		NullCheck(L_144);
-		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_144, L_145);
-		Menu_t4261767481 * L_146 = V_0;
-		ScrollMenu_t1922223870 * L_147 = (ScrollMenu_t1922223870 *)il2cpp_codegen_object_new(ScrollMenu_t1922223870_il2cpp_TypeInfo_var);
-		ScrollMenu__ctor_m28531143(L_147, L_146, /*hidden argument*/NULL);
-		V_22 = L_147;
-		IMenu_t2695572612 * L_148 = V_22;
+		Menu_t4261767481 * L_190 = V_0;
+		Row_t774521500 * L_191 = V_6;
+		NullCheck(L_190);
+		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_190, L_191);
+		Menu_t4261767481 * L_192 = V_0;
+		SurveyRow_t1017487749 * L_193 = (SurveyRow_t1017487749 *)il2cpp_codegen_object_new(SurveyRow_t1017487749_il2cpp_TypeInfo_var);
+		SurveyRow__ctor_m485551430(L_193, /*hidden argument*/NULL);
+		NullCheck(L_192);
+		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_192, L_193);
+		Menu_t4261767481 * L_194 = V_0;
+		Row_t774521500 * L_195 = V_6;
+		NullCheck(L_194);
+		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_194, L_195);
+		Menu_t4261767481 * L_196 = V_0;
+		ClearCacheRow_t2250566326 * L_197 = (ClearCacheRow_t2250566326 *)il2cpp_codegen_object_new(ClearCacheRow_t2250566326_il2cpp_TypeInfo_var);
+		ClearCacheRow__ctor_m1126620171(L_197, /*hidden argument*/NULL);
+		NullCheck(L_196);
+		VirtActionInvoker1< IRow_t3247553901 * >::Invoke(6 /* System.Void IMenu::addRow(IRow) */, L_196, L_197);
+		Menu_t4261767481 * L_198 = V_0;
+		ScrollMenu_t1922223870 * L_199 = (ScrollMenu_t1922223870 *)il2cpp_codegen_object_new(ScrollMenu_t1922223870_il2cpp_TypeInfo_var);
+		ScrollMenu__ctor_m28531143(L_199, L_198, /*hidden argument*/NULL);
+		V_31 = L_199;
+		IMenu_t2695572612 * L_200 = V_31;
 		IL2CPP_RUNTIME_CLASS_INIT(CRHC_t1634415772_il2cpp_TypeInfo_var);
-		float L_149 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SPEED_FADE_IN_6();
-		FadeInMenu_t1652954898 * L_150 = (FadeInMenu_t1652954898 *)il2cpp_codegen_object_new(FadeInMenu_t1652954898_il2cpp_TypeInfo_var);
-		FadeInMenu__ctor_m3239003250(L_150, L_148, L_149, /*hidden argument*/NULL);
-		V_23 = L_150;
-		IMenu_t2695572612 * L_151 = V_23;
-		Color_t2020392075  L_152 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
-		NullCheck(L_151);
-		VirtActionInvoker1< Color_t2020392075  >::Invoke(9 /* System.Void IMenu::setColor(UnityEngine.Color) */, L_151, L_152);
-		IMenu_t2695572612 * L_153 = V_23;
-		String_t* L_154 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String CrhcItem::getUrl() */, __this);
+		float L_201 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_SPEED_FADE_IN_6();
+		FadeInMenu_t1652954898 * L_202 = (FadeInMenu_t1652954898 *)il2cpp_codegen_object_new(FadeInMenu_t1652954898_il2cpp_TypeInfo_var);
+		FadeInMenu__ctor_m3239003250(L_202, L_200, L_201, /*hidden argument*/NULL);
+		V_32 = L_202;
+		IMenu_t2695572612 * L_203 = V_32;
+		Color_t2020392075  L_204 = ((CRHC_t1634415772_StaticFields*)CRHC_t1634415772_il2cpp_TypeInfo_var->static_fields)->get_COLOR_GRAY_DARK_5();
+		NullCheck(L_203);
+		VirtActionInvoker1< Color_t2020392075  >::Invoke(9 /* System.Void IMenu::setColor(UnityEngine.Color) */, L_203, L_204);
+		IMenu_t2695572612 * L_205 = V_32;
+		String_t* L_206 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String CrhcItem::getUrl() */, __this);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_155 = String_Concat_m2596409543(NULL /*static, unused*/, L_154, _stringLiteral4095190430, /*hidden argument*/NULL);
-		TourMenu_t849766617 * L_156 = (TourMenu_t849766617 *)il2cpp_codegen_object_new(TourMenu_t849766617_il2cpp_TypeInfo_var);
-		TourMenu__ctor_m947572630(L_156, L_153, L_155, /*hidden argument*/NULL);
-		V_24 = L_156;
-		goto IL_03ef;
+		String_t* L_207 = String_Concat_m2596409543(NULL /*static, unused*/, L_206, _stringLiteral4095190430, /*hidden argument*/NULL);
+		TourMenu_t849766617 * L_208 = (TourMenu_t849766617 *)il2cpp_codegen_object_new(TourMenu_t849766617_il2cpp_TypeInfo_var);
+		TourMenu__ctor_m947572630(L_208, L_205, L_207, /*hidden argument*/NULL);
+		V_33 = L_208;
+		goto IL_0540;
 	}
 
-IL_03ef:
+IL_0540:
 	{
-		IMenu_t2695572612 * L_157 = V_24;
-		return L_157;
+		IMenu_t2695572612 * L_209 = V_33;
+		return L_209;
 	}
 }
 // System.Void Tour/ARButton::.ctor(Landmark)
@@ -15845,6 +16584,167 @@ extern "C"  void VuforiaConfiguration__ctor_m2808042321 (VuforiaConfiguration_t3
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var);
 		VuforiaAbstractConfiguration__ctor_m1625969650(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaRuntimeInitialization::InitPlatform()
+extern Il2CppClass* VuforiaUnity_t657456673_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId;
+extern "C"  void VuforiaRuntimeInitialization_InitPlatform_m3197388960 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitPlatform_m3197388960_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaUnity_t657456673_il2cpp_TypeInfo_var);
+		VuforiaUnity_SetStandardInitializationParameters_m3220511984(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_0 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Il2CppObject * L_1 = VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VuforiaRuntime_InitPlatform_m3306160978(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Vuforia.VuforiaRuntimeInitialization::InitVuforia()
+extern Il2CppClass* VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId;
+extern "C"  void VuforiaRuntimeInitialization_InitVuforia_m2546903059 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_InitVuforia_m2546903059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaAbstractConfiguration_t1891710424_il2cpp_TypeInfo_var);
+		VuforiaAbstractConfiguration_t1891710424 * L_0 = VuforiaAbstractConfiguration_get_Instance_m3543652287(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GenericVuforiaConfiguration_t3866211740 * L_1 = VuforiaAbstractConfiguration_get_Vuforia_m3334047132(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = GenericVuforiaConfiguration_get_DelayedInitialization_m282560601(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntime_t2075282796_il2cpp_TypeInfo_var);
+		VuforiaRuntime_t2075282796 * L_3 = VuforiaRuntime_get_Instance_m4069915631(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VuforiaRuntime_InitVuforia_m2353933398(L_3, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// Vuforia.IUnityPlayer Vuforia.VuforiaRuntimeInitialization::CreateUnityPlayer()
+extern Il2CppClass* NullUnityPlayer_t754446093_il2cpp_TypeInfo_var;
+extern Il2CppClass* AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var;
+extern Il2CppClass* IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var;
+extern Il2CppClass* VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var;
+extern Il2CppClass* PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var;
+extern Il2CppClass* WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var;
+extern const uint32_t VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId;
+extern "C"  Il2CppObject * VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VuforiaRuntimeInitialization_CreateUnityPlayer_m1650732109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Il2CppObject * V_0 = NULL;
+	Il2CppObject * V_1 = NULL;
+	{
+		NullUnityPlayer_t754446093 * L_0 = (NullUnityPlayer_t754446093 *)il2cpp_codegen_object_new(NullUnityPlayer_t754446093_il2cpp_TypeInfo_var);
+		NullUnityPlayer__ctor_m483624113(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		AndroidUnityPlayer_t852788525 * L_2 = (AndroidUnityPlayer_t852788525 *)il2cpp_codegen_object_new(AndroidUnityPlayer_t852788525_il2cpp_TypeInfo_var);
+		AndroidUnityPlayer__ctor_m2233000524(L_2, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_005b;
+	}
+
+IL_001e:
+	{
+		int32_t L_3 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)8))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		IOSUnityPlayer_t3656371703 * L_4 = (IOSUnityPlayer_t3656371703 *)il2cpp_codegen_object_new(IOSUnityPlayer_t3656371703_il2cpp_TypeInfo_var);
+		IOSUnityPlayer__ctor_m676692974(L_4, /*hidden argument*/NULL);
+		V_0 = L_4;
+		goto IL_005b;
+	}
+
+IL_0034:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_5 = VuforiaRuntimeUtilities_IsPlayMode_m2939358997(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		PlayModeUnityPlayer_t918240325 * L_6 = (PlayModeUnityPlayer_t918240325 *)il2cpp_codegen_object_new(PlayModeUnityPlayer_t918240325_il2cpp_TypeInfo_var);
+		PlayModeUnityPlayer__ctor_m2126346857(L_6, /*hidden argument*/NULL);
+		V_0 = L_6;
+		goto IL_005b;
+	}
+
+IL_0049:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(VuforiaRuntimeUtilities_t3083157244_il2cpp_TypeInfo_var);
+		bool L_7 = VuforiaRuntimeUtilities_IsWSARuntime_m3848252715(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		WSAUnityPlayer_t425981959 * L_8 = (WSAUnityPlayer_t425981959 *)il2cpp_codegen_object_new(WSAUnityPlayer_t425981959_il2cpp_TypeInfo_var);
+		WSAUnityPlayer__ctor_m1279021334(L_8, /*hidden argument*/NULL);
+		V_0 = L_8;
+	}
+
+IL_005b:
+	{
+		Il2CppObject * L_9 = V_0;
+		V_1 = L_9;
+		goto IL_0062;
+	}
+
+IL_0062:
+	{
+		Il2CppObject * L_10 = V_1;
+		return L_10;
+	}
+}
+// System.Void Vuforia.VuMarkBehaviour::.ctor()
+extern "C"  void VuMarkBehaviour__ctor_m1415860126 (VuMarkBehaviour_t2060629989 * __this, const MethodInfo* method)
+{
+	{
+		VuMarkAbstractBehaviour__ctor_m326197713(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

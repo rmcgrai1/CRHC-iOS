@@ -36,3 +36,7 @@
 #define Reference_1_tryLoad_m1524936365(__this, method) ((  void (*) (Reference_1_t1425086317 *, const MethodInfo*))Reference_1_tryLoad_m3940182764_gshared)(__this, method)
 // System.Void Reference`1<UnityEngine.AudioClip>::unload()
 #define Reference_1_unload_m878013569(__this, method) ((  void (*) (Reference_1_t1425086317 *, const MethodInfo*))Reference_1_unload_m1842880738_gshared)(__this, method)
+// System.Void Reference`1<UnityEngine.AudioClip>::add_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_add_onLoad_m244047119(__this, ___value0, method) ((  void (*) (Reference_1_t1425086317 *, LoadEventDelegate_t1722807133 *, const MethodInfo*))Reference_1_add_onLoad_m3557321136_gshared)(__this, ___value0, method)
+// System.Void Reference`1<UnityEngine.AudioClip>::remove_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_remove_onLoad_m2143076194(__this, ___value0, method) ((  void (*) (Reference_1_t1425086317 *, LoadEventDelegate_t1722807133 *, const MethodInfo*))Reference_1_remove_onLoad_m279524993_gshared)(__this, ___value0, method)

@@ -15,8 +15,6 @@ struct IMenu_t2695572612;
 struct Tour_t1896021510;
 // Experience
 struct Experience_t1974411760;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
 // Landmark
 struct Landmark_t1862459476;
 // Reference
@@ -32,7 +30,6 @@ struct WireframeBehaviour_t2494532455;
 #include "AssemblyU2DCSharp_IMenu2695572612.h"
 #include "AssemblyU2DCSharp_Tour1896021510.h"
 #include "AssemblyU2DCSharp_Experience1974411760.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
 #include "AssemblyU2DCSharp_Landmark1862459476.h"
 #include "AssemblyU2DCSharp_Reference3342691873.h"
 #include "AssemblyU2DCSharp_IRow3247553901.h"
@@ -146,43 +143,6 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, Experience_t1974411760 * value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-};
-// JsonChildList/JsonChild[]
-struct JsonChildU5BU5D_t3232905546  : public Il2CppArray
-{
-public:
-	ALIGN_FIELD (8) JsonChild_t2476909483 * m_Items[1];
-
-public:
-	inline JsonChild_t2476909483 * GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline JsonChild_t2476909483 ** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, JsonChild_t2476909483 * value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier(m_Items + index, value);
-	}
-	inline JsonChild_t2476909483 * GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline JsonChild_t2476909483 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, JsonChild_t2476909483 * value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);

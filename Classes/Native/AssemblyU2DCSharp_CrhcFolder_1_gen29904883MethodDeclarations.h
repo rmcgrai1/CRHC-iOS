@@ -16,8 +16,8 @@
 struct CrhcFolder_1_t29904883;
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // System.Collections.IEnumerator
 struct IEnumerator_t1466026749;
 // System.String
@@ -27,12 +27,12 @@ struct Il2CppObject;
 
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
 #include "mscorlib_System_String2029220233.h"
 
-// System.Void CrhcFolder`1<System.Object>::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void CrhcFolder_1__ctor_m2937052116_gshared (CrhcFolder_1_t29904883 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method);
-#define CrhcFolder_1__ctor_m2937052116(__this, ___parent0, ___data1, method) ((  void (*) (CrhcFolder_1_t29904883 *, CrhcItem_t1379468653 *, JsonChild_t2476909483 *, const MethodInfo*))CrhcFolder_1__ctor_m2937052116_gshared)(__this, ___parent0, ___data1, method)
+// System.Void CrhcFolder`1<System.Object>::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void CrhcFolder_1__ctor_m3644556237_gshared (CrhcFolder_1_t29904883 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method);
+#define CrhcFolder_1__ctor_m3644556237(__this, ___parent0, ___data1, method) ((  void (*) (CrhcFolder_1_t29904883 *, CrhcItem_t1379468653 *, JObject_t278519297 *, const MethodInfo*))CrhcFolder_1__ctor_m3644556237_gshared)(__this, ___parent0, ___data1, method)
 // System.Collections.IEnumerator CrhcFolder`1<System.Object>::GetEnumerator()
 extern "C"  Il2CppObject * CrhcFolder_1_GetEnumerator_m1724797034_gshared (CrhcFolder_1_t29904883 * __this, const MethodInfo* method);
 #define CrhcFolder_1_GetEnumerator_m1724797034(__this, method) ((  Il2CppObject * (*) (CrhcFolder_1_t29904883 *, const MethodInfo*))CrhcFolder_1_GetEnumerator_m1724797034_gshared)(__this, method)

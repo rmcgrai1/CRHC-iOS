@@ -38,3 +38,6 @@ extern "C"  LinkedListNode_1_t225461189 * LinkedListNode_1_get_Next_m2917261204_
 // T System.Collections.Generic.LinkedListNode`1<Vuforia.VuforiaManager/TrackableIdPair>::get_Value()
 extern "C"  TrackableIdPair_t1329355276  LinkedListNode_1_get_Value_m559506163_gshared (LinkedListNode_1_t225461189 * __this, const MethodInfo* method);
 #define LinkedListNode_1_get_Value_m559506163(__this, method) ((  TrackableIdPair_t1329355276  (*) (LinkedListNode_1_t225461189 *, const MethodInfo*))LinkedListNode_1_get_Value_m559506163_gshared)(__this, method)
+// System.Void System.Collections.Generic.LinkedListNode`1<Vuforia.VuforiaManager/TrackableIdPair>::set_Value(T)
+extern "C"  void LinkedListNode_1_set_Value_m1139150863_gshared (LinkedListNode_1_t225461189 * __this, TrackableIdPair_t1329355276  ___value0, const MethodInfo* method);
+#define LinkedListNode_1_set_Value_m1139150863(__this, ___value0, method) ((  void (*) (LinkedListNode_1_t225461189 *, TrackableIdPair_t1329355276 , const MethodInfo*))LinkedListNode_1_set_Value_m1139150863_gshared)(__this, ___value0, method)

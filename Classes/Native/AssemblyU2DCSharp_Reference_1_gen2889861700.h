@@ -16,6 +16,8 @@ struct String_t;
 struct ByteU5BU5D_t3397334013;
 // UnityEngine.WWW
 struct WWW_t2919945039;
+// Reference`1/LoadEventDelegate<System.Byte[]>
+struct LoadEventDelegate_t3187582516;
 
 #include "AssemblyU2DCSharp_Reference3342691873.h"
 
@@ -39,6 +41,8 @@ public:
 	ByteU5BU5D_t3397334013* ___byteData_4;
 	// UnityEngine.WWW Reference`1::www
 	WWW_t2919945039 * ___www_5;
+	// Reference`1/LoadEventDelegate<T> Reference`1::onLoad
+	LoadEventDelegate_t3187582516 * ___onLoad_6;
 
 public:
 	inline static int32_t get_offset_of_path_1() { return static_cast<int32_t>(offsetof(Reference_1_t2889861700, ___path_1)); }
@@ -83,6 +87,15 @@ public:
 	{
 		___www_5 = value;
 		Il2CppCodeGenWriteBarrier(&___www_5, value);
+	}
+
+	inline static int32_t get_offset_of_onLoad_6() { return static_cast<int32_t>(offsetof(Reference_1_t2889861700, ___onLoad_6)); }
+	inline LoadEventDelegate_t3187582516 * get_onLoad_6() const { return ___onLoad_6; }
+	inline LoadEventDelegate_t3187582516 ** get_address_of_onLoad_6() { return &___onLoad_6; }
+	inline void set_onLoad_6(LoadEventDelegate_t3187582516 * value)
+	{
+		___onLoad_6 = value;
+		Il2CppCodeGenWriteBarrier(&___onLoad_6, value);
 	}
 };
 

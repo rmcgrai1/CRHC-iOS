@@ -14,6 +14,8 @@
 struct Row_t774521500;
 // IMenu
 struct IMenu_t2695572612;
+// Reference`1<UnityEngine.Texture2D>
+struct Reference_1_t3035523416;
 
 #include "AssemblyU2DCSharp_IRow3247553901.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
@@ -40,6 +42,8 @@ public:
 	Color_t2020392075  ___openColor_5;
 	// UnityEngine.Color PaneRow::closedColor
 	Color_t2020392075  ___closedColor_6;
+	// Reference`1<UnityEngine.Texture2D> PaneRow::arrowTexture
+	Reference_1_t3035523416 * ___arrowTexture_7;
 
 public:
 	inline static int32_t get_offset_of_headRow_1() { return static_cast<int32_t>(offsetof(PaneRow_t998949582, ___headRow_1)); }
@@ -90,6 +94,15 @@ public:
 	inline void set_closedColor_6(Color_t2020392075  value)
 	{
 		___closedColor_6 = value;
+	}
+
+	inline static int32_t get_offset_of_arrowTexture_7() { return static_cast<int32_t>(offsetof(PaneRow_t998949582, ___arrowTexture_7)); }
+	inline Reference_1_t3035523416 * get_arrowTexture_7() const { return ___arrowTexture_7; }
+	inline Reference_1_t3035523416 ** get_address_of_arrowTexture_7() { return &___arrowTexture_7; }
+	inline void set_arrowTexture_7(Reference_1_t3035523416 * value)
+	{
+		___arrowTexture_7 = value;
+		Il2CppCodeGenWriteBarrier(&___arrowTexture_7, value);
 	}
 };
 

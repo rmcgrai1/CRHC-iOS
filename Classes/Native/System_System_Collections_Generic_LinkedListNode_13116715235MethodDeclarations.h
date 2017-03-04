@@ -28,3 +28,5 @@
 #define LinkedListNode_1_get_Next_m2015926479(__this, method) ((  LinkedListNode_1_t3116715235 * (*) (LinkedListNode_1_t3116715235 *, const MethodInfo*))LinkedListNode_1_get_Next_m1067948741_gshared)(__this, method)
 // T System.Collections.Generic.LinkedListNode`1<LoadableObserver>::get_Value()
 #define LinkedListNode_1_get_Value_m2139769666(__this, method) ((  Il2CppObject * (*) (LinkedListNode_1_t3116715235 *, const MethodInfo*))LinkedListNode_1_get_Value_m201900116_gshared)(__this, method)
+// System.Void System.Collections.Generic.LinkedListNode`1<LoadableObserver>::set_Value(T)
+#define LinkedListNode_1_set_Value_m2762530743(__this, ___value0, method) ((  void (*) (LinkedListNode_1_t3116715235 *, Il2CppObject *, const MethodInfo*))LinkedListNode_1_set_Value_m2125545625_gshared)(__this, ___value0, method)

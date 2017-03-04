@@ -49,6 +49,8 @@ public:
 	Texture2D_t3542995729 * ___whiteTexture_3;
 	// UnityEngine.GUIStyle GUIX::whiteTextureStyle
 	GUIStyle_t1799908754 * ___whiteTextureStyle_4;
+	// UnityEngine.GUIStyle GUIX::standardTextureStyle
+	GUIStyle_t1799908754 * ___standardTextureStyle_5;
 
 public:
 	inline static int32_t get_offset_of_clipStack_0() { return static_cast<int32_t>(offsetof(GUIX_t1405793021_StaticFields, ___clipStack_0)); }
@@ -93,6 +95,15 @@ public:
 	{
 		___whiteTextureStyle_4 = value;
 		Il2CppCodeGenWriteBarrier(&___whiteTextureStyle_4, value);
+	}
+
+	inline static int32_t get_offset_of_standardTextureStyle_5() { return static_cast<int32_t>(offsetof(GUIX_t1405793021_StaticFields, ___standardTextureStyle_5)); }
+	inline GUIStyle_t1799908754 * get_standardTextureStyle_5() const { return ___standardTextureStyle_5; }
+	inline GUIStyle_t1799908754 ** get_address_of_standardTextureStyle_5() { return &___standardTextureStyle_5; }
+	inline void set_standardTextureStyle_5(GUIStyle_t1799908754 * value)
+	{
+		___standardTextureStyle_5 = value;
+		Il2CppCodeGenWriteBarrier(&___standardTextureStyle_5, value);
 	}
 };
 

@@ -36,3 +36,7 @@
 #define Reference_1_tryLoad_m1877303686(__this, method) ((  void (*) (Reference_1_t3035523416 *, const MethodInfo*))Reference_1_tryLoad_m3940182764_gshared)(__this, method)
 // System.Void Reference`1<UnityEngine.Texture2D>::unload()
 #define Reference_1_unload_m3313028352(__this, method) ((  void (*) (Reference_1_t3035523416 *, const MethodInfo*))Reference_1_unload_m1842880738_gshared)(__this, method)
+// System.Void Reference`1<UnityEngine.Texture2D>::add_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_add_onLoad_m3455600706(__this, ___value0, method) ((  void (*) (Reference_1_t3035523416 *, LoadEventDelegate_t3333244232 *, const MethodInfo*))Reference_1_add_onLoad_m3557321136_gshared)(__this, ___value0, method)
+// System.Void Reference`1<UnityEngine.Texture2D>::remove_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_remove_onLoad_m1194405841(__this, ___value0, method) ((  void (*) (Reference_1_t3035523416 *, LoadEventDelegate_t3333244232 *, const MethodInfo*))Reference_1_remove_onLoad_m279524993_gshared)(__this, ___value0, method)

@@ -16,99 +16,106 @@
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
-#include "System_System_Net_HttpVersion1276659706.h"
-#include "System_System_Net_HttpWebRequest1951404513.h"
-#include "System_System_Net_IPAddress1399971723.h"
-#include "System_System_Net_IPv6Address2596635879.h"
-#include "System_System_Net_SecurityProtocolType3099771628.h"
-#include "System_System_Net_ServicePoint2765344313.h"
-#include "System_System_Net_ServicePointManager745663000.h"
-#include "System_System_Net_ServicePointManager_SPKey1552752485.h"
-#include "System_System_Net_WebHeaderCollection3028142837.h"
-#include "System_System_Net_WebProxy1169192840.h"
-#include "System_System_Net_WebRequest1365124353.h"
-#include "System_System_Security_Cryptography_X509Certificat2370524385.h"
-#include "System_System_Security_Cryptography_X509Certificates_P870392.h"
-#include "System_System_Security_Cryptography_X509Certificat1570828128.h"
-#include "System_System_Security_Cryptography_X509Certificat2183514610.h"
-#include "System_System_Security_Cryptography_X509Certificate452415348.h"
-#include "System_System_Security_Cryptography_X509Certificat2005802885.h"
-#include "System_System_Security_Cryptography_X509Certificat1562873317.h"
-#include "System_System_Security_Cryptography_X509Certificat4056456767.h"
-#include "System_System_Security_Cryptography_X509Certificat1108969367.h"
-#include "System_System_Security_Cryptography_X509Certificat2356134957.h"
-#include "System_System_Security_Cryptography_X509Certificat1197680765.h"
-#include "System_System_Security_Cryptography_X509Certificat1208230922.h"
-#include "System_System_Security_Cryptography_X509Certificate777637347.h"
-#include "System_System_Security_Cryptography_X509Certificate528874471.h"
-#include "System_System_Security_Cryptography_X509Certificat2081831987.h"
-#include "System_System_Security_Cryptography_X509Certificat3304975821.h"
-#include "System_System_Security_Cryptography_X509Certificat3452126517.h"
-#include "System_System_Security_Cryptography_X509Certificat4278378721.h"
-#include "System_System_Security_Cryptography_X509Certificate480677120.h"
-#include "System_System_Security_Cryptography_X509Certificat2099881051.h"
-#include "System_System_Security_Cryptography_X509Certificat1320896183.h"
-#include "System_System_Security_Cryptography_X509Certificate650873211.h"
-#include "System_System_Security_Cryptography_X509Certificat3763443773.h"
-#include "System_System_Security_Cryptography_X509Certificat3221716179.h"
-#include "System_System_Security_Cryptography_X509Certificat1038124237.h"
-#include "System_System_Security_Cryptography_X509Certificat2461349531.h"
-#include "System_System_Security_Cryptography_X509Certificat2669466891.h"
-#include "System_System_Security_Cryptography_X509Certificat2166064554.h"
-#include "System_System_Security_Cryptography_X509Certificat2065307963.h"
-#include "System_System_Security_Cryptography_X509Certificat1617430119.h"
-#include "System_System_Security_Cryptography_X509Certificat2508879999.h"
-#include "System_System_Security_Cryptography_X509Certificate110301003.h"
-#include "System_System_Security_Cryptography_X509Certificat2169036324.h"
-#include "System_System_Security_Cryptography_AsnDecodeStatu1962003286.h"
-#include "System_System_Security_Cryptography_AsnEncodedData463456204.h"
-#include "System_System_Security_Cryptography_Oid3221867120.h"
-#include "System_System_Security_Cryptography_OidCollection3790243618.h"
-#include "System_System_Security_Cryptography_OidEnumerator3674631724.h"
-#include "System_System_Text_RegularExpressions_BaseMachine4008011478.h"
-#include "System_System_Text_RegularExpressions_Capture4157900610.h"
-#include "System_System_Text_RegularExpressions_CaptureColle1671345504.h"
-#include "System_System_Text_RegularExpressions_Group3761430853.h"
-#include "System_System_Text_RegularExpressions_GroupCollecti939014605.h"
-#include "System_System_Text_RegularExpressions_Match3164245899.h"
-#include "System_System_Text_RegularExpressions_MatchCollect3718216671.h"
-#include "System_System_Text_RegularExpressions_MatchCollecti501456973.h"
-#include "System_System_Text_RegularExpressions_Regex1803876613.h"
-#include "System_System_Text_RegularExpressions_RegexOptions2418259727.h"
-#include "System_System_Text_RegularExpressions_OpCode586571952.h"
-#include "System_System_Text_RegularExpressions_OpFlags378191910.h"
-#include "System_System_Text_RegularExpressions_Position3781184359.h"
-#include "System_System_Text_RegularExpressions_FactoryCache2051534610.h"
-#include "System_System_Text_RegularExpressions_FactoryCache_655155419.h"
-#include "System_System_Text_RegularExpressions_MRUList33178162.h"
-#include "System_System_Text_RegularExpressions_MRUList_Node1107172180.h"
-#include "System_System_Text_RegularExpressions_Category1984577050.h"
-#include "System_System_Text_RegularExpressions_CategoryUtil3840220623.h"
-#include "System_System_Text_RegularExpressions_LinkRef2090853131.h"
-#include "System_System_Text_RegularExpressions_InterpreterFa556462562.h"
-#include "System_System_Text_RegularExpressions_PatternCompil637049905.h"
-#include "System_System_Text_RegularExpressions_PatternCompi3979537293.h"
-#include "System_System_Text_RegularExpressions_PatternCompi3337276394.h"
-#include "System_System_Text_RegularExpressions_LinkStack954792760.h"
-#include "System_System_Text_RegularExpressions_Mark2724874473.h"
-#include "System_System_Text_RegularExpressions_Interpreter3731288230.h"
-#include "System_System_Text_RegularExpressions_Interpreter_I273560425.h"
-#include "System_System_Text_RegularExpressions_Interpreter_1827616978.h"
-#include "System_System_Text_RegularExpressions_Interpreter_2395763083.h"
-#include "System_System_Text_RegularExpressions_Interval2354235237.h"
-#include "System_System_Text_RegularExpressions_IntervalColl4130821325.h"
-#include "System_System_Text_RegularExpressions_IntervalColl1928086041.h"
-#include "System_System_Text_RegularExpressions_IntervalColl1824458113.h"
-#include "System_System_Text_RegularExpressions_Syntax_Parse2756028923.h"
-#include "System_System_Text_RegularExpressions_QuickSearch1036078825.h"
-#include "System_System_Text_RegularExpressions_Syntax_Expres238836340.h"
-#include "System_System_Text_RegularExpressions_Syntax_Expres368137076.h"
-#include "System_System_Text_RegularExpressions_Syntax_Compo1921307915.h"
-#include "System_System_Text_RegularExpressions_Syntax_Group2558408851.h"
-#include "System_System_Text_RegularExpressions_Syntax_Regul3083097024.h"
-#include "System_System_Text_RegularExpressions_Syntax_Captu3690174926.h"
-#include "System_System_Text_RegularExpressions_Syntax_Balan3168604284.h"
-#include "System_System_Text_RegularExpressions_Syntax_NonBac607185170.h"
+#include "System_U3CPrivateImplementationDetailsU3E1486305137.h"
+#include "System_U3CPrivateImplementationDetailsU3E_U24ArrayT116038554.h"
+#include "System_U3CPrivateImplementationDetailsU3E_U24Array3672778802.h"
+#include "Mono_Security_U3CModuleU3E3783534214.h"
+#include "Mono_Security_Locale4255929014.h"
+#include "Mono_Security_Mono_Math_BigInteger925946152.h"
+#include "Mono_Security_Mono_Math_BigInteger_Sign874893935.h"
+#include "Mono_Security_Mono_Math_BigInteger_ModulusRing80355991.h"
+#include "Mono_Security_Mono_Math_BigInteger_Kernel1353186455.h"
+#include "Mono_Security_Mono_Math_Prime_ConfidenceFactor1997037801.h"
+#include "Mono_Security_Mono_Math_Prime_PrimalityTests3283102398.h"
+#include "Mono_Security_Mono_Math_Prime_Generator_PrimeGener1053438167.h"
+#include "Mono_Security_Mono_Math_Prime_Generator_SequentialS463670656.h"
+#include "Mono_Security_Mono_Security_ASN1924533535.h"
+#include "Mono_Security_Mono_Security_ASN1Convert3301846396.h"
+#include "Mono_Security_Mono_Security_BitConverterLE2825370260.h"
+#include "Mono_Security_Mono_Security_PKCS73223261922.h"
+#include "Mono_Security_Mono_Security_PKCS7_ContentInfo1443605387.h"
+#include "Mono_Security_Mono_Security_PKCS7_EncryptedData2656813772.h"
+#include "Mono_Security_Mono_Security_Cryptography_ARC4Manag3379271383.h"
+#include "Mono_Security_Mono_Security_Cryptography_CryptoCon4146607874.h"
+#include "Mono_Security_Mono_Security_Cryptography_KeyBuilde3965881084.h"
+#include "Mono_Security_Mono_Security_Cryptography_MD2726199179.h"
+#include "Mono_Security_Mono_Security_Cryptography_MD2Manage1421454332.h"
+#include "Mono_Security_Mono_Security_Cryptography_MD41888998593.h"
+#include "Mono_Security_Mono_Security_Cryptography_MD4Manage2176273562.h"
+#include "Mono_Security_Mono_Security_Cryptography_PKCS13312870480.h"
+#include "Mono_Security_Mono_Security_Cryptography_PKCS82103016899.h"
+#include "Mono_Security_Mono_Security_Cryptography_PKCS8_Priva92917103.h"
+#include "Mono_Security_Mono_Security_Cryptography_PKCS8_Enc1722354997.h"
+#include "Mono_Security_Mono_Security_Cryptography_RC42789934315.h"
+#include "Mono_Security_Mono_Security_Cryptography_RSAManage3034748747.h"
+#include "Mono_Security_Mono_Security_Cryptography_RSAManaged108853709.h"
+#include "Mono_Security_Mono_Security_X509_SafeBag2166702855.h"
+#include "Mono_Security_Mono_Security_X509_PKCS121362584794.h"
+#include "Mono_Security_Mono_Security_X509_PKCS12_DeriveByte1740753016.h"
+#include "Mono_Security_Mono_Security_X509_X501349661534.h"
+#include "Mono_Security_Mono_Security_X509_X509Certificate324051957.h"
+#include "Mono_Security_Mono_Security_X509_X509CertificateCo3592472865.h"
+#include "Mono_Security_Mono_Security_X509_X509CertificateCo3487770522.h"
+#include "Mono_Security_Mono_Security_X509_X509Chain1938971907.h"
+#include "Mono_Security_Mono_Security_X509_X509ChainStatusFl2843686920.h"
+#include "Mono_Security_Mono_Security_X509_X509Crl1699034837.h"
+#include "Mono_Security_Mono_Security_X509_X509Crl_X509CrlEnt743353844.h"
+#include "Mono_Security_Mono_Security_X509_X509Extension1439760127.h"
+#include "Mono_Security_Mono_Security_X509_X509ExtensionColl1640144839.h"
+#include "Mono_Security_Mono_Security_X509_X509Store4028973563.h"
+#include "Mono_Security_Mono_Security_X509_X509StoreManager1740460066.h"
+#include "Mono_Security_Mono_Security_X509_X509Stores3001420398.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Authori795428182.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_BasicC3608227951.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Extend3816993686.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Genera2355256240.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_KeyUsag530589947.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_KeyUsa1909787375.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Netsca3880736488.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Netsca3955735183.h"
+#include "Mono_Security_Mono_Security_X509_Extensions_Subject604050261.h"
+#include "Mono_Security_Mono_Security_Cryptography_HMAC2707728663.h"
+#include "Mono_Security_Mono_Security_Cryptography_MD5SHA13340472487.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_AlertLeve1706602846.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_AlertDescr844791462.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Alert3405955216.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_CipherAlg4212518094.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_CipherSuit491456551.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_CipherSui2431504453.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_CipherSui3273693255.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ClientCon3002158488.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ClientRec2694504884.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ClientSes3468069089.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ClientSes3595945587.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ContentTyp859870085.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Context4285182719.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ExchangeAl954949548.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake1820731088.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_HashAlgor1654661965.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_HttpsClie3823629320.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_RecordPro3166895267.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_RecordPro1946181211.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_RecordProt173216930.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_RSASslSign389653629.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_RSASslSig1282301050.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SecurityC3722381418.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SecurityP2290372928.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SecurityPr155967584.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_ServerCon3823737132.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Validatio1782558132.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SslClient3918817353.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SslCipher1404755603.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SslHandsh3044322977.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SslStreamB934199321.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_SslStream1610391122.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_TlsCipherS396038680.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_TlsClient2311449551.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_TlsExcepti583514812.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_TlsServerS403340211.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_TlsStream4089752859.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake4001384466.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake3938752374.h"
+#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake2540099417.h"
 
 
 
@@ -117,169 +124,44 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1100 = { sizeof (HttpVersion_t1276659706), -1, sizeof(HttpVersion_t1276659706_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1100[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1100 = { sizeof (U3CPrivateImplementationDetailsU3E_t1486305138), -1, sizeof(U3CPrivateImplementationDetailsU3E_t1486305138_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1100[3] = 
 {
-	HttpVersion_t1276659706_StaticFields::get_offset_of_Version10_0(),
-	HttpVersion_t1276659706_StaticFields::get_offset_of_Version11_1(),
+	U3CPrivateImplementationDetailsU3E_t1486305138_StaticFields::get_offset_of_U24U24fieldU2D2_0(),
+	U3CPrivateImplementationDetailsU3E_t1486305138_StaticFields::get_offset_of_U24U24fieldU2D3_1(),
+	U3CPrivateImplementationDetailsU3E_t1486305138_StaticFields::get_offset_of_U24U24fieldU2D4_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1101 = { sizeof (HttpWebRequest_t1951404513), -1, sizeof(HttpWebRequest_t1951404513_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1101[24] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1101 = { sizeof (U24ArrayTypeU24128_t116038555)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU24128_t116038555 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1102 = { sizeof (U24ArrayTypeU2412_t3672778803)+ sizeof (Il2CppObject), sizeof(U24ArrayTypeU2412_t3672778803 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1103 = { sizeof (U3CModuleU3E_t3783534216), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1104 = { sizeof (Locale_t4255929016), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1105 = { sizeof (BigInteger_t925946153), -1, sizeof(BigInteger_t925946153_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1105[4] = 
 {
-	HttpWebRequest_t1951404513::get_offset_of_requestUri_6(),
-	HttpWebRequest_t1951404513::get_offset_of_actualUri_7(),
-	HttpWebRequest_t1951404513::get_offset_of_hostChanged_8(),
-	HttpWebRequest_t1951404513::get_offset_of_allowAutoRedirect_9(),
-	HttpWebRequest_t1951404513::get_offset_of_allowBuffering_10(),
-	HttpWebRequest_t1951404513::get_offset_of_certificates_11(),
-	HttpWebRequest_t1951404513::get_offset_of_connectionGroup_12(),
-	HttpWebRequest_t1951404513::get_offset_of_contentLength_13(),
-	HttpWebRequest_t1951404513::get_offset_of_webHeaders_14(),
-	HttpWebRequest_t1951404513::get_offset_of_keepAlive_15(),
-	HttpWebRequest_t1951404513::get_offset_of_maxAutoRedirect_16(),
-	HttpWebRequest_t1951404513::get_offset_of_mediaType_17(),
-	HttpWebRequest_t1951404513::get_offset_of_method_18(),
-	HttpWebRequest_t1951404513::get_offset_of_initialMethod_19(),
-	HttpWebRequest_t1951404513::get_offset_of_pipelined_20(),
-	HttpWebRequest_t1951404513::get_offset_of_version_21(),
-	HttpWebRequest_t1951404513::get_offset_of_proxy_22(),
-	HttpWebRequest_t1951404513::get_offset_of_sendChunked_23(),
-	HttpWebRequest_t1951404513::get_offset_of_servicePoint_24(),
-	HttpWebRequest_t1951404513::get_offset_of_timeout_25(),
-	HttpWebRequest_t1951404513::get_offset_of_redirects_26(),
-	HttpWebRequest_t1951404513::get_offset_of_locker_27(),
-	HttpWebRequest_t1951404513_StaticFields::get_offset_of_defaultMaxResponseHeadersLength_28(),
-	HttpWebRequest_t1951404513::get_offset_of_readWriteTimeout_29(),
+	BigInteger_t925946153::get_offset_of_length_0(),
+	BigInteger_t925946153::get_offset_of_data_1(),
+	BigInteger_t925946153_StaticFields::get_offset_of_smallPrimes_2(),
+	BigInteger_t925946153_StaticFields::get_offset_of_rng_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1102 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1103 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1104 = { sizeof (IPAddress_t1399971723), -1, sizeof(IPAddress_t1399971723_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1104[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1106 = { sizeof (Sign_t874893936)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1106[4] = 
 {
-	IPAddress_t1399971723::get_offset_of_m_Address_0(),
-	IPAddress_t1399971723::get_offset_of_m_Family_1(),
-	IPAddress_t1399971723::get_offset_of_m_Numbers_2(),
-	IPAddress_t1399971723::get_offset_of_m_ScopeId_3(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_Any_4(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_Broadcast_5(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_Loopback_6(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_None_7(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_IPv6Any_8(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_IPv6Loopback_9(),
-	IPAddress_t1399971723_StaticFields::get_offset_of_IPv6None_10(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1105 = { sizeof (IPv6Address_t2596635879), -1, sizeof(IPv6Address_t2596635879_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1105[5] = 
-{
-	IPv6Address_t2596635879::get_offset_of_address_0(),
-	IPv6Address_t2596635879::get_offset_of_prefixLength_1(),
-	IPv6Address_t2596635879::get_offset_of_scopeId_2(),
-	IPv6Address_t2596635879_StaticFields::get_offset_of_Loopback_3(),
-	IPv6Address_t2596635879_StaticFields::get_offset_of_Unspecified_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1106 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1107 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1108 = { sizeof (SecurityProtocolType_t3099771628)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1108[3] = 
-{
-	SecurityProtocolType_t3099771628::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1109 = { sizeof (ServicePoint_t2765344313), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1109[11] = 
-{
-	ServicePoint_t2765344313::get_offset_of_uri_0(),
-	ServicePoint_t2765344313::get_offset_of_connectionLimit_1(),
-	ServicePoint_t2765344313::get_offset_of_maxIdleTime_2(),
-	ServicePoint_t2765344313::get_offset_of_currentConnections_3(),
-	ServicePoint_t2765344313::get_offset_of_idleSince_4(),
-	ServicePoint_t2765344313::get_offset_of_usesProxy_5(),
-	ServicePoint_t2765344313::get_offset_of_sendContinue_6(),
-	ServicePoint_t2765344313::get_offset_of_useConnect_7(),
-	ServicePoint_t2765344313::get_offset_of_locker_8(),
-	ServicePoint_t2765344313::get_offset_of_hostE_9(),
-	ServicePoint_t2765344313::get_offset_of_useNagle_10(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1110 = { sizeof (ServicePointManager_t745663000), -1, sizeof(ServicePointManager_t745663000_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1110[10] = 
-{
-	ServicePointManager_t745663000_StaticFields::get_offset_of_servicePoints_0(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_policy_1(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_defaultConnectionLimit_2(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_maxServicePointIdleTime_3(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_maxServicePoints_4(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of__checkCRL_5(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of__securityProtocol_6(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_expectContinue_7(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_useNagle_8(),
-	ServicePointManager_t745663000_StaticFields::get_offset_of_server_cert_cb_9(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1111 = { sizeof (SPKey_t1552752485), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1111[2] = 
-{
-	SPKey_t1552752485::get_offset_of_uri_0(),
-	SPKey_t1552752485::get_offset_of_use_connect_1(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1112 = { sizeof (WebHeaderCollection_t3028142837), -1, sizeof(WebHeaderCollection_t3028142837_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1112[5] = 
-{
-	WebHeaderCollection_t3028142837_StaticFields::get_offset_of_restricted_12(),
-	WebHeaderCollection_t3028142837_StaticFields::get_offset_of_multiValue_13(),
-	WebHeaderCollection_t3028142837_StaticFields::get_offset_of_restricted_response_14(),
-	WebHeaderCollection_t3028142837::get_offset_of_internallyCreated_15(),
-	WebHeaderCollection_t3028142837_StaticFields::get_offset_of_allowed_chars_16(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1113 = { sizeof (WebProxy_t1169192840), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1113[5] = 
-{
-	WebProxy_t1169192840::get_offset_of_address_0(),
-	WebProxy_t1169192840::get_offset_of_bypassOnLocal_1(),
-	WebProxy_t1169192840::get_offset_of_bypassList_2(),
-	WebProxy_t1169192840::get_offset_of_credentials_3(),
-	WebProxy_t1169192840::get_offset_of_useDefaultCredentials_4(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1114 = { sizeof (WebRequest_t1365124353), -1, sizeof(WebRequest_t1365124353_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1114[5] = 
-{
-	WebRequest_t1365124353_StaticFields::get_offset_of_prefixes_1(),
-	WebRequest_t1365124353_StaticFields::get_offset_of_isDefaultWebProxySet_2(),
-	WebRequest_t1365124353_StaticFields::get_offset_of_defaultWebProxy_3(),
-	WebRequest_t1365124353::get_offset_of_authentication_level_4(),
-	WebRequest_t1365124353_StaticFields::get_offset_of_lockobj_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1115 = { sizeof (OpenFlags_t2370524385)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1115[6] = 
-{
-	OpenFlags_t2370524385::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	Sign_t874893936::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1116 = { sizeof (PublicKey_t870392), -1, sizeof(PublicKey_t870392_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1116[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1107 = { sizeof (ModulusRing_t80355992), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1107[2] = 
 {
-	PublicKey_t870392::get_offset_of__key_0(),
-	PublicKey_t870392::get_offset_of__keyValue_1(),
-	PublicKey_t870392::get_offset_of__params_2(),
-	PublicKey_t870392::get_offset_of__oid_3(),
-	PublicKey_t870392_StaticFields::get_offset_of_U3CU3Ef__switchU24map9_4(),
+	ModulusRing_t80355992::get_offset_of_mod_0(),
+	ModulusRing_t80355992::get_offset_of_constant_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1117 = { sizeof (StoreLocation_t1570828128)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1117[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1108 = { sizeof (Kernel_t1353186456), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1109 = { sizeof (ConfidenceFactor_t1997037802)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1109[7] = 
 {
-	StoreLocation_t1570828128::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1118 = { sizeof (StoreName_t2183514610)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1118[9] = 
-{
-	StoreName_t2183514610::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
+	ConfidenceFactor_t1997037802::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
@@ -287,424 +169,415 @@ extern const int32_t g_FieldOffsetTable1118[9] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1119 = { sizeof (X500DistinguishedName_t452415348), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1119[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1110 = { sizeof (PrimalityTests_t3283102399), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1111 = { sizeof (PrimeGeneratorBase_t1053438168), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1112 = { sizeof (SequentialSearchPrimeGeneratorBase_t463670657), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1113 = { sizeof (ASN1_t924533536), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1113[3] = 
 {
-	X500DistinguishedName_t452415348::get_offset_of_name_3(),
+	ASN1_t924533536::get_offset_of_m_nTag_0(),
+	ASN1_t924533536::get_offset_of_m_aValue_1(),
+	ASN1_t924533536::get_offset_of_elist_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1120 = { sizeof (X500DistinguishedNameFlags_t2005802885)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1120[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1114 = { sizeof (ASN1Convert_t3301846397), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1115 = { sizeof (BitConverterLE_t2825370261), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1116 = { sizeof (PKCS7_t3223261923), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1117 = { sizeof (ContentInfo_t1443605388), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1117[2] = 
 {
-	X500DistinguishedNameFlags_t2005802885::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	ContentInfo_t1443605388::get_offset_of_contentType_0(),
+	ContentInfo_t1443605388::get_offset_of_content_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1121 = { sizeof (X509BasicConstraintsExtension_t1562873317), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1121[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1118 = { sizeof (EncryptedData_t2656813773), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1118[4] = 
 {
-	0,
-	0,
-	X509BasicConstraintsExtension_t1562873317::get_offset_of__certificateAuthority_6(),
-	X509BasicConstraintsExtension_t1562873317::get_offset_of__hasPathLengthConstraint_7(),
-	X509BasicConstraintsExtension_t1562873317::get_offset_of__pathLengthConstraint_8(),
-	X509BasicConstraintsExtension_t1562873317::get_offset_of__status_9(),
+	EncryptedData_t2656813773::get_offset_of__version_0(),
+	EncryptedData_t2656813773::get_offset_of__content_1(),
+	EncryptedData_t2656813773::get_offset_of__encryptionAlgorithm_2(),
+	EncryptedData_t2656813773::get_offset_of__encrypted_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1122 = { sizeof (X509Certificate2_t4056456767), -1, sizeof(X509Certificate2_t4056456767_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1122[13] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1119 = { sizeof (ARC4Managed_t3379271383), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1119[5] = 
 {
-	X509Certificate2_t4056456767::get_offset_of__archived_5(),
-	X509Certificate2_t4056456767::get_offset_of__extensions_6(),
-	X509Certificate2_t4056456767::get_offset_of__name_7(),
-	X509Certificate2_t4056456767::get_offset_of__serial_8(),
-	X509Certificate2_t4056456767::get_offset_of__publicKey_9(),
-	X509Certificate2_t4056456767::get_offset_of_issuer_name_10(),
-	X509Certificate2_t4056456767::get_offset_of_subject_name_11(),
-	X509Certificate2_t4056456767::get_offset_of_signature_algorithm_12(),
-	X509Certificate2_t4056456767::get_offset_of__cert_13(),
-	X509Certificate2_t4056456767_StaticFields::get_offset_of_empty_error_14(),
-	X509Certificate2_t4056456767_StaticFields::get_offset_of_commonName_15(),
-	X509Certificate2_t4056456767_StaticFields::get_offset_of_email_16(),
-	X509Certificate2_t4056456767_StaticFields::get_offset_of_signedData_17(),
+	ARC4Managed_t3379271383::get_offset_of_key_12(),
+	ARC4Managed_t3379271383::get_offset_of_state_13(),
+	ARC4Managed_t3379271383::get_offset_of_x_14(),
+	ARC4Managed_t3379271383::get_offset_of_y_15(),
+	ARC4Managed_t3379271383::get_offset_of_m_disposed_16(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1123 = { sizeof (X509Certificate2Collection_t1108969367), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1124 = { sizeof (X509Certificate2Enumerator_t2356134957), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1124[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1120 = { sizeof (CryptoConvert_t4146607875), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1121 = { sizeof (KeyBuilder_t3965881085), -1, sizeof(KeyBuilder_t3965881085_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1121[1] = 
 {
-	X509Certificate2Enumerator_t2356134957::get_offset_of_enumerator_0(),
+	KeyBuilder_t3965881085_StaticFields::get_offset_of_rng_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1125 = { sizeof (X509CertificateCollection_t1197680765), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1126 = { sizeof (X509CertificateEnumerator_t1208230922), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1126[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1122 = { sizeof (MD2_t726199179), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1123 = { sizeof (MD2Managed_t1421454332), -1, sizeof(MD2Managed_t1421454332_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1123[6] = 
 {
-	X509CertificateEnumerator_t1208230922::get_offset_of_enumerator_0(),
+	MD2Managed_t1421454332::get_offset_of_state_4(),
+	MD2Managed_t1421454332::get_offset_of_checksum_5(),
+	MD2Managed_t1421454332::get_offset_of_buffer_6(),
+	MD2Managed_t1421454332::get_offset_of_count_7(),
+	MD2Managed_t1421454332::get_offset_of_x_8(),
+	MD2Managed_t1421454332_StaticFields::get_offset_of_PI_SUBST_9(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1127 = { sizeof (X509Chain_t777637347), -1, sizeof(X509Chain_t777637347_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1127[15] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1124 = { sizeof (MD4_t1888998593), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1125 = { sizeof (MD4Managed_t2176273562), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1125[5] = 
 {
-	X509Chain_t777637347::get_offset_of_location_0(),
-	X509Chain_t777637347::get_offset_of_elements_1(),
-	X509Chain_t777637347::get_offset_of_policy_2(),
-	X509Chain_t777637347::get_offset_of_status_3(),
-	X509Chain_t777637347_StaticFields::get_offset_of_Empty_4(),
-	X509Chain_t777637347::get_offset_of_max_path_length_5(),
-	X509Chain_t777637347::get_offset_of_working_issuer_name_6(),
-	X509Chain_t777637347::get_offset_of_working_public_key_7(),
-	X509Chain_t777637347::get_offset_of_bce_restriction_8(),
-	X509Chain_t777637347::get_offset_of_roots_9(),
-	X509Chain_t777637347::get_offset_of_cas_10(),
-	X509Chain_t777637347::get_offset_of_collection_11(),
-	X509Chain_t777637347_StaticFields::get_offset_of_U3CU3Ef__switchU24mapB_12(),
-	X509Chain_t777637347_StaticFields::get_offset_of_U3CU3Ef__switchU24mapC_13(),
-	X509Chain_t777637347_StaticFields::get_offset_of_U3CU3Ef__switchU24mapD_14(),
+	MD4Managed_t2176273562::get_offset_of_state_4(),
+	MD4Managed_t2176273562::get_offset_of_buffer_5(),
+	MD4Managed_t2176273562::get_offset_of_count_6(),
+	MD4Managed_t2176273562::get_offset_of_x_7(),
+	MD4Managed_t2176273562::get_offset_of_digest_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1128 = { sizeof (X509ChainElement_t528874471), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1126 = { sizeof (PKCS1_t3312870481), -1, sizeof(PKCS1_t3312870481_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1126[4] = 
+{
+	PKCS1_t3312870481_StaticFields::get_offset_of_emptySHA1_0(),
+	PKCS1_t3312870481_StaticFields::get_offset_of_emptySHA256_1(),
+	PKCS1_t3312870481_StaticFields::get_offset_of_emptySHA384_2(),
+	PKCS1_t3312870481_StaticFields::get_offset_of_emptySHA512_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1127 = { sizeof (PKCS8_t2103016900), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1128 = { sizeof (PrivateKeyInfo_t92917104), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1128[4] = 
 {
-	X509ChainElement_t528874471::get_offset_of_certificate_0(),
-	X509ChainElement_t528874471::get_offset_of_status_1(),
-	X509ChainElement_t528874471::get_offset_of_info_2(),
-	X509ChainElement_t528874471::get_offset_of_compressed_status_flags_3(),
+	PrivateKeyInfo_t92917104::get_offset_of__version_0(),
+	PrivateKeyInfo_t92917104::get_offset_of__algorithm_1(),
+	PrivateKeyInfo_t92917104::get_offset_of__key_2(),
+	PrivateKeyInfo_t92917104::get_offset_of__list_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1129 = { sizeof (X509ChainElementCollection_t2081831987), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1129[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1129 = { sizeof (EncryptedPrivateKeyInfo_t1722354998), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1129[4] = 
 {
-	X509ChainElementCollection_t2081831987::get_offset_of__list_0(),
+	EncryptedPrivateKeyInfo_t1722354998::get_offset_of__algorithm_0(),
+	EncryptedPrivateKeyInfo_t1722354998::get_offset_of__salt_1(),
+	EncryptedPrivateKeyInfo_t1722354998::get_offset_of__iterations_2(),
+	EncryptedPrivateKeyInfo_t1722354998::get_offset_of__data_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1130 = { sizeof (X509ChainElementEnumerator_t3304975821), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1130[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1130 = { sizeof (RC4_t2789934315), -1, sizeof(RC4_t2789934315_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1130[2] = 
 {
-	X509ChainElementEnumerator_t3304975821::get_offset_of_enumerator_0(),
+	RC4_t2789934315_StaticFields::get_offset_of_s_legalBlockSizes_10(),
+	RC4_t2789934315_StaticFields::get_offset_of_s_legalKeySizes_11(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1131 = { sizeof (X509ChainPolicy_t3452126517), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1131[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1131 = { sizeof (RSAManaged_t3034748748), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1131[13] = 
 {
-	X509ChainPolicy_t3452126517::get_offset_of_apps_0(),
-	X509ChainPolicy_t3452126517::get_offset_of_cert_1(),
-	X509ChainPolicy_t3452126517::get_offset_of_store_2(),
-	X509ChainPolicy_t3452126517::get_offset_of_rflag_3(),
-	X509ChainPolicy_t3452126517::get_offset_of_mode_4(),
-	X509ChainPolicy_t3452126517::get_offset_of_timeout_5(),
-	X509ChainPolicy_t3452126517::get_offset_of_vflags_6(),
-	X509ChainPolicy_t3452126517::get_offset_of_vtime_7(),
+	RSAManaged_t3034748748::get_offset_of_isCRTpossible_2(),
+	RSAManaged_t3034748748::get_offset_of_keyBlinding_3(),
+	RSAManaged_t3034748748::get_offset_of_keypairGenerated_4(),
+	RSAManaged_t3034748748::get_offset_of_m_disposed_5(),
+	RSAManaged_t3034748748::get_offset_of_d_6(),
+	RSAManaged_t3034748748::get_offset_of_p_7(),
+	RSAManaged_t3034748748::get_offset_of_q_8(),
+	RSAManaged_t3034748748::get_offset_of_dp_9(),
+	RSAManaged_t3034748748::get_offset_of_dq_10(),
+	RSAManaged_t3034748748::get_offset_of_qInv_11(),
+	RSAManaged_t3034748748::get_offset_of_n_12(),
+	RSAManaged_t3034748748::get_offset_of_e_13(),
+	RSAManaged_t3034748748::get_offset_of_KeyGenerated_14(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1132 = { sizeof (X509ChainStatus_t4278378721)+ sizeof (Il2CppObject), sizeof(X509ChainStatus_t4278378721_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable1132[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1132 = { sizeof (KeyGeneratedEventHandler_t108853710), sizeof(Il2CppMethodPointer), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1133 = { sizeof (SafeBag_t2166702856), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1133[2] = 
 {
-	X509ChainStatus_t4278378721::get_offset_of_status_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	X509ChainStatus_t4278378721::get_offset_of_info_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	SafeBag_t2166702856::get_offset_of__bagOID_0(),
+	SafeBag_t2166702856::get_offset_of__asn1_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1133 = { sizeof (X509ChainStatusFlags_t480677120)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1133[24] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1134 = { sizeof (PKCS12_t1362584795), -1, sizeof(PKCS12_t1362584795_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1134[17] = 
 {
-	X509ChainStatusFlags_t480677120::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	PKCS12_t1362584795_StaticFields::get_offset_of_recommendedIterationCount_0(),
+	PKCS12_t1362584795::get_offset_of__password_1(),
+	PKCS12_t1362584795::get_offset_of__keyBags_2(),
+	PKCS12_t1362584795::get_offset_of__secretBags_3(),
+	PKCS12_t1362584795::get_offset_of__certs_4(),
+	PKCS12_t1362584795::get_offset_of__keyBagsChanged_5(),
+	PKCS12_t1362584795::get_offset_of__secretBagsChanged_6(),
+	PKCS12_t1362584795::get_offset_of__certsChanged_7(),
+	PKCS12_t1362584795::get_offset_of__iterations_8(),
+	PKCS12_t1362584795::get_offset_of__safeBags_9(),
+	PKCS12_t1362584795::get_offset_of__rng_10(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_password_max_length_11(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_U3CU3Ef__switchU24map5_12(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_U3CU3Ef__switchU24map6_13(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_U3CU3Ef__switchU24map7_14(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_U3CU3Ef__switchU24map8_15(),
+	PKCS12_t1362584795_StaticFields::get_offset_of_U3CU3Ef__switchU24mapC_16(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1134 = { sizeof (X509EnhancedKeyUsageExtension_t2099881051), -1, sizeof(X509EnhancedKeyUsageExtension_t2099881051_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1134[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1135 = { sizeof (DeriveBytes_t1740753017), -1, sizeof(DeriveBytes_t1740753017_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1135[7] = 
 {
-	X509EnhancedKeyUsageExtension_t2099881051::get_offset_of__enhKeyUsage_4(),
-	X509EnhancedKeyUsageExtension_t2099881051::get_offset_of__status_5(),
-	X509EnhancedKeyUsageExtension_t2099881051_StaticFields::get_offset_of_U3CU3Ef__switchU24mapE_6(),
+	DeriveBytes_t1740753017_StaticFields::get_offset_of_keyDiversifier_0(),
+	DeriveBytes_t1740753017_StaticFields::get_offset_of_ivDiversifier_1(),
+	DeriveBytes_t1740753017_StaticFields::get_offset_of_macDiversifier_2(),
+	DeriveBytes_t1740753017::get_offset_of__hashName_3(),
+	DeriveBytes_t1740753017::get_offset_of__iterations_4(),
+	DeriveBytes_t1740753017::get_offset_of__password_5(),
+	DeriveBytes_t1740753017::get_offset_of__salt_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1135 = { sizeof (X509Extension_t1320896183), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1135[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1136 = { sizeof (X501_t349661535), -1, sizeof(X501_t349661535_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1136[15] = 
 {
-	X509Extension_t1320896183::get_offset_of__critical_3(),
+	X501_t349661535_StaticFields::get_offset_of_countryName_0(),
+	X501_t349661535_StaticFields::get_offset_of_organizationName_1(),
+	X501_t349661535_StaticFields::get_offset_of_organizationalUnitName_2(),
+	X501_t349661535_StaticFields::get_offset_of_commonName_3(),
+	X501_t349661535_StaticFields::get_offset_of_localityName_4(),
+	X501_t349661535_StaticFields::get_offset_of_stateOrProvinceName_5(),
+	X501_t349661535_StaticFields::get_offset_of_streetAddress_6(),
+	X501_t349661535_StaticFields::get_offset_of_domainComponent_7(),
+	X501_t349661535_StaticFields::get_offset_of_userid_8(),
+	X501_t349661535_StaticFields::get_offset_of_email_9(),
+	X501_t349661535_StaticFields::get_offset_of_dnQualifier_10(),
+	X501_t349661535_StaticFields::get_offset_of_title_11(),
+	X501_t349661535_StaticFields::get_offset_of_surname_12(),
+	X501_t349661535_StaticFields::get_offset_of_givenName_13(),
+	X501_t349661535_StaticFields::get_offset_of_initial_14(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1136 = { sizeof (X509ExtensionCollection_t650873211), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1136[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1137 = { sizeof (X509Certificate_t324051958), -1, sizeof(X509Certificate_t324051958_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1137[26] = 
 {
-	X509ExtensionCollection_t650873211::get_offset_of__list_0(),
+	X509Certificate_t324051958::get_offset_of_decoder_0(),
+	X509Certificate_t324051958::get_offset_of_m_encodedcert_1(),
+	X509Certificate_t324051958::get_offset_of_m_from_2(),
+	X509Certificate_t324051958::get_offset_of_m_until_3(),
+	X509Certificate_t324051958::get_offset_of_issuer_4(),
+	X509Certificate_t324051958::get_offset_of_m_issuername_5(),
+	X509Certificate_t324051958::get_offset_of_m_keyalgo_6(),
+	X509Certificate_t324051958::get_offset_of_m_keyalgoparams_7(),
+	X509Certificate_t324051958::get_offset_of_subject_8(),
+	X509Certificate_t324051958::get_offset_of_m_subject_9(),
+	X509Certificate_t324051958::get_offset_of_m_publickey_10(),
+	X509Certificate_t324051958::get_offset_of_signature_11(),
+	X509Certificate_t324051958::get_offset_of_m_signaturealgo_12(),
+	X509Certificate_t324051958::get_offset_of_m_signaturealgoparams_13(),
+	X509Certificate_t324051958::get_offset_of_certhash_14(),
+	X509Certificate_t324051958::get_offset_of__rsa_15(),
+	X509Certificate_t324051958::get_offset_of__dsa_16(),
+	X509Certificate_t324051958::get_offset_of_version_17(),
+	X509Certificate_t324051958::get_offset_of_serialnumber_18(),
+	X509Certificate_t324051958::get_offset_of_issuerUniqueID_19(),
+	X509Certificate_t324051958::get_offset_of_subjectUniqueID_20(),
+	X509Certificate_t324051958::get_offset_of_extensions_21(),
+	X509Certificate_t324051958_StaticFields::get_offset_of_encoding_error_22(),
+	X509Certificate_t324051958_StaticFields::get_offset_of_U3CU3Ef__switchU24mapF_23(),
+	X509Certificate_t324051958_StaticFields::get_offset_of_U3CU3Ef__switchU24map10_24(),
+	X509Certificate_t324051958_StaticFields::get_offset_of_U3CU3Ef__switchU24map11_25(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1137 = { sizeof (X509ExtensionEnumerator_t3763443773), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1137[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1138 = { sizeof (X509CertificateCollection_t3592472866), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1139 = { sizeof (X509CertificateEnumerator_t3487770523), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1139[1] = 
 {
-	X509ExtensionEnumerator_t3763443773::get_offset_of_enumerator_0(),
+	X509CertificateEnumerator_t3487770523::get_offset_of_enumerator_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1138 = { sizeof (X509FindType_t3221716179)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1138[16] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1140 = { sizeof (X509Chain_t1938971907), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1140[5] = 
 {
-	X509FindType_t3221716179::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	X509Chain_t1938971907::get_offset_of_roots_0(),
+	X509Chain_t1938971907::get_offset_of_certs_1(),
+	X509Chain_t1938971907::get_offset_of__root_2(),
+	X509Chain_t1938971907::get_offset_of__chain_3(),
+	X509Chain_t1938971907::get_offset_of__status_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1139 = { sizeof (X509KeyUsageExtension_t1038124237), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1139[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1141 = { sizeof (X509ChainStatusFlags_t2843686920)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1141[8] = 
 {
+	X509ChainStatusFlags_t2843686920::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
-	X509KeyUsageExtension_t1038124237::get_offset_of__keyUsages_7(),
-	X509KeyUsageExtension_t1038124237::get_offset_of__status_8(),
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1140 = { sizeof (X509KeyUsageFlags_t2461349531)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1140[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1142 = { sizeof (X509Crl_t1699034837), -1, sizeof(X509Crl_t1699034837_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1142[11] = 
 {
-	X509KeyUsageFlags_t2461349531::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	X509Crl_t1699034837::get_offset_of_issuer_0(),
+	X509Crl_t1699034837::get_offset_of_version_1(),
+	X509Crl_t1699034837::get_offset_of_thisUpdate_2(),
+	X509Crl_t1699034837::get_offset_of_nextUpdate_3(),
+	X509Crl_t1699034837::get_offset_of_entries_4(),
+	X509Crl_t1699034837::get_offset_of_signatureOID_5(),
+	X509Crl_t1699034837::get_offset_of_signature_6(),
+	X509Crl_t1699034837::get_offset_of_extensions_7(),
+	X509Crl_t1699034837::get_offset_of_encoded_8(),
+	X509Crl_t1699034837::get_offset_of_hash_value_9(),
+	X509Crl_t1699034837_StaticFields::get_offset_of_U3CU3Ef__switchU24map13_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1141 = { sizeof (X509NameType_t2669466891)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1141[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1143 = { sizeof (X509CrlEntry_t743353844), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1143[3] = 
 {
-	X509NameType_t2669466891::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	X509CrlEntry_t743353844::get_offset_of_sn_0(),
+	X509CrlEntry_t743353844::get_offset_of_revocationDate_1(),
+	X509CrlEntry_t743353844::get_offset_of_extensions_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1142 = { sizeof (X509RevocationFlag_t2166064554)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1142[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1144 = { sizeof (X509Extension_t1439760128), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1144[3] = 
 {
-	X509RevocationFlag_t2166064554::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	X509Extension_t1439760128::get_offset_of_extnOid_0(),
+	X509Extension_t1439760128::get_offset_of_extnCritical_1(),
+	X509Extension_t1439760128::get_offset_of_extnValue_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1143 = { sizeof (X509RevocationMode_t2065307963)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1143[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1145 = { sizeof (X509ExtensionCollection_t1640144840), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1145[1] = 
 {
-	X509RevocationMode_t2065307963::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	X509ExtensionCollection_t1640144840::get_offset_of_readOnly_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1144 = { sizeof (X509Store_t1617430119), -1, sizeof(X509Store_t1617430119_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1144[6] = 
-{
-	X509Store_t1617430119::get_offset_of__name_0(),
-	X509Store_t1617430119::get_offset_of__location_1(),
-	X509Store_t1617430119::get_offset_of_list_2(),
-	X509Store_t1617430119::get_offset_of__flags_3(),
-	X509Store_t1617430119::get_offset_of_store_4(),
-	X509Store_t1617430119_StaticFields::get_offset_of_U3CU3Ef__switchU24mapF_5(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1145 = { sizeof (X509SubjectKeyIdentifierExtension_t2508879999), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1145[5] = 
-{
-	0,
-	0,
-	X509SubjectKeyIdentifierExtension_t2508879999::get_offset_of__subjectKeyIdentifier_6(),
-	X509SubjectKeyIdentifierExtension_t2508879999::get_offset_of__ski_7(),
-	X509SubjectKeyIdentifierExtension_t2508879999::get_offset_of__status_8(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1146 = { sizeof (X509SubjectKeyIdentifierHashAlgorithm_t110301003)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1146 = { sizeof (X509Store_t4028973563), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1146[4] = 
 {
-	X509SubjectKeyIdentifierHashAlgorithm_t110301003::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
+	X509Store_t4028973563::get_offset_of__storePath_0(),
+	X509Store_t4028973563::get_offset_of__certificates_1(),
+	X509Store_t4028973563::get_offset_of__crls_2(),
+	X509Store_t4028973563::get_offset_of__crl_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1147 = { sizeof (X509VerificationFlags_t2169036324)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1147[15] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1147 = { sizeof (X509StoreManager_t1740460066), -1, sizeof(X509StoreManager_t1740460066_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1147[2] = 
 {
-	X509VerificationFlags_t2169036324::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	X509StoreManager_t1740460066_StaticFields::get_offset_of__userStore_0(),
+	X509StoreManager_t1740460066_StaticFields::get_offset_of__machineStore_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1148 = { sizeof (AsnDecodeStatus_t1962003286)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1148[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1148 = { sizeof (X509Stores_t3001420398), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1148[2] = 
 {
-	AsnDecodeStatus_t1962003286::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	X509Stores_t3001420398::get_offset_of__storePath_0(),
+	X509Stores_t3001420398::get_offset_of__trusted_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1149 = { sizeof (AsnEncodedData_t463456204), -1, sizeof(AsnEncodedData_t463456204_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1149[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1149 = { sizeof (AuthorityKeyIdentifierExtension_t795428182), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1149[1] = 
 {
-	AsnEncodedData_t463456204::get_offset_of__oid_0(),
-	AsnEncodedData_t463456204::get_offset_of__raw_1(),
-	AsnEncodedData_t463456204_StaticFields::get_offset_of_U3CU3Ef__switchU24mapA_2(),
+	AuthorityKeyIdentifierExtension_t795428182::get_offset_of_aki_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1150 = { sizeof (Oid_t3221867120), -1, sizeof(Oid_t3221867120_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1150[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1150 = { sizeof (BasicConstraintsExtension_t3608227951), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1150[2] = 
 {
-	Oid_t3221867120::get_offset_of__value_0(),
-	Oid_t3221867120::get_offset_of__name_1(),
-	Oid_t3221867120_StaticFields::get_offset_of_U3CU3Ef__switchU24map10_2(),
+	BasicConstraintsExtension_t3608227951::get_offset_of_cA_3(),
+	BasicConstraintsExtension_t3608227951::get_offset_of_pathLenConstraint_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1151 = { sizeof (OidCollection_t3790243618), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1151 = { sizeof (ExtendedKeyUsageExtension_t3816993686), -1, sizeof(ExtendedKeyUsageExtension_t3816993686_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1151[2] = 
 {
-	OidCollection_t3790243618::get_offset_of__list_0(),
-	OidCollection_t3790243618::get_offset_of__readOnly_1(),
+	ExtendedKeyUsageExtension_t3816993686::get_offset_of_keyPurpose_3(),
+	ExtendedKeyUsageExtension_t3816993686_StaticFields::get_offset_of_U3CU3Ef__switchU24map14_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1152 = { sizeof (OidEnumerator_t3674631724), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1152[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1152 = { sizeof (GeneralNames_t2355256240), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1152[5] = 
 {
-	OidEnumerator_t3674631724::get_offset_of__collection_0(),
-	OidEnumerator_t3674631724::get_offset_of__position_1(),
+	GeneralNames_t2355256240::get_offset_of_rfc822Name_0(),
+	GeneralNames_t2355256240::get_offset_of_dnsName_1(),
+	GeneralNames_t2355256240::get_offset_of_directoryNames_2(),
+	GeneralNames_t2355256240::get_offset_of_uris_3(),
+	GeneralNames_t2355256240::get_offset_of_ipAddr_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1153 = { sizeof (BaseMachine_t4008011478), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1153[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1153 = { sizeof (KeyUsages_t530589947)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1153[11] = 
 {
-	BaseMachine_t4008011478::get_offset_of_needs_groups_or_captures_0(),
+	KeyUsages_t530589947::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1154 = { sizeof (Capture_t4157900610), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1154[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1154 = { sizeof (KeyUsageExtension_t1909787375), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1154[1] = 
 {
-	Capture_t4157900610::get_offset_of_index_0(),
-	Capture_t4157900610::get_offset_of_length_1(),
-	Capture_t4157900610::get_offset_of_text_2(),
+	KeyUsageExtension_t1909787375::get_offset_of_kubits_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1155 = { sizeof (CaptureCollection_t1671345504), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1155 = { sizeof (NetscapeCertTypeExtension_t3880736488), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1155[1] = 
 {
-	CaptureCollection_t1671345504::get_offset_of_list_0(),
+	NetscapeCertTypeExtension_t3880736488::get_offset_of_ctbits_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1156 = { sizeof (Group_t3761430853), -1, sizeof(Group_t3761430853_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1156[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1156 = { sizeof (CertTypes_t3955735183)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1156[8] = 
 {
-	Group_t3761430853_StaticFields::get_offset_of_Fail_3(),
-	Group_t3761430853::get_offset_of_success_4(),
-	Group_t3761430853::get_offset_of_captures_5(),
+	CertTypes_t3955735183::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1157 = { sizeof (GroupCollection_t939014605), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1157[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1157 = { sizeof (SubjectAltNameExtension_t604050261), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1157[1] = 
 {
-	GroupCollection_t939014605::get_offset_of_list_0(),
-	GroupCollection_t939014605::get_offset_of_gap_1(),
+	SubjectAltNameExtension_t604050261::get_offset_of__names_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1158 = { sizeof (Match_t3164245899), -1, sizeof(Match_t3164245899_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1158[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1158 = { sizeof (HMAC_t2707728663), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1158[4] = 
 {
-	Match_t3164245899::get_offset_of_regex_6(),
-	Match_t3164245899::get_offset_of_machine_7(),
-	Match_t3164245899::get_offset_of_text_length_8(),
-	Match_t3164245899::get_offset_of_groups_9(),
-	Match_t3164245899_StaticFields::get_offset_of_empty_10(),
+	HMAC_t2707728663::get_offset_of_hash_5(),
+	HMAC_t2707728663::get_offset_of_hashing_6(),
+	HMAC_t2707728663::get_offset_of_innerPad_7(),
+	HMAC_t2707728663::get_offset_of_outerPad_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1159 = { sizeof (MatchCollection_t3718216671), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1159[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1159 = { sizeof (MD5SHA1_t3340472487), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1159[3] = 
 {
-	MatchCollection_t3718216671::get_offset_of_current_0(),
-	MatchCollection_t3718216671::get_offset_of_list_1(),
+	MD5SHA1_t3340472487::get_offset_of_md5_4(),
+	MD5SHA1_t3340472487::get_offset_of_sha_5(),
+	MD5SHA1_t3340472487::get_offset_of_hashing_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1160 = { sizeof (Enumerator_t501456973), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1160[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1160 = { sizeof (AlertLevel_t1706602846)+ sizeof (Il2CppObject), sizeof(uint8_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1160[3] = 
 {
-	Enumerator_t501456973::get_offset_of_index_0(),
-	Enumerator_t501456973::get_offset_of_coll_1(),
+	AlertLevel_t1706602846::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1161 = { sizeof (Regex_t1803876613), -1, sizeof(Regex_t1803876613_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1161[9] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1161 = { sizeof (AlertDescription_t844791462)+ sizeof (Il2CppObject), sizeof(uint8_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1161[25] = 
 {
-	Regex_t1803876613_StaticFields::get_offset_of_cache_0(),
-	Regex_t1803876613::get_offset_of_machineFactory_1(),
-	Regex_t1803876613::get_offset_of_mapping_2(),
-	Regex_t1803876613::get_offset_of_group_count_3(),
-	Regex_t1803876613::get_offset_of_gap_4(),
-	Regex_t1803876613::get_offset_of_group_names_5(),
-	Regex_t1803876613::get_offset_of_group_numbers_6(),
-	Regex_t1803876613::get_offset_of_pattern_7(),
-	Regex_t1803876613::get_offset_of_roptions_8(),
+	AlertDescription_t844791462::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1162 = { sizeof (RegexOptions_t2418259727)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1162[10] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1162 = { sizeof (Alert_t3405955216), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1162[2] = 
 {
-	RegexOptions_t2418259727::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	Alert_t3405955216::get_offset_of_level_0(),
+	Alert_t3405955216::get_offset_of_description_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1163 = { sizeof (OpCode_t586571952)+ sizeof (Il2CppObject), sizeof(uint16_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1163[26] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1163 = { sizeof (CipherAlgorithmType_t4212518094)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1163[8] = 
 {
-	OpCode_t586571952::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	CipherAlgorithmType_t4212518094::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
@@ -713,358 +586,348 @@ extern const int32_t g_FieldOffsetTable1163[26] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1164 = { sizeof (OpFlags_t378191910)+ sizeof (Il2CppObject), sizeof(uint16_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1164[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1164 = { sizeof (CipherSuite_t491456551), -1, sizeof(CipherSuite_t491456551_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1164[21] = 
 {
-	OpFlags_t378191910::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
+	CipherSuite_t491456551_StaticFields::get_offset_of_EmptyArray_0(),
+	CipherSuite_t491456551::get_offset_of_code_1(),
+	CipherSuite_t491456551::get_offset_of_name_2(),
+	CipherSuite_t491456551::get_offset_of_cipherAlgorithmType_3(),
+	CipherSuite_t491456551::get_offset_of_hashAlgorithmType_4(),
+	CipherSuite_t491456551::get_offset_of_exchangeAlgorithmType_5(),
+	CipherSuite_t491456551::get_offset_of_isExportable_6(),
+	CipherSuite_t491456551::get_offset_of_cipherMode_7(),
+	CipherSuite_t491456551::get_offset_of_keyMaterialSize_8(),
+	CipherSuite_t491456551::get_offset_of_keyBlockSize_9(),
+	CipherSuite_t491456551::get_offset_of_expandedKeyMaterialSize_10(),
+	CipherSuite_t491456551::get_offset_of_effectiveKeyBits_11(),
+	CipherSuite_t491456551::get_offset_of_ivSize_12(),
+	CipherSuite_t491456551::get_offset_of_blockSize_13(),
+	CipherSuite_t491456551::get_offset_of_context_14(),
+	CipherSuite_t491456551::get_offset_of_encryptionAlgorithm_15(),
+	CipherSuite_t491456551::get_offset_of_encryptionCipher_16(),
+	CipherSuite_t491456551::get_offset_of_decryptionAlgorithm_17(),
+	CipherSuite_t491456551::get_offset_of_decryptionCipher_18(),
+	CipherSuite_t491456551::get_offset_of_clientHMAC_19(),
+	CipherSuite_t491456551::get_offset_of_serverHMAC_20(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1165 = { sizeof (Position_t3781184359)+ sizeof (Il2CppObject), sizeof(uint16_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1165[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1165 = { sizeof (CipherSuiteCollection_t2431504453), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1165[2] = 
 {
-	Position_t3781184359::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	CipherSuiteCollection_t2431504453::get_offset_of_cipherSuites_0(),
+	CipherSuiteCollection_t2431504453::get_offset_of_protocol_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1166 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1167 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1168 = { sizeof (FactoryCache_t2051534610), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1168[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1166 = { sizeof (CipherSuiteFactory_t3273693255), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1167 = { sizeof (ClientContext_t3002158488), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1167[2] = 
 {
-	FactoryCache_t2051534610::get_offset_of_capacity_0(),
-	FactoryCache_t2051534610::get_offset_of_factories_1(),
-	FactoryCache_t2051534610::get_offset_of_mru_list_2(),
+	ClientContext_t3002158488::get_offset_of_sslStream_30(),
+	ClientContext_t3002158488::get_offset_of_clientHelloProtocol_31(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1169 = { sizeof (Key_t655155419), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1169[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1168 = { sizeof (ClientRecordProtocol_t2694504884), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1169 = { sizeof (ClientSessionInfo_t3468069089), -1, sizeof(ClientSessionInfo_t3468069089_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1169[6] = 
 {
-	Key_t655155419::get_offset_of_pattern_0(),
-	Key_t655155419::get_offset_of_options_1(),
+	ClientSessionInfo_t3468069089_StaticFields::get_offset_of_ValidityInterval_0(),
+	ClientSessionInfo_t3468069089::get_offset_of_disposed_1(),
+	ClientSessionInfo_t3468069089::get_offset_of_validuntil_2(),
+	ClientSessionInfo_t3468069089::get_offset_of_host_3(),
+	ClientSessionInfo_t3468069089::get_offset_of_sid_4(),
+	ClientSessionInfo_t3468069089::get_offset_of_masterSecret_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1170 = { sizeof (MRUList_t33178162), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1170 = { sizeof (ClientSessionCache_t3595945587), -1, sizeof(ClientSessionCache_t3595945587_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1170[2] = 
 {
-	MRUList_t33178162::get_offset_of_head_0(),
-	MRUList_t33178162::get_offset_of_tail_1(),
+	ClientSessionCache_t3595945587_StaticFields::get_offset_of_cache_0(),
+	ClientSessionCache_t3595945587_StaticFields::get_offset_of_locker_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1171 = { sizeof (Node_t1107172180), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1171[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1171 = { sizeof (ContentType_t859870085)+ sizeof (Il2CppObject), sizeof(uint8_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1171[5] = 
 {
-	Node_t1107172180::get_offset_of_value_0(),
-	Node_t1107172180::get_offset_of_previous_1(),
-	Node_t1107172180::get_offset_of_next_2(),
+	ContentType_t859870085::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1172 = { sizeof (Category_t1984577050)+ sizeof (Il2CppObject), sizeof(uint16_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1172[146] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1172 = { sizeof (Context_t4285182719), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1172[30] = 
 {
-	Category_t1984577050::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	Context_t4285182719::get_offset_of_securityProtocol_0(),
+	Context_t4285182719::get_offset_of_sessionId_1(),
+	Context_t4285182719::get_offset_of_compressionMethod_2(),
+	Context_t4285182719::get_offset_of_serverSettings_3(),
+	Context_t4285182719::get_offset_of_clientSettings_4(),
+	Context_t4285182719::get_offset_of_current_5(),
+	Context_t4285182719::get_offset_of_negotiating_6(),
+	Context_t4285182719::get_offset_of_read_7(),
+	Context_t4285182719::get_offset_of_write_8(),
+	Context_t4285182719::get_offset_of_supportedCiphers_9(),
+	Context_t4285182719::get_offset_of_lastHandshakeMsg_10(),
+	Context_t4285182719::get_offset_of_handshakeState_11(),
+	Context_t4285182719::get_offset_of_abbreviatedHandshake_12(),
+	Context_t4285182719::get_offset_of_receivedConnectionEnd_13(),
+	Context_t4285182719::get_offset_of_sentConnectionEnd_14(),
+	Context_t4285182719::get_offset_of_protocolNegotiated_15(),
+	Context_t4285182719::get_offset_of_writeSequenceNumber_16(),
+	Context_t4285182719::get_offset_of_readSequenceNumber_17(),
+	Context_t4285182719::get_offset_of_clientRandom_18(),
+	Context_t4285182719::get_offset_of_serverRandom_19(),
+	Context_t4285182719::get_offset_of_randomCS_20(),
+	Context_t4285182719::get_offset_of_randomSC_21(),
+	Context_t4285182719::get_offset_of_masterSecret_22(),
+	Context_t4285182719::get_offset_of_clientWriteKey_23(),
+	Context_t4285182719::get_offset_of_serverWriteKey_24(),
+	Context_t4285182719::get_offset_of_clientWriteIV_25(),
+	Context_t4285182719::get_offset_of_serverWriteIV_26(),
+	Context_t4285182719::get_offset_of_handshakeMessages_27(),
+	Context_t4285182719::get_offset_of_random_28(),
+	Context_t4285182719::get_offset_of_recordProtocol_29(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1173 = { sizeof (ExchangeAlgorithmType_t954949548)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1173[6] = 
+{
+	ExchangeAlgorithmType_t954949548::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	0,
 	0,
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1173 = { sizeof (CategoryUtils_t3840220623), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1174 = { sizeof (LinkRef_t2090853131), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1175 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1176 = { sizeof (InterpreterFactory_t556462562), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1174 = { sizeof (HandshakeState_t1820731088)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1174[4] = 
+{
+	HandshakeState_t1820731088::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1175 = { sizeof (HashAlgorithmType_t1654661965)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1175[4] = 
+{
+	HashAlgorithmType_t1654661965::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1176 = { sizeof (HttpsClientStream_t3823629320), -1, sizeof(HttpsClientStream_t3823629320_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1176[4] = 
 {
-	InterpreterFactory_t556462562::get_offset_of_mapping_0(),
-	InterpreterFactory_t556462562::get_offset_of_pattern_1(),
-	InterpreterFactory_t556462562::get_offset_of_namesMapping_2(),
-	InterpreterFactory_t556462562::get_offset_of_gap_3(),
+	HttpsClientStream_t3823629320::get_offset_of__request_20(),
+	HttpsClientStream_t3823629320::get_offset_of__status_21(),
+	HttpsClientStream_t3823629320_StaticFields::get_offset_of_U3CU3Ef__amU24cache2_22(),
+	HttpsClientStream_t3823629320_StaticFields::get_offset_of_U3CU3Ef__amU24cache3_23(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1177 = { sizeof (PatternCompiler_t637049905), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1177[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1177 = { sizeof (RecordProtocol_t3166895267), -1, sizeof(RecordProtocol_t3166895267_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1177[3] = 
 {
-	PatternCompiler_t637049905::get_offset_of_pgm_0(),
+	RecordProtocol_t3166895267_StaticFields::get_offset_of_record_processing_0(),
+	RecordProtocol_t3166895267::get_offset_of_innerStream_1(),
+	RecordProtocol_t3166895267::get_offset_of_context_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1178 = { sizeof (PatternLinkStack_t3979537293), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1178[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1178 = { sizeof (ReceiveRecordAsyncResult_t1946181211), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1178[9] = 
 {
-	PatternLinkStack_t3979537293::get_offset_of_link_1(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of_locker_0(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__userCallback_1(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__userState_2(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__asyncException_3(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of_handle_4(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__resultingBuffer_5(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__record_6(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of_completed_7(),
+	ReceiveRecordAsyncResult_t1946181211::get_offset_of__initialBuffer_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1179 = { sizeof (Link_t3337276394)+ sizeof (Il2CppObject), sizeof(Link_t3337276394 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable1179[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1179 = { sizeof (SendRecordAsyncResult_t173216930), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1179[7] = 
 {
-	Link_t3337276394::get_offset_of_base_addr_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Link_t3337276394::get_offset_of_offset_addr_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	SendRecordAsyncResult_t173216930::get_offset_of_locker_0(),
+	SendRecordAsyncResult_t173216930::get_offset_of__userCallback_1(),
+	SendRecordAsyncResult_t173216930::get_offset_of__userState_2(),
+	SendRecordAsyncResult_t173216930::get_offset_of__asyncException_3(),
+	SendRecordAsyncResult_t173216930::get_offset_of_handle_4(),
+	SendRecordAsyncResult_t173216930::get_offset_of__message_5(),
+	SendRecordAsyncResult_t173216930::get_offset_of_completed_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1180 = { sizeof (LinkStack_t954792760), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1180[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1180 = { sizeof (RSASslSignatureDeformatter_t389653629), -1, sizeof(RSASslSignatureDeformatter_t389653629_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1180[3] = 
 {
-	LinkStack_t954792760::get_offset_of_stack_0(),
+	RSASslSignatureDeformatter_t389653629::get_offset_of_key_0(),
+	RSASslSignatureDeformatter_t389653629::get_offset_of_hash_1(),
+	RSASslSignatureDeformatter_t389653629_StaticFields::get_offset_of_U3CU3Ef__switchU24map15_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1181 = { sizeof (Mark_t2724874473)+ sizeof (Il2CppObject), sizeof(Mark_t2724874473 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1181 = { sizeof (RSASslSignatureFormatter_t1282301050), -1, sizeof(RSASslSignatureFormatter_t1282301050_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1181[3] = 
 {
-	Mark_t2724874473::get_offset_of_Start_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Mark_t2724874473::get_offset_of_End_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Mark_t2724874473::get_offset_of_Previous_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	RSASslSignatureFormatter_t1282301050::get_offset_of_key_0(),
+	RSASslSignatureFormatter_t1282301050::get_offset_of_hash_1(),
+	RSASslSignatureFormatter_t1282301050_StaticFields::get_offset_of_U3CU3Ef__switchU24map16_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1182 = { sizeof (Interpreter_t3731288230), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1182[16] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1182 = { sizeof (SecurityCompressionType_t3722381418)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1182[3] = 
 {
-	Interpreter_t3731288230::get_offset_of_program_1(),
-	Interpreter_t3731288230::get_offset_of_program_start_2(),
-	Interpreter_t3731288230::get_offset_of_text_3(),
-	Interpreter_t3731288230::get_offset_of_text_end_4(),
-	Interpreter_t3731288230::get_offset_of_group_count_5(),
-	Interpreter_t3731288230::get_offset_of_match_min_6(),
-	Interpreter_t3731288230::get_offset_of_qs_7(),
-	Interpreter_t3731288230::get_offset_of_scan_ptr_8(),
-	Interpreter_t3731288230::get_offset_of_repeat_9(),
-	Interpreter_t3731288230::get_offset_of_fast_10(),
-	Interpreter_t3731288230::get_offset_of_stack_11(),
-	Interpreter_t3731288230::get_offset_of_deep_12(),
-	Interpreter_t3731288230::get_offset_of_marks_13(),
-	Interpreter_t3731288230::get_offset_of_mark_start_14(),
-	Interpreter_t3731288230::get_offset_of_mark_end_15(),
-	Interpreter_t3731288230::get_offset_of_groups_16(),
+	SecurityCompressionType_t3722381418::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1183 = { sizeof (IntStack_t273560425)+ sizeof (Il2CppObject), sizeof(IntStack_t273560425_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable1183[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1183 = { sizeof (SecurityParameters_t2290372928), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1183[3] = 
 {
-	IntStack_t273560425::get_offset_of_values_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	IntStack_t273560425::get_offset_of_count_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	SecurityParameters_t2290372928::get_offset_of_cipher_0(),
+	SecurityParameters_t2290372928::get_offset_of_clientWriteMAC_1(),
+	SecurityParameters_t2290372928::get_offset_of_serverWriteMAC_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1184 = { sizeof (RepeatContext_t1827616978), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1184[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1184 = { sizeof (SecurityProtocolType_t155967584)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1184[5] = 
 {
-	RepeatContext_t1827616978::get_offset_of_start_0(),
-	RepeatContext_t1827616978::get_offset_of_min_1(),
-	RepeatContext_t1827616978::get_offset_of_max_2(),
-	RepeatContext_t1827616978::get_offset_of_lazy_3(),
-	RepeatContext_t1827616978::get_offset_of_expr_pc_4(),
-	RepeatContext_t1827616978::get_offset_of_previous_5(),
-	RepeatContext_t1827616978::get_offset_of_count_6(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1185 = { sizeof (Mode_t2395763083)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable1185[4] = 
-{
-	Mode_t2395763083::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	SecurityProtocolType_t155967584::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1186 = { sizeof (Interval_t2354235237)+ sizeof (Il2CppObject), sizeof(Interval_t2354235237_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable1186[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1185 = { sizeof (ServerContext_t3823737132), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1186 = { sizeof (ValidationResult_t1782558132), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1186[2] = 
 {
-	Interval_t2354235237::get_offset_of_low_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Interval_t2354235237::get_offset_of_high_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Interval_t2354235237::get_offset_of_contiguous_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	ValidationResult_t1782558132::get_offset_of_trusted_0(),
+	ValidationResult_t1782558132::get_offset_of_error_code_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1187 = { sizeof (IntervalCollection_t4130821325), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1187[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1187 = { sizeof (SslClientStream_t3918817353), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1187[4] = 
 {
-	IntervalCollection_t4130821325::get_offset_of_intervals_0(),
+	SslClientStream_t3918817353::get_offset_of_ServerCertValidation_16(),
+	SslClientStream_t3918817353::get_offset_of_ClientCertSelection_17(),
+	SslClientStream_t3918817353::get_offset_of_PrivateKeySelection_18(),
+	SslClientStream_t3918817353::get_offset_of_ServerCertValidation2_19(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1188 = { sizeof (Enumerator_t1928086041), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1188[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1188 = { sizeof (SslCipherSuite_t1404755603), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1188[3] = 
 {
-	Enumerator_t1928086041::get_offset_of_list_0(),
-	Enumerator_t1928086041::get_offset_of_ptr_1(),
+	SslCipherSuite_t1404755603::get_offset_of_pad1_21(),
+	SslCipherSuite_t1404755603::get_offset_of_pad2_22(),
+	SslCipherSuite_t1404755603::get_offset_of_header_23(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1189 = { sizeof (CostDelegate_t1824458113), sizeof(Il2CppMethodPointer), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1190 = { sizeof (Parser_t2756028923), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1190[6] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1189 = { sizeof (SslHandshakeHash_t3044322977), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1189[8] = 
 {
-	Parser_t2756028923::get_offset_of_pattern_0(),
-	Parser_t2756028923::get_offset_of_ptr_1(),
-	Parser_t2756028923::get_offset_of_caps_2(),
-	Parser_t2756028923::get_offset_of_refs_3(),
-	Parser_t2756028923::get_offset_of_num_groups_4(),
-	Parser_t2756028923::get_offset_of_gap_5(),
+	SslHandshakeHash_t3044322977::get_offset_of_md5_4(),
+	SslHandshakeHash_t3044322977::get_offset_of_sha_5(),
+	SslHandshakeHash_t3044322977::get_offset_of_hashing_6(),
+	SslHandshakeHash_t3044322977::get_offset_of_secret_7(),
+	SslHandshakeHash_t3044322977::get_offset_of_innerPadMD5_8(),
+	SslHandshakeHash_t3044322977::get_offset_of_outerPadMD5_9(),
+	SslHandshakeHash_t3044322977::get_offset_of_innerPadSHA_10(),
+	SslHandshakeHash_t3044322977::get_offset_of_outerPadSHA_11(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1191 = { sizeof (QuickSearch_t1036078825), -1, sizeof(QuickSearch_t1036078825_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable1191[7] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1190 = { sizeof (SslStreamBase_t934199321), -1, sizeof(SslStreamBase_t934199321_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1190[15] = 
 {
-	QuickSearch_t1036078825::get_offset_of_str_0(),
-	QuickSearch_t1036078825::get_offset_of_len_1(),
-	QuickSearch_t1036078825::get_offset_of_ignore_2(),
-	QuickSearch_t1036078825::get_offset_of_reverse_3(),
-	QuickSearch_t1036078825::get_offset_of_shift_4(),
-	QuickSearch_t1036078825::get_offset_of_shiftExtended_5(),
-	QuickSearch_t1036078825_StaticFields::get_offset_of_THRESHOLD_6(),
+	0,
+	SslStreamBase_t934199321_StaticFields::get_offset_of_record_processing_2(),
+	SslStreamBase_t934199321::get_offset_of_innerStream_3(),
+	SslStreamBase_t934199321::get_offset_of_inputBuffer_4(),
+	SslStreamBase_t934199321::get_offset_of_context_5(),
+	SslStreamBase_t934199321::get_offset_of_protocol_6(),
+	SslStreamBase_t934199321::get_offset_of_ownsStream_7(),
+	SslStreamBase_t934199321::get_offset_of_disposed_8(),
+	SslStreamBase_t934199321::get_offset_of_checkCertRevocationStatus_9(),
+	SslStreamBase_t934199321::get_offset_of_negotiate_10(),
+	SslStreamBase_t934199321::get_offset_of_read_11(),
+	SslStreamBase_t934199321::get_offset_of_write_12(),
+	SslStreamBase_t934199321::get_offset_of_negotiationComplete_13(),
+	SslStreamBase_t934199321::get_offset_of_recbuf_14(),
+	SslStreamBase_t934199321::get_offset_of_recordStream_15(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1192 = { sizeof (ExpressionCollection_t238836340), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1193 = { sizeof (Expression_t368137076), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1194 = { sizeof (CompositeExpression_t1921307915), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1191 = { sizeof (InternalAsyncResult_t1610391122), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1191[12] = 
+{
+	InternalAsyncResult_t1610391122::get_offset_of_locker_0(),
+	InternalAsyncResult_t1610391122::get_offset_of__userCallback_1(),
+	InternalAsyncResult_t1610391122::get_offset_of__userState_2(),
+	InternalAsyncResult_t1610391122::get_offset_of__asyncException_3(),
+	InternalAsyncResult_t1610391122::get_offset_of_handle_4(),
+	InternalAsyncResult_t1610391122::get_offset_of_completed_5(),
+	InternalAsyncResult_t1610391122::get_offset_of__bytesRead_6(),
+	InternalAsyncResult_t1610391122::get_offset_of__fromWrite_7(),
+	InternalAsyncResult_t1610391122::get_offset_of__proceedAfterHandshake_8(),
+	InternalAsyncResult_t1610391122::get_offset_of__buffer_9(),
+	InternalAsyncResult_t1610391122::get_offset_of__offset_10(),
+	InternalAsyncResult_t1610391122::get_offset_of__count_11(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1192 = { sizeof (TlsCipherSuite_t396038680), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1192[2] = 
+{
+	TlsCipherSuite_t396038680::get_offset_of_header_21(),
+	TlsCipherSuite_t396038680::get_offset_of_headerLock_22(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1193 = { sizeof (TlsClientSettings_t2311449551), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1193[4] = 
+{
+	TlsClientSettings_t2311449551::get_offset_of_targetHost_0(),
+	TlsClientSettings_t2311449551::get_offset_of_certificates_1(),
+	TlsClientSettings_t2311449551::get_offset_of_clientCertificate_2(),
+	TlsClientSettings_t2311449551::get_offset_of_certificateRSA_3(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1194 = { sizeof (TlsException_t583514812), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1194[1] = 
 {
-	CompositeExpression_t1921307915::get_offset_of_expressions_0(),
+	TlsException_t583514812::get_offset_of_alert_11(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1195 = { sizeof (Group_t2558408851), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1196 = { sizeof (RegularExpression_t3083097024), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1196[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1195 = { sizeof (TlsServerSettings_t403340211), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1195[8] = 
 {
-	RegularExpression_t3083097024::get_offset_of_group_count_1(),
+	TlsServerSettings_t403340211::get_offset_of_certificates_0(),
+	TlsServerSettings_t403340211::get_offset_of_certificateRSA_1(),
+	TlsServerSettings_t403340211::get_offset_of_rsaParameters_2(),
+	TlsServerSettings_t403340211::get_offset_of_signedParams_3(),
+	TlsServerSettings_t403340211::get_offset_of_distinguisedNames_4(),
+	TlsServerSettings_t403340211::get_offset_of_serverKeyExchange_5(),
+	TlsServerSettings_t403340211::get_offset_of_certificateRequest_6(),
+	TlsServerSettings_t403340211::get_offset_of_certificateTypes_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1197 = { sizeof (CapturingGroup_t3690174926), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1197[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1196 = { sizeof (TlsStream_t4089752859), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1196[4] = 
 {
-	CapturingGroup_t3690174926::get_offset_of_gid_1(),
-	CapturingGroup_t3690174926::get_offset_of_name_2(),
+	TlsStream_t4089752859::get_offset_of_canRead_1(),
+	TlsStream_t4089752859::get_offset_of_canWrite_2(),
+	TlsStream_t4089752859::get_offset_of_buffer_3(),
+	TlsStream_t4089752859::get_offset_of_temp_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1198 = { sizeof (BalancingGroup_t3168604284), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1198[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1197 = { sizeof (ClientCertificateType_t4001384466)+ sizeof (Il2CppObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1197[6] = 
 {
-	BalancingGroup_t3168604284::get_offset_of_balance_3(),
+	ClientCertificateType_t4001384466::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1199 = { sizeof (NonBacktrackingGroup_t607185170), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1198 = { sizeof (HandshakeMessage_t3938752374), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable1198[4] = 
+{
+	HandshakeMessage_t3938752374::get_offset_of_context_5(),
+	HandshakeMessage_t3938752374::get_offset_of_handshakeType_6(),
+	HandshakeMessage_t3938752374::get_offset_of_contentType_7(),
+	HandshakeMessage_t3938752374::get_offset_of_cache_8(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1199 = { sizeof (HandshakeType_t2540099417)+ sizeof (Il2CppObject), sizeof(uint8_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable1199[12] = 
+{
+	HandshakeType_t2540099417::get_offset_of_value___1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

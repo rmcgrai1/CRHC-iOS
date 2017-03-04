@@ -36,3 +36,7 @@
 #define Reference_1_tryLoad_m1455443506(__this, method) ((  void (*) (Reference_1_t1521747920 *, const MethodInfo*))Reference_1_tryLoad_m3940182764_gshared)(__this, method)
 // System.Void Reference`1<System.String>::unload()
 #define Reference_1_unload_m3258594748(__this, method) ((  void (*) (Reference_1_t1521747920 *, const MethodInfo*))Reference_1_unload_m1842880738_gshared)(__this, method)
+// System.Void Reference`1<System.String>::add_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_add_onLoad_m79941066(__this, ___value0, method) ((  void (*) (Reference_1_t1521747920 *, LoadEventDelegate_t1819468736 *, const MethodInfo*))Reference_1_add_onLoad_m3557321136_gshared)(__this, ___value0, method)
+// System.Void Reference`1<System.String>::remove_onLoad(Reference`1/LoadEventDelegate<T>)
+#define Reference_1_remove_onLoad_m2901543293(__this, ___value0, method) ((  void (*) (Reference_1_t1521747920 *, LoadEventDelegate_t1819468736 *, const MethodInfo*))Reference_1_remove_onLoad_m279524993_gshared)(__this, ___value0, method)

@@ -14,22 +14,19 @@
 
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // System.String
 struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
-#include "mscorlib_System_String2029220233.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
 
-// System.Void CrhcItem::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void CrhcItem__ctor_m801218886 (CrhcItem_t1379468653 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CrhcItem::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void CrhcItem__ctor_m3749307991 (CrhcItem_t1379468653 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // CrhcItem CrhcItem::getParent()
 extern "C"  CrhcItem_t1379468653 * CrhcItem_getParent_m3470240132 (CrhcItem_t1379468653 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String CrhcItem::getData(System.String)
-extern "C"  String_t* CrhcItem_getData_m295722417 (CrhcItem_t1379468653 * __this, String_t* ___key0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String CrhcItem::getId()
 extern "C"  String_t* CrhcItem_getId_m4127294060 (CrhcItem_t1379468653 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String CrhcItem::getUrl()

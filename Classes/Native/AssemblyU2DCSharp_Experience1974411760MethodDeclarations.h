@@ -16,8 +16,8 @@
 struct Experience_t1974411760;
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // Landmark
 struct Landmark_t1862459476;
 // System.String
@@ -27,10 +27,10 @@ struct IEnumerator_t1466026749;
 
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
 
-// System.Void Experience::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void Experience__ctor_m3623197971 (Experience_t1974411760 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Experience::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void Experience__ctor_m114286484 (Experience_t1974411760 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Experience::onDispose()
 extern "C"  void Experience_onDispose_m1220066003 (Experience_t1974411760 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Landmark Experience::getLandmark()

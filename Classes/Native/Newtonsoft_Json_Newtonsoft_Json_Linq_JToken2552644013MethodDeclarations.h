@@ -85,6 +85,8 @@ extern "C"  JContainer_t3538280255 * JToken_get_Parent_m1467448402 (JToken_t2552
 extern "C"  void JToken_set_Parent_m1903201283 (JToken_t2552644013 * __this, JContainer_t3538280255 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Root()
 extern "C"  JToken_t2552644013 * JToken_get_Root_m1925612520 (JToken_t2552644013 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JToken::DeepEquals(Newtonsoft.Json.Linq.JToken,Newtonsoft.Json.Linq.JToken)
+extern "C"  bool JToken_DeepEquals_m2297146655 (Il2CppObject * __this /* static, unused */, JToken_t2552644013 * ___t10, JToken_t2552644013 * ___t21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JToken::get_Next()
 extern "C"  JToken_t2552644013 * JToken_get_Next_m3597698763 (JToken_t2552644013 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JToken::set_Next(Newtonsoft.Json.Linq.JToken)

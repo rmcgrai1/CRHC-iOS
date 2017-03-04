@@ -53,11 +53,15 @@ extern "C"  int32_t JConstructor_get_Type_m2152095103 (JConstructor_t3123819808 
 extern "C"  void JConstructor__ctor_m3789863124 (JConstructor_t3123819808 * __this, JConstructor_t3123819808 * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JConstructor::.ctor(System.String)
 extern "C"  void JConstructor__ctor_m1507071573 (JConstructor_t3123819808 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JConstructor::DeepEquals(Newtonsoft.Json.Linq.JToken)
+extern "C"  bool JConstructor_DeepEquals_m1952214114 (JConstructor_t3123819808 * __this, JToken_t2552644013 * ___node0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JConstructor::CloneToken()
 extern "C"  JToken_t2552644013 * JConstructor_CloneToken_m2270986726 (JConstructor_t3123819808 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JConstructor::WriteTo(Newtonsoft.Json.JsonWriter,Newtonsoft.Json.JsonConverter[])
 extern "C"  void JConstructor_WriteTo_m2178061682 (JConstructor_t3123819808 * __this, JsonWriter_t1973729997 * ___writer0, JsonConverterU5BU5D_t3128012475* ___converters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JConstructor::get_Item(System.Object)
 extern "C"  JToken_t2552644013 * JConstructor_get_Item_m1404736806 (JConstructor_t3123819808 * __this, Il2CppObject * ___key0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Newtonsoft.Json.Linq.JConstructor::GetDeepHashCode()
+extern "C"  int32_t JConstructor_GetDeepHashCode_m3024551604 (JConstructor_t3123819808 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JConstructor Newtonsoft.Json.Linq.JConstructor::Load(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Linq.JsonLoadSettings)
 extern "C"  JConstructor_t3123819808 * JConstructor_Load_m1991740673 (Il2CppObject * __this /* static, unused */, JsonReader_t3154730733 * ___reader0, JsonLoadSettings_t947661933 * ___settings1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

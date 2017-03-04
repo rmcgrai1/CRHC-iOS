@@ -24,8 +24,17 @@
 struct  ITouch_t1873081982  : public Il2CppObject
 {
 public:
+	// System.Single generic.mobile.ITouch::HOLD_TIME
+	float ___HOLD_TIME_6;
 
 public:
+	inline static int32_t get_offset_of_HOLD_TIME_6() { return static_cast<int32_t>(offsetof(ITouch_t1873081982, ___HOLD_TIME_6)); }
+	inline float get_HOLD_TIME_6() const { return ___HOLD_TIME_6; }
+	inline float* get_address_of_HOLD_TIME_6() { return &___HOLD_TIME_6; }
+	inline void set_HOLD_TIME_6(float value)
+	{
+		___HOLD_TIME_6 = value;
+	}
 };
 
 struct ITouch_t1873081982_StaticFields
@@ -41,12 +50,14 @@ public:
 	bool ____isDown_3;
 	// System.Boolean generic.mobile.ITouch::_didTap
 	bool ____didTap_4;
+	// System.Boolean generic.mobile.ITouch::_isHeld
+	bool ____isHeld_5;
 	// System.Double generic.mobile.ITouch::startTouchTime
-	double ___startTouchTime_5;
+	double ___startTouchTime_7;
 	// System.Single generic.mobile.ITouch::dragDistance
-	float ___dragDistance_6;
+	float ___dragDistance_8;
 	// System.Single generic.mobile.ITouch::coolDownFrac
-	float ___coolDownFrac_7;
+	float ___coolDownFrac_9;
 
 public:
 	inline static int32_t get_offset_of_previousTouchPosition_0() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___previousTouchPosition_0)); }
@@ -89,28 +100,36 @@ public:
 		____didTap_4 = value;
 	}
 
-	inline static int32_t get_offset_of_startTouchTime_5() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___startTouchTime_5)); }
-	inline double get_startTouchTime_5() const { return ___startTouchTime_5; }
-	inline double* get_address_of_startTouchTime_5() { return &___startTouchTime_5; }
-	inline void set_startTouchTime_5(double value)
+	inline static int32_t get_offset_of__isHeld_5() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ____isHeld_5)); }
+	inline bool get__isHeld_5() const { return ____isHeld_5; }
+	inline bool* get_address_of__isHeld_5() { return &____isHeld_5; }
+	inline void set__isHeld_5(bool value)
 	{
-		___startTouchTime_5 = value;
+		____isHeld_5 = value;
 	}
 
-	inline static int32_t get_offset_of_dragDistance_6() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___dragDistance_6)); }
-	inline float get_dragDistance_6() const { return ___dragDistance_6; }
-	inline float* get_address_of_dragDistance_6() { return &___dragDistance_6; }
-	inline void set_dragDistance_6(float value)
+	inline static int32_t get_offset_of_startTouchTime_7() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___startTouchTime_7)); }
+	inline double get_startTouchTime_7() const { return ___startTouchTime_7; }
+	inline double* get_address_of_startTouchTime_7() { return &___startTouchTime_7; }
+	inline void set_startTouchTime_7(double value)
 	{
-		___dragDistance_6 = value;
+		___startTouchTime_7 = value;
 	}
 
-	inline static int32_t get_offset_of_coolDownFrac_7() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___coolDownFrac_7)); }
-	inline float get_coolDownFrac_7() const { return ___coolDownFrac_7; }
-	inline float* get_address_of_coolDownFrac_7() { return &___coolDownFrac_7; }
-	inline void set_coolDownFrac_7(float value)
+	inline static int32_t get_offset_of_dragDistance_8() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___dragDistance_8)); }
+	inline float get_dragDistance_8() const { return ___dragDistance_8; }
+	inline float* get_address_of_dragDistance_8() { return &___dragDistance_8; }
+	inline void set_dragDistance_8(float value)
 	{
-		___coolDownFrac_7 = value;
+		___dragDistance_8 = value;
+	}
+
+	inline static int32_t get_offset_of_coolDownFrac_9() { return static_cast<int32_t>(offsetof(ITouch_t1873081982_StaticFields, ___coolDownFrac_9)); }
+	inline float get_coolDownFrac_9() const { return ___coolDownFrac_9; }
+	inline float* get_address_of_coolDownFrac_9() { return &___coolDownFrac_9; }
+	inline void set_coolDownFrac_9(float value)
+	{
+		___coolDownFrac_9 = value;
 	}
 };
 

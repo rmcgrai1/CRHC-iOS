@@ -40,3 +40,6 @@ extern "C"  LinkedListNode_1_t1585555208 * LinkedListNode_1_get_Next_m1067948741
 // T System.Collections.Generic.LinkedListNode`1<System.Object>::get_Value()
 extern "C"  Il2CppObject * LinkedListNode_1_get_Value_m201900116_gshared (LinkedListNode_1_t1585555208 * __this, const MethodInfo* method);
 #define LinkedListNode_1_get_Value_m201900116(__this, method) ((  Il2CppObject * (*) (LinkedListNode_1_t1585555208 *, const MethodInfo*))LinkedListNode_1_get_Value_m201900116_gshared)(__this, method)
+// System.Void System.Collections.Generic.LinkedListNode`1<System.Object>::set_Value(T)
+extern "C"  void LinkedListNode_1_set_Value_m2125545625_gshared (LinkedListNode_1_t1585555208 * __this, Il2CppObject * ___value0, const MethodInfo* method);
+#define LinkedListNode_1_set_Value_m2125545625(__this, ___value0, method) ((  void (*) (LinkedListNode_1_t1585555208 *, Il2CppObject *, const MethodInfo*))LinkedListNode_1_set_Value_m2125545625_gshared)(__this, ___value0, method)

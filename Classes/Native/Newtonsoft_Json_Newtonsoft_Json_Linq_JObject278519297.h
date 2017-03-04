@@ -28,27 +28,27 @@ struct  JObject_t278519297  : public JContainer_t3538280255
 {
 public:
 	// Newtonsoft.Json.Linq.JPropertyKeyedCollection Newtonsoft.Json.Linq.JObject::_properties
-	JPropertyKeyedCollection_t4094279377 * ____properties_15;
+	JPropertyKeyedCollection_t4094279377 * ____properties_16;
 	// System.ComponentModel.PropertyChangedEventHandler Newtonsoft.Json.Linq.JObject::PropertyChanged
-	PropertyChangedEventHandler_t3042952059 * ___PropertyChanged_16;
+	PropertyChangedEventHandler_t3042952059 * ___PropertyChanged_17;
 
 public:
-	inline static int32_t get_offset_of__properties_15() { return static_cast<int32_t>(offsetof(JObject_t278519297, ____properties_15)); }
-	inline JPropertyKeyedCollection_t4094279377 * get__properties_15() const { return ____properties_15; }
-	inline JPropertyKeyedCollection_t4094279377 ** get_address_of__properties_15() { return &____properties_15; }
-	inline void set__properties_15(JPropertyKeyedCollection_t4094279377 * value)
+	inline static int32_t get_offset_of__properties_16() { return static_cast<int32_t>(offsetof(JObject_t278519297, ____properties_16)); }
+	inline JPropertyKeyedCollection_t4094279377 * get__properties_16() const { return ____properties_16; }
+	inline JPropertyKeyedCollection_t4094279377 ** get_address_of__properties_16() { return &____properties_16; }
+	inline void set__properties_16(JPropertyKeyedCollection_t4094279377 * value)
 	{
-		____properties_15 = value;
-		Il2CppCodeGenWriteBarrier(&____properties_15, value);
+		____properties_16 = value;
+		Il2CppCodeGenWriteBarrier(&____properties_16, value);
 	}
 
-	inline static int32_t get_offset_of_PropertyChanged_16() { return static_cast<int32_t>(offsetof(JObject_t278519297, ___PropertyChanged_16)); }
-	inline PropertyChangedEventHandler_t3042952059 * get_PropertyChanged_16() const { return ___PropertyChanged_16; }
-	inline PropertyChangedEventHandler_t3042952059 ** get_address_of_PropertyChanged_16() { return &___PropertyChanged_16; }
-	inline void set_PropertyChanged_16(PropertyChangedEventHandler_t3042952059 * value)
+	inline static int32_t get_offset_of_PropertyChanged_17() { return static_cast<int32_t>(offsetof(JObject_t278519297, ___PropertyChanged_17)); }
+	inline PropertyChangedEventHandler_t3042952059 * get_PropertyChanged_17() const { return ___PropertyChanged_17; }
+	inline PropertyChangedEventHandler_t3042952059 ** get_address_of_PropertyChanged_17() { return &___PropertyChanged_17; }
+	inline void set_PropertyChanged_17(PropertyChangedEventHandler_t3042952059 * value)
 	{
-		___PropertyChanged_16 = value;
-		Il2CppCodeGenWriteBarrier(&___PropertyChanged_16, value);
+		___PropertyChanged_17 = value;
+		Il2CppCodeGenWriteBarrier(&___PropertyChanged_17, value);
 	}
 };
 

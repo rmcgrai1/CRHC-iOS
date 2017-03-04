@@ -12,8 +12,8 @@
 
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 
 #include "AssemblyU2DCSharp_Loadable2385882172.h"
 
@@ -29,8 +29,8 @@ struct  CrhcItem_t1379468653  : public Loadable_t2385882172
 public:
 	// CrhcItem CrhcItem::parent
 	CrhcItem_t1379468653 * ___parent_2;
-	// JsonChildList/JsonChild CrhcItem::data
-	JsonChild_t2476909483 * ___data_3;
+	// Newtonsoft.Json.Linq.JObject CrhcItem::data
+	JObject_t278519297 * ___data_3;
 	// System.Boolean CrhcItem::disposedValue
 	bool ___disposedValue_4;
 
@@ -45,9 +45,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_data_3() { return static_cast<int32_t>(offsetof(CrhcItem_t1379468653, ___data_3)); }
-	inline JsonChild_t2476909483 * get_data_3() const { return ___data_3; }
-	inline JsonChild_t2476909483 ** get_address_of_data_3() { return &___data_3; }
-	inline void set_data_3(JsonChild_t2476909483 * value)
+	inline JObject_t278519297 * get_data_3() const { return ___data_3; }
+	inline JObject_t278519297 ** get_address_of_data_3() { return &___data_3; }
+	inline void set_data_3(JObject_t278519297 * value)
 	{
 		___data_3 = value;
 		Il2CppCodeGenWriteBarrier(&___data_3, value);

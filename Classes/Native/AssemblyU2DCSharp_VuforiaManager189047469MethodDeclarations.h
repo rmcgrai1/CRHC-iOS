@@ -35,6 +35,8 @@ extern "C"  void VuforiaManager_Vb_OnEnableEvent_m1951822103 (VuforiaManager_t18
 extern "C"  void VuforiaManager_Vb_StartEvent_m3025010487 (VuforiaManager_t189047469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator VuforiaManager::loadDatasetCoroutine()
 extern "C"  Il2CppObject * VuforiaManager_loadDatasetCoroutine_m3644714604 (VuforiaManager_t189047469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator VuforiaManager::unloadDatasetCoroutine()
+extern "C"  Il2CppObject * VuforiaManager_unloadDatasetCoroutine_m2098451595 (VuforiaManager_t189047469 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void VuforiaManager::activate(Experience)
 extern "C"  void VuforiaManager_activate_m2890848095 (VuforiaManager_t189047469 * __this, Experience_t1974411760 * ___exp0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void VuforiaManager::deactivate()

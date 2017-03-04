@@ -23,12 +23,8 @@ struct String_t;
 struct GUIContent_t4210063000;
 // UnityEngine.GUIStyle
 struct GUIStyle_t1799908754;
-// UnityEngine.Texture
-struct Texture_t2243626319;
 // UnityEngine.GUI/WindowFunction
 struct WindowFunction_t3486805455;
-// UnityEngine.Material
-struct Material_t193706927;
 // UnityEngine.GUI/ScrollViewState
 struct ScrollViewState_t2792222924;
 // System.Object
@@ -37,6 +33,8 @@ struct Il2CppObject;
 struct IAsyncResult_t1999651008;
 // System.AsyncCallback
 struct AsyncCallback_t163412349;
+// UnityEngine.Texture
+struct Texture_t2243626319;
 // UnityEngine.GUILayer
 struct GUILayer_t3254902478;
 // UnityEngine.GUIElement
@@ -99,6 +97,8 @@ struct ILogHandler_t264057413;
 struct Object_t1021602117;
 // System.Object[]
 struct ObjectU5BU5D_t3614634134;
+// UnityEngine.Material
+struct Material_t193706927;
 // UnityEngine.Shader
 struct Shader_t2430389951;
 // System.Single[]
@@ -175,6 +175,8 @@ struct RenderTexture_t2666733923;
 struct RequireComponent_t864575032;
 // UnityEngine.ResourceRequest
 struct ResourceRequest_t2560315377;
+// UnityEngine.AsyncOperation
+struct AsyncOperation_t3814632279;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
@@ -199,7 +201,6 @@ struct ResourceRequest_t2560315377;
 #include "mscorlib_System_Object2689449295.h"
 #include "UnityEngine_UnityEngine_Graphics2412809155.h"
 #include "UnityEngine_UnityEngine_Graphics2412809155MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_InternalDrawTextureArgumen1708329234.h"
 #include "UnityEngine_UnityEngine_RenderBuffer2767087968.h"
 #include "UnityEngine_UnityEngine_CubemapFace1725775554.h"
 #include "UnityEngine_UnityEngine_GUI4082743951.h"
@@ -218,19 +219,11 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_GUIContent4210063000MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIContent4210063000.h"
 #include "UnityEngine_UnityEngine_GUIStyle1799908754.h"
-#include "UnityEngine_UnityEngine_Texture2243626319.h"
-#include "UnityEngine_UnityEngine_ScaleMode324459649.h"
 #include "UnityEngine_UnityEngine_Event3028476042MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Color32874517518MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Material193706927.h"
-#include "UnityEngine_UnityEngine_Event3028476042.h"
-#include "UnityEngine_UnityEngine_EventType3919834026.h"
-#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Color32874517518.h"
-#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIStyle1799908754MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_FocusType488772178.h"
+#include "UnityEngine_UnityEngine_Event3028476042.h"
+#include "UnityEngine_UnityEngine_EventType3919834026.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UnityEngine_Vector22243707579MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUI_WindowFunction3486805455.h"
@@ -245,6 +238,7 @@ struct ResourceRequest_t2560315377;
 #include "mscorlib_System_AsyncCallback163412349.h"
 #include "UnityEngine_UnityEngine_GUIClip3473260597.h"
 #include "mscorlib_System_String2029220233MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
 #include "UnityEngine_UnityEngine_GUIElement3381083099.h"
 #include "UnityEngine_UnityEngine_GUIElement3381083099MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUILayer3254902478.h"
@@ -254,6 +248,7 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_GUILayoutOption_Type4024155706.h"
 #include "UnityEngine_UnityEngine_GUILayoutEntry3828586629.h"
 #include "UnityEngine_UnityEngine_GUILayoutEntry3828586629MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectOffset3387826427.h"
 #include "UnityEngine_UnityEngine_UnityString276356480MethodDeclarations.h"
 #include "mscorlib_ArrayTypes.h"
@@ -282,6 +277,7 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3714688016.h"
 #include "UnityEngine_UnityEngine_Font4239498691.h"
+#include "UnityEngine_UnityEngine_Debug1368543263MethodDeclarations.h"
 #include "mscorlib_System_StringComparer1574862926MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3714688016MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_GUIStyleState3801000545MethodDeclarations.h"
@@ -349,7 +345,6 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_Internal_ExcludeFromDocsAtt665825653MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Internal_DrawArguments2834709342MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Internal_DrawWithTextSelec1327795077MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_InternalDrawTextureArgumen1708329234MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_iOS_CalendarIdentifier259698391.h"
 #include "UnityEngine_UnityEngine_iOS_CalendarIdentifier259698391MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_iOS_CalendarUnit4134400622.h"
@@ -370,6 +365,7 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_Logger3328995178MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_LogType1559732862.h"
 #include "UnityEngine_UnityEngine_LogType1559732862MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
 #include "UnityEngine_UnityEngine_Material193706927MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Shader2430389951.h"
 #include "UnityEngine_UnityEngine_Shader2430389951MethodDeclarations.h"
@@ -388,6 +384,7 @@ struct ResourceRequest_t2560315377;
 #include "mscorlib_System_Collections_Generic_List_1_gen1440998580.h"
 #include "UnityEngine_UnityEngine_Bounds3033363703.h"
 #include "mscorlib_System_Array3829468939MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color32874517518.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1612828712.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1612828713.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen243638650.h"
@@ -486,6 +483,7 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_RenderTexture2666733923.h"
 #include "UnityEngine_UnityEngine_RenderTexture2666733923MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RenderTextureFormat3360518468.h"
+#include "UnityEngine_UnityEngine_Texture2243626319MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RenderTextureReadWrite2842868372.h"
 #include "UnityEngine_UnityEngine_RenderTextureFormat3360518468MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RenderTextureReadWrite2842868372MethodDeclarations.h"
@@ -495,6 +493,8 @@ struct ResourceRequest_t2560315377;
 #include "UnityEngine_UnityEngine_ResourceRequest2560315377MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_AsyncOperation3814632279MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Resources339470017MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Resources339470017.h"
+#include "UnityEngine_UnityEngine_AsyncOperation3814632279.h"
 
 // System.Int32 UnityEngine.Mesh::SafeLength<System.Int32>(System.Collections.Generic.List`1<T>)
 extern "C"  int32_t Mesh_SafeLength_TisInt32_t2071877448_m2504367186_gshared (Mesh_t1356156583 * __this, List_1_t1440998580 * ___values0, const MethodInfo* method);
@@ -830,15 +830,6 @@ extern "C"  int32_t Graphics_Internal_GetMaxDrawMeshInstanceCount_m3046083541 (I
 	_il2cpp_icall_func = (Graphics_Internal_GetMaxDrawMeshInstanceCount_m3046083541_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Graphics::Internal_GetMaxDrawMeshInstanceCount()");
 	return _il2cpp_icall_func();
 }
-// System.Void UnityEngine.Graphics::DrawTexture(UnityEngine.InternalDrawTextureArguments&)
-extern "C"  void Graphics_DrawTexture_m2939589060 (Il2CppObject * __this /* static, unused */, InternalDrawTextureArguments_t1708329234 * ___arguments0, const MethodInfo* method)
-{
-	typedef void (*Graphics_DrawTexture_m2939589060_ftn) (InternalDrawTextureArguments_t1708329234 *);
-	static Graphics_DrawTexture_m2939589060_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Graphics_DrawTexture_m2939589060_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Graphics::DrawTexture(UnityEngine.InternalDrawTextureArguments&)");
-	_il2cpp_icall_func(___arguments0);
-}
 // System.Void UnityEngine.Graphics::Internal_SetRTSimple(UnityEngine.RenderBuffer&,UnityEngine.RenderBuffer&,System.Int32,UnityEngine.CubemapFace,System.Int32)
 extern "C"  void Graphics_Internal_SetRTSimple_m1052203585 (Il2CppObject * __this /* static, unused */, RenderBuffer_t2767087968 * ___color0, RenderBuffer_t2767087968 * ___depth1, int32_t ___mip2, int32_t ___face3, int32_t ___depthSlice4, const MethodInfo* method)
 {
@@ -1122,6 +1113,28 @@ extern "C"  void GUI_Label_m2412846501 (Il2CppObject * __this /* static, unused 
 		return;
 	}
 }
+// System.Void UnityEngine.GUI::Label(UnityEngine.Rect,UnityEngine.GUIContent)
+extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
+extern const uint32_t GUI_Label_m913087380_MetadataUsageId;
+extern "C"  void GUI_Label_m913087380 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, GUIContent_t4210063000 * ___content1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GUI_Label_m913087380_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Rect_t3681755626  L_0 = ___position0;
+		GUIContent_t4210063000 * L_1 = ___content1;
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
+		GUISkin_t1436893342 * L_2 = ((GUI_t4082743951_StaticFields*)GUI_t4082743951_il2cpp_TypeInfo_var->static_fields)->get_s_Skin_10();
+		NullCheck(L_2);
+		GUIStyle_t1799908754 * L_3 = GUISkin_get_label_m2703078986(L_2, /*hidden argument*/NULL);
+		GUI_Label_m98409281(NULL /*static, unused*/, L_0, L_1, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.GUI::Label(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)
 extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
 extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
@@ -1145,343 +1158,6 @@ extern "C"  void GUI_Label_m98409281 (Il2CppObject * __this /* static, unused */
 		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
 		GUI_DoLabel_m2414316575(NULL /*static, unused*/, L_0, L_1, L_3, /*hidden argument*/NULL);
 		return;
-	}
-}
-// System.Void UnityEngine.GUI::DrawTexture(UnityEngine.Rect,UnityEngine.Texture)
-extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
-extern const uint32_t GUI_DrawTexture_m1191587896_MetadataUsageId;
-extern "C"  void GUI_DrawTexture_m1191587896 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture_t2243626319 * ___image1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GUI_DrawTexture_m1191587896_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Rect_t3681755626  L_0 = ___position0;
-		Texture_t2243626319 * L_1 = ___image1;
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		GUI_DrawTexture_m3284533624(NULL /*static, unused*/, L_0, L_1, 0, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GUI::DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode)
-extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
-extern const uint32_t GUI_DrawTexture_m3284533624_MetadataUsageId;
-extern "C"  void GUI_DrawTexture_m3284533624 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture_t2243626319 * ___image1, int32_t ___scaleMode2, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GUI_DrawTexture_m3284533624_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Rect_t3681755626  L_0 = ___position0;
-		Texture_t2243626319 * L_1 = ___image1;
-		int32_t L_2 = ___scaleMode2;
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		GUI_DrawTexture_m1921388893(NULL /*static, unused*/, L_0, L_1, L_2, (bool)1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GUI::DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean)
-extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
-extern const uint32_t GUI_DrawTexture_m1921388893_MetadataUsageId;
-extern "C"  void GUI_DrawTexture_m1921388893 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture_t2243626319 * ___image1, int32_t ___scaleMode2, bool ___alphaBlend3, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GUI_DrawTexture_m1921388893_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		Rect_t3681755626  L_0 = ___position0;
-		Texture_t2243626319 * L_1 = ___image1;
-		int32_t L_2 = ___scaleMode2;
-		bool L_3 = ___alphaBlend3;
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		GUI_DrawTexture_m4142185888(NULL /*static, unused*/, L_0, L_1, L_2, L_3, (0.0f), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.GUI::DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single)
-extern Il2CppClass* GUIUtility_t3275770671_il2cpp_TypeInfo_var;
-extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
-extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
-extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
-extern Il2CppClass* InternalDrawTextureArguments_t1708329234_il2cpp_TypeInfo_var;
-extern Il2CppClass* Graphics_t2412809155_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2121490673;
-extern const uint32_t GUI_DrawTexture_m4142185888_MetadataUsageId;
-extern "C"  void GUI_DrawTexture_m4142185888 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture_t2243626319 * ___image1, int32_t ___scaleMode2, bool ___alphaBlend3, float ___imageAspect4, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GUI_DrawTexture_m4142185888_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Material_t193706927 * V_0 = NULL;
-	InternalDrawTextureArguments_t1708329234  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	Material_t193706927 * G_B8_0 = NULL;
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GUIUtility_t3275770671_il2cpp_TypeInfo_var);
-		GUIUtility_CheckOnGUI_m4284398968(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Event_t3028476042 * L_0 = Event_get_current_m2901774193(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		int32_t L_1 = Event_get_type_m2426033198(L_0, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_1) == ((uint32_t)7))))
-		{
-			goto IL_00cf;
-		}
-	}
-	{
-		Texture_t2243626319 * L_2 = ___image1;
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_0033;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral2121490673, /*hidden argument*/NULL);
-		goto IL_00cf;
-	}
-
-IL_0033:
-	{
-		float L_4 = ___imageAspect4;
-		if ((!(((float)L_4) == ((float)(0.0f)))))
-		{
-			goto IL_0050;
-		}
-	}
-	{
-		Texture_t2243626319 * L_5 = ___image1;
-		NullCheck(L_5);
-		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_5);
-		Texture_t2243626319 * L_7 = ___image1;
-		NullCheck(L_7);
-		int32_t L_8 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_7);
-		___imageAspect4 = ((float)((float)(((float)((float)L_6)))/(float)(((float)((float)L_8)))));
-	}
-
-IL_0050:
-	{
-		bool L_9 = ___alphaBlend3;
-		if (!L_9)
-		{
-			goto IL_0060;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		Material_t193706927 * L_10 = GUI_get_blendMaterial_m454011614(NULL /*static, unused*/, /*hidden argument*/NULL);
-		G_B8_0 = L_10;
-		goto IL_0065;
-	}
-
-IL_0060:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		Material_t193706927 * L_11 = GUI_get_blitMaterial_m2177201520(NULL /*static, unused*/, /*hidden argument*/NULL);
-		G_B8_0 = L_11;
-	}
-
-IL_0065:
-	{
-		V_0 = G_B8_0;
-		Initobj (InternalDrawTextureArguments_t1708329234_il2cpp_TypeInfo_var, (&V_1));
-		Texture_t2243626319 * L_12 = ___image1;
-		(&V_1)->set_texture_1(L_12);
-		(&V_1)->set_leftBorder_3(0);
-		(&V_1)->set_rightBorder_4(0);
-		(&V_1)->set_topBorder_5(0);
-		(&V_1)->set_bottomBorder_6(0);
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		Color_t2020392075  L_13 = GUI_get_color_m1234367343(NULL /*static, unused*/, /*hidden argument*/NULL);
-		Color32_t874517518  L_14 = Color32_op_Implicit_m624191464(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
-		(&V_1)->set_color_7(L_14);
-		Material_t193706927 * L_15 = V_0;
-		(&V_1)->set_mat_8(L_15);
-		Rect_t3681755626  L_16 = ___position0;
-		int32_t L_17 = ___scaleMode2;
-		float L_18 = ___imageAspect4;
-		Rect_t3681755626 * L_19 = (&V_1)->get_address_of_screenRect_0();
-		Rect_t3681755626 * L_20 = (&V_1)->get_address_of_sourceRect_2();
-		GUI_CalculateScaledTextureRects_m3962984624(NULL /*static, unused*/, L_16, L_17, L_18, L_19, L_20, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t2412809155_il2cpp_TypeInfo_var);
-		Graphics_DrawTexture_m2939589060(NULL /*static, unused*/, (&V_1), /*hidden argument*/NULL);
-	}
-
-IL_00cf:
-	{
-		return;
-	}
-}
-// System.Boolean UnityEngine.GUI::CalculateScaledTextureRects(UnityEngine.Rect,UnityEngine.ScaleMode,System.Single,UnityEngine.Rect&,UnityEngine.Rect&)
-extern "C"  bool GUI_CalculateScaledTextureRects_m3962984624 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, int32_t ___scaleMode1, float ___imageAspect2, Rect_t3681755626 * ___outScreenRect3, Rect_t3681755626 * ___outSourceRect4, const MethodInfo* method)
-{
-	float V_0 = 0.0f;
-	bool V_1 = false;
-	float V_2 = 0.0f;
-	float V_3 = 0.0f;
-	float V_4 = 0.0f;
-	float V_5 = 0.0f;
-	bool V_6 = false;
-	{
-		float L_0 = Rect_get_width_m1138015702((&___position0), /*hidden argument*/NULL);
-		float L_1 = Rect_get_height_m3128694305((&___position0), /*hidden argument*/NULL);
-		V_0 = ((float)((float)L_0/(float)L_1));
-		V_1 = (bool)0;
-		int32_t L_2 = ___scaleMode1;
-		if (!L_2)
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		int32_t L_3 = ___scaleMode1;
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_0055;
-		}
-	}
-	{
-		int32_t L_4 = ___scaleMode1;
-		if ((((int32_t)L_4) == ((int32_t)2)))
-		{
-			goto IL_00c2;
-		}
-	}
-	{
-		goto IL_0193;
-	}
-
-IL_002c:
-	{
-		Rect_t3681755626 * L_5 = ___outScreenRect3;
-		Rect_t3681755626  L_6 = ___position0;
-		(*(Rect_t3681755626 *)L_5) = L_6;
-		Rect_t3681755626 * L_7 = ___outSourceRect4;
-		Rect__ctor_m1220545469(L_7, (0.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
-		V_1 = (bool)1;
-		goto IL_0193;
-	}
-
-IL_0055:
-	{
-		float L_8 = V_0;
-		float L_9 = ___imageAspect2;
-		if ((!(((float)L_8) > ((float)L_9))))
-		{
-			goto IL_008f;
-		}
-	}
-	{
-		float L_10 = ___imageAspect2;
-		float L_11 = V_0;
-		V_2 = ((float)((float)L_10/(float)L_11));
-		Rect_t3681755626 * L_12 = ___outScreenRect3;
-		Rect_t3681755626  L_13 = ___position0;
-		(*(Rect_t3681755626 *)L_12) = L_13;
-		Rect_t3681755626 * L_14 = ___outSourceRect4;
-		float L_15 = V_2;
-		float L_16 = V_2;
-		Rect__ctor_m1220545469(L_14, (0.0f), ((float)((float)((float)((float)(1.0f)-(float)L_15))*(float)(0.5f))), (1.0f), L_16, /*hidden argument*/NULL);
-		V_1 = (bool)1;
-		goto IL_00bd;
-	}
-
-IL_008f:
-	{
-		float L_17 = V_0;
-		float L_18 = ___imageAspect2;
-		V_3 = ((float)((float)L_17/(float)L_18));
-		Rect_t3681755626 * L_19 = ___outScreenRect3;
-		Rect_t3681755626  L_20 = ___position0;
-		(*(Rect_t3681755626 *)L_19) = L_20;
-		Rect_t3681755626 * L_21 = ___outSourceRect4;
-		float L_22 = V_3;
-		float L_23 = V_3;
-		Rect__ctor_m1220545469(L_21, ((float)((float)(0.5f)-(float)((float)((float)L_22*(float)(0.5f))))), (0.0f), L_23, (1.0f), /*hidden argument*/NULL);
-		V_1 = (bool)1;
-	}
-
-IL_00bd:
-	{
-		goto IL_0193;
-	}
-
-IL_00c2:
-	{
-		float L_24 = V_0;
-		float L_25 = ___imageAspect2;
-		if ((!(((float)L_24) > ((float)L_25))))
-		{
-			goto IL_012e;
-		}
-	}
-	{
-		float L_26 = ___imageAspect2;
-		float L_27 = V_0;
-		V_4 = ((float)((float)L_26/(float)L_27));
-		Rect_t3681755626 * L_28 = ___outScreenRect3;
-		float L_29 = Rect_get_xMin_m1161102488((&___position0), /*hidden argument*/NULL);
-		float L_30 = Rect_get_width_m1138015702((&___position0), /*hidden argument*/NULL);
-		float L_31 = V_4;
-		float L_32 = Rect_get_yMin_m1161103577((&___position0), /*hidden argument*/NULL);
-		float L_33 = V_4;
-		float L_34 = Rect_get_width_m1138015702((&___position0), /*hidden argument*/NULL);
-		float L_35 = Rect_get_height_m3128694305((&___position0), /*hidden argument*/NULL);
-		Rect__ctor_m1220545469(L_28, ((float)((float)L_29+(float)((float)((float)((float)((float)L_30*(float)((float)((float)(1.0f)-(float)L_31))))*(float)(0.5f))))), L_32, ((float)((float)L_33*(float)L_34)), L_35, /*hidden argument*/NULL);
-		Rect_t3681755626 * L_36 = ___outSourceRect4;
-		Rect__ctor_m1220545469(L_36, (0.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
-		V_1 = (bool)1;
-		goto IL_018e;
-	}
-
-IL_012e:
-	{
-		float L_37 = V_0;
-		float L_38 = ___imageAspect2;
-		V_5 = ((float)((float)L_37/(float)L_38));
-		Rect_t3681755626 * L_39 = ___outScreenRect3;
-		float L_40 = Rect_get_xMin_m1161102488((&___position0), /*hidden argument*/NULL);
-		float L_41 = Rect_get_yMin_m1161103577((&___position0), /*hidden argument*/NULL);
-		float L_42 = Rect_get_height_m3128694305((&___position0), /*hidden argument*/NULL);
-		float L_43 = V_5;
-		float L_44 = Rect_get_width_m1138015702((&___position0), /*hidden argument*/NULL);
-		float L_45 = V_5;
-		float L_46 = Rect_get_height_m3128694305((&___position0), /*hidden argument*/NULL);
-		Rect__ctor_m1220545469(L_39, L_40, ((float)((float)L_41+(float)((float)((float)((float)((float)L_42*(float)((float)((float)(1.0f)-(float)L_43))))*(float)(0.5f))))), L_44, ((float)((float)L_45*(float)L_46)), /*hidden argument*/NULL);
-		Rect_t3681755626 * L_47 = ___outSourceRect4;
-		Rect__ctor_m1220545469(L_47, (0.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
-		V_1 = (bool)1;
-	}
-
-IL_018e:
-	{
-		goto IL_0193;
-	}
-
-IL_0193:
-	{
-		bool L_48 = V_1;
-		V_6 = L_48;
-		goto IL_019b;
-	}
-
-IL_019b:
-	{
-		bool L_49 = V_6;
-		return L_49;
 	}
 }
 // System.Void UnityEngine.GUI::Box(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)
@@ -1835,44 +1511,6 @@ IL_0094:
 		return;
 	}
 }
-// UnityEngine.Color UnityEngine.GUI::get_color()
-extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
-extern const uint32_t GUI_get_color_m1234367343_MetadataUsageId;
-extern "C"  Color_t2020392075  GUI_get_color_m1234367343 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (GUI_get_color_m1234367343_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Color_t2020392075  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	Color_t2020392075  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GUI_t4082743951_il2cpp_TypeInfo_var);
-		GUI_INTERNAL_get_color_m652811444(NULL /*static, unused*/, (&V_0), /*hidden argument*/NULL);
-		Color_t2020392075  L_0 = V_0;
-		V_1 = L_0;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		Color_t2020392075  L_1 = V_1;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.GUI::INTERNAL_get_color(UnityEngine.Color&)
-extern "C"  void GUI_INTERNAL_get_color_m652811444 (Il2CppObject * __this /* static, unused */, Color_t2020392075 * ___value0, const MethodInfo* method)
-{
-	typedef void (*GUI_INTERNAL_get_color_m652811444_ftn) (Color_t2020392075 *);
-	static GUI_INTERNAL_get_color_m652811444_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GUI_INTERNAL_get_color_m652811444_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUI::INTERNAL_get_color(UnityEngine.Color&)");
-	_il2cpp_icall_func(___value0);
-}
 // System.Void UnityEngine.GUI::set_backgroundColor(UnityEngine.Color)
 extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
 extern const uint32_t GUI_set_backgroundColor_m1176185368_MetadataUsageId;
@@ -1935,24 +1573,6 @@ extern "C"  void GUI_INTERNAL_CALL_DoLabel_m2786347772 (Il2CppObject * __this /*
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GUI_INTERNAL_CALL_DoLabel_m2786347772_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUI::INTERNAL_CALL_DoLabel(UnityEngine.Rect&,UnityEngine.GUIContent,System.IntPtr)");
 	_il2cpp_icall_func(___position0, ___content1, ___style2);
-}
-// UnityEngine.Material UnityEngine.GUI::get_blendMaterial()
-extern "C"  Material_t193706927 * GUI_get_blendMaterial_m454011614 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef Material_t193706927 * (*GUI_get_blendMaterial_m454011614_ftn) ();
-	static GUI_get_blendMaterial_m454011614_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GUI_get_blendMaterial_m454011614_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUI::get_blendMaterial()");
-	return _il2cpp_icall_func();
-}
-// UnityEngine.Material UnityEngine.GUI::get_blitMaterial()
-extern "C"  Material_t193706927 * GUI_get_blitMaterial_m2177201520 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef Material_t193706927 * (*GUI_get_blitMaterial_m2177201520_ftn) ();
-	static GUI_get_blitMaterial_m2177201520_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (GUI_get_blitMaterial_m2177201520_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GUI::get_blitMaterial()");
-	return _il2cpp_icall_func();
 }
 // System.Boolean UnityEngine.GUI::DoButton(UnityEngine.Rect,UnityEngine.GUIContent,System.IntPtr)
 extern Il2CppClass* GUI_t4082743951_il2cpp_TypeInfo_var;
@@ -13649,36 +13269,6 @@ extern "C"  void ExcludeFromDocsAttribute__ctor_m1684225175 (ExcludeFromDocsAttr
 		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
 		return;
 	}
-}
-// Conversion methods for marshalling of: UnityEngine.InternalDrawTextureArguments
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke(const InternalDrawTextureArguments_t1708329234& unmarshaled, InternalDrawTextureArguments_t1708329234_marshaled_pinvoke& marshaled)
-{
-	Il2CppCodeGenException* ___texture_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'InternalDrawTextureArguments': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_1Exception);
-}
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke_back(const InternalDrawTextureArguments_t1708329234_marshaled_pinvoke& marshaled, InternalDrawTextureArguments_t1708329234& unmarshaled)
-{
-	Il2CppCodeGenException* ___texture_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'InternalDrawTextureArguments': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_1Exception);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.InternalDrawTextureArguments
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_pinvoke_cleanup(InternalDrawTextureArguments_t1708329234_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: UnityEngine.InternalDrawTextureArguments
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_com(const InternalDrawTextureArguments_t1708329234& unmarshaled, InternalDrawTextureArguments_t1708329234_marshaled_com& marshaled)
-{
-	Il2CppCodeGenException* ___texture_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'InternalDrawTextureArguments': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_1Exception);
-}
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_com_back(const InternalDrawTextureArguments_t1708329234_marshaled_com& marshaled, InternalDrawTextureArguments_t1708329234& unmarshaled)
-{
-	Il2CppCodeGenException* ___texture_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'texture' of type 'InternalDrawTextureArguments': Reference type field marshaling is not supported.");
-	IL2CPP_RAISE_MANAGED_EXCEPTION(___texture_1Exception);
-}
-// Conversion method for clean up from marshalling of: UnityEngine.InternalDrawTextureArguments
-extern "C" void InternalDrawTextureArguments_t1708329234_marshal_com_cleanup(InternalDrawTextureArguments_t1708329234_marshaled_com& marshaled)
-{
 }
 // System.Void UnityEngine.iOS.LocalNotification::.ctor()
 extern "C"  void LocalNotification__ctor_m4030077664 (LocalNotification_t317971878 * __this, const MethodInfo* method)
@@ -25881,6 +25471,61 @@ extern "C" void ResourceRequest_t2560315377_marshal_com_back(const ResourceReque
 // Conversion method for clean up from marshalling of: UnityEngine.ResourceRequest
 extern "C" void ResourceRequest_t2560315377_marshal_com_cleanup(ResourceRequest_t2560315377_marshaled_com& marshaled)
 {
+}
+// UnityEngine.Object UnityEngine.Resources::Load(System.String)
+extern const Il2CppType* Object_t1021602117_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern const uint32_t Resources_Load_m2041782325_MetadataUsageId;
+extern "C"  Object_t1021602117 * Resources_Load_m2041782325 (Il2CppObject * __this /* static, unused */, String_t* ___path0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Resources_Load_m2041782325_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Object_t1021602117 * V_0 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Object_t1021602117_0_0_0_var), /*hidden argument*/NULL);
+		Object_t1021602117 * L_2 = Resources_Load_m243305716(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		Object_t1021602117 * L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
+extern "C"  Object_t1021602117 * Resources_Load_m243305716 (Il2CppObject * __this /* static, unused */, String_t* ___path0, Type_t * ___systemTypeInstance1, const MethodInfo* method)
+{
+	typedef Object_t1021602117 * (*Resources_Load_m243305716_ftn) (String_t*, Type_t *);
+	static Resources_Load_m243305716_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Resources_Load_m243305716_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::Load(System.String,System.Type)");
+	return _il2cpp_icall_func(___path0, ___systemTypeInstance1);
+}
+// UnityEngine.Object UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)
+extern "C"  Object_t1021602117 * Resources_GetBuiltinResource_m582410469 (Il2CppObject * __this /* static, unused */, Type_t * ___type0, String_t* ___path1, const MethodInfo* method)
+{
+	typedef Object_t1021602117 * (*Resources_GetBuiltinResource_m582410469_ftn) (Type_t *, String_t*);
+	static Resources_GetBuiltinResource_m582410469_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Resources_GetBuiltinResource_m582410469_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)");
+	return _il2cpp_icall_func(___type0, ___path1);
+}
+// UnityEngine.AsyncOperation UnityEngine.Resources::UnloadUnusedAssets()
+extern "C"  AsyncOperation_t3814632279 * Resources_UnloadUnusedAssets_m2770025609 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef AsyncOperation_t3814632279 * (*Resources_UnloadUnusedAssets_m2770025609_ftn) ();
+	static Resources_UnloadUnusedAssets_m2770025609_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Resources_UnloadUnusedAssets_m2770025609_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::UnloadUnusedAssets()");
+	return _il2cpp_icall_func();
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

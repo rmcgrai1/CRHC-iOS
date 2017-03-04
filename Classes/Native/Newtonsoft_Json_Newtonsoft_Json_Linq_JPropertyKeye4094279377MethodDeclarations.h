@@ -22,6 +22,7 @@ struct JToken_t2552644013;
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_String2029220233.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JPropertyKeye4094279377.h"
 
 // System.Void Newtonsoft.Json.Linq.JPropertyKeyedCollection::.ctor()
 extern "C"  void JPropertyKeyedCollection__ctor_m1120456152 (JPropertyKeyedCollection_t4094279377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -47,5 +48,7 @@ extern "C"  void JPropertyKeyedCollection_SetItem_m1263478390 (JPropertyKeyedCol
 extern "C"  bool JPropertyKeyedCollection_TryGetValue_m2308767702 (JPropertyKeyedCollection_t4094279377 * __this, String_t* ___key0, JToken_t2552644013 ** ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Newtonsoft.Json.Linq.JPropertyKeyedCollection::IndexOfReference(Newtonsoft.Json.Linq.JToken)
 extern "C"  int32_t JPropertyKeyedCollection_IndexOfReference_m3599508814 (JPropertyKeyedCollection_t4094279377 * __this, JToken_t2552644013 * ___t0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JPropertyKeyedCollection::Compare(Newtonsoft.Json.Linq.JPropertyKeyedCollection)
+extern "C"  bool JPropertyKeyedCollection_Compare_m3255927853 (JPropertyKeyedCollection_t4094279377 * __this, JPropertyKeyedCollection_t4094279377 * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JPropertyKeyedCollection::.cctor()
 extern "C"  void JPropertyKeyedCollection__cctor_m4020139687 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

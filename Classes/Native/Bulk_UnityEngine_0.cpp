@@ -2728,6 +2728,42 @@ extern "C"  void AttributeHelperEngine__cctor_m1775592582 (Il2CppObject * __this
 		return;
 	}
 }
+// System.Single UnityEngine.AudioClip::get_length()
+extern "C"  float AudioClip_get_length_m3881628918 (AudioClip_t1932558630 * __this, const MethodInfo* method)
+{
+	typedef float (*AudioClip_get_length_m3881628918_ftn) (AudioClip_t1932558630 *);
+	static AudioClip_get_length_m3881628918_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_get_length_m3881628918_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_length()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Int32 UnityEngine.AudioClip::get_samples()
+extern "C"  int32_t AudioClip_get_samples_m3690111759 (AudioClip_t1932558630 * __this, const MethodInfo* method)
+{
+	typedef int32_t (*AudioClip_get_samples_m3690111759_ftn) (AudioClip_t1932558630 *);
+	static AudioClip_get_samples_m3690111759_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_get_samples_m3690111759_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_samples()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Int32 UnityEngine.AudioClip::get_channels()
+extern "C"  int32_t AudioClip_get_channels_m211770176 (AudioClip_t1932558630 * __this, const MethodInfo* method)
+{
+	typedef int32_t (*AudioClip_get_channels_m211770176_ftn) (AudioClip_t1932558630 *);
+	static AudioClip_get_channels_m211770176_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_get_channels_m211770176_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::get_channels()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
+extern "C"  bool AudioClip_GetData_m1645657273 (AudioClip_t1932558630 * __this, SingleU5BU5D_t577127397* ___data0, int32_t ___offsetSamples1, const MethodInfo* method)
+{
+	typedef bool (*AudioClip_GetData_m1645657273_ftn) (AudioClip_t1932558630 *, SingleU5BU5D_t577127397*, int32_t);
+	static AudioClip_GetData_m1645657273_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioClip_GetData_m1645657273_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioClip::GetData(System.Single[],System.Int32)");
+	return _il2cpp_icall_func(__this, ___data0, ___offsetSamples1);
+}
 // System.Void UnityEngine.AudioClip::InvokePCMReaderCallback_Internal(System.Single[])
 extern "C"  void AudioClip_InvokePCMReaderCallback_Internal_m1966286598 (AudioClip_t1932558630 * __this, SingleU5BU5D_t577127397* ___data0, const MethodInfo* method)
 {
@@ -2974,6 +3010,33 @@ extern "C"  void AudioConfigurationChangeHandler_EndInvoke_m2237100787 (AudioCon
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
+// System.Single UnityEngine.AudioSource::get_time()
+extern "C"  float AudioSource_get_time_m1465582328 (AudioSource_t1135106623 * __this, const MethodInfo* method)
+{
+	typedef float (*AudioSource_get_time_m1465582328_ftn) (AudioSource_t1135106623 *);
+	static AudioSource_get_time_m1465582328_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_time_m1465582328_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_time()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Void UnityEngine.AudioSource::set_time(System.Single)
+extern "C"  void AudioSource_set_time_m2642008583 (AudioSource_t1135106623 * __this, float ___value0, const MethodInfo* method)
+{
+	typedef void (*AudioSource_set_time_m2642008583_ftn) (AudioSource_t1135106623 *, float);
+	static AudioSource_set_time_m2642008583_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_set_time_m2642008583_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_time(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
+extern "C"  AudioClip_t1932558630 * AudioSource_get_clip_m2127996365 (AudioSource_t1135106623 * __this, const MethodInfo* method)
+{
+	typedef AudioClip_t1932558630 * (*AudioSource_get_clip_m2127996365_ftn) (AudioSource_t1135106623 *);
+	static AudioSource_get_clip_m2127996365_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_clip_m2127996365_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_clip()");
+	return _il2cpp_icall_func(__this);
+}
 // System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 extern "C"  void AudioSource_set_clip_m738814682 (AudioSource_t1135106623 * __this, AudioClip_t1932558630 * ___value0, const MethodInfo* method)
 {
@@ -3002,6 +3065,15 @@ extern "C"  void AudioSource_Play_m353744792 (AudioSource_t1135106623 * __this, 
 		AudioSource_Play_m889724421(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
+}
+// System.Void UnityEngine.AudioSource::Stop()
+extern "C"  void AudioSource_Stop_m3452679614 (AudioSource_t1135106623 * __this, const MethodInfo* method)
+{
+	typedef void (*AudioSource_Stop_m3452679614_ftn) (AudioSource_t1135106623 *);
+	static AudioSource_Stop_m3452679614_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_Stop_m3452679614_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Stop()");
+	_il2cpp_icall_func(__this);
 }
 // System.Void UnityEngine.AudioSource::Pause()
 extern "C"  void AudioSource_Pause_m71375470 (AudioSource_t1135106623 * __this, const MethodInfo* method)
@@ -3036,6 +3108,15 @@ extern "C"  void AudioSource_INTERNAL_CALL_UnPause_m3896126510 (Il2CppObject * _
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_INTERNAL_CALL_UnPause_m3896126510_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::INTERNAL_CALL_UnPause(UnityEngine.AudioSource)");
 	_il2cpp_icall_func(___self0);
+}
+// System.Boolean UnityEngine.AudioSource::get_isPlaying()
+extern "C"  bool AudioSource_get_isPlaying_m3677592677 (AudioSource_t1135106623 * __this, const MethodInfo* method)
+{
+	typedef bool (*AudioSource_get_isPlaying_m3677592677_ftn) (AudioSource_t1135106623 *);
+	static AudioSource_get_isPlaying_m3677592677_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_isPlaying_m3677592677_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_isPlaying()");
+	return _il2cpp_icall_func(__this);
 }
 // System.Void UnityEngine.Behaviour::.ctor()
 extern "C"  void Behaviour__ctor_m2699265412 (Behaviour_t955675639 * __this, const MethodInfo* method)

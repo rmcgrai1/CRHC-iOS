@@ -39,11 +39,11 @@ struct JTokenU5BU5D_t1832626432;
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JTokenType1307827213.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JArray1483708661.h"
 #include "mscorlib_System_Object2689449295.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonReader3154730733.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JsonLoadSettin947661933.h"
 #include "mscorlib_System_String2029220233.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonWriter1973729997.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
 
 // System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> Newtonsoft.Json.Linq.JArray::get_ChildrenTokens()
 extern "C"  Il2CppObject* JArray_get_ChildrenTokens_m1887165570 (JArray_t1483708661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -55,6 +55,8 @@ extern "C"  void JArray__ctor_m1099436084 (JArray_t1483708661 * __this, const Me
 extern "C"  void JArray__ctor_m3885567150 (JArray_t1483708661 * __this, JArray_t1483708661 * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JArray::.ctor(System.Object)
 extern "C"  void JArray__ctor_m3630678468 (JArray_t1483708661 * __this, Il2CppObject * ___content0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JArray::DeepEquals(Newtonsoft.Json.Linq.JToken)
+extern "C"  bool JArray_DeepEquals_m1977814163 (JArray_t1483708661 * __this, JToken_t2552644013 * ___node0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JArray::CloneToken()
 extern "C"  JToken_t2552644013 * JArray_CloneToken_m2654627515 (JArray_t1483708661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JArray Newtonsoft.Json.Linq.JArray::Load(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Linq.JsonLoadSettings)
@@ -93,3 +95,5 @@ extern "C"  void JArray_CopyTo_m4110897537 (JArray_t1483708661 * __this, JTokenU
 extern "C"  bool JArray_get_IsReadOnly_m3965251995 (JArray_t1483708661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JArray::Remove(Newtonsoft.Json.Linq.JToken)
 extern "C"  bool JArray_Remove_m1472857396 (JArray_t1483708661 * __this, JToken_t2552644013 * ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Newtonsoft.Json.Linq.JArray::GetDeepHashCode()
+extern "C"  int32_t JArray_GetDeepHashCode_m2253107813 (JArray_t1483708661 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

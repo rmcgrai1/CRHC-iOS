@@ -13,8 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-// UnityEngineInternal.GenericStack
-struct GenericStack_t3718539591;
 // System.Delegate
 struct Delegate_t3022476291;
 // System.Reflection.MethodInfo
@@ -31,14 +29,6 @@ struct String_t;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "UnityEngine_UnityEngineInternal_GenericStack3718539591.h"
-#include "UnityEngine_UnityEngineInternal_GenericStack3718539591MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
-#include "mscorlib_System_Collections_Stack1043988394MethodDeclarations.h"
-#include "UnityEngine_UnityEngineInternal_MathfInternal715669973.h"
-#include "UnityEngine_UnityEngineInternal_MathfInternal715669973MethodDeclarations.h"
-#include "mscorlib_System_Single2076509932.h"
-#include "mscorlib_System_Boolean3825574718.h"
 #include "UnityEngine_UnityEngineInternal_NetFxCoreExtension4275971970.h"
 #include "UnityEngine_UnityEngineInternal_NetFxCoreExtension4275971970MethodDeclarations.h"
 #include "mscorlib_System_Reflection_MethodInfo3330546337.h"
@@ -51,6 +41,7 @@ struct String_t;
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleA1390152093.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleA1390152093MethodDeclarations.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules1810425448.h"
+#include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Attribute542643598MethodDeclarations.h"
@@ -63,6 +54,7 @@ struct String_t;
 #include "mscorlib_System_Char3454481338.h"
 #include "mscorlib_System_Int322071877448.h"
 #include "System_System_UriKind1128731744.h"
+#include "mscorlib_System_Boolean3825574718.h"
 #include "System_System_Text_RegularExpressions_Regex1803876613MethodDeclarations.h"
 #include "System_System_Text_RegularExpressions_Regex1803876613.h"
 
@@ -71,34 +63,6 @@ struct String_t;
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngineInternal.GenericStack::.ctor()
-extern "C"  void GenericStack__ctor_m1256224477 (GenericStack_t3718539591 * __this, const MethodInfo* method)
-{
-	{
-		Stack__ctor_m521896492(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngineInternal.MathfInternal::.cctor()
-extern Il2CppClass* MathfInternal_t715669973_il2cpp_TypeInfo_var;
-extern const uint32_t MathfInternal__cctor_m1836685460_MetadataUsageId;
-extern "C"  void MathfInternal__cctor_m1836685460 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MathfInternal__cctor_m1836685460_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_memory_barrier();
-		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_FloatMinNormal_0((1.17549435E-38f));
-		il2cpp_codegen_memory_barrier();
-		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_FloatMinDenormal_1((1.401298E-45f));
-		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_IsFlushToZeroEnabled_2((bool)1);
-		return;
-	}
-}
 // System.Delegate UnityEngineInternal.NetFxCoreExtensions::CreateDelegate(System.Reflection.MethodInfo,System.Type,System.Object)
 extern "C"  Delegate_t3022476291 * NetFxCoreExtensions_CreateDelegate_m2492743074 (Il2CppObject * __this /* static, unused */, MethodInfo_t * ___self0, Type_t * ___delegateType1, Il2CppObject * ___target2, const MethodInfo* method)
 {
@@ -294,7 +258,7 @@ extern "C"  void WebRequestUtils__cctor_m893658947 (Il2CppObject * __this /* sta
 	}
 	{
 		Regex_t1803876613 * L_0 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
-		Regex__ctor_m2794328522(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
+		Regex__ctor_m1229307206(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
 		((WebRequestUtils_t4100941042_StaticFields*)WebRequestUtils_t4100941042_il2cpp_TypeInfo_var->static_fields)->set_domainRegex_0(L_0);
 		return;
 	}

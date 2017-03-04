@@ -8434,6 +8434,7 @@ extern Il2CppCodeGenString* _stringLiteral3268419366;
 extern Il2CppCodeGenString* _stringLiteral1763872980;
 extern Il2CppCodeGenString* _stringLiteral2468604162;
 extern Il2CppCodeGenString* _stringLiteral4042121757;
+extern Il2CppCodeGenString* _stringLiteral2047046641;
 extern Il2CppCodeGenString* _stringLiteral3387526396;
 extern Il2CppCodeGenString* _stringLiteral4282831874;
 extern Il2CppCodeGenString* _stringLiteral2852719102;
@@ -8467,7 +8468,7 @@ extern "C"  bool U3CloadCoroutineU3Ec__Iterator0_1_MoveNext_m831321732_gshared (
 		}
 	}
 	{
-		goto IL_0289;
+		goto IL_02c9;
 	}
 
 IL_0021:
@@ -8500,7 +8501,7 @@ IL_0021:
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		String_t* L_10 = String_Concat_m3881798623(NULL /*static, unused*/, (ObjectU5BU5D_t3614634134*)L_9, /*hidden argument*/NULL);
 		NullCheck((Il2CppObject *)L_2);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_2, (int32_t)1, (Il2CppObject *)L_10);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_2, (int32_t)0, (Il2CppObject *)L_10);
 		String_t* L_11 = (String_t*)__this->get_path_0();
 		WWW_t2919945039 * L_12 = (WWW_t2919945039 *)il2cpp_codegen_object_new(WWW_t2919945039_il2cpp_TypeInfo_var);
 		WWW__ctor_m2024029190(L_12, (String_t*)L_11, /*hidden argument*/NULL);
@@ -8523,7 +8524,7 @@ IL_0021:
 
 IL_00a3:
 	{
-		goto IL_028b;
+		goto IL_02cb;
 	}
 
 IL_00a8:
@@ -8535,14 +8536,14 @@ IL_00a8:
 		Type_t * L_19 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(ByteU5BU5D_t3397334013_0_0_0_var), /*hidden argument*/NULL);
 		if ((!(((Il2CppObject*)(Type_t *)L_18) == ((Il2CppObject*)(Type_t *)L_19))))
 		{
-			goto IL_010f;
+			goto IL_011f;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
 		Il2CppObject * L_20 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck((Il2CppObject *)L_20);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_20, (int32_t)1, (Il2CppObject *)_stringLiteral4042121757);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_20, (int32_t)0, (Il2CppObject *)_stringLiteral4042121757);
 		Reference_1_t2181976982 * L_21 = (Reference_1_t2181976982 *)__this->get_reference_2();
 		WWW_t2919945039 * L_22 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
 		NullCheck((WWW_t2919945039 *)L_22);
@@ -8552,156 +8553,168 @@ IL_00a8:
 		ByteU5BU5D_t3397334013* L_25 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_24, /*hidden argument*/NULL);
 		NullCheck((Reference_1_t2181976982 *)L_21);
 		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_21, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_23, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_25, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
+		Il2CppObject * L_26 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_26);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_26, (int32_t)0, (Il2CppObject *)_stringLiteral2047046641);
 	}
 
-IL_010f:
+IL_011f:
 	{
-		Type_t * L_26 = (Type_t *)__this->get_U3CtypeU3E__1_3();
+		Type_t * L_27 = (Type_t *)__this->get_U3CtypeU3E__1_3();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_27 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
-		if ((!(((Il2CppObject*)(Type_t *)L_26) == ((Il2CppObject*)(Type_t *)L_27))))
+		Type_t * L_28 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_27) == ((Il2CppObject*)(Type_t *)L_28))))
 		{
-			goto IL_016b;
+			goto IL_018b;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
-		Il2CppObject * L_28 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck((Il2CppObject *)L_28);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_28, (int32_t)1, (Il2CppObject *)_stringLiteral3387526396);
-		Reference_1_t2181976982 * L_29 = (Reference_1_t2181976982 *)__this->get_reference_2();
-		WWW_t2919945039 * L_30 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
-		NullCheck((WWW_t2919945039 *)L_30);
-		String_t* L_31 = WWW_get_text_m1558985139((WWW_t2919945039 *)L_30, /*hidden argument*/NULL);
-		WWW_t2919945039 * L_32 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
-		NullCheck((WWW_t2919945039 *)L_32);
-		ByteU5BU5D_t3397334013* L_33 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_32, /*hidden argument*/NULL);
-		NullCheck((Reference_1_t2181976982 *)L_29);
-		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_29, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_31, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_33, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-		goto IL_0282;
+		Il2CppObject * L_29 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_29);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_29, (int32_t)0, (Il2CppObject *)_stringLiteral3387526396);
+		Reference_1_t2181976982 * L_30 = (Reference_1_t2181976982 *)__this->get_reference_2();
+		WWW_t2919945039 * L_31 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		NullCheck((WWW_t2919945039 *)L_31);
+		String_t* L_32 = WWW_get_text_m1558985139((WWW_t2919945039 *)L_31, /*hidden argument*/NULL);
+		WWW_t2919945039 * L_33 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		NullCheck((WWW_t2919945039 *)L_33);
+		ByteU5BU5D_t3397334013* L_34 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_33, /*hidden argument*/NULL);
+		NullCheck((Reference_1_t2181976982 *)L_30);
+		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_30, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_32, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_34, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
+		Il2CppObject * L_35 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_35);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_35, (int32_t)0, (Il2CppObject *)_stringLiteral2047046641);
+		goto IL_02c2;
 	}
 
-IL_016b:
+IL_018b:
 	{
-		Type_t * L_34 = (Type_t *)__this->get_U3CtypeU3E__1_3();
+		Type_t * L_36 = (Type_t *)__this->get_U3CtypeU3E__1_3();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_35 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(Texture2D_t3542995729_0_0_0_var), /*hidden argument*/NULL);
-		if ((!(((Il2CppObject*)(Type_t *)L_34) == ((Il2CppObject*)(Type_t *)L_35))))
+		Type_t * L_37 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(Texture2D_t3542995729_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_36) == ((Il2CppObject*)(Type_t *)L_37))))
 		{
-			goto IL_01c7;
+			goto IL_01f7;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
-		Il2CppObject * L_36 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck((Il2CppObject *)L_36);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_36, (int32_t)1, (Il2CppObject *)_stringLiteral4282831874);
-		Reference_1_t2181976982 * L_37 = (Reference_1_t2181976982 *)__this->get_reference_2();
-		WWW_t2919945039 * L_38 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
-		NullCheck((WWW_t2919945039 *)L_38);
-		Texture2D_t3542995729 * L_39 = WWW_get_texture_m1121178301((WWW_t2919945039 *)L_38, /*hidden argument*/NULL);
+		Il2CppObject * L_38 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_38);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_38, (int32_t)0, (Il2CppObject *)_stringLiteral4282831874);
+		Reference_1_t2181976982 * L_39 = (Reference_1_t2181976982 *)__this->get_reference_2();
 		WWW_t2919945039 * L_40 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
 		NullCheck((WWW_t2919945039 *)L_40);
-		ByteU5BU5D_t3397334013* L_41 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_40, /*hidden argument*/NULL);
-		NullCheck((Reference_1_t2181976982 *)L_37);
-		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_37, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_39, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_41, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
-		goto IL_0282;
+		Texture2D_t3542995729 * L_41 = WWW_get_texture_m1121178301((WWW_t2919945039 *)L_40, /*hidden argument*/NULL);
+		WWW_t2919945039 * L_42 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		NullCheck((WWW_t2919945039 *)L_42);
+		ByteU5BU5D_t3397334013* L_43 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_42, /*hidden argument*/NULL);
+		NullCheck((Reference_1_t2181976982 *)L_39);
+		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_39, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_41, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_43, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
+		Il2CppObject * L_44 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_44);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_44, (int32_t)0, (Il2CppObject *)_stringLiteral2047046641);
+		goto IL_02c2;
 	}
 
-IL_01c7:
+IL_01f7:
 	{
-		Type_t * L_42 = (Type_t *)__this->get_U3CtypeU3E__1_3();
+		Type_t * L_45 = (Type_t *)__this->get_U3CtypeU3E__1_3();
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_43 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(AudioClip_t1932558630_0_0_0_var), /*hidden argument*/NULL);
-		if ((!(((Il2CppObject*)(Type_t *)L_42) == ((Il2CppObject*)(Type_t *)L_43))))
+		Type_t * L_46 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(AudioClip_t1932558630_0_0_0_var), /*hidden argument*/NULL);
+		if ((!(((Il2CppObject*)(Type_t *)L_45) == ((Il2CppObject*)(Type_t *)L_46))))
 		{
-			goto IL_0282;
+			goto IL_02c2;
 		}
 	}
 	{
-		WWW_t2919945039 * L_44 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
-		NullCheck((WWW_t2919945039 *)L_44);
-		String_t* L_45 = WWW_get_url_m1007081849((WWW_t2919945039 *)L_44, /*hidden argument*/NULL);
-		V_2 = (String_t*)L_45;
-		String_t* L_46 = V_2;
-		NullCheck((String_t*)L_46);
-		bool L_47 = String_EndsWith_m568509976((String_t*)L_46, (String_t*)_stringLiteral2852719102, /*hidden argument*/NULL);
-		if (!L_47)
+		WWW_t2919945039 * L_47 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		NullCheck((WWW_t2919945039 *)L_47);
+		String_t* L_48 = WWW_get_url_m1007081849((WWW_t2919945039 *)L_47, /*hidden argument*/NULL);
+		V_2 = (String_t*)L_48;
+		String_t* L_49 = V_2;
+		NullCheck((String_t*)L_49);
+		bool L_50 = String_EndsWith_m568509976((String_t*)L_49, (String_t*)_stringLiteral2852719102, /*hidden argument*/NULL);
+		if (!L_50)
 		{
-			goto IL_0203;
+			goto IL_0233;
 		}
 	}
 	{
 		V_1 = (int32_t)((int32_t)20);
-		goto IL_023e;
+		goto IL_026e;
 	}
 
-IL_0203:
+IL_0233:
 	{
-		String_t* L_48 = V_2;
-		NullCheck((String_t*)L_48);
-		bool L_49 = String_EndsWith_m568509976((String_t*)L_48, (String_t*)_stringLiteral2577042317, /*hidden argument*/NULL);
-		if (!L_49)
+		String_t* L_51 = V_2;
+		NullCheck((String_t*)L_51);
+		bool L_52 = String_EndsWith_m568509976((String_t*)L_51, (String_t*)_stringLiteral2577042317, /*hidden argument*/NULL);
+		if (!L_52)
 		{
-			goto IL_021d;
+			goto IL_024d;
 		}
 	}
 	{
 		V_1 = (int32_t)((int32_t)14);
-		goto IL_023e;
+		goto IL_026e;
 	}
 
-IL_021d:
+IL_024d:
 	{
-		String_t* L_50 = V_2;
-		NullCheck((String_t*)L_50);
-		bool L_51 = String_EndsWith_m568509976((String_t*)L_50, (String_t*)_stringLiteral137132194, /*hidden argument*/NULL);
-		if (!L_51)
+		String_t* L_53 = V_2;
+		NullCheck((String_t*)L_53);
+		bool L_54 = String_EndsWith_m568509976((String_t*)L_53, (String_t*)_stringLiteral137132194, /*hidden argument*/NULL);
+		if (!L_54)
 		{
-			goto IL_0237;
+			goto IL_0267;
 		}
 	}
 	{
 		V_1 = (int32_t)((int32_t)13);
-		goto IL_023e;
+		goto IL_026e;
 	}
 
-IL_0237:
+IL_0267:
 	{
-		NotSupportedException_t1793819818 * L_52 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m3232764727(L_52, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_52);
+		NotSupportedException_t1793819818 * L_55 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m3232764727(L_55, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_55);
 	}
 
-IL_023e:
+IL_026e:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(ServiceLocator_t953918367_il2cpp_TypeInfo_var);
-		Il2CppObject * L_53 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck((Il2CppObject *)L_53);
-		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_53, (int32_t)1, (Il2CppObject *)_stringLiteral3162538911);
-		Reference_1_t2181976982 * L_54 = (Reference_1_t2181976982 *)__this->get_reference_2();
-		WWW_t2919945039 * L_55 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
-		int32_t L_56 = V_1;
-		NullCheck((WWW_t2919945039 *)L_55);
-		AudioClip_t1932558630 * L_57 = WWW_GetAudioClip_m1164495521((WWW_t2919945039 *)L_55, (bool)0, (bool)0, (int32_t)L_56, /*hidden argument*/NULL);
+		Il2CppObject * L_56 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_56);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(1 /* System.Void ILog::print(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_56, (int32_t)0, (Il2CppObject *)_stringLiteral3162538911);
+		Reference_1_t2181976982 * L_57 = (Reference_1_t2181976982 *)__this->get_reference_2();
 		WWW_t2919945039 * L_58 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		int32_t L_59 = V_1;
 		NullCheck((WWW_t2919945039 *)L_58);
-		ByteU5BU5D_t3397334013* L_59 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_58, /*hidden argument*/NULL);
-		NullCheck((Reference_1_t2181976982 *)L_54);
-		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_54, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_57, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_59, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
+		AudioClip_t1932558630 * L_60 = WWW_GetAudioClip_m1164495521((WWW_t2919945039 *)L_58, (bool)0, (bool)0, (int32_t)L_59, /*hidden argument*/NULL);
+		WWW_t2919945039 * L_61 = (WWW_t2919945039 *)__this->get_U3CwwwU3E__0_1();
+		NullCheck((WWW_t2919945039 *)L_61);
+		ByteU5BU5D_t3397334013* L_62 = WWW_get_bytes_m420718112((WWW_t2919945039 *)L_61, /*hidden argument*/NULL);
+		NullCheck((Reference_1_t2181976982 *)L_57);
+		((  void (*) (Reference_1_t2181976982 *, Il2CppObject *, ByteU5BU5D_t3397334013*, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3)->methodPointer)((Reference_1_t2181976982 *)L_57, (Il2CppObject *)((Il2CppObject *)Castclass(((Il2CppObject *)IsInst(L_60, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 2))), (ByteU5BU5D_t3397334013*)L_62, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 3));
+		Il2CppObject * L_63 = ServiceLocator_getILog_m3546691519(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck((Il2CppObject *)L_63);
+		InterfaceActionInvoker2< int32_t, Il2CppObject * >::Invoke(2 /* System.Void ILog::println(LogType,System.Object) */, ILog_t767237811_il2cpp_TypeInfo_var, (Il2CppObject *)L_63, (int32_t)0, (Il2CppObject *)_stringLiteral2047046641);
 	}
 
-IL_0282:
+IL_02c2:
 	{
 		__this->set_U24PC_6((-1));
 	}
 
-IL_0289:
+IL_02c9:
 	{
 		return (bool)0;
 	}
 
-IL_028b:
+IL_02cb:
 	{
 		return (bool)1;
 	}

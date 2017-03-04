@@ -35,6 +35,7 @@ struct Type_t;
 #include "Newtonsoft_Json_Newtonsoft_Json_Linq_JValue300956845.h"
 #include "mscorlib_System_DateTime693205669.h"
 #include "mscorlib_System_String2029220233.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
 #include "mscorlib_System_Nullable_1_gen3865860824.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_JsonWriter1973729997.h"
 #include "mscorlib_System_TypeCode2536926201.h"
@@ -51,6 +52,8 @@ extern "C"  void JValue__ctor_m3265115446 (JValue_t300956845 * __this, DateTime_
 extern "C"  void JValue__ctor_m3588923362 (JValue_t300956845 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JValue::.ctor(System.Object)
 extern "C"  void JValue__ctor_m1850693832 (JValue_t300956845 * __this, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JValue::DeepEquals(Newtonsoft.Json.Linq.JToken)
+extern "C"  bool JValue_DeepEquals_m2595241693 (JValue_t300956845 * __this, JToken_t2552644013 * ___node0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JValue::get_HasValues()
 extern "C"  bool JValue_get_HasValues_m1093972563 (JValue_t300956845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Newtonsoft.Json.Linq.JValue::Compare(Newtonsoft.Json.Linq.JTokenType,System.Object,System.Object)
@@ -75,6 +78,8 @@ extern "C"  int32_t JValue_get_Type_m2039062136 (JValue_t300956845 * __this, con
 extern "C"  Il2CppObject * JValue_get_Value_m615315111 (JValue_t300956845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JValue::WriteTo(Newtonsoft.Json.JsonWriter,Newtonsoft.Json.JsonConverter[])
 extern "C"  void JValue_WriteTo_m3020398463 (JValue_t300956845 * __this, JsonWriter_t1973729997 * ___writer0, JsonConverterU5BU5D_t3128012475* ___converters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Newtonsoft.Json.Linq.JValue::GetDeepHashCode()
+extern "C"  int32_t JValue_GetDeepHashCode_m2944397039 (JValue_t300956845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JValue::ValuesEquals(Newtonsoft.Json.Linq.JValue,Newtonsoft.Json.Linq.JValue)
 extern "C"  bool JValue_ValuesEquals_m1474733587 (Il2CppObject * __this /* static, unused */, JValue_t300956845 * ___v10, JValue_t300956845 * ___v21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JValue::Equals(Newtonsoft.Json.Linq.JValue)

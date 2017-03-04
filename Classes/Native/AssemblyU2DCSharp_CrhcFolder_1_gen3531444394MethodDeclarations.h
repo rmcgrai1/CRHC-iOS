@@ -16,8 +16,8 @@
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcFolder_1_gen29904883MethodDeclarations.h"
 
-// System.Void CrhcFolder`1<Tour>::.ctor(CrhcItem,JsonChildList/JsonChild)
-#define CrhcFolder_1__ctor_m3598320490(__this, ___parent0, ___data1, method) ((  void (*) (CrhcFolder_1_t3531444394 *, CrhcItem_t1379468653 *, JsonChild_t2476909483 *, const MethodInfo*))CrhcFolder_1__ctor_m2937052116_gshared)(__this, ___parent0, ___data1, method)
+// System.Void CrhcFolder`1<Tour>::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+#define CrhcFolder_1__ctor_m2691673587(__this, ___parent0, ___data1, method) ((  void (*) (CrhcFolder_1_t3531444394 *, CrhcItem_t1379468653 *, JObject_t278519297 *, const MethodInfo*))CrhcFolder_1__ctor_m3644556237_gshared)(__this, ___parent0, ___data1, method)
 // System.Collections.IEnumerator CrhcFolder`1<Tour>::GetEnumerator()
 #define CrhcFolder_1_GetEnumerator_m3240782028(__this, method) ((  Il2CppObject * (*) (CrhcFolder_1_t3531444394 *, const MethodInfo*))CrhcFolder_1_GetEnumerator_m1724797034_gshared)(__this, method)
 // System.Void CrhcFolder`1<Tour>::loadTarget(System.String)

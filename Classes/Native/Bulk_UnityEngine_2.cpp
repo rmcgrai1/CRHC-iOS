@@ -13,22 +13,20 @@
 #include <limits>
 #include <assert.h>
 
-// UnityEngine.Object
-struct Object_t1021602117;
-// System.String
-struct String_t;
-// System.Type
-struct Type_t;
-// UnityEngine.AsyncOperation
-struct AsyncOperation_t3814632279;
 // UnityEngine.RPC
 struct RPC_t3323229423;
 // UnityEngine.RuntimeInitializeOnLoadMethodAttribute
 struct RuntimeInitializeOnLoadMethodAttribute_t3126475234;
+// System.String
+struct String_t;
 // System.Object
 struct Il2CppObject;
+// UnityEngine.AsyncOperation
+struct AsyncOperation_t3814632279;
 // UnityEngine.ScriptableObject
 struct ScriptableObject_t1975622470;
+// System.Type
+struct Type_t;
 // UnityEngine.Scripting.PreserveAttribute
 struct PreserveAttribute_t4182602970;
 // UnityEngine.Scripting.RequiredByNativeCodeAttribute
@@ -193,18 +191,12 @@ struct Encoding_t663144255;
 struct AudioClip_t1932558630;
 // UnityEngine.YieldInstruction
 struct YieldInstruction_t3462875981;
+// UnityEngineInternal.GenericStack
+struct GenericStack_t3718539591;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "UnityEngine_UnityEngine_Resources339470017.h"
-#include "UnityEngine_UnityEngine_Resources339470017MethodDeclarations.h"
-#include "mscorlib_System_String2029220233.h"
-#include "UnityEngine_UnityEngine_Object1021602117.h"
-#include "mscorlib_System_Type1303803226MethodDeclarations.h"
-#include "mscorlib_System_Type1303803226.h"
-#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
-#include "UnityEngine_UnityEngine_AsyncOperation3814632279.h"
 #include "UnityEngine_UnityEngine_Rigidbody4233889191.h"
 #include "UnityEngine_UnityEngine_Rigidbody4233889191MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Rigidbody2D502193897.h"
@@ -222,17 +214,17 @@ struct YieldInstruction_t3462875981;
 #include "UnityEngine_UnityEngine_Scripting_PreserveAttribut4182602970MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
 #include "UnityEngine_UnityEngine_RuntimePlatform1869584967MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_ScaleMode324459649.h"
-#include "UnityEngine_UnityEngine_ScaleMode324459649MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2981886439.h"
 #include "UnityEngine_UnityEngine_SceneManagement_LoadSceneM2981886439MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666.h"
 #include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666MethodDeclarations.h"
 #include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_Boolean3825574718.h"
 #include "UnityEngine_UnityEngine_SceneManagement_SceneManager90660965.h"
 #include "UnityEngine_UnityEngine_SceneManagement_SceneManager90660965MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AsyncOperation3814632279.h"
 #include "UnityEngine_UnityEngine_Events_UnityAction_2_gen1903595547MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Events_UnityAction_2_gen1903595547.h"
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen3051495417MethodDeclarations.h"
@@ -247,6 +239,7 @@ struct YieldInstruction_t3462875981;
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470.h"
 #include "UnityEngine_UnityEngine_ScriptableObject1975622470MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Object1021602117MethodDeclarations.h"
+#include "mscorlib_System_Type1303803226.h"
 #include "UnityEngine_UnityEngine_Scripting_PreserveAttribut4182602970.h"
 #include "UnityEngine_UnityEngine_Scripting_RequiredByNative1913052472.h"
 #include "UnityEngine_UnityEngine_Scripting_RequiredByNative1913052472MethodDeclarations.h"
@@ -272,6 +265,7 @@ struct YieldInstruction_t3462875981;
 #include "UnityEngine_UnityEngine_GUIElement3381083099.h"
 #include "UnityEngine_UnityEngine_Ray2469606224.h"
 #include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
 #include "UnityEngine_UnityEngine_RenderTexture2666733923.h"
 #include "UnityEngine_UnityEngine_Rect3681755626MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Component3819376471.h"
@@ -293,6 +287,7 @@ struct YieldInstruction_t3462875981;
 #include "mscorlib_System_ArgumentException3259014390.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "mscorlib_ArrayTypes.h"
+#include "mscorlib_System_Type1303803226MethodDeclarations.h"
 #include "mscorlib_System_Reflection_BindingFlags1082350898.h"
 #include "mscorlib_System_Reflection_Binder3404612058.h"
 #include "mscorlib_System_Reflection_ParameterModifier1820634920.h"
@@ -538,6 +533,11 @@ struct YieldInstruction_t3462875981;
 #include "mscorlib_System_IO_TextReader1561828458MethodDeclarations.h"
 #include "mscorlib_System_IO_TextReader1561828458.h"
 #include "UnityEngine_UnityEngine_YieldInstruction3462875981.h"
+#include "UnityEngine_UnityEngineInternal_GenericStack3718539591.h"
+#include "UnityEngine_UnityEngineInternal_GenericStack3718539591MethodDeclarations.h"
+#include "mscorlib_System_Collections_Stack1043988394MethodDeclarations.h"
+#include "UnityEngine_UnityEngineInternal_MathfInternal715669973.h"
+#include "UnityEngine_UnityEngineInternal_MathfInternal715669973MethodDeclarations.h"
 
 // T UnityEngine.Component::GetComponent<System.Object>()
 extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
@@ -549,61 +549,6 @@ extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gs
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// UnityEngine.Object UnityEngine.Resources::Load(System.String)
-extern const Il2CppType* Object_t1021602117_0_0_0_var;
-extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
-extern const uint32_t Resources_Load_m2041782325_MetadataUsageId;
-extern "C"  Object_t1021602117 * Resources_Load_m2041782325 (Il2CppObject * __this /* static, unused */, String_t* ___path0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Resources_Load_m2041782325_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Object_t1021602117 * V_0 = NULL;
-	{
-		String_t* L_0 = ___path0;
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Object_t1021602117_0_0_0_var), /*hidden argument*/NULL);
-		Object_t1021602117 * L_2 = Resources_Load_m243305716(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
-		V_0 = L_2;
-		goto IL_0017;
-	}
-
-IL_0017:
-	{
-		Object_t1021602117 * L_3 = V_0;
-		return L_3;
-	}
-}
-// UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
-extern "C"  Object_t1021602117 * Resources_Load_m243305716 (Il2CppObject * __this /* static, unused */, String_t* ___path0, Type_t * ___systemTypeInstance1, const MethodInfo* method)
-{
-	typedef Object_t1021602117 * (*Resources_Load_m243305716_ftn) (String_t*, Type_t *);
-	static Resources_Load_m243305716_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Resources_Load_m243305716_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::Load(System.String,System.Type)");
-	return _il2cpp_icall_func(___path0, ___systemTypeInstance1);
-}
-// UnityEngine.Object UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)
-extern "C"  Object_t1021602117 * Resources_GetBuiltinResource_m582410469 (Il2CppObject * __this /* static, unused */, Type_t * ___type0, String_t* ___path1, const MethodInfo* method)
-{
-	typedef Object_t1021602117 * (*Resources_GetBuiltinResource_m582410469_ftn) (Type_t *, String_t*);
-	static Resources_GetBuiltinResource_m582410469_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Resources_GetBuiltinResource_m582410469_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::GetBuiltinResource(System.Type,System.String)");
-	return _il2cpp_icall_func(___type0, ___path1);
-}
-// UnityEngine.AsyncOperation UnityEngine.Resources::UnloadUnusedAssets()
-extern "C"  AsyncOperation_t3814632279 * Resources_UnloadUnusedAssets_m2770025609 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
-{
-	typedef AsyncOperation_t3814632279 * (*Resources_UnloadUnusedAssets_m2770025609_ftn) ();
-	static Resources_UnloadUnusedAssets_m2770025609_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Resources_UnloadUnusedAssets_m2770025609_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Resources::UnloadUnusedAssets()");
-	return _il2cpp_icall_func();
-}
 // System.Void UnityEngine.RPC::.ctor()
 extern "C"  void RPC__ctor_m1432086380 (RPC_t3323229423 * __this, const MethodInfo* method)
 {
@@ -14863,6 +14808,34 @@ extern "C" void YieldInstruction_t3462875981_marshal_com_back(const YieldInstruc
 // Conversion method for clean up from marshalling of: UnityEngine.YieldInstruction
 extern "C" void YieldInstruction_t3462875981_marshal_com_cleanup(YieldInstruction_t3462875981_marshaled_com& marshaled)
 {
+}
+// System.Void UnityEngineInternal.GenericStack::.ctor()
+extern "C"  void GenericStack__ctor_m1256224477 (GenericStack_t3718539591 * __this, const MethodInfo* method)
+{
+	{
+		Stack__ctor_m521896492(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngineInternal.MathfInternal::.cctor()
+extern Il2CppClass* MathfInternal_t715669973_il2cpp_TypeInfo_var;
+extern const uint32_t MathfInternal__cctor_m1836685460_MetadataUsageId;
+extern "C"  void MathfInternal__cctor_m1836685460 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (MathfInternal__cctor_m1836685460_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_memory_barrier();
+		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_FloatMinNormal_0((1.17549435E-38f));
+		il2cpp_codegen_memory_barrier();
+		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_FloatMinDenormal_1((1.401298E-45f));
+		((MathfInternal_t715669973_StaticFields*)MathfInternal_t715669973_il2cpp_TypeInfo_var->static_fields)->set_IsFlushToZeroEnabled_2((bool)1);
+		return;
+	}
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

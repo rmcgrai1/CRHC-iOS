@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<plist version="1.0">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
   <dict>
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>NDArchives</string>
+    <string>A Portal Through Time</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIconFiles</key>
@@ -18,7 +18,7 @@
       <string>AppIcon76x76~ipad.png</string>
     </array>
     <key>CFBundleIdentifier</key>
-    <string>com.NotreDame.${PRODUCT_NAME}</string>
+    <string>com.IUSB.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -26,9 +26,9 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
+    <string>1.2</string>
     <key>CFBundleVersion</key>
-    <string>0</string>
+    <string>2</string>
     <key>LSRequiresIPhoneOS</key>
     <true />
     <key>NSAppTransportSecurity</key>
@@ -37,7 +37,7 @@
       <true />
     </dict>
     <key>NSCameraUsageDescription</key>
-    <string>Camera access required for target detection and tracking</string>
+    <string>ed for target detection and trackingtection and tracking</string>
     <key>UIApplicationExitsOnSuspend</key>
     <false />
     <key>UILaunchStoryboardName~ipad</key>

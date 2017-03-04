@@ -27,4 +27,6 @@
 // System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.String>::get_Next()
 #define LinkedListNode_1_get_Next_m1979088665(__this, method) ((  LinkedListNode_1_t925326146 * (*) (LinkedListNode_1_t925326146 *, const MethodInfo*))LinkedListNode_1_get_Next_m1067948741_gshared)(__this, method)
 // T System.Collections.Generic.LinkedListNode`1<System.String>::get_Value()
-#define LinkedListNode_1_get_Value_m68942142(__this, method) ((  String_t* (*) (LinkedListNode_1_t925326146 *, const MethodInfo*))LinkedListNode_1_get_Value_m201900116_gshared)(__this, method)
+#define LinkedListNode_1_get_Value_m3039471100(__this, method) ((  String_t* (*) (LinkedListNode_1_t925326146 *, const MethodInfo*))LinkedListNode_1_get_Value_m201900116_gshared)(__this, method)
+// System.Void System.Collections.Generic.LinkedListNode`1<System.String>::set_Value(T)
+#define LinkedListNode_1_set_Value_m529311057(__this, ___value0, method) ((  void (*) (LinkedListNode_1_t925326146 *, String_t*, const MethodInfo*))LinkedListNode_1_set_Value_m2125545625_gshared)(__this, ___value0, method)

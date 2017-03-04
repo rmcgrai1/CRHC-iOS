@@ -28,27 +28,27 @@ struct  JProperty_t2956441399  : public JContainer_t3538280255
 {
 public:
 	// Newtonsoft.Json.Linq.JProperty/JPropertyList Newtonsoft.Json.Linq.JProperty::_content
-	JPropertyList_t572931806 * ____content_15;
+	JPropertyList_t572931806 * ____content_16;
 	// System.String Newtonsoft.Json.Linq.JProperty::_name
-	String_t* ____name_16;
+	String_t* ____name_17;
 
 public:
-	inline static int32_t get_offset_of__content_15() { return static_cast<int32_t>(offsetof(JProperty_t2956441399, ____content_15)); }
-	inline JPropertyList_t572931806 * get__content_15() const { return ____content_15; }
-	inline JPropertyList_t572931806 ** get_address_of__content_15() { return &____content_15; }
-	inline void set__content_15(JPropertyList_t572931806 * value)
+	inline static int32_t get_offset_of__content_16() { return static_cast<int32_t>(offsetof(JProperty_t2956441399, ____content_16)); }
+	inline JPropertyList_t572931806 * get__content_16() const { return ____content_16; }
+	inline JPropertyList_t572931806 ** get_address_of__content_16() { return &____content_16; }
+	inline void set__content_16(JPropertyList_t572931806 * value)
 	{
-		____content_15 = value;
-		Il2CppCodeGenWriteBarrier(&____content_15, value);
+		____content_16 = value;
+		Il2CppCodeGenWriteBarrier(&____content_16, value);
 	}
 
-	inline static int32_t get_offset_of__name_16() { return static_cast<int32_t>(offsetof(JProperty_t2956441399, ____name_16)); }
-	inline String_t* get__name_16() const { return ____name_16; }
-	inline String_t** get_address_of__name_16() { return &____name_16; }
-	inline void set__name_16(String_t* value)
+	inline static int32_t get_offset_of__name_17() { return static_cast<int32_t>(offsetof(JProperty_t2956441399, ____name_17)); }
+	inline String_t* get__name_17() const { return ____name_17; }
+	inline String_t** get_address_of__name_17() { return &____name_17; }
+	inline void set__name_17(String_t* value)
 	{
-		____name_16 = value;
-		Il2CppCodeGenWriteBarrier(&____name_16, value);
+		____name_17 = value;
+		Il2CppCodeGenWriteBarrier(&____name_17, value);
 	}
 };
 

@@ -13,10 +13,12 @@
 #include <limits>
 #include <assert.h>
 
-// System.Collections.Generic.Comparer`1<Vuforia.CameraDevice/CameraField>
-struct Comparer_1_t2737522968;
+// System.Collections.Generic.Comparer`1<UnityEngine.Vector4>
+struct Comparer_1_t1133716700;
 // System.Object
 struct Il2CppObject;
+// System.Collections.Generic.Comparer`1<Vuforia.CameraDevice/CameraField>
+struct Comparer_1_t2737522968;
 // System.Collections.Generic.Comparer`1<Vuforia.Image/PIXEL_FORMAT>
 struct Comparer_1_t1900539163;
 // System.Collections.Generic.Comparer`1<Vuforia.TargetFinder/TargetSearchResult>
@@ -239,14 +241,12 @@ struct Transform_1_t1611375883;
 struct Transform_1_t551237730;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.DictionaryEntry>
 struct Transform_1_t2883023109;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>
-struct Transform_1_t2118171515;
 
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "mscorlib_System_Collections_Generic_Comparer_1_gen2737522968.h"
-#include "mscorlib_System_Collections_Generic_Comparer_1_gen2737522968MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen1133716700.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen1133716700MethodDeclarations.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Object2689449295MethodDeclarations.h"
 #include "mscorlib_System_Type1303803226MethodDeclarations.h"
@@ -256,12 +256,17 @@ struct Transform_1_t2118171515;
 #include "mscorlib_System_Boolean3825574718.h"
 #include "mscorlib_ArrayTypes.h"
 #include "mscorlib_System_Object2689449295.h"
-#include "mscorlib_System_Collections_Generic_Comparer_1_Def2336784082.h"
-#include "mscorlib_System_Collections_Generic_Comparer_1_Def2336784082MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_Defa732977814.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_Defa732977814MethodDeclarations.h"
 #include "mscorlib_System_Int322071877448.h"
 #include "mscorlib_System_ArgumentException3259014390MethodDeclarations.h"
-#include "Vuforia_UnityExtensions_Vuforia_CameraDevice_Camer3847513849.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
 #include "mscorlib_System_ArgumentException3259014390.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen2737522968.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_gen2737522968MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_Def2336784082.h"
+#include "mscorlib_System_Collections_Generic_Comparer_1_Def2336784082MethodDeclarations.h"
+#include "Vuforia_UnityExtensions_Vuforia_CameraDevice_Camer3847513849.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen1900539163.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen1900539163MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Comparer_1_Def1499800277.h"
@@ -599,8 +604,6 @@ struct Transform_1_t2118171515;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Tr551237730MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_T2883023109.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_T2883023109MethodDeclarations.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_T2118171515.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_T2118171515MethodDeclarations.h"
 
 // System.Void System.Collections.Generic.Dictionary`2<Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey,System.Object>::Do_ICollectionCopyTo<Newtonsoft.Json.Serialization.DefaultSerializationBinder/TypeNameKey>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 extern "C"  void Dictionary_2_Do_ICollectionCopyTo_TisTypeNameKey_t3055062677_m3899827955_gshared (Dictionary_2_t2336777489 * __this, Il2CppArray * p0, int32_t p1, Transform_1_t2880512365 * p2, const MethodInfo* method);
@@ -715,6 +718,158 @@ extern "C"  void Dictionary_2_Do_CopyTo_TisTrackableIdPair_t1329355276_TisTracka
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Collections.Generic.Comparer`1<UnityEngine.Vector4>::.ctor()
+extern "C"  void Comparer_1__ctor_m4052560291_gshared (Comparer_1_t1133716700 * __this, const MethodInfo* method)
+{
+	{
+		NullCheck((Il2CppObject *)__this);
+		Object__ctor_m2551263788((Il2CppObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.Comparer`1<UnityEngine.Vector4>::.cctor()
+extern const Il2CppType* GenericComparer_1_t1787398723_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern const uint32_t Comparer_1__cctor_m1911230094_MetadataUsageId;
+extern "C"  void Comparer_1__cctor_m1911230094_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Comparer_1__cctor_m1911230094_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericComparer_1_t1787398723_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(90 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		Il2CppObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((Comparer_1_t1133716700_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->set__default_0(((Comparer_1_t1133716700 *)Castclass(L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t732977814 * L_8 = (DefaultComparer_t732977814 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t732977814 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((Comparer_1_t1133716700_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.Vector4>::System.Collections.IComparer.Compare(System.Object,System.Object)
+extern Il2CppClass* ArgumentException_t3259014390_il2cpp_TypeInfo_var;
+extern const uint32_t Comparer_1_System_Collections_IComparer_Compare_m577428976_MetadataUsageId;
+extern "C"  int32_t Comparer_1_System_Collections_IComparer_Compare_m577428976_gshared (Comparer_1_t1133716700 * __this, Il2CppObject * ___x0, Il2CppObject * ___y1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Comparer_1_System_Collections_IComparer_Compare_m577428976_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	{
+		Il2CppObject * L_0 = ___x0;
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		Il2CppObject * L_1 = ___y1;
+		if (L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_0013;
+	}
+
+IL_0012:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_0013:
+	{
+		return G_B4_0;
+	}
+
+IL_0014:
+	{
+		Il2CppObject * L_2 = ___y1;
+		if (L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		return 1;
+	}
+
+IL_001c:
+	{
+		Il2CppObject * L_3 = ___x0;
+		if (!((Il2CppObject *)IsInst(L_3, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Il2CppObject * L_4 = ___y1;
+		if (!((Il2CppObject *)IsInst(L_4, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Il2CppObject * L_5 = ___x0;
+		Il2CppObject * L_6 = ___y1;
+		NullCheck((Comparer_1_t1133716700 *)__this);
+		int32_t L_7 = VirtFuncInvoker2< int32_t, Vector4_t2243707581 , Vector4_t2243707581  >::Invoke(6 /* System.Int32 System.Collections.Generic.Comparer`1<UnityEngine.Vector4>::Compare(T,T) */, (Comparer_1_t1133716700 *)__this, (Vector4_t2243707581 )((*(Vector4_t2243707581 *)((Vector4_t2243707581 *)UnBox (L_5, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (Vector4_t2243707581 )((*(Vector4_t2243707581 *)((Vector4_t2243707581 *)UnBox (L_6, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_7;
+	}
+
+IL_0045:
+	{
+		ArgumentException_t3259014390 * L_8 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m2105824819(L_8, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_8);
+	}
+}
+// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<UnityEngine.Vector4>::get_Default()
+extern "C"  Comparer_1_t1133716700 * Comparer_1_get_Default_m48739979_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		Comparer_1_t1133716700 * L_0 = ((Comparer_1_t1133716700_StaticFields*)IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->static_fields)->get__default_0();
+		return L_0;
+	}
+}
 // System.Void System.Collections.Generic.Comparer`1<Vuforia.CameraDevice/CameraField>::.ctor()
 extern "C"  void Comparer_1__ctor_m284673432_gshared (Comparer_1_t2737522968 * __this, const MethodInfo* method)
 {
@@ -16384,56 +16539,6 @@ extern "C"  DictionaryEntry_t3048875398  Transform_1_EndInvoke_m4195138263_gshar
 {
 	Il2CppObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(DictionaryEntry_t3048875398 *)UnBox ((Il2CppCodeGenObject*)__result);
-}
-// System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>::.ctor(System.Object,System.IntPtr)
-extern "C"  void Transform_1__ctor_m2246978550_gshared (Transform_1_t2118171515 * __this, Il2CppObject * ___object0, IntPtr_t ___method1, const MethodInfo* method)
-{
-	__this->set_method_ptr_0((Il2CppMethodPointer)((MethodInfo*)___method1.get_m_value_0())->methodPointer);
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>::Invoke(TKey,TValue)
-extern "C"  KeyValuePair_2_t2284023804  Transform_1_Invoke_m557327862_gshared (Transform_1_t2118171515 * __this, int32_t ___key0, VirtualButtonData_t1223885651  ___value1, const MethodInfo* method)
-{
-	if(__this->get_prev_9() != NULL)
-	{
-		Transform_1_Invoke_m557327862((Transform_1_t2118171515 *)__this->get_prev_9(),___key0, ___value1, method);
-	}
-	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	if (__this->get_m_target_2() != NULL && ___methodIsStatic)
-	{
-		typedef KeyValuePair_2_t2284023804  (*FunctionPointerType) (Il2CppObject *, void* __this, int32_t ___key0, VirtualButtonData_t1223885651  ___value1, const MethodInfo* method);
-		return ((FunctionPointerType)__this->get_method_ptr_0())(NULL,__this->get_m_target_2(),___key0, ___value1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	}
-	else
-	{
-		typedef KeyValuePair_2_t2284023804  (*FunctionPointerType) (void* __this, int32_t ___key0, VirtualButtonData_t1223885651  ___value1, const MethodInfo* method);
-		return ((FunctionPointerType)__this->get_method_ptr_0())(__this->get_m_target_2(),___key0, ___value1,(MethodInfo*)(__this->get_method_3().get_m_value_0()));
-	}
-}
-// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
-extern Il2CppClass* VirtualButtonData_t1223885651_il2cpp_TypeInfo_var;
-extern const uint32_t Transform_1_BeginInvoke_m4146785439_MetadataUsageId;
-extern "C"  Il2CppObject * Transform_1_BeginInvoke_m4146785439_gshared (Transform_1_t2118171515 * __this, int32_t ___key0, VirtualButtonData_t1223885651  ___value1, AsyncCallback_t163412349 * ___callback2, Il2CppObject * ___object3, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Transform_1_BeginInvoke_m4146785439_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &___key0);
-	__d_args[1] = Box(VirtualButtonData_t1223885651_il2cpp_TypeInfo_var, &___value1);
-	return (Il2CppObject *)il2cpp_codegen_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback2, (Il2CppObject*)___object3);
-}
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>::EndInvoke(System.IAsyncResult)
-extern "C"  KeyValuePair_2_t2284023804  Transform_1_EndInvoke_m444640204_gshared (Transform_1_t2118171515 * __this, Il2CppObject * ___result0, const MethodInfo* method)
-{
-	Il2CppObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(KeyValuePair_2_t2284023804 *)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

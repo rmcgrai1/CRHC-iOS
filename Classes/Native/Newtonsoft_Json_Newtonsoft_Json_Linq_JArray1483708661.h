@@ -26,16 +26,16 @@ struct  JArray_t1483708661  : public JContainer_t3538280255
 {
 public:
 	// System.Collections.Generic.List`1<Newtonsoft.Json.Linq.JToken> Newtonsoft.Json.Linq.JArray::_values
-	List_1_t1921765145 * ____values_15;
+	List_1_t1921765145 * ____values_16;
 
 public:
-	inline static int32_t get_offset_of__values_15() { return static_cast<int32_t>(offsetof(JArray_t1483708661, ____values_15)); }
-	inline List_1_t1921765145 * get__values_15() const { return ____values_15; }
-	inline List_1_t1921765145 ** get_address_of__values_15() { return &____values_15; }
-	inline void set__values_15(List_1_t1921765145 * value)
+	inline static int32_t get_offset_of__values_16() { return static_cast<int32_t>(offsetof(JArray_t1483708661, ____values_16)); }
+	inline List_1_t1921765145 * get__values_16() const { return ____values_16; }
+	inline List_1_t1921765145 ** get_address_of__values_16() { return &____values_16; }
+	inline void set__values_16(List_1_t1921765145 * value)
 	{
-		____values_15 = value;
-		Il2CppCodeGenWriteBarrier(&____values_15, value);
+		____values_16 = value;
+		Il2CppCodeGenWriteBarrier(&____values_16, value);
 	}
 };
 

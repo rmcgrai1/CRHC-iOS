@@ -13,12 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-// Newtonsoft.Json.Linq.JToken
-struct JToken_t2552644013;
-// System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t2981576340;
-// System.Collections.IEnumerable
-struct IEnumerable_t2911409499;
 // Newtonsoft.Json.Utilities.MethodCall`2<System.Object,System.Object>
 struct MethodCall_2_t1283576322;
 // System.Reflection.MethodBase
@@ -107,6 +101,8 @@ struct Predicate_1_t390498089;
 struct Predicate_1_t2631425827;
 // System.Array
 struct Il2CppArray;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t2981576340;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t3961629604;
 // System.Collections.Generic.IEnumerable`1<System.Char>
@@ -139,6 +135,8 @@ struct Dictionary_2_t2281509423;
 struct IEnumerable_1_t1199064406;
 // System.Collections.Generic.IEnumerable`1<System.Collections.DictionaryEntry>
 struct IEnumerable_1_t3341002443;
+// System.Collections.IEnumerable
+struct IEnumerable_t2911409499;
 // System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 struct IEnumerable_1_t330981690;
 // System.Func`2<System.Collections.DictionaryEntry,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
@@ -619,20 +617,13 @@ struct WordResultDataU5BU5D_t148237038;
 struct ProfileDataU5BU5D_t3861544105;
 
 #include "codegen/il2cpp-codegen.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_13957742755.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JToken2552644013MethodDeclarations.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_13820937473.h"
-#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
-#include "System_Core_System_Linq_Enumerable2148412300.h"
-#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JEnumerable_13957742755MethodDeclarations.h"
-#include "mscorlib_System_Void1841601450.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Utilities_LateBoun3208546116.h"
 #include "mscorlib_System_Reflection_MethodBase904190842.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Utilities_MethodCa1283576322.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Utilities_Validati1621959402MethodDeclarations.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Utilities_LateBoun2837570763.h"
 #include "Newtonsoft_Json_Newtonsoft_Json_Utilities_LateBoun2837570763MethodDeclarations.h"
+#include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_Reflection_ConstructorInfo2851816542.h"
@@ -818,11 +809,13 @@ struct ProfileDataU5BU5D_t3861544105;
 #include "Vuforia_UnityExtensions_Vuforia_WebCamProfile_Prof1724666488.h"
 #include "mscorlib_System_NotSupportedException1793819818MethodDeclarations.h"
 #include "mscorlib_System_NotSupportedException1793819818.h"
+#include "System_Core_System_Linq_Enumerable2148412300.h"
 #include "System_Core_System_Func_2_gen3961629604.h"
 #include "System_Core_System_Linq_Check578192424MethodDeclarations.h"
 #include "System_Core_System_Func_2_gen3961629604MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_EqualityCompar2028116609MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_EqualityCompar2028116609.h"
+#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_EqualityCompar1263084566MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_EqualityCompar1263084566.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_ExecuteEve1693084770.h"
@@ -920,8 +913,6 @@ struct ProfileDataU5BU5D_t3861544105;
 #include "System_Core_System_Linq_Enumerable_U3CCreateCastIt1756526812MethodDeclarations.h"
 #include "System_Core_System_Linq_Enumerable_U3CCreateCastIt1397100709.h"
 #include "System_Core_System_Linq_Enumerable_U3CCreateCastIt1397100709MethodDeclarations.h"
-#include "System_Core_System_Linq_Enumerable_U3CCreateOfType4154598408.h"
-#include "System_Core_System_Linq_Enumerable_U3CCreateOfType4154598408MethodDeclarations.h"
 #include "System_Core_System_Func_2_gen3251821928.h"
 #include "System_Core_System_Linq_Enumerable_U3CCreateSelect2092700746.h"
 #include "System_Core_System_Linq_Enumerable_U3CCreateSelect2092700746MethodDeclarations.h"
@@ -1268,12 +1259,6 @@ struct ProfileDataU5BU5D_t3861544105;
 #include "System.Core_ArrayTypes.h"
 #include "System_ArrayTypes.h"
 
-// Newtonsoft.Json.Linq.JEnumerable`1<T> Newtonsoft.Json.Linq.JToken::Children<System.Object>()
-extern "C"  JEnumerable_1_t3957742755  JToken_Children_TisIl2CppObject_m2453408485_gshared (JToken_t2552644013 * __this, const MethodInfo* method);
-#define JToken_Children_TisIl2CppObject_m2453408485(__this, method) ((  JEnumerable_1_t3957742755  (*) (JToken_t2552644013 *, const MethodInfo*))JToken_Children_TisIl2CppObject_m2453408485_gshared)(__this, method)
-// System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::OfType<System.Object>(System.Collections.IEnumerable)
-extern "C"  Il2CppObject* Enumerable_OfType_TisIl2CppObject_m986176533_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
-#define Enumerable_OfType_TisIl2CppObject_m986176533(__this /* static, unused */, p0, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Enumerable_OfType_TisIl2CppObject_m986176533_gshared)(__this /* static, unused */, p0, method)
 // Newtonsoft.Json.Utilities.MethodCall`2<T,System.Object> Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::CreateMethodCall<System.Object>(System.Reflection.MethodBase)
 extern "C"  MethodCall_2_t1283576322 * LateBoundReflectionDelegateFactory_CreateMethodCall_TisIl2CppObject_m2415997597_gshared (LateBoundReflectionDelegateFactory_t3208546116 * __this, MethodBase_t904190842 * ___method0, const MethodInfo* method);
 #define LateBoundReflectionDelegateFactory_CreateMethodCall_TisIl2CppObject_m2415997597(__this, ___method0, method) ((  MethodCall_2_t1283576322 * (*) (LateBoundReflectionDelegateFactory_t3208546116 *, MethodBase_t904190842 *, const MethodInfo*))LateBoundReflectionDelegateFactory_CreateMethodCall_TisIl2CppObject_m2415997597_gshared)(__this, ___method0, method)
@@ -2474,9 +2459,6 @@ extern "C"  Il2CppObject* Enumerable_Cast_TisIl2CppObject_m1441499411_gshared (I
 // System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::CreateCastIterator<System.Object>(System.Collections.IEnumerable)
 extern "C"  Il2CppObject* Enumerable_CreateCastIterator_TisIl2CppObject_m3814981927_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method);
 #define Enumerable_CreateCastIterator_TisIl2CppObject_m3814981927(__this /* static, unused */, p0, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Enumerable_CreateCastIterator_TisIl2CppObject_m3814981927_gshared)(__this /* static, unused */, p0, method)
-// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::CreateOfTypeIterator<System.Object>(System.Collections.IEnumerable)
-extern "C"  Il2CppObject* Enumerable_CreateOfTypeIterator_TisIl2CppObject_m3223484543_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, const MethodInfo* method);
-#define Enumerable_CreateOfTypeIterator_TisIl2CppObject_m3223484543(__this /* static, unused */, ___source0, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))Enumerable_CreateOfTypeIterator_TisIl2CppObject_m3223484543_gshared)(__this /* static, unused */, ___source0, method)
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::CreateSelectIterator<System.Collections.DictionaryEntry,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
 extern "C"  Il2CppObject* Enumerable_CreateSelectIterator_TisDictionaryEntry_t3048875398_TisKeyValuePair_2_t38854645_m634866861_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* ___source0, Func_2_t3251821928 * ___selector1, const MethodInfo* method);
 #define Enumerable_CreateSelectIterator_TisDictionaryEntry_t3048875398_TisKeyValuePair_2_t38854645_m634866861(__this /* static, unused */, ___source0, ___selector1, method) ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject*, Func_2_t3251821928 *, const MethodInfo*))Enumerable_CreateSelectIterator_TisDictionaryEntry_t3048875398_TisKeyValuePair_2_t38854645_m634866861_gshared)(__this /* static, unused */, ___source0, ___selector1, method)
@@ -4271,29 +4253,15 @@ extern "C"  void Array_InternalArray__Insert_TisParameterModifier_t1820634920_m3
 // System.Void System.Array::InternalArray__Insert<System.Resources.ResourceReader/ResourceCacheItem>(System.Int32,T)
 extern "C"  void Array_InternalArray__Insert_TisResourceCacheItem_t333236149_m892830527_gshared (Il2CppArray * __this, int32_t ___index0, ResourceCacheItem_t333236149  ___item1, const MethodInfo* method);
 #define Array_InternalArray__Insert_TisResourceCacheItem_t333236149_m892830527(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, ResourceCacheItem_t333236149 , const MethodInfo*))Array_InternalArray__Insert_TisResourceCacheItem_t333236149_m892830527_gshared)(__this, ___index0, ___item1, method)
-// Newtonsoft.Json.Linq.JEnumerable`1<T> Newtonsoft.Json.Linq.JToken::Children<System.Object>()
-extern Il2CppClass* JEnumerable_1_t3820937473_il2cpp_TypeInfo_var;
-extern const uint32_t JToken_Children_TisIl2CppObject_m2453408485_MetadataUsageId;
-extern "C"  JEnumerable_1_t3957742755  JToken_Children_TisIl2CppObject_m2453408485_gshared (JToken_t2552644013 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JToken_Children_TisIl2CppObject_m2453408485_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		NullCheck((JToken_t2552644013 *)__this);
-		JEnumerable_1_t3820937473  L_0 = VirtFuncInvoker0< JEnumerable_1_t3820937473  >::Invoke(17 /* Newtonsoft.Json.Linq.JEnumerable`1<Newtonsoft.Json.Linq.JToken> Newtonsoft.Json.Linq.JToken::Children() */, (JToken_t2552644013 *)__this);
-		JEnumerable_1_t3820937473  L_1 = L_0;
-		Il2CppObject * L_2 = Box(JEnumerable_1_t3820937473_il2cpp_TypeInfo_var, &L_1);
-		Il2CppObject* L_3 = ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (Il2CppObject *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		JEnumerable_1_t3957742755  L_4;
-		memset(&L_4, 0, sizeof(L_4));
-		JEnumerable_1__ctor_m2340046583(&L_4, (Il2CppObject*)L_3, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 2));
-		return L_4;
-	}
-}
+// System.Void System.Array::InternalArray__Insert<System.Resources.ResourceReader/ResourceInfo>(System.Int32,T)
+extern "C"  void Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared (Il2CppArray * __this, int32_t ___index0, ResourceInfo_t3933049236  ___item1, const MethodInfo* method);
+#define Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, ResourceInfo_t3933049236 , const MethodInfo*))Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared)(__this, ___index0, ___item1, method)
+// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
+extern "C"  void Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared (Il2CppArray * __this, int32_t ___index0, uint8_t ___item1, const MethodInfo* method);
+#define Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, uint8_t, const MethodInfo*))Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared)(__this, ___index0, ___item1, method)
+// System.Void System.Array::InternalArray__Insert<System.SByte>(System.Int32,T)
+extern "C"  void Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared (Il2CppArray * __this, int32_t ___index0, int8_t ___item1, const MethodInfo* method);
+#define Array_InternalArray__Insert_TisSByte_t454417549_m2203436188(__this, ___index0, ___item1, method) ((  void (*) (Il2CppArray *, int32_t, int8_t, const MethodInfo*))Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared)(__this, ___index0, ___item1, method)
 // Newtonsoft.Json.Utilities.MethodCall`2<T,System.Object> Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory::CreateMethodCall<System.Object>(System.Reflection.MethodBase)
 extern Il2CppClass* ConstructorInfo_t2851816542_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral165463247;
@@ -20506,29 +20474,6 @@ extern "C"  Il2CppObject* Enumerable_CreateCastIterator_TisIl2CppObject_m3814981
 		return L_6;
 	}
 }
-// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::CreateOfTypeIterator<System.Object>(System.Collections.IEnumerable)
-extern "C"  Il2CppObject* Enumerable_CreateOfTypeIterator_TisIl2CppObject_m3223484543_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, const MethodInfo* method)
-{
-	U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * V_0 = NULL;
-	{
-		U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * L_0 = (U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->rgctx_data, 0));
-		((  void (*) (U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1)->methodPointer)(L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 1));
-		V_0 = (U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 *)L_0;
-		U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * L_1 = V_0;
-		Il2CppObject * L_2 = ___source0;
-		NullCheck(L_1);
-		L_1->set_source_0(L_2);
-		U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * L_3 = V_0;
-		Il2CppObject * L_4 = ___source0;
-		NullCheck(L_3);
-		L_3->set_U3CU24U3Esource_5(L_4);
-		U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * L_5 = V_0;
-		U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 * L_6 = (U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t4154598408 *)L_5;
-		NullCheck(L_6);
-		L_6->set_U24PC_3(((int32_t)-2));
-		return L_6;
-	}
-}
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::CreateSelectIterator<System.Collections.DictionaryEntry,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
 extern "C"  Il2CppObject* Enumerable_CreateSelectIterator_TisDictionaryEntry_t3048875398_TisKeyValuePair_2_t38854645_m634866861_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* ___source0, Func_2_t3251821928 * ___selector1, const MethodInfo* method)
 {
@@ -20634,17 +20579,6 @@ extern "C"  Il2CppObject* Enumerable_Empty_TisTrackableIdPair_t1329355276_m26388
 {
 	{
 		return (Il2CppObject*)((TrackableIdPairU5BU5D_t961847365*)SZArrayNew(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), (uint32_t)0));
-	}
-}
-// System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::OfType<System.Object>(System.Collections.IEnumerable)
-extern "C"  Il2CppObject* Enumerable_OfType_TisIl2CppObject_m986176533_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, const MethodInfo* method)
-{
-	{
-		Il2CppObject * L_0 = ___source0;
-		Check_Source_m3385315029(NULL /*static, unused*/, (Il2CppObject *)L_0, /*hidden argument*/NULL);
-		Il2CppObject * L_1 = ___source0;
-		Il2CppObject* L_2 = ((  Il2CppObject* (*) (Il2CppObject * /* static, unused */, Il2CppObject *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->methodPointer)(NULL /*static, unused*/, (Il2CppObject *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		return L_2;
 	}
 }
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<System.Collections.DictionaryEntry,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
@@ -56467,6 +56401,60 @@ extern "C"  void Array_InternalArray__Insert_TisResourceCacheItem_t333236149_m89
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisResourceCacheItem_t333236149_m892830527_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Array::InternalArray__Insert<System.Resources.ResourceReader/ResourceInfo>(System.Int32,T)
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1461460571;
+extern const uint32_t Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_MetadataUsageId;
+extern "C"  void Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_gshared (Il2CppArray * __this, int32_t ___index0, ResourceInfo_t3933049236  ___item1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisResourceInfo_t3933049236_m1054390648_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Array::InternalArray__Insert<System.Runtime.Serialization.Formatters.Binary.TypeTag>(System.Int32,T)
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1461460571;
+extern const uint32_t Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_MetadataUsageId;
+extern "C"  void Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_gshared (Il2CppArray * __this, int32_t ___index0, uint8_t ___item1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisTypeTag_t141209596_m2959204415_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		NotSupportedException_t1793819818 * L_0 = (NotSupportedException_t1793819818 *)il2cpp_codegen_object_new(NotSupportedException_t1793819818_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m836173213(L_0, (String_t*)_stringLiteral1461460571, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void System.Array::InternalArray__Insert<System.SByte>(System.Int32,T)
+extern Il2CppClass* NotSupportedException_t1793819818_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1461460571;
+extern const uint32_t Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_MetadataUsageId;
+extern "C"  void Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_gshared (Il2CppArray * __this, int32_t ___index0, int8_t ___item1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Array_InternalArray__Insert_TisSByte_t454417549_m2203436188_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{

@@ -16,8 +16,8 @@
 struct Landmark_t1862459476;
 // CrhcItem
 struct CrhcItem_t1379468653;
-// JsonChildList/JsonChild
-struct JsonChild_t2476909483;
+// Newtonsoft.Json.Linq.JObject
+struct JObject_t278519297;
 // System.Collections.IEnumerator
 struct IEnumerator_t1466026749;
 // Reference`1<System.Byte[]>
@@ -28,16 +28,18 @@ struct Reference_1_t1521747920;
 struct Tour_t1896021510;
 // System.String
 struct String_t;
+// Newtonsoft.Json.Linq.JArray
+struct JArray_t1483708661;
 // IMenu
 struct IMenu_t2695572612;
 
 #include "codegen/il2cpp-codegen.h"
 #include "AssemblyU2DCSharp_CrhcItem1379468653.h"
-#include "AssemblyU2DCSharp_JsonChildList_JsonChild2476909483.h"
+#include "Newtonsoft_Json_Newtonsoft_Json_Linq_JObject278519297.h"
 #include "AssemblyU2DCSharp_Landmark1862459476.h"
 
-// System.Void Landmark::.ctor(CrhcItem,JsonChildList/JsonChild)
-extern "C"  void Landmark__ctor_m2133199167 (Landmark_t1862459476 * __this, CrhcItem_t1379468653 * ___parent0, JsonChild_t2476909483 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Landmark::.ctor(CrhcItem,Newtonsoft.Json.Linq.JObject)
+extern "C"  void Landmark__ctor_m531928792 (Landmark_t1862459476 * __this, CrhcItem_t1379468653 * ___parent0, JObject_t278519297 * ___data1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Landmark::loadCoroutine()
 extern "C"  Il2CppObject * Landmark_loadCoroutine_m249471019 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Landmark::onDispose()
@@ -66,10 +68,10 @@ extern "C"  double Landmark_getLongitude_m1497358485 (Landmark_t1862459476 * __t
 extern "C"  bool Landmark_hasAR_m3658401734 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Landmark::hasAddress()
 extern "C"  bool Landmark_hasAddress_m90298749 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Newtonsoft.Json.Linq.JArray Landmark::getAudioClips()
+extern "C"  JArray_t1483708661 * Landmark_getAudioClips_m1463760283 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Landmark::hasAudio()
 extern "C"  bool Landmark_hasAudio_m2461180601 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.String Landmark::getAudioSource()
-extern "C"  String_t* Landmark_getAudioSource_m518654957 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Landmark::isVisible()
 extern "C"  bool Landmark_isVisible_m770780581 (Landmark_t1862459476 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // IMenu Landmark::buildMenu()

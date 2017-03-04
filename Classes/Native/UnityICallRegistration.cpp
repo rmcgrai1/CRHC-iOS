@@ -140,7 +140,35 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AsyncOperation
 
+	//Start Registrations for type : UnityEngine.AudioClip
+
+		//System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
+		void Register_UnityEngine_AudioClip_GetData();
+		Register_UnityEngine_AudioClip_GetData();
+
+		//System.Int32 UnityEngine.AudioClip::get_channels()
+		void Register_UnityEngine_AudioClip_get_channels();
+		Register_UnityEngine_AudioClip_get_channels();
+
+		//System.Int32 UnityEngine.AudioClip::get_samples()
+		void Register_UnityEngine_AudioClip_get_samples();
+		Register_UnityEngine_AudioClip_get_samples();
+
+		//System.Single UnityEngine.AudioClip::get_length()
+		void Register_UnityEngine_AudioClip_get_length();
+		Register_UnityEngine_AudioClip_get_length();
+
+	//End Registrations for type : UnityEngine.AudioClip
+
 	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Boolean UnityEngine.AudioSource::get_isPlaying()
+		void Register_UnityEngine_AudioSource_get_isPlaying();
+		Register_UnityEngine_AudioSource_get_isPlaying();
+
+		//System.Single UnityEngine.AudioSource::get_time()
+		void Register_UnityEngine_AudioSource_get_time();
+		Register_UnityEngine_AudioSource_get_time();
 
 		//System.Void UnityEngine.AudioSource::INTERNAL_CALL_Pause(UnityEngine.AudioSource)
 		void Register_UnityEngine_AudioSource_INTERNAL_CALL_Pause();
@@ -154,9 +182,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_Play();
 		Register_UnityEngine_AudioSource_Play();
 
+		//System.Void UnityEngine.AudioSource::Stop()
+		void Register_UnityEngine_AudioSource_Stop();
+		Register_UnityEngine_AudioSource_Stop();
+
 		//System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 		void Register_UnityEngine_AudioSource_set_clip();
 		Register_UnityEngine_AudioSource_set_clip();
+
+		//System.Void UnityEngine.AudioSource::set_time(System.Single)
+		void Register_UnityEngine_AudioSource_set_time();
+		Register_UnityEngine_AudioSource_set_time();
+
+		//UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
+		void Register_UnityEngine_AudioSource_get_clip();
+		Register_UnityEngine_AudioSource_get_clip();
 
 	//End Registrations for type : UnityEngine.AudioSource
 
@@ -1006,10 +1046,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Graphics_Internal_GetMaxDrawMeshInstanceCount();
 		Register_UnityEngine_Graphics_Internal_GetMaxDrawMeshInstanceCount();
 
-		//System.Void UnityEngine.Graphics::DrawTexture(UnityEngine.InternalDrawTextureArguments&)
-		void Register_UnityEngine_Graphics_DrawTexture();
-		Register_UnityEngine_Graphics_DrawTexture();
-
 		//System.Void UnityEngine.Graphics::Internal_SetRTSimple(UnityEngine.RenderBuffer&,UnityEngine.RenderBuffer&,System.Int32,UnityEngine.CubemapFace,System.Int32)
 		void Register_UnityEngine_Graphics_Internal_SetRTSimple();
 		Register_UnityEngine_Graphics_Internal_SetRTSimple();
@@ -1030,10 +1066,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUI_INTERNAL_CALL_DoWindow();
 		Register_UnityEngine_GUI_INTERNAL_CALL_DoWindow();
 
-		//System.Void UnityEngine.GUI::INTERNAL_get_color(UnityEngine.Color&)
-		void Register_UnityEngine_GUI_INTERNAL_get_color();
-		Register_UnityEngine_GUI_INTERNAL_get_color();
-
 		//System.Void UnityEngine.GUI::INTERNAL_set_backgroundColor(UnityEngine.Color&)
 		void Register_UnityEngine_GUI_INTERNAL_set_backgroundColor();
 		Register_UnityEngine_GUI_INTERNAL_set_backgroundColor();
@@ -1041,14 +1073,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GUI::set_changed(System.Boolean)
 		void Register_UnityEngine_GUI_set_changed();
 		Register_UnityEngine_GUI_set_changed();
-
-		//UnityEngine.Material UnityEngine.GUI::get_blendMaterial()
-		void Register_UnityEngine_GUI_get_blendMaterial();
-		Register_UnityEngine_GUI_get_blendMaterial();
-
-		//UnityEngine.Material UnityEngine.GUI::get_blitMaterial()
-		void Register_UnityEngine_GUI_get_blitMaterial();
-		Register_UnityEngine_GUI_get_blitMaterial();
 
 	//End Registrations for type : UnityEngine.GUI
 

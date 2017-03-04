@@ -53,8 +53,10 @@ extern "C"  void GUIX_Button_m200675144 (Il2CppObject * __this /* static, unused
 extern "C"  void GUIX_Texture_m3816154496 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, Texture2D_t3542995729 * ___tex1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GUIX::Label(UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.GUIStyle)
 extern "C"  void GUIX_Label_m4209557875 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, GUIContent_t4210063000 * ___content1, GUIStyle_t1799908754 * ___style2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean GUIX::isMouseInsideRect(UnityEngine.Rect)
-extern "C"  bool GUIX_isMouseInsideRect_m998598316 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean GUIX::isTouchInsideRect(UnityEngine.Rect)
+extern "C"  bool GUIX_isTouchInsideRect_m3040823096 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean GUIX::didTapInsideRect(UnityEngine.Rect)
+extern "C"  bool GUIX_didTapInsideRect_m1155779523 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GUIX::beginClip(UnityEngine.Rect)
 extern "C"  void GUIX_beginClip_m1030490140 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  ___position0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GUIX::beginClip(UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean)

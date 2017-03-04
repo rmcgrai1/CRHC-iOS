@@ -22,6 +22,8 @@ struct WWW_t2919945039;
 struct Il2CppObject;
 // System.Byte[]
 struct ByteU5BU5D_t3397334013;
+// Reference`1/LoadEventDelegate<System.Object>
+struct LoadEventDelegate_t2479697798;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_String2029220233.h"
@@ -58,3 +60,9 @@ extern "C"  void Reference_1_tryLoad_m3940182764_gshared (Reference_1_t218197698
 // System.Void Reference`1<System.Object>::unload()
 extern "C"  void Reference_1_unload_m1842880738_gshared (Reference_1_t2181976982 * __this, const MethodInfo* method);
 #define Reference_1_unload_m1842880738(__this, method) ((  void (*) (Reference_1_t2181976982 *, const MethodInfo*))Reference_1_unload_m1842880738_gshared)(__this, method)
+// System.Void Reference`1<System.Object>::add_onLoad(Reference`1/LoadEventDelegate<T>)
+extern "C"  void Reference_1_add_onLoad_m3557321136_gshared (Reference_1_t2181976982 * __this, LoadEventDelegate_t2479697798 * ___value0, const MethodInfo* method);
+#define Reference_1_add_onLoad_m3557321136(__this, ___value0, method) ((  void (*) (Reference_1_t2181976982 *, LoadEventDelegate_t2479697798 *, const MethodInfo*))Reference_1_add_onLoad_m3557321136_gshared)(__this, ___value0, method)
+// System.Void Reference`1<System.Object>::remove_onLoad(Reference`1/LoadEventDelegate<T>)
+extern "C"  void Reference_1_remove_onLoad_m279524993_gshared (Reference_1_t2181976982 * __this, LoadEventDelegate_t2479697798 * ___value0, const MethodInfo* method);
+#define Reference_1_remove_onLoad_m279524993(__this, ___value0, method) ((  void (*) (Reference_1_t2181976982 *, LoadEventDelegate_t2479697798 *, const MethodInfo*))Reference_1_remove_onLoad_m279524993_gshared)(__this, ___value0, method)

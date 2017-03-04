@@ -20,8 +20,6 @@ struct IList_1_t3093584614;
 struct JToken_t2552644013;
 // Newtonsoft.Json.Linq.JProperty
 struct JProperty_t2956441399;
-// System.Collections.Generic.IEnumerable`1<Newtonsoft.Json.Linq.JProperty>
-struct IEnumerable_1_t3248568444;
 // System.String
 struct String_t;
 // System.Object
@@ -57,6 +55,8 @@ extern "C"  Il2CppObject* JObject_get_ChildrenTokens_m526341652 (JObject_t278519
 extern "C"  void JObject__ctor_m3342928170 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JObject::.ctor(Newtonsoft.Json.Linq.JObject)
 extern "C"  void JObject__ctor_m2577624574 (JObject_t278519297 * __this, JObject_t278519297 * ___other0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Newtonsoft.Json.Linq.JObject::DeepEquals(Newtonsoft.Json.Linq.JToken)
+extern "C"  bool JObject_DeepEquals_m2576520991 (JObject_t278519297 * __this, JToken_t2552644013 * ___node0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Newtonsoft.Json.Linq.JObject::IndexOfItem(Newtonsoft.Json.Linq.JToken)
 extern "C"  int32_t JObject_IndexOfItem_m391115030 (JObject_t278519297 * __this, JToken_t2552644013 * ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JObject::InsertItem(System.Int32,Newtonsoft.Json.Linq.JToken,System.Boolean)
@@ -71,8 +71,6 @@ extern "C"  void JObject_InternalPropertyChanging_m3009642575 (JObject_t27851929
 extern "C"  JToken_t2552644013 * JObject_CloneToken_m1672153915 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JTokenType Newtonsoft.Json.Linq.JObject::get_Type()
 extern "C"  int32_t JObject_get_Type_m1400764232 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Collections.Generic.IEnumerable`1<Newtonsoft.Json.Linq.JProperty> Newtonsoft.Json.Linq.JObject::Properties()
-extern "C"  Il2CppObject* JObject_Properties_m1194829353 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JProperty Newtonsoft.Json.Linq.JObject::Property(System.String)
 extern "C"  JProperty_t2956441399 * JObject_Property_m3421618020 (JObject_t278519297 * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Newtonsoft.Json.Linq.JToken Newtonsoft.Json.Linq.JObject::get_Item(System.Object)
@@ -109,6 +107,8 @@ extern "C"  void JObject_System_Collections_Generic_ICollectionU3CSystem_Collect
 extern "C"  bool JObject_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CNewtonsoft_Json_Linq_JTokenU3EU3E_get_IsReadOnly_m4203834692 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Newtonsoft.Json.Linq.JObject::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove(System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken>)
 extern "C"  bool JObject_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CNewtonsoft_Json_Linq_JTokenU3EU3E_Remove_m2910010318 (JObject_t278519297 * __this, KeyValuePair_2_t2224768497  ___item0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Newtonsoft.Json.Linq.JObject::GetDeepHashCode()
+extern "C"  int32_t JObject_GetDeepHashCode_m3289747473 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,Newtonsoft.Json.Linq.JToken>> Newtonsoft.Json.Linq.JObject::GetEnumerator()
 extern "C"  Il2CppObject* JObject_GetEnumerator_m2164176479 (JObject_t278519297 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Newtonsoft.Json.Linq.JObject::OnPropertyChanged(System.String)

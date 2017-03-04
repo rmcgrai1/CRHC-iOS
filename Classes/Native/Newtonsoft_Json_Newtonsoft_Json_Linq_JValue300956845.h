@@ -27,26 +27,26 @@ struct  JValue_t300956845  : public JToken_t2552644013
 {
 public:
 	// Newtonsoft.Json.Linq.JTokenType Newtonsoft.Json.Linq.JValue::_valueType
-	int32_t ____valueType_13;
+	int32_t ____valueType_14;
 	// System.Object Newtonsoft.Json.Linq.JValue::_value
-	Il2CppObject * ____value_14;
+	Il2CppObject * ____value_15;
 
 public:
-	inline static int32_t get_offset_of__valueType_13() { return static_cast<int32_t>(offsetof(JValue_t300956845, ____valueType_13)); }
-	inline int32_t get__valueType_13() const { return ____valueType_13; }
-	inline int32_t* get_address_of__valueType_13() { return &____valueType_13; }
-	inline void set__valueType_13(int32_t value)
+	inline static int32_t get_offset_of__valueType_14() { return static_cast<int32_t>(offsetof(JValue_t300956845, ____valueType_14)); }
+	inline int32_t get__valueType_14() const { return ____valueType_14; }
+	inline int32_t* get_address_of__valueType_14() { return &____valueType_14; }
+	inline void set__valueType_14(int32_t value)
 	{
-		____valueType_13 = value;
+		____valueType_14 = value;
 	}
 
-	inline static int32_t get_offset_of__value_14() { return static_cast<int32_t>(offsetof(JValue_t300956845, ____value_14)); }
-	inline Il2CppObject * get__value_14() const { return ____value_14; }
-	inline Il2CppObject ** get_address_of__value_14() { return &____value_14; }
-	inline void set__value_14(Il2CppObject * value)
+	inline static int32_t get_offset_of__value_15() { return static_cast<int32_t>(offsetof(JValue_t300956845, ____value_15)); }
+	inline Il2CppObject * get__value_15() const { return ____value_15; }
+	inline Il2CppObject ** get_address_of__value_15() { return &____value_15; }
+	inline void set__value_15(Il2CppObject * value)
 	{
-		____value_14 = value;
-		Il2CppCodeGenWriteBarrier(&____value_14, value);
+		____value_15 = value;
+		Il2CppCodeGenWriteBarrier(&____value_15, value);
 	}
 };
 

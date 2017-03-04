@@ -16,12 +16,10 @@ struct ILoader_t1641484032;
 struct String_t;
 // System.Reflection.ConstructorInfo
 struct ConstructorInfo_t2851816542;
-// JsonChildList
-struct JsonChildList_t125035948;
-// System.Collections.IEnumerator
-struct IEnumerator_t1466026749;
-// System.IDisposable
-struct IDisposable_t2427283555;
+// Newtonsoft.Json.Linq.JArray
+struct JArray_t1483708661;
+// System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JToken>
+struct IEnumerator_1_t28167840;
 // CrhcFolder`1<System.Object>
 struct CrhcFolder_1_t29904883;
 // System.Object
@@ -45,20 +43,18 @@ public:
 	String_t* ___U3CreturnedStringU3E__1_1;
 	// System.Reflection.ConstructorInfo CrhcFolder`1/<tryLoad>c__Iterator1::<constr>__2
 	ConstructorInfo_t2851816542 * ___U3CconstrU3E__2_2;
-	// JsonChildList CrhcFolder`1/<tryLoad>c__Iterator1::<dataList>__3
-	JsonChildList_t125035948 * ___U3CdataListU3E__3_3;
-	// System.Collections.IEnumerator CrhcFolder`1/<tryLoad>c__Iterator1::$locvar0
-	Il2CppObject * ___U24locvar0_4;
-	// System.IDisposable CrhcFolder`1/<tryLoad>c__Iterator1::$locvar1
-	Il2CppObject * ___U24locvar1_5;
+	// Newtonsoft.Json.Linq.JArray CrhcFolder`1/<tryLoad>c__Iterator1::<dataList>__3
+	JArray_t1483708661 * ___U3CdataListU3E__3_3;
+	// System.Collections.Generic.IEnumerator`1<Newtonsoft.Json.Linq.JToken> CrhcFolder`1/<tryLoad>c__Iterator1::$locvar0
+	Il2CppObject* ___U24locvar0_4;
 	// CrhcFolder`1<CHILD_TYPE> CrhcFolder`1/<tryLoad>c__Iterator1::$this
-	CrhcFolder_1_t29904883 * ___U24this_6;
+	CrhcFolder_1_t29904883 * ___U24this_5;
 	// System.Object CrhcFolder`1/<tryLoad>c__Iterator1::$current
-	Il2CppObject * ___U24current_7;
+	Il2CppObject * ___U24current_6;
 	// System.Boolean CrhcFolder`1/<tryLoad>c__Iterator1::$disposing
-	bool ___U24disposing_8;
+	bool ___U24disposing_7;
 	// System.Int32 CrhcFolder`1/<tryLoad>c__Iterator1::$PC
-	int32_t ___U24PC_9;
+	int32_t ___U24PC_8;
 
 public:
 	inline static int32_t get_offset_of_U3CloaderU3E__0_0() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U3CloaderU3E__0_0)); }
@@ -89,64 +85,55 @@ public:
 	}
 
 	inline static int32_t get_offset_of_U3CdataListU3E__3_3() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U3CdataListU3E__3_3)); }
-	inline JsonChildList_t125035948 * get_U3CdataListU3E__3_3() const { return ___U3CdataListU3E__3_3; }
-	inline JsonChildList_t125035948 ** get_address_of_U3CdataListU3E__3_3() { return &___U3CdataListU3E__3_3; }
-	inline void set_U3CdataListU3E__3_3(JsonChildList_t125035948 * value)
+	inline JArray_t1483708661 * get_U3CdataListU3E__3_3() const { return ___U3CdataListU3E__3_3; }
+	inline JArray_t1483708661 ** get_address_of_U3CdataListU3E__3_3() { return &___U3CdataListU3E__3_3; }
+	inline void set_U3CdataListU3E__3_3(JArray_t1483708661 * value)
 	{
 		___U3CdataListU3E__3_3 = value;
 		Il2CppCodeGenWriteBarrier(&___U3CdataListU3E__3_3, value);
 	}
 
 	inline static int32_t get_offset_of_U24locvar0_4() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24locvar0_4)); }
-	inline Il2CppObject * get_U24locvar0_4() const { return ___U24locvar0_4; }
-	inline Il2CppObject ** get_address_of_U24locvar0_4() { return &___U24locvar0_4; }
-	inline void set_U24locvar0_4(Il2CppObject * value)
+	inline Il2CppObject* get_U24locvar0_4() const { return ___U24locvar0_4; }
+	inline Il2CppObject** get_address_of_U24locvar0_4() { return &___U24locvar0_4; }
+	inline void set_U24locvar0_4(Il2CppObject* value)
 	{
 		___U24locvar0_4 = value;
 		Il2CppCodeGenWriteBarrier(&___U24locvar0_4, value);
 	}
 
-	inline static int32_t get_offset_of_U24locvar1_5() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24locvar1_5)); }
-	inline Il2CppObject * get_U24locvar1_5() const { return ___U24locvar1_5; }
-	inline Il2CppObject ** get_address_of_U24locvar1_5() { return &___U24locvar1_5; }
-	inline void set_U24locvar1_5(Il2CppObject * value)
+	inline static int32_t get_offset_of_U24this_5() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24this_5)); }
+	inline CrhcFolder_1_t29904883 * get_U24this_5() const { return ___U24this_5; }
+	inline CrhcFolder_1_t29904883 ** get_address_of_U24this_5() { return &___U24this_5; }
+	inline void set_U24this_5(CrhcFolder_1_t29904883 * value)
 	{
-		___U24locvar1_5 = value;
-		Il2CppCodeGenWriteBarrier(&___U24locvar1_5, value);
+		___U24this_5 = value;
+		Il2CppCodeGenWriteBarrier(&___U24this_5, value);
 	}
 
-	inline static int32_t get_offset_of_U24this_6() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24this_6)); }
-	inline CrhcFolder_1_t29904883 * get_U24this_6() const { return ___U24this_6; }
-	inline CrhcFolder_1_t29904883 ** get_address_of_U24this_6() { return &___U24this_6; }
-	inline void set_U24this_6(CrhcFolder_1_t29904883 * value)
+	inline static int32_t get_offset_of_U24current_6() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24current_6)); }
+	inline Il2CppObject * get_U24current_6() const { return ___U24current_6; }
+	inline Il2CppObject ** get_address_of_U24current_6() { return &___U24current_6; }
+	inline void set_U24current_6(Il2CppObject * value)
 	{
-		___U24this_6 = value;
-		Il2CppCodeGenWriteBarrier(&___U24this_6, value);
+		___U24current_6 = value;
+		Il2CppCodeGenWriteBarrier(&___U24current_6, value);
 	}
 
-	inline static int32_t get_offset_of_U24current_7() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24current_7)); }
-	inline Il2CppObject * get_U24current_7() const { return ___U24current_7; }
-	inline Il2CppObject ** get_address_of_U24current_7() { return &___U24current_7; }
-	inline void set_U24current_7(Il2CppObject * value)
+	inline static int32_t get_offset_of_U24disposing_7() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24disposing_7)); }
+	inline bool get_U24disposing_7() const { return ___U24disposing_7; }
+	inline bool* get_address_of_U24disposing_7() { return &___U24disposing_7; }
+	inline void set_U24disposing_7(bool value)
 	{
-		___U24current_7 = value;
-		Il2CppCodeGenWriteBarrier(&___U24current_7, value);
+		___U24disposing_7 = value;
 	}
 
-	inline static int32_t get_offset_of_U24disposing_8() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24disposing_8)); }
-	inline bool get_U24disposing_8() const { return ___U24disposing_8; }
-	inline bool* get_address_of_U24disposing_8() { return &___U24disposing_8; }
-	inline void set_U24disposing_8(bool value)
+	inline static int32_t get_offset_of_U24PC_8() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24PC_8)); }
+	inline int32_t get_U24PC_8() const { return ___U24PC_8; }
+	inline int32_t* get_address_of_U24PC_8() { return &___U24PC_8; }
+	inline void set_U24PC_8(int32_t value)
 	{
-		___U24disposing_8 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_9() { return static_cast<int32_t>(offsetof(U3CtryLoadU3Ec__Iterator1_t2534250619, ___U24PC_9)); }
-	inline int32_t get_U24PC_9() const { return ___U24PC_9; }
-	inline int32_t* get_address_of_U24PC_9() { return &___U24PC_9; }
-	inline void set_U24PC_9(int32_t value)
-	{
-		___U24PC_9 = value;
+		___U24PC_8 = value;
 	}
 };
 
